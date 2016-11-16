@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1521px" height="405px" viewBox="0 0 1521 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="68.787642%" cy="0%" fx="68.787642%" fy="0%" r="73.3049595%" id="radialGradient-1">
+            <stop stop-color="#87EDFF" offset="0%"></stop>
+            <stop stop-color="#5D76FF" offset="100%"></stop>
+            <stop stop-color="#5B70FF" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-85.3707108%" y1="61.3043064%" x2="114.162071%" y2="6.80259146%" id="linearGradient-2">
+            <stop stop-color="#87EDFF" offset="0%"></stop>
+            <stop stop-color="#5B70FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="188.653773%" y1="25.3918892%" x2="2.58815174%" y2="87.9945528%" id="linearGradient-3">
+            <stop stop-color="#87EDFF" offset="0%"></stop>
+            <stop stop-color="#5C74FF" offset="96.3887991%"></stop>
+            <stop stop-color="#5B70FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-98.0556041%" y1="-113.033725%" x2="215.657734%" y2="276.574103%" id="linearGradient-4">
+            <stop stop-color="#87EDFF" offset="0%"></stop>
+            <stop stop-color="#5B70FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(1.000000, 2.000000)" stroke-width="3">
+            <polyline id="Path-5" stroke="url(#radialGradient-1)" points="12 283 409 189 578 295 761 186 933 300 1112 182"></polyline>
+            <polyline id="Path-11" stroke="url(#linearGradient-2)" points="1496 328 1111 183 1519 0"></polyline>
+            <polyline id="Path-2" stroke="url(#linearGradient-3)" points="410 396 408 188 0 87"></polyline>
+            <path d="M1112,401 L933,300" id="Path-3" stroke="url(#linearGradient-4)"></path>
+        </g>
+    </g>
+</svg>

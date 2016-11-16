@@ -1,0 +1,18 @@
+@import ../vendor/neat/app/assets/stylesheets/_neat-helpers
+
+$visual-grid: false
+$disable-warnings: true
+$grid-columns: 12
+$max-width: 1140px
+
+$hd-size: 1600px
+$tablet-size: 970px
+$mobile-size: 750px
+$xsmall-size: 400px
+
+$hd: new-breakpoint(min-width $hd-size)
+$desktop: new-breakpoint(min-width $max-width max-width $hd-size)
+$laptop: new-breakpoint(min-width $tablet-size max-width 1140px)
+$tablet: new-breakpoint(min-width $mobile-size max-width $tablet-size 8)
+$mobile: new-breakpoint(min-width 0 max-width $mobile-size 4)
+$xsmall: new-breakpoint(min-width 0 max-width $xsmall-size)

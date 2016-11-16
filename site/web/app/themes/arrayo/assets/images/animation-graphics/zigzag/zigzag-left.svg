@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="415px" height="318px" viewBox="0 0 415 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="186.01335%" y1="31.7543513%" x2="5.35307949%" y2="61.7681962%" id="linearGradient-1">
+            <stop stop-color="#87EDFF" offset="0%"></stop>
+            <stop stop-color="#5B70FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path-10" stroke="url(#linearGradient-1)" stroke-width="3" points="1 2 412 104 413 318"></polyline>
+    </g>
+</svg>

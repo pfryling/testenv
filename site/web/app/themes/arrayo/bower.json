@@ -1,0 +1,15 @@
+{
+  "name": "Arrayo",
+  "homepage": "https://teamarrayo.com",
+  "authors": [
+    "Sara <hello@sarafederi.co>",
+    "Ideometry <hello@ideometry.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bourbon": "latest",
+    "neat": "latest",
+    "jquery": "latest"
+  }
+}

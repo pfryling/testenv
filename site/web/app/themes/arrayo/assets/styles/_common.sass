@@ -1,0 +1,1313 @@
+.push-down
+    margin-right: 40px
+
+.owl-carousel .owl-item img
+    width: 80%
+    +media($mobile)
+        width: 70%
+        margin: 0 auto
+
+.hide-on-small
+    +media($tablet)
+        display: none
+    +media($mobile)
+        display: none
+
+.nav
+    button
+        padding: 10px 20px
+        font-size: 16px
+        margin-top: 26px
+        margin-right: 15px
+        span
+            font-family: $header
+            text-transform: uppercase
+            color: white
+
+.nav-row
+    +span-columns(12)
+
+.nav-row-fourths
+  +span-columns(2 of 12)
+
+.nav-row-thirds
+  +span-columns(3 of 12)
+
+line.sticky-button-wrapper
+    display: none
+    +media($mobile)
+        position: fixed
+        display: block
+
+.sticky-button
+    display: none
+    +media($mobile)
+        display: block
+        opacity: .8
+        position: fixed
+        z-index: 999
+        top: 50%
+        left: 0
+
+.sticky-button a
+    display: none
+    +media($mobile)
+        display: block
+        position: absolute
+        z-index: 999
+        top: 50%
+        left: 0
+        color: $primary
+        padding: 5px 8px 5px 18px
+        background-color: white
+
+.sticky-button a .fa
+    display: none
+    +media($mobile)
+        display: block
+        background-color: $primary
+        border-radius: 100px
+        padding: 5px 7px
+        color: white
+        font-size: 19px
+
+.terms-wrapper
+    +span-columns(12)
+    h1
+        color: white
+        padding-top: $spacer-pink
+    hr
+        display: block
+        height: 5px
+        border: 0
+        border-top: 5px solid white
+        margin: 0
+        width: 80%
+        padding: 0
+    .terms-white-box
+        background-color: white
+        box-shadow: $white-box-shadow
+        padding: $spacer-yellow
+        margin: $spacer-blue 0
+
+.hide-on-mobile
+    +media($mobile)
+        display: none
+
+.mobile-container
+    +media($mobile)
+        overflow-x: hidden
+
+.logo-nav
+    +media($tablet)
+        height: 27px
+
+header
+    display: flex
+    +fill-parent()
+    position: fixed
+    z-index: 9999
+    width: 100%
+    top: 0
+
+
+@keyframes rotate
+    from
+        transform: rotate(360deg)
+
+@keyframes rotate-reverse
+    from
+        transform: rotate(-360deg)
+
+.header-logo-container
+    img
+        position: absolute
+        z-index: -9999
+    .logo
+        opacity: .1
+        left: 52%
+        top: -3%
+        z-index: -9999
+        +media($hd)
+            left: 1000px
+        +media($mobile)
+            left: 0px
+            top: 0px
+            margin: 0 auto
+            width: 100%
+    .rotate
+        animation: rotate 68s infinite
+    .rotate-reverse
+        animation: rotate-reverse 68s infinite
+
+
+.bg-primary
+    background-color: $primary
+    +media($tablet)
+        background-color: $tertiary
+    +media($mobile)
+        background-color: $quaternary
+
+.bg-radial-gradient
+    background: $primary
+    background-image: linear-gradient(to top right, $primary, $tertiary)
+    padding-bottom: $spacer-yellow
+.bg-gradient--main
+    background-image:  linear-gradient(to bottom, rgba(91,112,255,1) 0%, rgba(88,137,255,1) 43%, rgba(88,137,255,1) 52%, rgba(88,137,255,1) 56%, rgba(88,137,255,1) 60%, rgba(86,149,255,1) 74%, rgba(79,214,255,1) 100%)
+    background-position: top right
+    background-repeat: no-repeat
+    display: block
+    margin: 0
+    overflow-x: hidden
+    position: relative
+    z-index: -1
+    padding: 0
+    +media($mobile)
+        background-image: linear-gradient(to bottom, $primary, $tertiary)
+.bg-gradient
+    background: $primary
+    background-color: $tertiary-cool
+    background-position: top right
+    background-repeat: no-repeat
+    display: block
+    margin: 0
+    overflow-x: hidden
+    position: relative
+    z-index: -2
+    padding: 0
+    +media($mobile)
+        background-image: linear-gradient(to bottom, $primary, $tertiary)
+
+.bg-gradient--up
+    background: linear-gradient(to top, rgba(255,255,255,1) 5%,rgba(79,214,255,1) 5%,rgba(79,214,255,1) 5%,rgba(79,214,255,1) 28%,rgba(91,112,255,1) 71%)
+
+.bg-light
+    background-color: $tertiary-cool
+
+.bg-secondary
+    background-color: $secondary
+
+.bg-white
+    background-color: $white
+
+.sub-page-header
+    padding-top: $spacer-yellow
+    .job-subheader
+        padding-bottom: 0
+        margin-bottom: $spacer-yellow
+        +span-columns(10)
+        +media($mobile)
+            margin-bottom: $spacer-blue
+            +span-columns(4)
+        .sub-row
+            +span-columns(5 of 10)
+            padding-bottom: 0
+            margin-bottom: 0
+            +media($mobile)
+                +span-columns(4 of 4)
+            p
+                font-size: 16px
+                color: white
+                font-weight: 100
+                font-family: $sans
+                padding: 0
+                margin: 0
+            strong
+                font-weight: 700
+    h6
+        +span-columns(10 of 12)
+        +omega()
+        margin-top: -40px
+    h2
+        +span-columns(10 of 12)
+        +omega()
+        +media($laptop)
+            +span-columns(10 of 12)
+            +omega()
+        +media($tablet)
+            +span-columns(8)
+            +omega()
+        +media($mobile)
+            +span-columns(4)
+            +omega()
+            margin: 0
+            padding: $spacer-pink 0 $spacer-blue 0
+            line-height: 1.3
+        color: white
+        padding-top: $spacer-red
+        line-height: 1.3
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+            +media($mobile)
+                +span-columns(4 of 4)
+    h1
+        +span-columns(10 of 12)
+        +omega()
+        +media($laptop)
+            +span-columns(10 of 12)
+            +omega()
+        +media($tablet)
+            +span-columns(8)
+            +omega()
+        +media($mobile)
+            +span-columns(4)
+            +omega()
+            margin: 0
+            padding: $spacer-pink 0 $spacer-blue 0
+            line-height: 1.3
+        color: white
+        padding-top: $spacer-red
+        line-height: 1.1
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+            +media($mobile)
+                +span-columns(4 of 4)
+    p
+        +span-columns(9 of 12)
+        +omega()
+        font-size: $base-med
+        line-height: 33px
+        color: white
+        font-weight: 300
+        margin-top: -5px
+        margin-bottom: 120px
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+            +media($mobile)
+                +span-columns(4 of 4)
+        +media($mobile)
+            +span-columns(4 of 4)
+            font-size: 18px
+            line-height: 26px
+    hr
+        +span-columns(10 of 12)
+        +omega()
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+        +media($laptop)
+            +span-columns(10 of 12)
+            +omega()
+        +media($tablet)
+            +span-columns(8 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+        display: block
+        height: 5px
+        border: 0
+        border-top: 5px solid white
+        margin: 0
+        padding: 0
+
+.page-header
+    h6
+        +span-columns(8 of 12)
+        +omega()
+        margin-top: -40px
+        line-height: 1.3
+        +media($mobile)
+            margin: 0
+            padding: 0
+            float: none
+            width: auto
+            text-align: center
+            margin-top: 40px
+            -webkit-margin-before: 0
+            -webkit-margin-after: 0
+            height: auto
+    h1
+        +span-columns(8 of 12)
+        +omega()
+        +media($laptop)
+            +span-columns(10 of 12)
+            +omega()
+        +media($tablet)
+            +span-columns(8)
+            +omega()
+        +media($mobile)
+            +span-columns(4)
+            +omega()
+            margin: 30px 0 0 0
+            padding: $spacer-pink 0 $spacer-blue 0
+            line-height: 1.3
+            font-size: 42px
+        color: white
+        padding-top: $spacer-red
+        line-height: 1.1
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+            +media($mobile)
+                +span-columns(4 of 4)
+    p
+        +span-columns(8 of 12)
+        +omega()
+        font-size: $base-med
+        line-height: 33px
+        color: white
+        font-weight: 300
+        margin-top: -5px
+        margin-bottom: 120px
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+            +media($mobile)
+                +span-columns(4 of 4)
+        +media($mobile)
+            +span-columns(4 of 4)
+            font-size: 18px
+            line-height: 26px
+            margin-bottom: $spacer-blue
+    hr
+        +span-columns(8 of 12)
+        +omega()
+        .inner
+            +span-columns(9 of 12)
+            +omega()
+        +media($laptop)
+            +span-columns(10 of 12)
+            +omega()
+        +media($tablet)
+            +span-columns(8 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+        display: block
+        height: 5px
+        border: 0
+        border-top: 5px solid white
+        margin: 0
+        padding: 0
+
+
+.services-grid--half
+    display: flex
+    flex-flow: column wrap
+    margin-bottom: $spacer-red
+    +media($mobile)
+        display: block
+    .fade-wrapper
+        visibility: hidden
+        > .grid-box .box
+            visibility: visible
+            transition: all 350ms ease-in-out
+            margin-bottom: 65px
+            +media($mobile)
+                margin-bottom: 35px
+        h6
+            visibility: visible
+            font-family: $sans
+            color: $tertiary
+            font-size: 16px
+            text-transform: none
+            margin-top: -15px
+            font-weight: 300
+            margin-bottom: 25px
+            line-height: 1.3
+            +media($mobile)
+                margin-top: 0
+                font-size: 14px
+        h6:before
+            font-size: 18px
+            padding-right: 10px
+            color: $tertiary
+            font-family: 'FontAwesome'
+            content: '\f01a'
+    .fade-wrapper:hover > .grid-box .box
+        opacity: .6
+    .fade-wrapper > .grid-box:hover .box:hover
+        opacity: 1
+    h4
+        +span-columns(8 of 12)
+        +omega()
+        font-weight: 100
+        font-size: $base-med
+        color: white
+        line-height: 1.15
+        padding: $spacer-cyan 0 $spacer-yellow 0
+        +media($hd)
+            padding-bottom: $spacer-yellow
+        +media($tablet)
+            line-height: 1.3
+            +span-columns(8 of 8)
+            +omega()
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-green 0 $spacer-blue 0
+    .box
+        +span-columns(6)
+        +omega(2n)
+        +media($tablet)
+            +span-columns(4 of 8)
+            +omega(2n)
+        +media($mobile)
+            +span-columns(4 of 4)
+            +omega(1n)
+            height: auto
+            text-align: center
+            padding: 20px 20px 40px 20px
+        box-shadow: 0px -10px $tertiary
+        background-color: white
+        margin-bottom: 32px
+        z-index: 1
+        text-align: left
+        transition: all .4s ease-in-out
+        padding: $spacer-blue 0
+        .service-btn
+            background-color: $primary
+            margin: 0 $spacer-green 0 $spacer-pink
+            color: white
+            padding: 10px 20px
+            font-family: $header
+            +media($laptop)
+                margin: $spacer-yellow $spacer-green $spacer-yellow $spacer-yellow
+            +media($tablet)
+                margin: $spacer-yellow $spacer-green
+            +media($mobile)
+                margin: 30px auto 50px auto
+                font-size: 15px
+        h5
+            font-size: $base-med
+            font-weight: 600
+            font-family: $header
+            color: $primary
+            line-height: 1.15
+            margin: 0
+            padding: 0 $spacer-green 0 $spacer-pink
+            +media($laptop)
+                padding: 0 $spacer-yellow $spacer-cyan $spacer-yellow
+            +media($tablet)
+                padding: 0 $spacer-green
+            +media($mobile)
+                padding: 10px $spacer-cyan
+                margin-top: 6px
+                font-size: $base
+        p
+            font-weight: 100
+            margin-top: -20px
+            padding-left: $spacer-pink
+            padding-right: $spacer-green
+            margin: 0
+            padding-top: $spacer-cyan
+            padding-bottom: $spacer-green
+            +media($laptop)
+                padding: 0 $spacer-green $spacer-green $spacer-yellow
+            +media($tablet)
+                padding: $spacer-cyan $spacer-green 42px
+            +media($mobile)
+                padding: 0 $spacer-cyan $spacer-green $spacer-cyan
+                font-size: 13px
+        a
+            text-decoration: none
+        a:hover
+            text-decoration: none
+    .one
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-bg/databridgeBG--transparent.png?raw=true')
+        background-position: left center
+        background-repeat: no-repeat
+        opacity: .9
+    .two
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-bg/rtechBG--transparent.png?raw=true')
+        background-position: left center
+        background-repeat: no-repeat
+        opacity: .9
+    .three
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-bg/connectBG--transparent.png?raw=true')
+        background-position: left center
+        background-repeat: no-repeat
+        opacity: .9
+    .four
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-bg/agiledataBG--transparent.png?raw=true')
+        background-position: left center
+        background-repeat: no-repeat
+        opacity: .9
+    .box:hover
+        transform: scale3d(1.08,1.08,1)
+
+.overlay--container
+    margin-top: -127px
+    margin-bottom: 0
+    position: relative
+    background-color: white
+    z-index: 1
+.overlay
+    box-shadow: $white-box-shadow
+    padding: 68px 0 0 0
+    text-align: center
+    background-color: white
+    +media($mobile)
+        padding: $spacer-green 0 0 0
+    img
+        padding-bottom: 15px
+    h2
+        color: $text
+        line-height: 1.2
+        span
+            color: $tertiary
+        .text--fade
+            display: none
+    p
+        font-weight: 100
+        font-size: 16px
+        padding: $spacer-cyan $spacer-yellow
+        +media($tablet)
+            padding: $spacer-blue
+        +media($mobile)
+            padding: $spacer-cyan 
+    .inner-box
+        +span-columns(4 of 12, collapse)
+        +omega(3n)
+        +media($mobile)
+            +span-columns(4 of 4)
+            +omega(1n)
+        margin-top: $spacer-cyan
+        display: flex
+        flex-flow: column wrap
+        padding: 10px 0
+        justify-content: center
+        align-items: center
+        transition: all .3s ease-in-out
+        +media($tablet)
+            padding: $spacer-cyan 0
+        +media($mobile)
+            margin: 0
+        a
+            text-decoration: none
+        a:hover
+            text-decoration: none
+        h6
+            font-size: $base-med
+            font-weight: 600
+            letter-spacing: .5px
+            line-height: 0
+            font-family: $header
+            text-transform: none
+        p
+            font-family: $sans
+            font-size: 14px
+            line-height: 1.3
+            color: $text
+            font-weight: 100
+            padding: 7px $spacer-blue
+    .inner-box:nth-child(1)
+        border-top: 4px solid $quaternary-cool
+        border-bottom: 4px solid $quaternary-cool
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/bg-img/sm-fintech-bg.png?raw=true')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        h6
+            color: $quaternary-cool
+            margin: 20px 0
+        +media($mobile)
+            border-bottom: 0
+        svg
+            width: 14%
+            fill: $quaternary-cool
+            margin: 20px 0
+    .inner-box:nth-child(2)
+        border-top: 4px solid $health-tech-green
+        border-bottom: 4px solid $health-tech-green
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/bg-img/sm-healthtech-bg.png?raw=true')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        h6
+            color: $health-tech-green
+            margin: 20px 0
+        +media($mobile)
+            border-bottom: 0
+        svg
+            width: 14%
+            fill: $health-tech-green
+            margin: 20px 0
+    .inner-box:nth-child(3)
+        border-top: 4px solid $secondary-cool
+        border-bottom: 4px solid $secondary-cool
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/bg-img/sm-hightech-bg.png?raw=true')
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+        h6
+            color: $secondary-cool
+            margin: 20px 0
+        +media($mobile)
+            border-bottom: 0
+        svg
+            width: 14%
+            fill: $secondary-cool
+            margin: 20px 0
+    .inner-box:last-child
+        +media($mobile)
+            margin: 0
+            float: none
+            width: 100%
+    .inner-box:nth-child(1):hover
+        background-color: $quaternary-cool
+        background-image: none
+        h6
+            color: $white
+        p
+            color: $white
+    .inner-box:nth-child(1):hover svg
+        fill: white
+        animation: jello 1s linear
+    .inner-box:nth-child(2):hover
+        background-color: $health-tech-green
+        background-image: none
+        h6
+            color: $white
+        p
+            color: $white
+    .inner-box:nth-child(2):hover svg
+        fill: white
+        animation: jello 1s linear
+    .inner-box:nth-child(3):hover
+        background-color: $secondary-cool
+        background-image: none
+        h6
+            color: $white
+        p
+            color: $white
+    .inner-box:nth-child(3):hover svg
+        fill: white
+        animation: jello 1s linear
+
+.centered-cta
+    text-align: center
+    padding: 0 $spacer-yellow
+    +media($tablet)
+        padding: 0 $spacer-green
+    +media($mobile)
+        padding: 0 $spacer-green
+        overflow-wrap: break-word
+        word-wrap: break-word
+        -ms-word-break: break-all
+        word-break: break-all
+        word-break: break-word
+        -ms-hyphens: auto
+        -moz-hyphens: auto
+        -webkit-hyphens: auto
+        hyphens: auto
+    &--about
+        h2
+            font-family: $header
+            font-size: 42px
+            line-height: 45px
+            font-weight: 600
+            color: $text
+            padding: $spacer-yellow $spacer-green 0 $spacer-green
+            +media($mobile)
+                padding: $spacer-green 0
+                font-size: 32px
+        p
+            font-family: $sans
+            font-weight: 100
+            font-size: $base
+            line-height: 26px
+            padding: 0 $spacer-green
+            +media($mobile)
+                padding: 0
+    &--agiledata
+        h2
+            color: $primary
+            line-height: 1.3
+            padding-top: $spacer-yellow
+            padding-right: $spacer-green
+            +media($mobile)
+                padding-right: 0
+    &--connect
+        h2
+            color: $primary
+            line-height: 1.3
+            padding-top: $spacer-blue
+            +media($mobile)
+                padding: 0
+    &--databridge
+        h2
+            color: $primary
+            line-height: 1.3
+            padding-top: $spacer-blue
+            +media($mobile)
+                padding: $spacer-green 0
+        h5
+            margin-top: -20px
+    &--home
+        h2
+            color: $text
+            line-height: 1
+            padding-top: $spacer-yellow
+            padding-right: $spacer-green
+            +media($mobile)
+                padding: 0
+                font-size: 32px
+        button
+            margin-bottom: $spacer-red
+    h5
+        color: $text-light
+        line-height: 1.3
+        font-family: $sans
+        font-weight: 100
+        font-size: $base-med
+        padding-top: $spacer-cyan
+        +media($mobile)
+            font-size: 16px
+    p
+        font-weight: 100
+        padding-bottom: $spacer-blue
+
+
+.anim-static--rt
+    display: none
+    +media($tablet)
+        display: block
+        background-image: url('http://image.prntscr.com/image/cd85637d1ed2468d84cbacd66c397f6b.png')
+        background-size: cover
+        padding: $spacer-blue 0 $spacer-pink 0
+
+.anim-static--ad
+    display: none
+    +media($tablet)
+        display: block
+        background-image: url('http://image.prntscr.com/image/5f309827ae304676a1a8254f8fe7293f.png')
+        background-size: cover
+        padding: $spacer-blue 0 $spacer-pink 0
+
+.anim-static--con
+    display: none
+    +media($tablet)
+        display: block
+        background-image: url('http://image.prntscr.com/image/5f309827ae304676a1a8254f8fe7293f.png')
+        background-size: cover
+        padding: $spacer-blue 0 $spacer-pink 0
+
+.anim-static--db
+    display: none
+    +media($tablet)
+        display: block
+        background-image: url('http://image.prntscr.com/image/e1cd60cfdd3248cd8567aa13596a4809.png')
+        background-size: cover
+        padding: $spacer-blue 0 $spacer-pink 0
+
+.line-anim-wrapper
+    position: relative
+    margin-bottom: $spacer-green
+    &.connect
+        margin-bottom: 0
+    +media($tablet)
+        display: none
+    +media($mobile)
+        display: none
+    +media($hd)
+        padding-top: $spacer-yellow
+    .line-graphic-wrapper--connect
+        padding: 0
+    .line-graphic-wrapper
+        padding: $spacer-pink 0
+        #line
+            width: 100%
+            height: 100%
+            z-index: -6
+            top: 0
+            left: 0
+        #line2
+            width: 100%
+            height: 100%
+            z-index: -6
+            top: 0
+            left: 0
+        #zigzag
+            width: 100%
+            height: 100%
+            z-index: -6
+            top: 0
+            left: 0
+        #wiggly
+            width: 100%
+            height: 100%
+            z-index: -6
+            top: 0
+            left: 0
+    .line-items-wrapper
+        margin: 0 auto
+        display: inline
+        width: 100%
+        height: 100%
+        position: absolute
+        .dot
+            position: absolute
+            z-index: 1
+            &.first
+                top: -4.8%
+                left: 18%
+                +media($hd)
+                    top: -3.5%
+                    left: 21%
+            &.second
+                top: 4.8%
+                left: 45.5%
+                +media($hd)
+                    top: 11%
+                    left: 46.5%
+            &.third
+                top: -4.8%
+                left: 70.7%
+                +media($hd)
+                    top: -3.5%
+                    left: 71%
+        .exc
+            position: absolute
+            z-index: 1
+            top: 3%
+            left: 43.2%
+        .bottom-dot
+            position: absolute
+            z-index: 1
+            &.first
+                top: 97%
+                left: 31.5%
+            &.second
+                top: 97%
+                left: 86%
+        .mid-dot
+            position: absolute
+            z-index: 1
+            &.first
+                top: 66.5%
+                left: 45.2%
+            &.second
+                top: 66.5%
+                left: 72.8%
+        .top-dot
+            position: absolute
+            z-index: 1
+            &.first
+                top: 16.7%
+                left: 28%
+            &.second
+                top: 18.7%
+                left: 54.8%
+            &.third
+                top: 16%
+                left: 81.6%
+        .wiggly-dot
+            position: absolute
+            z-index: 1
+            top: 13%
+            left: 46%
+
+.tabs
+    display: flex
+    +media($hd)
+        padding: 110px 0
+    +media($mobile)
+        display: block
+    .tabs--list
+        +span-columns(5 of 12, collapse)
+        +media($hd)
+            padding-left: $spacer-red
+            padding-right: $spacer-pink
+        +media($tablet)
+            +span-columns(3 of 8, collapse)
+            padding: 0 $spacer-green $spacer-blue $spacer-green
+        +media($mobile)
+            +span-columns(4)
+            +omega()
+            padding: $spacer-green
+        +media($xsmall)
+            padding: 0
+        padding: $spacer-blue $spacer-cyan $spacer-yellow $spacer-yellow
+        flex: 1
+        background-color: $primary-dark
+        h5
+            font-size: $base-med
+            line-height: $base-med
+            font-weight: 600
+            color: white
+            font-family: $header
+            +media($tablet)
+                line-height: 1.3
+        p
+            padding-bottom: $spacer-blue
+            color: white
+            font-weight: 100
+            margin-top: -35px
+            margin-bottom: 45px
+            +media($tablet)
+                margin-top: -15px
+                padding-bottom: 5px
+            +media($mobile)
+                margin-top: -10px
+                padding-bottom: $spacer-cyan
+        ul
+            display: block
+            margin: 0
+            padding: 0
+            list-style-type: none
+            overflow: hidden
+        li.active
+            opacity: 1
+            transition: all .3s ease
+            color: $tertiary
+            font-weight: 600
+        li
+            padding: 0
+            opacity: .6
+            transition: all .3s ease
+            +media($mobile)
+                +span-columns(2 of 4)
+                -webkit-margin-before: 0
+                -webkit-margin-after: 0
+                -webkit-margin-start: 0
+                -webkit-margin-end: 0
+                -webkit-padding-start: 0
+            a
+                display: block
+                font-family: $sans
+                font-size: $base-base
+                font-weight: 100
+                text-decoration: none
+                color: white
+                hr
+                    display: block
+                    height: 3px
+                    border: 0
+                    border-top: 3px solid white
+                    margin: 1em 0
+                    padding: 0
+                    width: 80%
+                    +media($mobile)
+                        width: 70%
+                        padding: 1em
+                        margin: 1em auto
+        .selected
+            color: $tertiary
+            font-weight: 600
+            hr
+                border-top: 3px solid $tertiary
+        .selected:before
+            content: '»'
+        .selected:hover
+            color: $tertiary
+            font-weight: 600
+        li:last-child
+            +media($mobile)
+                margin-top: -18px
+                margin-left: 22px
+
+    .tabs--content
+        +span-columns(7 of 12)
+        +media($hd)
+            padding-left: $spacer-yellow
+            padding-right: $spacer-pink
+        +media($tablet)
+            +span-columns(5 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+            +omega()
+            padding: 0 $spacer-cyan
+        background-color: $primary-cool
+        background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/bg-img/blue-waves.png?raw=true'), linear-gradient(to right,$primary, $tertiary)
+        background-position: left bottom, center center
+        background-size: 150%, cover
+        background-repeat: no-repeat
+        div
+            display: block
+            min-height: 100%
+            article
+                display: none
+                margin: 0
+                h1
+                    color: white
+                    padding: 0 $spacer-green 0 $spacer-yellow
+                    letter-spacing: 1px
+                    line-height: 1.15
+                    +media($laptop)
+                        font-size: 57px
+                        line-height: 1.2
+                        padding-top: $spacer-cyan
+                    +media($tablet)
+                        font-size: 42px
+                    +media($mobile)
+                        font-size: 38px
+                        padding: 0 0 $spacer-green 0
+                        overflow-wrap: break-word
+                        word-wrap: break-word
+                        -ms-word-break: break-all
+                        word-break: break-all
+                        word-break: break-word
+                        -ms-hyphens: auto
+                        -moz-hyphens: auto
+                        -webkit-hyphens: auto
+                        hyphens: auto
+                h3
+                    color: white
+                    padding: 0 $spacer-green 0 $spacer-yellow
+                    line-height: 1.3
+                    font-family: $sans
+                    font-weight: 100
+                    margin-top: -45px
+                    +media($tablet)
+                        margin-top: -10px
+                    +media($mobile)
+                        padding: 0 0 $spacer-green 0
+                p
+                    color: white
+                    padding: $spacer-green 0 $spacer-yellow $spacer-yellow
+                    max-width: 80%
+                    margin-top: -20px
+                    font-weight: 100
+                    +media($tablet)
+                        padding-right: 0
+                    +media($mobile)
+                        padding: 0 0 $spacer-green 0
+                        max-width: 100%
+
+@keyframes ninety
+    0%
+        width: 0px
+    100%
+        width: 94%
+
+@keyframes hundred
+    0%
+        width: 0px
+    100%
+        width: 100%
+
+.progress-bar--wrapper
+    padding: $spacer-pink 0
+    .number-wrapper
+        +span-columns(4)
+        +omega(3n)
+        +media($mobile)
+            +span-columns(4)
+            +omega()
+            padding: $spacer-blue 0
+        .progress-bar-wrapper
+            position: relative
+        .progress-bar
+            display: block
+            width: 0%
+            height: 8px
+            &.visible
+                width: 100%
+        .progress-bar--base
+            position: absolute
+            left: 0
+            width: 100%
+            .progress-bar
+                background: #eee
+                transition: width 1s ease-in-out
+        .progress-bar--active
+            position: absolute
+            left: 0
+            .progress-bar
+                background-color: $tertiary
+                transition: width 1s ease-in-out
+        @for $i from 0 through 100
+            .progress-bar--active-#{$i}
+                width: $i * 1%
+        .loader
+            font-family: $header
+            font-size: $base-xlarge
+            line-height: 1.4
+            color: $primary
+            font-weight: 700
+            padding-top: $spacer-cyan
+            text-align: center
+            +media($laptop)
+                font-size: 89px
+            +media($tablet)
+                font-size: $base-larger
+        .progress-text
+            font-family: $sans
+            line-height: 1.3
+            font-size: $base-med
+            color: $text-light
+            margin-top: -10px
+            font-weight: 100
+            +media($tablet)
+                margin: 0
+        .bar
+            width: 90%
+            height: 8px
+
+
+.centered--bg
+    +omega()
+    box-shadow: $white-box-shadow
+    background-image: url('https://github.com/gretzky/arrayo-qa/blob/master/assets/img/bg-img/boost-bg.png?raw=true')
+    background-repeat: no-repeat
+    background-position: bottom right
+    padding: $spacer-yellow 0
+    background-color: white
+    position: relative
+    margin-bottom: $spacer-pink
+    +media($hd)
+        padding: 110px 0
+    +media($laptop)
+        padding: $spacer-blue 0
+    +media($tablet)
+        background-position: bottom center
+        background-size: cover
+        padding: $spacer-blue 0
+    +media($mobile)
+        background-position: bottom center
+        background-size: cover
+        padding: $spacer-blue 0
+    .content
+        +span-columns(10 of 12, border-collapse)
+        padding: 0 $spacer-red 0 $spacer-yellow
+        +media($laptop)
+            +span-columns(12 of 12)
+            padding: 0 $spacer-yellow
+        +media($tablet)
+            +span-columns(8 of 8)
+            padding: 0 $spacer-green 0 $spacer-blue
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: 0 $spacer-cyan
+        h2
+            color: $text
+            font-weight: 700
+            line-height: 1.2
+        h5
+            font-size: $base-med
+            color: $text-light
+            font-weight: 100
+            line-height: 1.3
+            padding-right: $spacer-red
+            +media($mobile)
+                padding: 0
+        p
+            font-weight: 300
+            padding-bottom: $spacer-blue
+            +media($laptop)
+                padding-bottom: $spacer-green
+            +media($mobile)
+                padding-bottom: $spacer-cyan
+    .ico-1
+        position: absolute
+        top: 23%
+        left: 85%
+        +media($hd)
+            top: 15%
+            left: 90%
+        +media($tablet)
+            display: none
+        +media($mobile)
+            display: none
+    .ico-2
+        position: absolute
+        top: 44%
+        left: 84%
+        +media($hd)
+            top: 40%
+            left: 89%
+        +media($tablet)
+            display: none
+        +media($mobile)
+            display: none
+    .ico-3
+        position: absolute
+        top: 62%
+        left: 79%
+        +media($hd)
+            top: 60%
+            left: 83%
+        +media($tablet)
+            display: none
+        +media($mobile)
+            display: none
+
+.contact-footer
+    background-color: $text-light
+    +omega()
+    .text
+        +span-columns(7 of 12)
+        +media($laptop)
+            +span-columns(6 of 12)
+        +media($tablet)
+            +span-columns(4 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding-top: $spacer-blue
+        h2
+            color: white
+            padding: $spacer-yellow 0 0 80px
+            line-height: 42px
+            +media($laptop)
+                padding: $spacer-blue $spacer-cyan 0 $spacer-cyan
+            +media($tablet)
+                padding: $spacer-green 0 0 $spacer-green
+                line-height: 1.2
+            +media($mobile)
+                padding: 0
+        p
+            color: white
+            padding: 0 80px
+            font-weight: 100
+            +media($laptop)
+                padding: 0 $spacer-green 0 $spacer-cyan
+            +media($tablet)
+                padding: 0 $spacer-cyan 0 $spacer-green
+            +media($mobile)
+                padding: 0
+        h5
+            font-family: $sans
+            font-weight: 100
+            color: white
+            font-size: $base-med
+            padding: 0 0 $spacer-pink 80px
+            +media($laptop)
+                padding: 0 0 0 $spacer-cyan
+            +media($tablet)
+                padding: 0 0 0 $spacer-green
+            +media($mobile)
+                padding: 0
+    .form
+        +span-columns(5 of 12)
+        +media($laptop)
+            +span-columns(6 of 12)
+            padding-top: 82px
+            padding-left: $spacer-blue
+        +media($tablet)
+            +span-columns(4 of 8)
+            padding-top: $spacer-yellow
+        padding: 80px 0
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-cyan 0
+            padding-bottom: $spacer-blue
+
+h6
+    font-family: $sans
+    font-weight: 100
+    text-transform: uppercase
+    font-size: $base-small
+    color: #fff
+    line-height: 0
+    padding: 0
+    +media($hd)
+        font-size: $large-small
+
+.label-link
+    background-color: #fff
+    padding: $spacer-cyan
+    display: inline-block
+    margin-bottom: 16px
+    .fa
+        display: inline-block
+        color: $primary
+    p
+        display: inline-block
+        font-family: $sans
+        font-weight: 100
+        font-family: 14px
+        margin-left: 5px
+        margin-right: 20px
+        color: $primary
+        line-height: 0

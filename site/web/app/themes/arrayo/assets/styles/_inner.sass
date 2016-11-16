@@ -1,0 +1,2367 @@
+.job-gradient
+  background: linear-gradient(to bottom, $primary-dark, $quaternary-cool), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+  background-size: 100% 50%, 100% 51%
+  background-position: 0 0, 30% 100%
+  background-repeat: no-repeat, no-repeat
+
+
+/* fade boxes */
+.flexfade-container
+    +span-columns(12)
+    padding: 0
+    margin: 0
+    list-style: none
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    +media($mobile)
+        +span-columns(4)
+
+
+
+.flexfade-wrapper
+    visibility: visible
+    > .flexfade-item
+        visibility: visible
+        transition: all 350ms ease-in-out
+
+.flexfade-wrapper:hover > .flexfade-item
+    opacity: 0.6
+
+.flexfade-wrapper > .flexfade-item:hover
+    opacity: 1
+
+.flexfade-item
+    background-color: white
+    box-shadow: $white-box-shadow
+    margin-bottom: $gutter
+    position: relative
+    &--half
+        +span-columns(6 of 12)
+        +omega(2n)
+    &--third
+        +span-columns(4 of 12)
+        +omega(3n)
+    +media($mobile)
+        +span-columns(4 of 4)
+        +omega(1n)
+    p
+        font-size: 16px
+        line-height: 26px
+        font-weight: 100
+        padding: 0 $spacer-cyan $spacer-yellow $spacer-cyan
+        +media($mobile)
+            padding: 0 $spacer-green $spacer-yellow $spacer-green
+    .light
+        font-size: 16px
+        line-height: 20px
+        color: $text-light
+        padding: 0 $spacer-cyan
+        +media($mobile)
+            padding: 0 $spacer-green
+    .link
+      display: block
+      position: absolute
+      padding: $spacer-cyan 0 0 0
+      width: 100%
+      bottom: 0
+      border-top: 1px solid rgba(0,0,0,0.1)
+      a
+          text-decoration: none
+          font-family: $sans
+          font-size: 16px
+          line-height: 20px
+          color: $tertiary
+          padding: $spacer-green 0 $spacer-cyan $spacer-cyan
+    .fa
+        font-size: 16px
+        color: $tertiary
+        padding-left: $spacer-cyan
+
+.flexfade-item:hover
+    transform: scale3d(1.08,1.08,1)
+
+/* page-specific flexfade boxes */
+
+.flexfade-item--fintech h4
+    color: white
+    font-size: 20px
+    line-height: 26px
+    margin: 0
+    background-color: $quaternary-cool
+    padding: 42px 26px 10px 16px
+    font-family: $header
+    font-weight: 600
+    height: 200px
+
+.flexfade-item--healthtech h4
+    color: white
+    font-size: 20px
+    line-height: 26px
+    margin: 0
+    background-color: $health-tech-green
+    padding: 42px 26px 10px 16px
+    font-family: $header
+    font-weight: 600
+    height: 200px
+
+.flexfade-item--hightech h4
+    color: white
+    font-size: 20px
+    line-height: 26px
+    margin: 0
+    background-color: $high-tech-blue
+    padding: 42px 26px 10px 16px
+    font-family: $header
+    font-weight: 600
+    height: 200px
+
+.flexfade-item--finserve h4
+    color: white
+    font-size: 16px
+    line-height: 26px
+    height: 160px
+    margin: 0
+    background-color: $quaternary-cool
+    padding: $spacer-green $spacer-green 10px $spacer-cyan
+    font-family: $header
+    font-weight: 600
+    text-align: left !important
+    +media($tablet)
+      height: 145px
+    +media($mobile)
+      height: 145px
+    svg
+      width: 25%
+      fill: white
+      +media($tablet)
+        float: none
+        margin: 0 auto
+    p
+      text-align: left !important
+
+
+.flexfade-item--healthserve h4
+    color: white
+    font-size: 16px
+    line-height: 26px
+    margin: 0
+    height: 160px
+    background-color: $health-tech-green
+    padding: $spacer-green $spacer-green 10px $spacer-cyan
+    font-family: $header
+    font-weight: 600
+    text-align: left !important
+    +media($tablet)
+      height: 145px
+    +media($mobile)
+      height: 145px
+    svg
+      width: 25%
+      fill: white
+      +media($tablet)
+        float: none
+        margin: 0 auto
+    p
+      text-align: left !important
+
+.flexfade-item--highserve h4
+    color: white
+    font-size: 16px
+    line-height: 26px
+    margin: 0
+    height: 160px
+    background-color: $high-tech-blue
+    padding: $spacer-green $spacer-green 10px $spacer-cyan
+    font-family: $header
+    font-weight: 600
+    text-align: left !important
+    +media($tablet)
+      height: 145px
+    +media($mobile)
+      height: 145px
+    svg
+      width: 25%
+      fill: white
+      +media($tablet)
+        float: none
+        margin: 0 auto
+    p
+      text-align: left !important
+
+.subpage-header-logo-container
+    overflow-x: hidden
+    clip: rect(auto, auto, auto, auto)
+    img
+        position: absolute
+    .sub-logo
+        opacity: .1
+        right: 0
+        top: -3%
+        overflow: hidden !important
+        +media($hd)
+            left: 1000px
+        +media($laptop)
+            left: 25%
+        +media($tablet)
+            top: 0
+            left: 20%
+        +media($mobile)
+            left: 0px
+            top: 0px
+            margin: 0 auto
+            width: 100%
+    .rotate
+        animation: rotate 68s infinite
+    .rotate-reverse
+        animation: rotate-reverse 68s infinite
+
+.services-box-desc
+    color: $tertiary
+    font-size: 16px
+    font-family: $sans
+    font-weight: 300
+    text-transform: none
+    +media($mobile)
+        margin-top: 15px
+    &--second
+        margin-bottom: 15px
+        +media($mobile)
+            line-height: 1.3
+
+.services-largebox
+    +span-columns(12)
+    +omega()
+    background-color: white
+    box-shadow: $white-box-shadow
+    margin-bottom: $spacer-blue
+    transition: all .3s ease-in-out
+    +media($mobile)
+        +span-columns(4 of 4)
+        +omega(1n)
+    .text-wrap
+        h4
+            font-weight: 600
+            color: $text
+            font-family: $header
+            font-size: $base-med
+            line-height: 0
+        .light
+            font-size: $base
+            font-family: $sans
+            color: $text-light
+            font-weight: 100
+            margin-top: -15px
+        p
+            font-size: $base
+            font-family: $sans
+            color: $text
+            font-weight: 100
+        button
+            border: 0
+            outline: 0
+            font-family: $header
+            font-size: $base
+            padding: 5px 20px
+            margin-top: 8px
+            +media($mobile)
+                font-size: 14px
+                padding: 10px
+            a
+                color: white
+                font-family: inherit
+                font-size: inherit
+                padding: inherit
+                text-decoration: none
+    &--rtech
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-bg/rtech-bg--alt.png')
+        background-repeat: no-repeat
+        background-position: right center
+        background-size: 40%
+        margin-top: -127px
+        overflow: hidden
+        +media($laptop)
+          background-size: 50%
+        +media($tablet)
+          background-size: 50%
+        +media($mobile)
+            margin-top: -50px
+        .text-wrap
+            +span-columns(8 of 12)
+            padding: $spacer-green $spacer-yellow $spacer-yellow $spacer-yellow
+            +media($mobile)
+                +span-columns(4 of 4)
+                +shift(0)
+                padding: $spacer-green
+                text-align: center
+                background: white
+    &--agiledata
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-bg/agile-bg--alt.png')
+        background-repeat: no-repeat
+        background-position: right center
+        background-size: 40%
+        +media($laptop)
+          background-size: 50%
+        +media($tablet)
+          background-size: 50%
+        .text-wrap
+            +span-columns(8 of 12)
+            padding: $spacer-green $spacer-yellow $spacer-yellow $spacer-yellow
+            +media($mobile)
+                +span-columns(4 of 4)
+                +shift(0)
+                padding: $spacer-green
+                text-align: center
+                background: white
+    &--connect
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-bg/con-bg--alt.png')
+        background-repeat: no-repeat
+        background-position: left center
+        background-size: 40%
+        +media($laptop)
+          background-size: 50%
+        +media($tablet)
+          background-size: 50%
+        .text-wrap
+            +span-columns(8 of 12)
+            +shift(4)
+            padding: $spacer-green $spacer-blue $spacer-yellow $spacer-pink
+            +media($mobile)
+                +span-columns(4 of 4)
+                +shift(0)
+                padding: $spacer-green
+                text-align: center
+                background: white
+    &--databridge
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-bg/db-bg--alt.png')
+        background-repeat: no-repeat
+        background-position: left center
+        background-size: 40%
+        +media($laptop)
+          background-size: 50%
+        +media($tablet)
+          background-size: 50%
+        .text-wrap
+            +span-columns(8 of 12)
+            +shift(4)
+            padding: $spacer-green $spacer-blue $spacer-yellow $spacer-pink
+            +media($mobile)
+                +span-columns(4 of 4)
+                +shift(0)
+                text-align: center
+                background: white
+                padding: $spacer-green
+
+
+
+.bg-gradient--purple
+    background-image: linear-gradient(to right, $quaternary-cool, $primary)
+    padding-bottom: $spacer-yellow
+.bg-gradient--green
+    background-image: linear-gradient(to right, $health-tech-green, $primary-dark)
+    padding-bottom: $spacer-yellow
+.bg-gradient--blue
+    background-image: linear-gradient(to right, $high-tech-blue, $primary-dark)
+    padding-bottom: $spacer-yellow
+
+
+.services-cta
+    +span-columns(12)
+    +omega(1n)
+    box-shadow: $white-box-shadow
+    margin-top: -100px
+    max-width: 87.5%
+    float: right
+    background-color: white
+    padding: $spacer-blue
+    background-repeat: no-repeat
+    background-position: right center
+    padding: $spacer-green 300px $spacer-blue $spacer-yellow
+    margin-bottom: $spacer-blue
+    +media($laptop)
+      max-width: 100%
+      padding: $spacer-green 300px $spacer-blue 108px
+    +media($tablet)
+        +span-columns(8)
+        max-width: 100%
+        float: none
+        background-position: top right
+        padding-right: $spacer-blue
+    +media($mobile)
+        +span-columns(4)
+        max-width: $mobile-size
+        float: none
+        background-position: top right
+        text-align: center
+        padding: $spacer-cyan
+    &--fintech
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/fintech/ind-fintech-bg.png?raw=true')
+        h2
+            color: $quaternary-cool
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--healthtech
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/healthtech/ind-healthtech-bg.png?raw=true')
+        h2
+            color: $health-tech-green
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--hightech
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/hightech/ind-hightech-bg.png?raw=true')
+        h2
+            color: $high-tech-blue
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--agiledata
+        background-image: url('http://imgh.us/agiledata-background-image.jpg')
+        background-size: cover
+        +media($mobile)
+            background-size: cover
+            background-position: right center
+        h2
+            color: $primary
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--rtech
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/rtech/rtech-pagebg.png')
+        background-position: right center
+        background-size: cover
+        h2
+            color: $primary
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--connect
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/connect/connect-pagebg.png')
+        background-position: right center
+        background-size: cover
+        h2
+            color: $primary
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+    &--databridge
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/databridge/databridge-pagebg.png')
+        background-position: right center
+        background-size: cover
+        h2
+            color: $primary
+            line-height: 1.3
+        h5
+            color: $text-light
+            font-weight: 100
+            font-size: 20px
+
+
+.fin-center-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/fintech/ind-fintech-mid.png')
+    background-repeat: no-repeat
+    background-position: bottom center
+    background-size: cover
+    padding-bottom: $spacer-pink
+
+.high-center-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/healthtech/ind-healthtech-mid.png')
+    background-repeat: no-repeat
+    background-position: bottom center
+    background-size: cover
+    padding-bottom: $spacer-pink
+
+.high-center-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/hightech/ind-hightech-mid.png')
+    background-repeat: no-repeat
+    background-position: bottom center
+    background-size: cover
+    padding-bottom: $spacer-pink
+
+.ind-half-box
+    +span-columns(6 of 12)
+    +omega(2n)
+    background-color: white
+    padding-bottom: $spacer-cyan
+    margin-bottom: $gutter
+    box-shadow: $white-box-shadow
+    +media($mobile)
+        +span-columns(4 of 4)
+        +omega(1n)
+    &--fintech
+        h4
+            color: white
+            font-size: 20px
+            line-height: 26px
+            margin: 0
+            background-color: $quaternary-cool
+            padding: $spacer-blue $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            +media($mobile)
+                padding: $spacer-green $spacer-cyan 5px 10px
+            img
+                padding-bottom: $spacer-green
+                +media($mobile)
+                    padding-bottom: $spacer-cyan
+    &--healthtech
+        h4
+            color: white
+            font-size: 20px
+            line-height: 26px
+            margin: 0
+            background-color: $health-tech-green
+            padding: $spacer-blue $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            img
+                padding-bottom: $spacer-green
+    &--hightech
+        h4
+            color: white
+            font-size: 20px
+            line-height: 26px
+            margin: 0
+            background-color: $high-tech-blue
+            padding: $spacer-blue $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            img
+                padding-bottom: $spacer-green
+    p
+        font-size: 16px
+        line-height: 26px
+        padding: 0 $spacer-cyan
+        font-weight: 100
+        +media($mobile)
+            padding: 0 $spacer-green
+    .light
+        font-size: 16px
+        line-height: 20px
+        color: $text-light
+        padding: 0 $spacer-cyan
+        +media($mobile)
+            padding: 0 $spacer-green
+    hr
+        display: block
+        padding-bottom: 10px
+        border: 0
+        border-top: 1px solid rgba(0,0,0,0.1)
+        height: 1px
+    a
+        text-decoration: none
+        font-family: $sans
+        font-size: 16px
+        line-height: 20px
+        color: $tertiary
+        padding: $spacer-green 0 $spacer-cyan $spacer-cyan
+    .fa
+        font-size: 16px
+        color: $tertiary
+        padding-left: $spacer-cyan
+
+.centered-cta-bg
+    background-color: white
+    box-shadow: $white-box-shadow
+    padding: $spacer-yellow $spacer-pink
+    text-align: center
+    margin-bottom: 0
+    margin-top: $spacer-blue
+    +media($mobile)
+        padding: $spacer-green
+        text-align: center
+    &--fintech
+        h2
+            color: $quaternary-cool
+    &--healthtech
+        h2
+            color: $health-tech-green
+    &--hightech
+        margin-bottom: $spacer-pink
+        h2
+            color: $high-tech-blue
+    h5
+        color: $text-light
+        font-weight: 100
+        margin-top: -10px
+        font-size: 20px
+    p
+        font-size: 18px
+        line-height: 26px
+        font-weight: 100
+        margin-top: -10px
+    strong
+        color: $text-light
+    img
+        padding: $spacer-blue 0 $spacer-yellow 0
+
+.ind-carousel .item
+    margin: 3px
+.ind-carousel.item img
+    display: block
+    width: 30%
+    height: auto
+    padding: 0 $spacer-cyan
+
+.com-carousel .item
+    margin: 3px
+.com-carousel.item img
+    display: block
+    width: 30%
+    height: auto
+    padding: 0 $spacer-cyan
+
+.item--push
+    margin: 0 auto
+    display: inline-block
+    img
+        width: 40%
+        padding: 0 40px
+    &-health
+        width: 80%
+        img
+            padding: 0 50px
+            margin: 0 20px
+            +media($mobile)
+                margin: 0
+                padding: 0
+                width: 100%
+
+.ind-carousel .items
+    padding: 0 2px
+.ind-carousel.items img
+    display: block
+    width: 100%
+    height: auto
+    border-radius: 1px
+    +media($mobile)
+      margin: 0 auto
+      width: 80%
+
+.com-carousel .owl-dots
+    padding-top: 20px
+.com-carousel .items
+    padding: 0 2px
+.com-carousel.items img
+    display: block
+    width: 100%
+    height: auto
+    border-radius: 1px
+    +media($mobile)
+      margin: 0 auto
+      width: 80%
+
+.owl-dots
+    margin: 0 auto
+    text-align: center
+
+.owl-dot
+    width: 10px
+    height: 10px
+    background: $text-light
+    margin-right: 10px
+    display: inline-block
+    border-radius: 1000px
+    &.active
+        background: $tertiary
+    +media($mobile)
+      width: 7px
+      height: 7px
+
+.bg-purple-wavy
+    background-image: linear-gradient(to right, $primary, $quaternary-cool)
+    margin-top: -35px
+    text-align: center
+    padding: $spacer-yellow
+    margin-bottom: $spacer-yellow
+    box-shadow: $white-box-shadow
+    +media($tablet)
+        padding: $spacer-blue
+    +media($mobile)
+        margin-top: -5px
+        padding: $spacer-green
+        text-align: center
+    h2
+        color: white
+    h4
+        color: $tertiary
+        font-weight: 100
+        font-size: 20px
+        line-height: 26px
+        +media($tablet)
+            padding: 0 $spacer-yellow
+        +media($mobile)
+            padding: 0
+    p
+        color: white
+        font-weight: 100
+        padding: 0 $spacer-pink
+        +media($tablet)
+            padding: 0 $spacer-yellow
+        +media($mobile)
+            padding: 0
+    img
+        padding: $spacer-blue 0
+
+.bg-green-wavy
+    background-image: linear-gradient(to right, $primary, $health-tech-green)
+    margin-top: -35px
+    text-align: center
+    padding: $spacer-yellow
+    margin-bottom: $spacer-yellow
+    box-shadow: $white-box-shadow
+    +media($mobile)
+        padding: $spacer-green
+        margin-top: 0
+    h2
+        color: white
+    h5
+        color: $secondary
+        font-weight: 100
+        font-size: 20px
+        line-height: 26px
+        +media($mobile)
+            padding: 0
+    p
+        color: white
+        font-weight: 100
+        padding: 0 $spacer-pink
+        +media($mobile)
+            padding: 0
+    img
+        padding: $spacer-blue 0
+
+.bg-gradient--opp
+    background-image: linear-gradient(to right, $primary, $tertiary)
+    padding-bottom: $spacer-yellow
+
+.for-ind-box
+    +span-columns(4 of 12)
+    +omega(3n)
+    background-color: white
+    padding-bottom: $spacer-cyan
+    margin-bottom: $gutter
+    box-shadow: $white-box-shadow
+    &--ad1
+        h4
+            color: white
+            font-size: 16px
+            line-height: 26px
+            margin: 0
+            background-color: $quaternary-cool
+            padding: $spacer-green $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            img
+                padding-bottom: $spacer-cyan
+    &--ad2
+        h4
+            color: white
+            font-size: 16px
+            line-height: 26px
+            margin: 0
+            background-color: $health-tech-green
+            padding: $spacer-green $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            img
+                padding-bottom: $spacer-cyan
+    &--ad3
+        h4
+            color: white
+            font-size: 16px
+            line-height: 26px
+            margin: 0
+            background-color: $high-tech-blue
+            padding: $spacer-green $spacer-green 10px $spacer-cyan
+            font-family: $header
+            font-weight: 600
+            img
+                padding-bottom: $spacer-cyan
+    p
+        font-size: 16px
+        line-height: 26px
+        padding: 0 $spacer-cyan
+        font-weight: 100
+    .light
+        font-size: 16px
+        line-height: 20px
+        color: $text-light
+        padding: 0 $spacer-cyan
+    hr
+        display: block
+        padding-bottom: 10px
+        border: 0
+        border-top: 1px solid rgba(0,0,0,0.1)
+        height: 1px
+    a
+        text-decoration: none
+        font-family: $sans
+        font-size: 16px
+        line-height: 20px
+        color: $tertiary
+        padding: $spacer-green 0 $spacer-cyan $spacer-cyan
+    .fa
+        font-size: 16px
+        color: $tertiary
+        padding-left: $spacer-cyan
+
+.third-gradient
+    +span-columns(12)
+    +omega()
+    background-color: white
+    box-shadow: $white-box-shadow
+    display: flex
+    +media($mobile)
+        +span-columns(4)
+    .gradient
+        +span-columns(5 of 12, collapse)
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-blue
+        background-image: linear-gradient(to bottom, $primary, $tertiary)
+        padding: $spacer-blue $spacer-blue $spacer-red $spacer-blue
+        h5
+            font-weight: 100
+            line-height: 33px
+            font-family: $sans
+            color: white
+            font-size: $base-med
+            margin-bottom: 0
+            margin-top: 20px
+        p
+            color: white
+
+    .text
+        +span-columns(7 of 12, collapse)
+        +media($mobile)
+            +span-columns(4 of 4)
+            width: 100% !important
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/blue-waves.png')
+        background-repeat: no-repeat
+        background-position: bottom center
+        ul
+            padding: $spacer-cyan $spacer-yellow
+            +media($mobile)
+                padding: $spacer-green
+            li
+                font-family: $sans
+                font-weight: 100
+                font-size: 18px
+                line-height: 26px
+                color: $text
+                margin: $spacer-green 0
+                +media($mobile)
+                    margin: 0
+            li:first-child:before
+                font-family: 'FontAwesome'
+                content: '\f18e'
+                color: $tertiary
+                +media($mobile)
+                    content: ''
+            li:first-child
+                text-indent: -2em
+                +media($mobile)
+                    text-indent: 0
+            li:last-child
+                +media($mobile)
+                    padding-bottom: $spacer-yellow
+
+.primary-text
+    color: $primary
+
+.ind-cta
+    +span-columns(12)
+    +omega
+    p
+        +span-columns(12 of 12)
+
+.serv-icon-box
+    background-color: white
+    box-shadow: $white-box-shadow
+    text-align: center
+    padding: $spacer-yellow $spacer-pink
+    margin: $spacer-yellow 0
+    +media($mobile)
+        padding: $spacer-blue
+    h2
+        color: $text
+    h5
+        color: $text-light
+        font-size: 16px
+        line-height: 26px
+        font-weight: 100
+    p
+        font-size: 18px
+        line-height: 26px
+        font-weight: 100
+        margin-bottom: $spacer-blue
+    .icons
+        +span-columns(4 of 12)
+        +omega(3n)
+        +media($mobile)
+            +span-columns(1.333 of 4)
+            +omega(3n)
+        p
+            font-size: 18px
+            line-height: 26px
+            +media($mobile)
+                font-size: 14px
+                line-height: 18px
+        .fa
+            font-size: 30px
+            color: $tertiary
+        hr
+            display: block
+            height: 3px
+            border: 0
+            border-top: 3px solid rgba(79,214,255,0.3)
+            margin-top: -15px
+
+.connect-mid-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/connect/connect-mid-bg.png')
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
+    padding: $spacer-yellow 0
+    margin: $spacer-blue 0 $spacer-yellow 0
+    +media($mobile)
+      +span-columns(4)
+    .flex
+      display: flex
+      +media($mobile)
+        display: block
+    &--about
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/company/about-mid-bg.png')
+    .connect-full-box
+        +span-columns(12 of 12)
+        +media($tablet)
+          +span-columns(8 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-cyan
+        background-color: white
+        box-shadow: $white-box-shadow
+        text-align: center
+        padding: $spacer-blue
+        +media($mobile)
+          padding: $spacer-cyan
+        h4
+            font-size: 42px
+            line-height: 50px
+            font-family: $header
+            font-weight: 600
+            color: $text
+            margin: 0
+            padding-bottom: $spacer-cyan
+            padding-top: $spacer-green
+            +media($mobile)
+              font-size: 26px
+              line-height: 
+        .light
+            color: $text-light
+            font-weight: 100
+            margin: 0
+            padding: 12px 0 $spacer-cyan 0
+            font-size: 20px
+            line-height: 26px
+        p
+            font-weight: 100
+            color: $text
+            padding: 12px $spacer-blue $spacer-cyan $spacer-blue
+            margin: 0
+            +media($mobile)
+              padding: 0
+        p:last-child
+            margin-bottom: $spacer-green
+    .connect-mid-box
+        +span-columns(6 of 12)
+        background-color: white
+        box-shadow: $white-box-shadow
+        text-align: center
+        display: flex
+        flex-flow: column wrap
+        +media($tablet)
+          +span-columns(8 of 8)
+          padding: $spacer-cyan
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-cyan
+            margin-bottom: $gutter
+        img
+            padding: $spacer-blue 0 $spacer-cyan 0
+            margin: 0 auto
+        h4
+            font-size: 22px
+            line-height: 26px
+            font-family: $header
+            font-weight: 600
+            color: $text
+            margin: 0
+        .light
+            color: $text-light
+            font-weight: 100
+            margin: 0
+            padding: 12px 0 $spacer-cyan 0
+        .light2
+          color: $text-light
+          font-weight: 100
+          margin: 0
+          padding: 12px 0 41px 0
+          +media($laptop)
+            padding: 12px 0 65px 0
+          +media($tablet)
+            padding: 12px 0 64.5px 0
+        p
+            font-weight: 100
+            color: $text
+            padding: 12px $spacer-cyan $spacer-green $spacer-cyan
+            margin: 0
+        hr
+            display: block
+            margin: 0
+            border: 0
+            border-top: 1px solid rgba(0,0,0,0.1)
+            height: 1px
+            padding: 5px 0
+
+.plain-white-box
+    background-color: white
+    box-shadow: $white-box-shadow
+    padding: $spacer-yellow $spacer-pink
+    text-align: center
+    margin: $spacer-yellow 0 $spacer-pink 0
+    +media($mobile)
+        padding: $spacer-blue $spacer-cyan
+    h2
+        color: $primary
+    h3
+        color: $text
+        font-size: 42px
+        line-height: 50px
+    h5
+        color: $text-light
+        font-weight: 100
+        margin: 0
+        font-size: 20px
+        line-height: 26px
+    p
+        font-weight: 100
+        padding: 0 $spacer-green
+        font-size: 18px
+        line-height: 26px
+
+.about-box
+    background-color: white
+    box-shadow: $white-box-shadow
+    padding: $spacer-green $spacer-yellow
+    text-align: center
+    margin: $spacer-pink 0 0 0
+    +media($tablet)
+        padding: $spacer-cyan
+    +media($mobile)
+        margin: $spacer-yellow 0 0 0
+        padding: $spacer-cyan
+    h2
+        color: $primary
+    p
+        color: $text
+        font-size: 18px
+        line-height: 26px
+
+.inner-blue-gradient
+    background-image: linear-gradient(to right, $primary-dark, $tertiary)
+    box-shadow: $white-box-shadow
+    color: white
+    padding: 0 $spacer-pink
+    margin-bottom: $spacer-blue
+    +media($tablet)
+        padding: 0 $spacer-blue
+    +media($mobile)
+        padding: 0 $spacer-green
+    h2
+        color: white
+
+.icon-grid
+    +span-columns(12 of 12)
+    +omega()
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/purple-waves-icon-grid.png'), linear-gradient(to left, $primary, $primary-dark)
+    background-position: left center
+    background-repeat: no-repeat, no-repeat
+    margin-bottom: $spacer-pink
+    +media($tablet)
+              +span-columns(8)
+    +media($mobile)
+        +span-columns(4)
+    .ico-wrap
+        +span-columns(9 of 12)
+        padding: $spacer-yellow 0
+        +media($laptop)
+          +span-columns(10 of 12)
+        +media($tablet)
+              +span-columns(8 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+            padding: $spacer-blue 0
+        h2
+            +span-columns(9 of 12)
+            +omega(1n)
+            color: white
+            line-height: 50px
+            margin: 0
+            padding-bottom: $spacer-cyan
+            +media($laptop)
+              +span-columns(10 of 12)
+            +media($tablet)
+              +span-columns(8 of 8)
+            +media($mobile)
+                +span-columns(4 of 4)
+                line-height: 36px
+        h5
+            +span-columns(9 of 12)
+            +omega(1n)
+            font-size: 20px
+            line-height: 26px
+            color: white
+            font-family: $sans
+            font-weight: 100
+            margin: 0
+            padding-bottom: $spacer-cyan
+            +media($laptop)
+              +span-columns(10 of 12)
+            +media($tablet)
+              +span-columns(8 of 8)
+            +media($mobile)
+                +span-columns(4 of 4)
+                +omega(1n)
+                font-size: 18px
+        .small
+            +span-columns(9 of 12)
+            +omega(1n)
+            float: none
+            font-size: $base
+            line-height: 26px
+            color: white !important
+            font-weight: 100
+            +media($laptop)
+              +span-columns(10 of 12)
+            +media($tablet)
+              +span-columns(8 of 8)
+            +media($mobile)
+                +span-columns(4 of 4)
+                +omega(1n)
+        .icons
+            +span-columns(3 of 9)
+            +omega(3n)
+            padding: $spacer-green 0
+            clear: none
+            position: relative
+            +media($mobile)
+                +span-columns(4 of 4)
+                padding: 0
+                +omega(1n)
+                padding: $spacer-green 0
+            .sm-check
+                width: 12%
+                margin-bottom: $spacer-yellow
+                +media($tablet)
+                  margin-bottom: $spacer-pink
+            .text-wrap
+                display: block
+                position: absolute
+                width: 100%
+                bottom: 0
+                border-bottom: 2px solid rgba(255,255,255,0.3)
+                margin-bottom: $gutter
+                p
+                  color: white
+                  font-weight: 100
+                  font-size: $base
+                  line-height: 26px
+                  +media($mobile)
+                    font-size: 14px
+                    line-height: 18px
+
+.location-info
+    +span-columns(12)
+    +omega()
+    +media($tablet)
+        +span-columns(8)
+    +media($mobile)
+        +span-columns(4)
+    .text-wrap--alt
+        +span-columns(7 of 12)
+        +media($mobile)
+          +span-columns(4 of 4)
+        .text
+            +span-columns(7 of 7)
+            +media($mobile)
+              +span-columns(4 of 4)
+    .job-text
+        +span-columns(9 of 12)
+        background-color: white
+        box-shadow: $white-box-shadow
+        padding: $spacer-blue $spacer-blue $spacer-red $spacer-blue
+        +media($tablet)
+            +span-columns(8 of 8)
+            padding: $spacer-green $spacer-blue $spacer-pink $spacer-green
+        +media($mobile)
+            +span-columns(4 of 4)
+            +omega()
+            padding: $spacer-green $spacer-green $spacer-yellow $spacer-green
+        &--for
+            padding: $spacer-blue
+            margin-bottom: $spacer-yellow
+            +media($mobile)
+                padding: $spacer-green
+        strong
+          font-family: $header
+          color: $text
+          font-size: 26px
+        hr
+          display: block
+          margin: 0
+          padding: 0
+          border: 0
+          border-top: 2px solid rgba(0,0,0,0.1)
+          height: 2px
+          width: 100%
+          +media($tablet)
+              width: 90%
+          +media($mobile)
+              width: 100%
+        .for
+          margin: 0
+          padding-bottom: $spacer-cyan
+          padding-right: $spacer-blue
+          +media($tablet)
+            padding-right: $spacer-green
+          +media($mobile)
+              padding: 0
+        p
+          font-size: $base
+          line-height: 26px
+          color: $text
+          font-family: $sans
+          margin-bottom: $spacer-blue
+          font-weight: 100
+          +media($mobile)
+              margin-bottom: $spacer-cyan
+    .text
+        +span-columns(7 of 12)
+        background-color: white
+        box-shadow: $white-box-shadow
+        padding: $spacer-blue $spacer-blue $spacer-red $spacer-blue
+        +media($tablet)
+            +span-columns(5 of 8)
+            padding: $spacer-green $spacer-blue $spacer-pink $spacer-green
+        +media($mobile)
+            +span-columns(4 of 4)
+            +omega()
+            padding: $spacer-green $spacer-green $spacer-yellow $spacer-green
+        &--for
+            padding: $spacer-blue
+            margin-bottom: $spacer-yellow
+            +media($mobile)
+                padding: $spacer-green
+        img
+            padding: $spacer-green 0
+        .quote-img
+            padding: $spacer-cyan 0 0 0
+            margin: 0
+            margin-left: -10px
+            +media($mobile)
+                margin: 0
+        h4
+            color: $primary
+            font-size: 20px
+            line-height: 33px
+            font-weight: 600
+        h5
+            font-size: 20px
+            line-height: 28px
+            color: $text-light
+            font-family: $sans
+            font-weight: 100
+        h2
+            font-size: 42px
+            line-height: 50px
+            font-weight: 600
+            &.health
+                color: $health-tech-green
+        .for
+            margin: 0
+            padding-bottom: $spacer-cyan
+            padding-right: $spacer-blue
+            +media($tablet)
+                padding-right: $spacer-green
+            +media($mobile)
+                padding: 0
+        .quote
+            font-size: $med
+            font-weight: 100
+            margin: $spacer-cyan 0 $spacer-green 0
+            padding-right: $spacer-blue
+            line-height: 1.5
+            +media($mobile)
+                padding: 0
+                margin-bottom: $spacer-cyan
+            &--fintech
+                color: $quaternary-cool
+            &--hightech
+                color: $high-tech-blue
+            &--healthtech
+                color: $health-tech-green
+        .light
+            font-size: 20px
+            line-height: 30px
+            color: $text-light
+            font-weight: 100
+            font-family: $sans
+            padding-right: $spacer-blue
+            +media($tablet)
+                padding-right: $spacer-green
+            +media($mobile)
+                padding: 0
+        p
+            font-size: $base
+            line-height: 26px
+            color: $text
+            font-family: $sans
+            margin-bottom: $spacer-blue
+            font-weight: 100
+            +media($mobile)
+                margin-bottom: $spacer-cyan
+        .list
+            text-decoration: none
+            font-size: 16px
+            line-height: 20px
+            font-family: $sans
+            font-weight: 100
+            margin-left: auto
+            margin: $spacer-cyan 0
+            +media($tablet)
+                padding-right: $spacer-blue
+            +media($mobile)
+                padding: $spacer-cyan 0 0 0
+            &--hightech
+                color: $high-tech-blue
+            &--fintech
+                color: $quaternary-cool
+            &--white
+                color: white
+                padding-right: 5px
+                padding-bottom: $spacer-cyan
+                border-bottom: 3px solid white
+                margin-right: $spacer-yellow
+                margin-bottom: $spacer-green
+                +media($mobile)
+                    padding: 30px 0 10px 0
+                    margin: 0
+        hr
+            display: block
+            margin: 0
+            padding: 0
+            border: 0
+            border-top: 2px solid rgba(0,0,0,0.1)
+            height: 2px
+            width: 100%
+            +media($tablet)
+                width: 90%
+            +media($mobile)
+                width: 100%
+        .link
+            +span-columns(4 of 7)
+            +omega(1n)
+            border-bottom: 1px solid rgba(0,0,0,0.2)
+            padding: $spacer-blue 0 0 0
+            +media($tablet)
+                +span-columns(6 of 8)
+                +omega(1n)
+            +media($mobile)
+                +span-columns(4 of 4)
+                padding: $spacer-green 0 $spacer-cyan 0
+                border-bottom: 1px solid rgba(0,0,0,0.2)
+            a
+                text-decoration: none
+                color: $tertiary
+                font-size: 16px
+                line-height: 20px
+                font-family: $sans
+                font-weight: 100
+                margin-left: auto
+                padding-bottom: 10px
+                +media($mobile)
+                    padding: 0
+            .fa
+                color: $tertiary
+                font-size: 22px
+                margin-right: auto
+                float: right
+                padding-bottom: 15px
+                +media($mobile)
+                    padding: 0
+    .label-wrapper
+        +span-columns(5 of 12)
+        +media($tablet)
+            +span-columns(3 of 8)
+        +media($mobile)
+            +span-columns(4 of 4)
+            margin-bottom: $spacer-yellow
+        h6
+            font-size: 16px
+            line-height: 26px
+            font-family: $header
+            font-weight: 600
+            color: white
+            text-transform: uppercase
+            margin: 0
+
+        .label
+            span
+                height: 4rem
+                display: flex
+                flex-direction: column
+                justify-content: center
+                color: $tertiary
+                font-size: 1.05rem
+                line-height: 1.1rem
+                font-weight: 300
+                text-decoration: none
+                text-align: left
+                font-family: $sans
+            transition: 0.3s
+
+        .label-swap
+            transition: 0.3s
+
+        .label
+            padding: 0 0 0 1rem
+            height: 4rem
+            margin-bottom: 1rem
+            background-color: white
+            background-position: left center
+            background-repeat: no-repeat
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
+            overflow: hidden
+            .label-swap
+                line-height: 2rem
+            &--fin-con
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/fin-con.png')
+                &:hover
+                  background-color: $quaternary-cool
+                  background-image: none
+                  color: white
+            &--fin-agile
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/fin-agile.png')
+                &:hover
+                  background-color: $quaternary-cool
+                  background-image: none
+                  color: white
+            &--fin-data
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/fin-data.png')
+                &:hover
+                  background-color: $quaternary-cool
+                  background-image: none
+                  color: white
+            &--fin-rtech
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/fin-rtech.png')
+                &:hover
+                  background-color: $quaternary-cool
+                  background-image: none
+                  color: white
+            &--health-rtech
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/health-rtech.png')
+                &:hover
+                  background-color: $health-tech-green
+                  background-image: none
+                  color: white
+            &--health-con
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/health-con.png')
+                &:hover
+                  background-color: $health-tech-green
+                  background-image: none
+                  color: white
+            &--health-agile
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/health-agile.png')
+                &:hover
+                  background-color: $health-tech-green
+                  background-image: none
+                  color: white
+            &--health-data
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/health-data.png')
+                &:hover
+                  background-color: $health-tech-green
+                  background-image: none
+                  color: white
+            &--high-rtech
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/high-rtech.png')
+                &:hover
+                  background-color: $high-tech-blue
+                  background-image: none
+                  color: white
+            &--high-con
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/high-con.png')
+                &:hover
+                  background-color: $high-tech-blue
+                  background-image: none
+                  color: white
+            &--high-agile
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/high-agile.png')
+                &:hover
+                  background-color: $high-tech-blue
+                  background-image: none
+                  color: white
+            &--high-data
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/label-bg/high-data.png')
+                &:hover
+                  background-color: $high-tech-blue
+                  background-image: none
+                  color: white
+
+        .label-swap
+            margin-top: 0em
+
+        .label:hover
+            .label-swap
+                margin-top: -3.7em
+            span
+                color: white
+            .fa
+                color: white
+
+    .card-wrapper
+        +span-columns(5 of 12)
+        +media($mobile)
+            +span-columns(4 of 4)
+        +media($tablet)
+            +span-columns(3 of 8)
+        h6
+            font-size: 16px
+            line-height: 26px
+            font-family: $header
+            font-weight: 600
+            color: white
+            margin: 0
+            &.careers
+                margin-top: -5px
+                margin-bottom: 10px
+            +media($mobile)
+                padding-top: $spacer-yellow
+                padding-bottom: 10px
+                line-height: 0
+        .tab-first
+            margin-top: -45px
+        .card
+            background-color: white
+            box-shadow: $white-box-shadow
+            margin-bottom: $spacer-cyan
+            padding-bottom: $spacer-cyan
+            margin-top: 10px
+            &--careers
+                margin-top: -20px
+            .notlink
+                text-align: left
+                padding: 0
+                font-family: $sans
+                font-size: 14px
+                text-decoration: none
+                color: $tertiary
+            a
+                text-align: center
+                padding: 10px 0 0 $spacer-cyan
+                font-family: $sans
+                font-size: $base
+                text-decoration: none
+                color: $tertiary
+                .fa
+                    padding-left: $spacer-green
+            h4.career
+                background-color: $quaternary-cool
+                font-size: $base
+                padding: $spacer-yellow $spacer-cyan $spacer-cyan $spacer-cyan
+                color: white
+                font-family: $header
+                font-weight: 600
+            h4.bos
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/boston-bg.png')
+                background-size: cover
+                background-repeat: no-repeat
+                background-position: center center
+                padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+                font-size: 22px
+                line-height: 28px
+                color: white
+                font-family: $header
+                font-weight: 600
+            h4.cam
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/cambridge-bg.png')
+                background-size: cover
+                background-repeat: no-repeat
+                background-position: center center
+                padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+                font-size: 22px
+                line-height: 28px
+                color: white
+                font-family: $header
+                font-weight: 600
+            h4.ny
+                background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/nyc-bg.png')
+                background-size: cover
+                background-repeat: no-repeat
+                background-position: center center
+                padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+                font-size: 22px
+                line-height: 28px
+                color: white
+                font-family: $header
+                font-weight: 600
+            p
+                font-weight: 100
+                padding: 0 $spacer-green 0 $spacer-cyan
+                +media($mobile)
+                    padding: 0 $spacer-cyan
+                +media($tablet)
+                    padding: 0 $spacer-cyan
+            .first
+                margin-top: -15px
+            hr
+                width: 60%
+                display: block
+                border: 0
+                border-top: 2px solid rgba(0,0,0,0.1)
+                height: 2px
+                margin-left: $spacer-cyan
+                +media($mobile)
+                    width: 90%
+.owl-carousel .owl-item .cta-icon
+    width: 50px !important
+    padding-top: $spacer-blue
+    margin: 0 auto
+    display: block
+
+.cta-carousel
+  margin-bottom: $spacer-yellow
+
+.cta-card
+  background-color: white
+  box-shadow: $white-box-shadow
+  text-align: center
+  margin-top: $spacer-blue
+  padding-bottom: 10px
+  margin-bottom: 5px
+  color: $text
+  border-top: 7px solid $tertiary
+  p
+      padding: 0 $spacer-pink $spacer-yellow $spacer-pink
+      +media($tablet)
+          padding: 0 $spacer-yellow $spacer-blue $spacer-yellow
+      +media($mobile)
+          padding: 0 $spacer-yellow $spacer-blue $spacer-yellow
+  hr
+      width: 100%
+      display: block
+      height: 1px
+      border: 0
+      border-top: 1px solid rgba(0,0,0,0.1)
+      padding-bottom: 7px
+  .link
+      display: block
+      position: absolute
+      padding: $spacer-cyan 0 $spacer-cyan 0
+      width: 100%
+      bottom: 0
+      border-top: 1px solid rgba(0,0,0,0.1)
+      a
+        text-decoration: none
+        color: $tertiary
+        font-size: 16px
+        line-height: 26px
+        font-family: $sans
+        font-weight: 100
+        padding-bottom: 10px
+        .fa
+            padding-left: $spacer-cyan
+
+.cta-slider-light
+    +span-columns(10 of 12)
+    margin-top: $spacer-blue
+    margin-bottom: $spacer-pink
+    +shift(1)
+    +media($tablet)
+        +span-columns(8 of 8)
+        +shift(0)
+    +media($mobile)
+        +span-columns(4 of 4)
+        +shift(0)
+    .cta-card
+        background-color: white
+        box-shadow: $white-box-shadow
+        text-align: center
+        margin: 0 auto
+        padding-bottom: 10px
+        p
+            padding: 0 $spacer-pink $spacer-cyan $spacer-pink
+            +media($tablet)
+                padding: 0 $spacer-yellow $spacer-cyan $spacer-yellow
+            +media($mobile)
+                padding: 0 $spacer-green
+        .link
+            display: block
+            position: absolute
+            padding: $spacer-cyan 0 0 0
+            width: 100%
+            bottom: 0
+            border-top: 1px solid rgba(0,0,0,0.1)
+            a
+              text-decoration: none
+              color: $tertiary
+              font-size: 16px
+              line-height: 26px
+              font-family: $sans
+              font-weight: 100
+              .fa
+                  padding-left: $spacer-cyan
+        img
+            width: 9%
+            padding-top: $spacer-green
+        hr
+            width: 100%
+            display: block
+            height: 1px
+            border: 0
+            border-top: 1px solid rgba(0,0,0,0.1)
+            padding-bottom: 7px
+        p
+            color: $text
+
+
+.about-full-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/company/about-full-bg.png')
+    background-position: bottom center
+    background-repeat: no-repeat
+    background-size: cover
+    text-align: center
+    padding-top: $spacer-yellow
+    +media($mobile)
+        padding-top: $spacer-green
+    h2
+        color: $primary
+        margin: 0
+    p
+        font-weight: 100
+        color: $text
+        padding: 0 $spacer-pink
+        margin-bottom: $spacer-yellow
+        +media($mobile)
+            padding: 0 $spacer-green
+            margin-bottom: $spacer-green
+    button
+        padding: 10px 20px
+        width: 30%
+        margin-bottom: $spacer-red * 2
+        +media($mobile)
+            width: 40%
+            padding: 10px
+            margin-bottom: $spacer-pink
+        a
+            text-transform: none
+            padding: 10px 20px
+            font-weight: 300
+            font-size: $base
+
+.inner-gradient--purple
+    background-image: linear-gradient(to right, $primary, $quaternary-cool)
+    padding: $spacer-green $spacer-cyan
+    margin-bottom: $spacer-blue
+    margin-top: $spacer-green
+    +media($mobile)
+        padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
+        margin-top: $spacer-blue
+    p
+        color: white !important
+        padding-right: $spacer-blue
+        +media($mobile)
+            padding: 0
+
+.inner-gradient--green
+    background-image: linear-gradient(to right, $primary-dark, $health-tech-green)
+    padding: $spacer-green $spacer-cyan
+    margin-bottom: $spacer-blue
+    +media($mobile)
+        padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
+        margin-top: $spacer-blue
+    p
+        color: white !important
+        padding-right: $spacer-blue
+        +media($mobile)
+            padding: 0
+
+.inner-gradient--blue
+    background-image: linear-gradient(to right, $primary, $high-tech-blue)
+    padding: $spacer-green $spacer-cyan
+    margin-bottom: $spacer-blue
+    +media($mobile)
+        padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
+        margin-top: $spacer-blue
+    p
+        color: white !important
+        padding-right: $spacer-blue
+        +media($mobile)
+            padding: 0
+
+.bg-gradient--vert
+    background: linear-gradient(to top, rgba(255,255,255,1) 49%,$tertiary 49%,$primary 100%)
+
+.for-gradient--blue
+    background: linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    background-size: 100% 50%, 100% 51%
+    background-position: 0 0, 30% 100%
+    background-repeat: no-repeat, no-repeat
+    +media($mobile)
+        background: linear-gradient(to right, $high-tech-blue, $primary)
+        background-size: 100% 100%
+        background-position: 0 0
+        background-repeat: no-repeat
+
+
+.for-gradient--blue-full
+    background: linear-gradient(to right, $high-tech-blue, $primary)
+
+.for-gradient--purple
+    background: linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    background-size: 100% 50%, 100% 51%
+    background-position: 0 0, 30% 100%
+    background-repeat: no-repeat, no-repeat
+    +media($mobile)
+        background: linear-gradient(to right, $quaternary-cool, $primary)
+        background-size: 100% 100%
+        background-position: 0 0
+        background-repeat: no-repeat
+
+.for-gradient--green
+    background: linear-gradient(to right, $health-tech-green, $primary-dark), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    background-size: 100% 50%, 100% 51%
+    background-position: 0 0, 30% 100%
+    background-repeat: no-repeat, no-repeat
+    +media($mobile)
+        background: linear-gradient(to right, $health-tech-green, $primary-dark)
+        background-size: 100% 100%
+        background-position: 0 0
+        background-repeat: no-repeat
+
+.centered-bg--vert
+    +span-columns(12)
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/careers/careers-cta-bg.png')
+    background-position: right center
+    background-repeat: no-repeat
+    box-shadow: $white-box-shadow
+    background-color: $white
+    margin-bottom: $spacer-blue
+    +media($mobile)
+      +span-columns(4)
+    .text-wrap
+        +span-columns(8 of 12)
+        padding: $spacer-pink $spacer-green $spacer-pink $spacer-yellow
+        +media($laptop)
+          +span-columns(9 of 12)
+          padding: $spacer-yellow $spacer-green $spacer-yellow $spacer-yellow
+        +media($mobile)
+          +span-columns(4 of 4)
+          padding: $spacer-green
+        h3
+            font-size: 42px
+            line-height: 45px
+            color: $text
+            font-family: $header
+            margin: 0
+            padding: $spacer-green 0
+        h5
+            font-size: 26px
+            line-height: 33px
+            font-weight: 100
+            font-family: $sans
+            color: $text-light
+            margin: 0
+            padding: $spacer-green 0
+        button
+            padding: 12px
+            margin-right: $spacer-cyan
+            +media($tablet)
+              margin: 0 auto 10px auto
+            +media($mobile)
+              margin: 0 auto 10px auto
+              display: block
+            a
+                text-transform: none
+                font-weight: 400
+                font-size: $base
+    .careers-anim-wrap
+        +span-columns(3 of 12)
+        padding: 0
+        float: right
+        margin-left: 50px
+
+.careers-center-bg
+    background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/careers/careers-mid-bg.png?raw=true')
+    background-position: bottom center
+    background-repeat: no-repeat
+    padding-bottom: $spacer-yellow
+    position: relative
+
+.careers-mid-box
+    +span-columns(12)
+    background-color: white
+    box-shadow: $white-box-shadow
+    margin: $spacer-blue 0
+    padding: $spacer-pink $spacer-blue $spacer-yellow $spacer-blue
+    text-align: center
+    position: relative
+    +media($mobile)
+      +span-columns(4)
+    p
+        color: $text-light
+        font-weight: 100
+        margin: 0
+        padding-bottom: $spacer-green
+    .small
+        font-size: 14px
+        line-height: 26px
+        font-weight: 300
+        color: $text
+    .sm-icon
+        +span-columns(4 of 12)
+        +omega(3n)
+        border-bottom: 2px solid rgba(0,0,0,0.1)
+        color: $text
+        +media($mobile)
+          +span-columns(4 of 4)
+          margin-bottom: 25px
+        img
+            padding-bottom: $spacer-cyan
+            width: 15%
+    h3
+        color: $text
+        font-size: 42px
+        margin: 0
+        padding-bottom: $spacer-green
+        line-height: 50px
+
+.careers-testimonial
+    +span-columns(12)
+    box-shadow: $white-box-shadow
+    margin-top: -50px !important
+    display: flex
+    position: relative
+    +media($mobile)
+      +span-columns(4)
+      margin-top: 40px
+    .ct-left
+        +span-columns(5 of 12, collapse)
+        background-image: linear-gradient(to bottom, $primary, $tertiary)
+        padding: $spacer-green
+        +media($mobile)
+          +span-columns(4 of 4)
+        img
+            width: 15%
+        h5
+            color: white
+            font-weight: 100
+            font-family: $sans
+            font-size: 14px
+            line-height: 33px
+            margin: 0
+            padding-top: 10px
+        p
+            color: white
+            font-weight: 100
+            font-size: $base
+    .ct-right
+        +span-columns(7 of 12)
+        background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/blue-waves.png?raw=true')
+        background-repeat: no-repeat
+        background-position: bottom center
+        padding: $spacer-green $spacer-green $spacer-yellow $spacer-yellow
+        font-size: 18px
+        line-height: 26px
+        font-weight: 100
+        background-color: white
+        +media($mobile)
+          +span-columns(4 of 4)
+          padding: $spacer-green
+        p
+          &:before
+            content: '\f18e'
+            font-family: 'FontAwesome'
+            color: $tertiary
+            margin-left: -40px
+            padding-right: 20px
+        .fa
+            color: $tertiary
+            margin-left: -40px
+            padding-right: 20px
+            +media($mobile)
+              display: none
+
+.office-slider
+    margin-bottom: $spacer-pink
+    h4
+        color: $primary
+        font-family: $header
+        font-size: 42px
+        line-height: 50px
+        margin: 0
+        padding: $spacer-yellow 0 $spacer-green 0
+    .item
+        background-color: $white
+        box-shadow: $white-box-shadow
+        +span-columns(4)
+        +shift(4)
+        padding: 0
+        width: 400px
+        margin: 0 auto
+        h4.bos
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/boston-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-pink 0 $spacer-cyan $spacer-cyan
+            font-size: $med
+            line-height: 32px
+            color: white
+            font-family: $header
+            font-weight: 600
+        h4.cam
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/cambridge-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-pink 0 $spacer-cyan $spacer-cyan
+            font-size: $med
+            line-height: 32px
+            color: white
+            font-family: $header
+            font-weight: 600
+        h4.ny
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/nyc-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-pink 0 $spacer-cyan $spacer-cyan
+            font-size: $med
+            line-height: 32px
+            color: white
+            font-family: $header
+            font-weight: 600
+        p
+            font-weight: 100
+            padding: 0 $spacer-green 0 $spacer-cyan
+        .first
+            margin-top: -15px
+        hr
+            width: 60%
+            display: block
+            border: 0
+            border-top: 2px solid rgba(0,0,0,0.1)
+            height: 2px
+            margin-left: $spacer-cyan
+
+.openings
+    background-color: $primary-dark
+    padding: $spacer-blue 0
+    h3
+        color: white
+        font-size: 42px
+        a
+          color: white
+    h6
+        font-family: $header
+        font-weight: 600
+        color: white
+        margin: 0
+        padding-bottom: 8px
+    .filter-wrap
+        +span-columns(3 of 12)
+        background-color: white
+        box-shadow: $white-box-shadow
+        padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
+        fieldset
+            border: 0
+            padding: 0
+            margin: 0
+            padding: 0
+            font-size: 100%
+            font: $sans
+            vertical-align: baseline
+        p
+            font-size: 14px
+            color: $text
+            font-weight: 100
+            font-family: $sans
+            strong
+                font-family: $header
+        .checkbox
+            display: block
+            position: relative
+            cursor: pointer
+            input[type="checkbox"]
+                position: absolute
+                display: block
+                top: 0
+                left: 0
+                height: 100%
+                cursor: pointer
+                margin: 10px 0 0 0
+                opacity: 0
+                z-index: 1
+            label
+                display: inline-block
+                padding-left: 1.5em
+                color: $text
+                font-weight: 100
+                font-size: 14px
+                font-family: $sans
+            label:before, label:after
+                content: ''
+                display: block
+                position: absolute
+            label:before
+                left: 0
+                top: 0
+                width: 12px
+                height: 12px
+                margin-right: 10px
+                background: transparent
+                border: 1px solid $tertiary
+            label:after
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 12px
+                height: 12px
+                background-color: $tertiary
+                opacity: 0
+                pointer-events: none
+            input:checked ~ label:after
+                opacity: 1
+    .filter-results
+        +span-columns(8 of 12)
+        line-height: 50px
+        ul
+            margin: 0
+            padding: 0
+            li
+                display: inline-block
+        .job-post
+            +fill-parent()
+            background-color: white
+            box-shadow: $white-box-shadow
+            display: none
+            margin-bottom: $spacer-green
+            h4
+                color: $text
+                margin: 0
+                font-size: 26px
+                line-height: 33px
+                padding: $spacer-cyan $spacer-blue
+            ul
+                margin: 0 0 $spacer-blue 0
+                padding: 0 $spacer-blue $spacer-blue $spacer-blue
+                li
+                    +span-columns(4 of 8)
+                    +omega(2n)
+                    font-family: $sans
+                    font-size: 16px
+                    color: $text
+                    margin: 0
+                    line-height: 1.8
+                    strong
+                        color: $text-light
+            hr
+                +fill-parent()
+                display: block
+                margin: 0
+                height: 1px
+                border: 0
+                padding: 0
+                border-top: 1px solid rgba(0,0,0,0.2)
+            a
+                text-decoration: none
+                font-family: $sans
+                font-size: 16px
+                line-height: 26px
+                font-weight: 100
+                color: $tertiary
+                padding: 0 $spacer-blue
+                .fa
+                    padding-left: $spacer-blue
+        .mix
+            +fill-parent()
+            background-color: white
+            box-shadow: $white-box-shadow
+            display: none
+            margin-bottom: $spacer-green
+            h4
+                color: $text
+                margin: 0
+                font-size: 26px
+                line-height: 33px
+                padding: $spacer-cyan $spacer-blue
+            ul
+                margin: 0 0 $spacer-blue 0
+                padding: 0 $spacer-blue $spacer-blue $spacer-blue
+                li
+                    +span-columns(4 of 8)
+                    +omega(2n)
+                    font-family: $sans
+                    font-size: 16px
+                    color: $text
+                    margin: 0
+                    line-height: 1.8
+                    strong
+                        color: $text-light
+            hr
+                +fill-parent()
+                display: block
+                margin: 0
+                height: 1px
+                border: 0
+                padding: 0
+                border-top: 1px solid rgba(0,0,0,0.2)
+            a
+                text-decoration: none
+                font-family: $sans
+                font-size: 16px
+                line-height: 26px
+                font-weight: 100
+                color: $tertiary
+                padding: 0 $spacer-blue
+                .fa
+                    padding-left: $spacer-blue
+        .fin
+            border-top: 7px solid $quaternary-cool
+        .health
+            border-top: 7px solid $health-tech-green
+        .high
+            border-top: 7px solid $high-tech-blue
+
+.apply-cta
+    background-color: $text-light
+    text-align: center
+    padding: $spacer-yellow 0
+    color: white
+    .btn-wrap
+        margin: 0 auto
+        display: inline-block
+        .small
+            font-size: 13px
+        button
+            padding: 10px 20px
+            a
+                text-transform: none
+                padding: 10px 20px
+        #file-upload
+            position: absolute
+            left: -9999px
+            margin: 0
+        label[for="file-upload"]
+            padding: 10px 20px
+            height: auto
+            font-size: 13px
+            margin: 0
+            display: inline-block
+            background: $primary
+            cursor: pointer
+            &:hover
+                background: darken($primary ,17%)
+            input
+                margin: 0
+                border: 0
+        #filename
+            padding: 10px 20px
+            width: 40%
+            white-space: nowrap
+            overflow: hidden
+            margin: 0
+            background: white
+            color: $text-light
+            font-family: $sans
+            font-size: 13px
+            margin-left: -5px
+            border: 0
+
+.eeo
+    background-color: #5d6770
+    color: white
+    text-align: center
+    font-size: 12px
+    padding: $spacer-blue
+
+.link-arrow
+  -webkit-animation-duration: 2s
+  animation-duration: 2s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+  animation-iteration-count: infinite
+  -webkit-animation-iteration-count: infinite
+
+
+@-webkit-keyframes bounce-left
+  0%, 20%, 50%, 80%, 100%
+    -webkit-transform: translateY(0)
+
+  40%
+    -webkit-transform: translateX(30px)
+
+  60%
+    -webkit-transform: translateX(15px)
+
+
+@keyframes bounce-left
+  0%, 20%, 50%, 80%, 100%
+    transform: translateX(0)
+
+  40%
+    transform: translateX(30px)
+
+  60%
+    transform: translateX(15px)
+
+
+.link-arrow:hover > .fa-arrow-circle-o-right
+  -webkit-animation-name: bounce-left
+  animation-name: bounce-left
+  -webkit-animation-duration: 2s
+  animation-duration: 2s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+  animation-iteration-count: infinite
+  -webkit-animation-iteration-count: infinite
+
+.link-arrow:hover > .fa-arrow-circle-right
+  -webkit-animation-name: bounce-left
+  animation-name: bounce-left
+  -webkit-animation-duration: 2s
+  animation-duration: 2s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+  animation-iteration-count: infinite
+  -webkit-animation-iteration-count: infinite
+
+.job-result
+    background-color: white
+    padding: $spacer-blue
+    color: $text

@@ -1,0 +1,252 @@
+
+.nf-form-fields-required
+    display: none
+
+.footer-form
+    margin: 0 auto
+    display: block !important
+    +media($mobile)
+        padding-bottom: $spacer-blue
+
+.field-wrap
+    width: 80%
+
+.input-holder, .ninja-forms-field
+    position: relative
+    margin: 0 0 20px
+
+.footer-label, .nf-field-label, .nf-field-1
+    font-family: $sans
+    color: #fff
+    font-size: 14px
+    font-weight: 300
+    +media($hd)
+        font-size: 14px
+    +media($tablet)
+        font-size: $base-small
+    +media($mobile)
+        font-size: $base-base
+
+.footer-input, .footer-textarea, .ninja-forms-field
+    border: 0
+    outline: 0
+    padding: 10px 20px
+    background-color: #efefef
+    width: 80%
+    resize: none
+    transition: .3s
+    font-family: $sans 
+    font-weight: 300
+    font-size: 14px
+    color: $primary
+    padding: 11px
+    margin-top: 10px
+    +media($hd)
+        font-size: $base-base
+        padding: 15px
+        width: 80%
+    +media($tablet)
+        width: 100%
+        font-size: 16px
+    +media($mobile)
+        width: 90%
+        padding: 15px
+        font-size: 16px
+        border-radius: 0
+
+.ninja-forms-req-symbol
+    color: white
+
+.footer-textarea
+    min-height: 100px
+    +media($hd)
+        min-height: 150px
+    +media($mobile)
+        margin: 8px auto 0 auto
+
+.nf-error .ninja-forms-field
+    border: 1px solid $error !important
+
+.nf-error-msg
+    font-family: $header
+    color: $error
+    font-size: 14px
+
+.footer-error
+    position: absolute
+    z-index: 9
+    display: none
+    width: 40%
+    padding: 5px
+    margin-top: 10px
+    background: $error
+    color: #fff
+    text-align: center
+    +media($hd)
+        width: 80%
+    &:after
+        content: ""
+        position: absolute
+        top: -10px
+        left: 50%
+        display: block
+        margin-left: -10px
+        border: solid
+        border-color: $error transparent $error
+        border-width: 0 10px 10px
+
+.footer-is-valid
+    border-color: $success !important
+    transition: 0
+
+.footer-not-valid
+    border-color: $error
+    transition: 0
+    &+.message
+        display: block !important
+
+.footer-submit, #nf-field-4
+    display: block
+    padding: 8px
+    border: 0
+    width: 100%
+    border-radius: 0
+    background: $primary
+    color: #fff
+    font-family: $header
+    font-size: 16px
+    transition: .3s
+    +media($hd)
+        width: 80%
+        padding: 10px
+        font-size: $large-base
+    +media($tablet)
+        width: 100%
+        border-radius: 0
+        padding: 12px
+        font-size: 16px
+    +media($mobile)
+        margin: 0 auto
+        width: 90%
+        font-size: 16px
+        border-radius: 0
+
+.header-form-mobile
+    display: none
+    +media($tablet)
+        display: none
+    +media($mobile)
+        +span-columns(4 of 4)
+        input.half
+            +span-columns(2 of 4)
+            +omega(2n)
+            border: 0
+            outline: 0
+            padding: 10px 20px
+            resize: none
+            transition: .3s
+            font-family: $sans
+            border-bottom: 1px solid #efefef
+            font-weight: 300
+            font-size: 12px
+            color: $primary
+            padding: 11px
+            margin-top: 10px
+            transition: all .3s ease-in-out
+            &:focus
+                box-shadow: 0
+                outline: none
+                -webkit-appearance: none
+                border-bottom: 1px solid $primary
+        textarea
+            +span-columns(4 of 4)
+            +omega(1n)
+            padding: 10px
+            margin: 10px 0
+            background: white
+            border-bottom: 1px solid $text-light
+            border: 0
+            transition: all .3s ease-in-out
+            resize: none
+            font-family: $sans
+            border-bottom: 1px solid #efefef
+            font-weight: 300
+            font-size: 12px
+            color: $primary
+            &:focus
+                box-shadow: none
+                outline: none
+                border-bottom: 1px solid $primary
+                border: 0
+        .mobile-submit
+            display: block
+            width: 80%
+            padding: 8px
+            border: 0
+            border-radius: 0
+            background: $primary
+            color: #fff
+            font-family: $header
+            font-size: 12px
+            transition: .3s
+
+
+.form-text
+    position: absolute
+    left: 40%
+    transform: translateX(-50%)
+    font-family: sans-serif
+    text-transform: uppercase
+    letter-spacing: 2px
+
+ul.items
+    position: absolute
+    width: 30px
+    height: auto
+    top: 50%
+    left: -60px
+    transform: translateY(-50%)
+    li
+      width: 8px
+      height: 8px
+      margin: 10px 0
+      background: white
+      border-radius: 50%
+      opacity: 0.4
+      cursor: pointer
+      &.active
+        opacity: 1
+
+.header-form
+    +span-columns(12)
+    display: flex
+    flex-flow: row-wrap
+    justify-content: center
+    align-items: center
+    margin: 26px 0
+    span
+        text-align: center
+        font-family: $header
+        color: $text
+        font-size: 18px
+        margin-right: 46px
+    #nf-form-2-cont
+        display: inline-flex
+    #nf-field-5-container, #nf-field-6-container, #nf-field-8-container, #nf-field-9-container
+        display: inline-flex
+        margin-bottom: 0
+    #nf-field-8
+        background-color: $primary
+        font-family: $header
+        color: white
+        text-transform: uppercase
+        padding: 10px 20px
+    #nf-field-5, #nf-field-6, #nf-field-9
+        padding: 8px 20px
+        background-color: #efefef
+        border-bottom: 3px solid transparent
+        font-family: $header
+        color: $primary
+        transition: all 0.3s ease
+        &:focus
+            border-bottom: 3px solid $primary

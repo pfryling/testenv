@@ -1,0 +1,49 @@
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="38.94" y1="77.25" x2="38.94" y2="0.19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4fd6ff"/>
+      <stop offset="1" stop-color="#5c70ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="38.82" y1="77.25" x2="38.82" y2="0.19" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="38.94" y1="77.25" x2="38.94" y2="0.19" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="38.7" y1="77.25" x2="38.7" y2="0.19" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="38.69" y1="77.25" x2="38.69" y2="0.19" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>databridge-icon--</title>
+  <g id="corner_slash" class="pullRight" data-name="corner slash">
+    <path class="cls-1" d="M61.19,23.8a9.21,9.21,0,0,1-.59-1.66l-21.28,13L17.1,21.83A8.86,8.86,0,0,1,14,27L33.56,38.72l5.8,3.48,5.77-3.53,18.77-11.5A9.06,9.06,0,0,1,61.19,23.8Z" transform="translate(0 0)"/>
+  </g>
+  <g id="cube" class="rotate">
+    <path class="cls-2" d="M38.82,59.64l-17.39-10V29.52l17.39-10,17.39,10V49.6ZM27.43,46.14l11.39,6.58,11.39-6.58V33L38.82,26.41,27.43,33Z" transform="translate(0 0)"/>
+  </g>
+  <g id="OuterLines" class="rotate">
+    <path class="cls-3" d="M60.61,55.35,50.75,49.4l3.1-5.14,10,6.06A9.15,9.15,0,0,0,60.61,55.35Zm-43.84-.91a9.1,9.1,0,0,1,.34,1.22l9.79-5.91-3.1-5.14L14,50.52A9,9,0,0,1,16.77,54.44ZM41.82,3.94h-6v19h6Zm0,51.5h-6v19h6Z" transform="translate(0 0)"/>
+  </g>
+  <g id="Circles" class="grow">
+    <path class="cls-4" d="M69.45,25.68a5.74,5.74,0,1,1,2-11.13h0a5.74,5.74,0,0,1-2,11.13Zm0-7.47a1.74,1.74,0,1,0,.59.1A1.73,1.73,0,0,0,69.45,18.2ZM8.17,25.68a5.74,5.74,0,1,1,2-11.13h0a5.74,5.74,0,0,1-2,11.13Zm0-7.47a1.74,1.74,0,1,0,.59.1A1.74,1.74,0,0,0,8.17,18.21ZM7.94,63.28a5.73,5.73,0,0,1-2-.35H6a5.7,5.7,0,1,1,2,.35Zm-.59-4.11a1.73,1.73,0,1,0-1-2.22,1.72,1.72,0,0,0,1,2.22Zm61.87,4.1a5.7,5.7,0,0,1-2-.34h0a5.73,5.73,0,1,1,2,.34Zm-.59-4.1a1.74,1.74,0,1,0-1-2.22,1.74,1.74,0,0,0,1,2.22Z" transform="translate(0 0)"/>
+  </g>
+  <g id="OutsideShapes" class="rotate">
+    <path class="cls-5" d="M58,12.32a32.52,32.52,0,0,0-36.81-1.17q-.7.45-1.38.92l-3.47-4.9q.8-.56,1.63-1.09A38.48,38.48,0,0,1,61.5,7.47ZM59.45,71.4q.83-.53,1.63-1.09l-3.47-4.9q-.67.48-1.38.92a32.52,32.52,0,0,1-36.81-1.17L15.89,70A38.49,38.49,0,0,0,59.45,71.4ZM3,35.74a3,3,0,1,0,3,3A3,3,0,0,0,3,35.74Zm71.39,0a3,3,0,1,0,3,3A3,3,0,0,0,74.39,35.74Z" transform="translate(0 0)"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.69 77.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-8);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="67.75" y1="77.33" x2="67.75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4fd6ff"/>
+      <stop offset="1" stop-color="#5c70ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="14.33" y1="77.33" x2="14.33" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="40.35" y1="77.33" x2="40.35" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="39.47" y1="77.33" x2="39.47" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="50.43" y1="77.33" x2="50.43" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="30.26" y1="77.33" x2="30.26" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>r-tech-icon</title>
+  <g id="dots" class="grow">
+    <circle class="cls-1" cx="67.75" cy="15.65" r="3"/>
+    <circle class="cls-2" cx="14.33" cy="63.07" r="3"/>
+  </g>
+  <g id="lines" class="pullUp">
+    <rect class="cls-3" x="37.35" y="3.96" width="6" height="10.34"/>
+    <rect class="cls-3" x="37.35" y="63.07" width="6" height="11.31"/>
+  </g>
+  <g id="brackets" class="rotate">
+    <path class="cls-4" d="M71.22,32.34H52.39v-3a12,12,0,0,0-24.08,0h-6a18,18,0,0,1,35.83-3H71.22ZM58.39,48h-6a12,12,0,0,1-24.08,0V45H7.72v6H22.56a18,18,0,0,0,35.83-3Z"/>
+  </g>
+  <g id="inner-icon" class="grow">
+    <path class="cls-3" d="M74.95,35.08a5.74,5.74,0,1,1,2-11.13h0a5.74,5.74,0,0,1-2,11.13Zm0-7.47a1.73,1.73,0,1,0,.59.1h0A1.73,1.73,0,0,0,75,27.61ZM5.74,53.18a5.75,5.75,0,1,1,2.42-.54A5.74,5.74,0,0,1,5.74,53.18Zm0-7.47a1.74,1.74,0,1,0,.59.1A1.73,1.73,0,0,0,5.74,45.7Zm44,.44V33.92A9.76,9.76,0,0,0,40.13,24c-6.36,0-9.58,3-9.58,8.81a2.5,2.5,0,0,0,5,0c0-2.37.31-3.81,4.58-3.81a4.76,4.76,0,0,1,4.58,4.9V46.14A3.69,3.69,0,0,1,41.17,50c-4.07,0-4.54-2.18-4.54-3.82V42.72a1.58,1.58,0,0,1,.24-1,.91.91,0,0,1,.55-.11c.5,0,1.13-.1,1.13,1.77a2.5,2.5,0,0,0,5,0c0-4.11-2.37-6.77-6-6.77h0a5.55,5.55,0,0,0-4.19,1.52,6.31,6.31,0,0,0-1.75,4.59v3.42c0,4.26,2.51,8.82,9.54,8.82A8.69,8.69,0,0,0,49.72,46.14Z"/>
+  </g>
+  <g id="outer-shapes" class="rotate">
+    <g>
+      <path class="cls-5" d="M40.28,77.37a38.46,38.46,0,0,1-18.43-4.7l2.87-5.27A32.73,32.73,0,0,0,69.07,54.31a32.38,32.38,0,0,0,3.94-14l6,.29a38.34,38.34,0,0,1-4.67,16.63A38.73,38.73,0,0,1,40.28,77.37Z"/>
+      <path class="cls-6" d="M7.68,37.11l-6-.29A38.32,38.32,0,0,1,6.36,20.19,38.74,38.74,0,0,1,58.84,4.7L56,10A32.73,32.73,0,0,0,11.63,23.06,32.38,32.38,0,0,0,7.68,37.11Z"/>
+    </g>
+  </g>
+</svg>

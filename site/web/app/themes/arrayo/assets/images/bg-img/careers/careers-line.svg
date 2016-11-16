@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="777px" viewBox="0 0 4 777" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>careers-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2BD9C2" offset="0%"></stop>
+            <stop stop-color="#B08FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="careers-line" fill="url(#linearGradient-1)">
+            <g id="Page-1">
+                <rect id="Rectangle" x="0" y="0" width="4" height="777"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

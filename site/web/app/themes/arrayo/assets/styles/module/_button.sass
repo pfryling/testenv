@@ -1,0 +1,51 @@
+button, input[type="submit"]
+    background: linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0)
+    transition: background 350ms ease-in-out
+
+
+button:hover, input[type="submit"]:hover
+    transition: all .3s ease-in-out
+    background-position: bottom left
+
+input[type="submit"]
+    outline: 0
+    padding: 10px 20px
+
+button, .applybtn
+    padding: 5px 20px
+    border: 0
+    outline: 0
+    color: white
+    font-family: $header
+    font-size: 14px
+    background-color: $primary
+    +media($hd)
+        padding: 20px 30px
+    +media($tablet)
+        padding: 20px
+    a
+        color: white
+        font-family: $header
+        font-size: $base
+        font-weight: 300
+        text-transform: uppercase
+        line-height: 0
+        padding: 5px 20px
+        +media($hd)
+            padding: 20px 30px
+        &:hover
+            color: white
+            text-decoration: none
+
+.applybtn
+    margin-top: -20px
+    +media($desktop)
+        padding: 10px
+
+.expert
+    padding: 10px
+    width: 40%
+    font-size: 18px
+    +media($mobile)
+        font-size: 16px
+        width: auto

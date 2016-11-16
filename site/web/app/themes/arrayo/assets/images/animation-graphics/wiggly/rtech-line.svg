@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="162px" viewBox="0 0 1500 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="49.0390625%" cy="50%" fx="49.0390625%" fy="50%" r="55.8389978%" id="radialGradient-1">
+            <stop stop-color="#BF33B2" offset="0%"></stop>
+            <stop stop-color="#8E9BFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,126.048 C53.716,126.048 250.084,141.507 294.426,141.507 C338.767,141.507 355.743,116.966 383.108,116.966 C410.473,116.966 451.014,152.509 477.365,152.509 C503.716,152.509 522.973,129.659 560.473,129.659 C597.973,129.659 627.365,155.894 649.155,155.894 C670.946,155.894 662.078,2.001 728.595,2.001 C795.112,2.001 774.324,159.183 813.345,159.183 C852.365,159.183 839.189,84.025 888.851,84.025 C938.514,84.025 926.098,151.661 987.162,151.661 C1048.226,151.661 1076.351,131.353 1157.432,131.353 C1238.514,131.353 1292.23,149.124 1368.243,149.124 C1444.257,149.124 1468.581,125.429 1500,125.429" stroke="url(#radialGradient-1)" stroke-width="4"></path>
+    </g>
+</svg>

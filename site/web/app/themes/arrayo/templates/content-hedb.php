@@ -1,0 +1,121 @@
+ <?php the_content(); ?>
+ <div class="for-gradient--green">
+    <div class="subpage-header-logo-container">
+            <img src="../assets/img/header-logos/health-agiledata.png" class="sub-logo rotate">
+        </div>
+        <div class="wrapper">
+            <section class="sub-page-header">
+                <h1><?php the_field('db_he--header'); ?></h1>
+                <?php the_field('db_he--subheader'); ?>
+            </section>
+
+            <section class="location-info">
+                <div class="text-wrap--alt">
+                <div class="text text--for wow fadeInUp">
+                    <h2 class="health for"><?php the_field('db_he_box--header1'); ?></h2>
+                    <h5 class="for"><?php the_field('db_he_box--subheader1'); ?></h5>
+                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <p><strong><?php the_field('db_he_box--text1'); ?></strong></p>
+                    <hr><br>
+                    <?php the_field('db_he_box--text2'); ?>
+                </div>
+                <div class="text text--for wow fadeInUp">
+                    <h2 class="health for"><?php the_field('db_he_box--header2'); ?></h2>
+                    <h5 class="for"><?php the_field('db_he_box--subheader2'); ?></h5>
+                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <p><strong><?php the_field('db_he_box--text3'); ?></strong></p>
+                    <?php the_field('db_he_box--text4'); ?>
+                    <?php the_field('db_he_box--text5'); ?>
+                    <?php the_field('db_he_box--text6'); ?>
+                    <?php the_field('db_he_box--text7'); ?>
+                    <div class="inner-gradient--green">
+                        <p><?php the_field('db_he_box--list1'); ?></p>
+                    </div>
+                        <p><?php the_field('db_he_box--text8'); ?></p>
+                    </div>
+                <div class="text text--for wow fadeInUp">
+                    <h2 class="health for"><?php the_field('db_he_box--header3'); ?></h2>
+                    <h5 class="for"><?php the_field('db_he_box--subheader3'); ?></h5>
+                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <?php the_field('db_he_box--text9'); ?>
+                </div>
+                </div>
+
+                <div class="label-wrapper">
+                    <h6>other healthtech services</h6>
+                    <div class="label label--health-con wow fadeInUp">
+                            <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="/connect/healthtechwrapper">
+                        <span class="label-swap">
+                              Connect for HealthTech
+                            </span>
+                            <span>
+                              <?php the_field('he_con--text'); ?>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="label label--health-agile wow fadeInUp">
+                            <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="/agiledata/healthtechwrapper">
+                        <span class="label-swap">
+                              AgileData for HealthTech
+                            </span>
+                            <span>
+                              <?php the_field('he_ad--text'); ?>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="label label--health-data wow fadeInUp">
+                            <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="/rtech/healthtechwrapper">
+                        <span class="label-swap">
+                              RTech for HealthTech
+                            </span>
+                            <span>
+                              <?php the_field('he_rt--text'); ?>
+                            </span>
+                        </a>
+                    </div>
+                    <br>
+                    <h6>r-tech industries</h6>
+                    <div class="label label--fin-rtech wow fadeInUp">
+                            <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="/databridge/fintechwrapper">
+                        <span class="label-swap">
+                              DataBridge for FinTech
+                            </span>
+                            <span>
+                             <?php the_field('fin_db--text'); ?>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="label label--high-rtech wow fadeInUp">
+                    <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="/databridge/hightechwrapper">
+                        <span class="label-swap">
+                              DataBridge for HighTech
+                            </span>
+                            <span>
+                              <?php the_field('hi_db--text'); ?>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+</div>
+ <section class="contact-footer wow fadeInUp" id="contact">
+    <div class="wrapper">
+            <div class="text">
+                <h2>Ask Team Arrayo</h2>
+                <p>The quest for efficiency has essentially shifted from the manual delivery of services to the design of highly automated and integrated digital systems.
+                    <br>
+                    <br>What’s your digital ambition? What’s your primary digital focus? What user experience do you envision?</p>
+                <h5>Let's talk!</h5>
+            </div>
+            <div class="form">
+                    <?php echo do_shortcode("[ninja_form id=1]"); ?>
+                </div>
+        </div>
+    </section>
+    </div>

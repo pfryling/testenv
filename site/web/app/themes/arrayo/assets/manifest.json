@@ -1,0 +1,52 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.sass"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "navigation-parent.js": {
+      "files": [
+        "scripts/navigation-parent.js"
+      ]
+    },
+    "navigation.js": {
+      "files": [
+        "scripts/navigation.js"
+      ]
+    },
+    "apply-modal.js": {
+      "files": [
+        "scripts/apply-modal.js"
+      ]
+    },
+    "text-highlighter.js": {
+      "files": [
+        "scripts/text-highligher.js"
+      ]
+    },
+    "tabs.js": {
+      "files": [
+        "scripts/tabs.js"
+      ]
+    },
+    "carousel.js": {
+      "files": [
+        "scripts/carousel.js"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://arrayo.dev"
+  }
+}
