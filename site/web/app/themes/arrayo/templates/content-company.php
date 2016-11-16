@@ -10,7 +10,7 @@
                 <div class="text">
                     <h4><?php the_field('company_box--header'); ?></h4>
                     <h5><?php the_field('company_box--subheader'); ?></h5>
-                    <?php the_field('company_box--text'); ?>
+                    <p><?php the_field('company_box--text'); ?></p>
                 </div>
                 <div class="card-wrapper">
                     <h6>our locations</h6>
@@ -138,17 +138,17 @@
             </ul>
         <section class="about-box wow fadeInUp"">
             <h2><?php the_field('company_box_about--header'); ?></h2>
-            <?php the_field('company_box_about--text'); ?>
+            <p><?php the_field('company_box_about--text'); ?>
         </section>
         <section class="inner-blue-gradient wow fadeInUp"">
                 <h2><?php the_field('company_gradient--header'); ?></h2>
-                <?php the_field('company_gradient--text'); ?>
+                <p><?php the_field('company_gradient--text'); ?></p>
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-tilde.png?raw=true">
                  <div class="com-carousel owl-carousel owl-theme cta-carousel">
                  <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
-                        <?php the_field('company_slider--rtech'); ?>
+                        <p><?php the_field('company_slider--rtech'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -157,7 +157,7 @@
                     <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/agiledata-icon_1.svg" class="cta-icon">
-                        <?php the_field('company_slider--agiledata'); ?>
+                        <p><?php the_field('company_slider--agiledata'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -166,7 +166,7 @@
                     <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/databridge-icon-solidblue.svg" class="cta-icon">
-                        <?php the_field('company_slider--databridge'); ?>
+                        <p><?php the_field('company_slider--databridge'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -175,7 +175,7 @@
                    <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/connect-icon-solidblue.svg" class="cta-icon">
-                        <?php the_field('company_slider--connect'); ?>
+                        <p><?php the_field('company_slider--connect'); ?></p>
                         <div class="link">
                         <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>
@@ -189,7 +189,7 @@
         <div class="wrapper">
             <div class="connect-full-box">
                 <h4><?php the_field('company_cta_bg--header'); ?></h4>
-                <?php the_field('company_cta_bg--text'); ?>
+                <p><?php the_field('company_cta_bg--text'); ?></p>
             </div>
         </div>
     </section>
@@ -198,71 +198,43 @@
         <div class="wrapper">
             <div class="about-cta">
                 <h2><?php the_field('company_cta_purple--header'); ?></h2>
-                <?php the_field('company_cta_purple--text'); ?>
-                <button class="join">Join team Arrayo</button>
-                <div class="apply-overlay"></div>
-<div class="modal">
-  <div class="form-wrap">
-    <!-- Top tabs-->
-    <div class="tabs">
-      <h4 class="tabs-header signup-tab"><a href="#signup-tab-content" class="active">Upload</a></h4>
-      <h4 class="tabs-header login-tab"><a href="#login-tab-content">Form</a></h4>
+                <p><?php the_field('company_cta_purple--text'); ?></p>
+                <button class="tbtn trigger" href="javascript:;">Apply Now</button>
+<div class="seahorse-wrapper">
+  <div class="seahorse">
+    <div class="content">
+      <div class="turtle">
+  <div class="turtle-toggle"></div>
+  <div class="turtle-panel one">
+    <a class="btn-close trigger"></a>
+    <div class="turtle-header">
+      <h1>Apply Now-<br>for Now or Later</h1>
+      <h5>Join Arrayo, Get on Board</h5>
     </div>
-    <!-- Inside the tabs-->
-    <div class="tabs-content">
-      <!-- Sign-up form-->
-      <div id="signup-tab-content" class="tab-content active">
-        <h3 class="apply-head">Apply now&ndash;<br>for Now or Later</h3>
-        <h5 class="apply-sub">Join Arrayo, Get on board</h5>
-        <form action="" method="post" class="signup-form">
-<label for="file-upload" class="custom-file-upload">
-  <i class="fa fa-cloud-upload"></i> Upload your Resume
-</label>
-<input id="file-upload" type="file"/>
-         
-                      <span class="apply">
-    <input class="balloon" id="linkedin" type="text" placeholder="Enter your LinkedIn Link" /><label for="galaxy"><i class="fa fa-linkedin-square" aria-hidden="true"></i></label>
-  </span>
-      </div>
-      </form>
-      <!-- Login form-->
-      <div id="login-tab-content" class="tab-content">
-        <h3 class="apply-head">Apply now&ndash;<br>for Now or Later</h3>
-        <h5 class="apply-sub">Join Arrayo, Get on board</h5>
-        <form action="" method="post" class="login-form">
-          <span class="apply">
-    <input class="balloon" id="name" type="text" placeholder="Your name" /><label for="galaxy"><i class="fa fa-user" aria-hidden="true"></i></label>
-  </span>
-          <span class="apply">
-    <input class="balloon" id="email" type="text" placeholder="Your email" /><label for="galaxy"><i class="fa fa-envelope" aria-hidden="true"></i></label>
-  </span>
-<div class="select">
-  <span class="placeholder">Areas of Interest</span>
-  <ul>
-    <li data-value="fintech">Fintech</li>
-    <li data-value="healthtech">HealthTech</li>
-    <li data-value="hightech">HighTech</li>
-    <li data-value="agiledata">AgileData</li>
-    <li data-value="rtech">R-Tech</li>
-    <li data-value="connect">Connect</li>
-    <li data-value="databridge">DataBridge</li>
-  </ul>
-  <input type="hidden" name="changeme"/>
-</div>
-
-<br>
-
-          <textarea class="apply-text" placeholder="Message / Cover Letter"></textarea>
-          <input type="submit" value="Submit" class="apply-submit"/>
-        </form>
-      </div>
+    <div class="turtle-content">
+      <turtle>
+        <div class="turtle-group">
+          <label for="file-upload" class="custom-file-upload">
+            <i class="fa fa-cloud-upload"></i> Upload your Resume
+          </label>
+          <input id="file-upload" type="file"/>
+        </div>
+        <div class="turtle-group">
+          <input type="url" name="linkedin" required="required" placeholder="&#xf0e1;&nbsp;&nbsp; Add your LinkedIn Profile" style="font-family:Poppins, FontAwesome;font-size:12px;" />
+        </div>
+        <div class="turtle-group">
+          <button type="submit">Apply</button>
+        </div>
+      </turtle>
     </div>
   </div>
-</div>
-                </li>
-            </ul>
-        </footer>
+  <div class="turtle-panel two">
+    <div class="turtle-header">
+      <h1>Apply Now-<br>for Now or Later</h1>
+      <h5>Join Arrayo, Get on Board</h5>
     </div>
+    <div class="turtle-content">
+    <?php echo do_shortcode("[ninja_form id=3]"); ?>
             </div>
         </div>
     </section>
@@ -270,7 +242,7 @@
     <div class="wrapper">
             <div class="text">
                 <h2><?php the_field('company_footer--header'); ?></h2>
-                <?php the_field('company_footer--text'); ?>
+                <p><?php the_field('company_footer--text'); ?></p>
                 <h5>Let's talk!</h5>
             </div>
             <div class="form">
