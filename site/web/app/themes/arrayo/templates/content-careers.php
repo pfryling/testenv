@@ -43,7 +43,7 @@
             <div class="text-wrap">
                 <h3><?php the_field('careers_bg--header'); ?></h3>
                 <h5><?php the_field('careers_bg--subheader'); ?></h5>
-                <?php the_field('careers_center--text'); ?>
+                <p><?php the_field('careers_center--text'); ?></p>
                 <button><a href="/fintech">Fintech</a></button>
                 <button><a href="/healthtech">HealthTech</a></button>
                 <button><a href="/hightech">HighTech</a></button>
@@ -58,7 +58,7 @@
                 <p class="small"><?php the_field('careers_center--intro'); ?><br>&nbsp;</p>
                 <div class="sm-icon">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
-                    <p class="small"><?php the_field('careers_center--icon1'); ?>/p>
+                    <p class="small"><?php the_field('careers_center--icon1'); ?></p>
                 </div>
                 <div class="sm-icon">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
@@ -79,7 +79,7 @@
                 <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
             </div>
             <div class="ct-right">
-                <?php the_field('testimonial_right'); ?>
+                <p><?php the_field('testimonial_right'); ?></p>
             </div>
     </section>
 </div>
@@ -171,7 +171,7 @@
     <section class="apply-cta">
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
-            <?php the_field('careers_apply--text'); ?>
+            <p><?php the_field('careers_apply--text'); ?></p>
 <button class="tbtn trigger" href="javascript:;">Apply Now</button>
 <div class="seahorse-wrapper">
   <div class="seahorse">
@@ -219,6 +219,6 @@
 
     <section class="eeo">
         <div class="wrapper">
-            <?php the_field('eeo'); ?>
+            <p><?php the_field('eeo'); ?></p>
         </div>
     </section>
