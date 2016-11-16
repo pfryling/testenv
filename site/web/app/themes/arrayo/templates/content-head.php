@@ -15,23 +15,20 @@
                     <h2 class="health for"><?php the_field('ad_he_box--header1'); ?></h2>
                     <h5 class="for"><?php the_field('ad_he_box--subheader1'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <?php the_field('ad_he_box--text1'); ?>
-                    <?php the_field('ad_he_box--text2'); ?>
+                    <?php the_field('ad_he_box--text'); ?>
                 </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('ad_he_box--header2'); ?></h2>
                     <h5 class="for"><?php the_field('ad_he_box--subheader2'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <?php the_field('ad_he_box--text3'); ?>
-                    <p class="for"><strong><?php the_field('ad_he_box--text4'); ?></strong></p>
+                    <?php the_field('ad_he_box--text2'); ?>
+                    <p class="for"><strong>Operations</strong></p>
                     <hr>
                     <br>
-                    <?php the_field('ad_he_box--text5'); ?>
-                   <?php the_field('ad_he_box--text6'); ?>
-                    <?php the_field('ad_he_box--text7'); ?>
+                    <?php the_field('ad_he_box--text3'); ?>
                     <div class="inner-gradient--green">
-                        <p class="list list--white wow slideInLeft"><strong><?php the_field('ad_he_box--list1'); ?></strong></p>
-                        <?php the_field('ad_he_box--text8'); ?>
+                        <p class="list list--white wow slideInLeft"><strong>Analytics</strong></p>
+                        <?php the_field('ad_he_box--text4'); ?>
                     </div>
                 </div>
                 <div class="text text--for wow fadeInUp">

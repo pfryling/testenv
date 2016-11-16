@@ -13,14 +13,11 @@
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('rt_he_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <?php the_field('rt_he_box--text1'); ?>
-                    <?php the_field('rt_he_box--text2'); ?> 
-                    <?php the_field('rt_he_box--text3'); ?>
+                    <?php the_field('rt_he_box--text'); ?>
                     <div class="inner-gradient--green">
-                        <p class="for"><?php the_field('rt_he_box--gradient-text1'); ?></p>
-                        <p class="for"><?php the_field('rt_he_box--gradient-text2'); ?></p>
+                        <p class="for"><?php the_field('rt_he_box--gradient-text'); ?></p>
                     </div>
-                    <p class="for"><?php the_field('rt_he_box--text4'); ?> </p>
+                    <p class="for"><?php the_field('rt_he_box--text2'); ?> </p>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom1'); ?></h4>
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom2'); ?></h4>

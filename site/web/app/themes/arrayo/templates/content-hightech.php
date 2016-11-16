@@ -23,6 +23,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/high-ico-2.png"><br>
                         <?php the_field('hightech_box--header-rtech'); ?>
                     </h4>
+                    <p class="light"><?php the_field('hightech_box--subheader-rtech'); ?></p>
                     <?php the_field('hightech_box--text-rtech'); ?>
                     <div class="link">
                         <a href="/rtech/hightech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
@@ -33,6 +34,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/high-ico-4.png"><br>
                         <?php the_field('hightech_box--header-agiledata'); ?>
                     </h4>
+                    <p class="light"><?php the_field('hightech_box--subheader-agiledata'); ?></p>
                     <p><?php the_field('hightech_box--text-agiledata'); ?></p>
                     <div class="link">
                         <a href="/agiledata/hightech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
@@ -43,6 +45,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/high-ico-3.png"><br>
                         <?php the_field('hightech_box--header-connect'); ?>
                     </h4>
+                    <p class="light"><?php the_field('hightech_box--subheader-connect'); ?></p>
                     <?php the_field('hightech_box--text-connect'); ?>
                     <div class="link">
                         <a href="/connect/hightech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
@@ -53,6 +56,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/high-ico-1.png"><br>
                         <?php the_field('hightech_box--header-databridge'); ?>
                     </h4>
+                    <p class="light"><?php the_field('hightech_box--subheader-databridge'); ?></p>
                     <?php the_field('hightech_box--text-databridge'); ?>
                     <div class="link">
                         <a href="/databridge/hightech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;

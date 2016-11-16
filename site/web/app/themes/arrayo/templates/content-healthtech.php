@@ -23,6 +23,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-2.png"><br>
                         <?php the_field('healthtech_box--header-rtech'); ?>
                     </h4>
+                    <p class="light"><?php the_field('healthtech_box--subheader-rtech'); ?></p>
                     <?php the_field('healthtech_box--text-rtech'); ?>
                     <div class="link">
                         <a href="/rtech/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
@@ -33,7 +34,8 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-4.png"><br>
                         <?php the_field('healthtech_box--header-agiledata'); ?>
                     </h4>
-                    <p><?php the_field('healthtech_box--text-agiledata'); ?></p>
+                    <p class="light"><?php the_field('healthtech_box--subheader-agiledata'); ?></p>
+                    <?php the_field('healthtech_box--text-agiledata'); ?>
                     <div class="link">
                         <a href="/agiledata/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -43,6 +45,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-3.png"><br>
                         <?php the_field('healthtech_box--header-connect'); ?>
                     </h4>
+                    <p class="light"><?php the_field('healthtech_box--subheader-connect'); ?></p>
                     <?php the_field('healthtech_box--text-connect'); ?>
                     <div class="link">
                         <a href="/connect/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
@@ -53,6 +56,7 @@
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-1.png"><br>
                         <?php the_field('healthtech_box--header-databridge'); ?>
                     </h4>
+                    <p class="light"><?php the_field('healthtech_box--subheader-databridge'); ?></p>
                     <?php the_field('healthtech_box--text-databridge'); ?>
                     <div class="link">
                         <a href="/databridge/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;

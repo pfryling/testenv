@@ -15,29 +15,26 @@
                     <h2 class="health for"><?php the_field('db_he_box--header1'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader1'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <p><strong><?php the_field('db_he_box--text1'); ?></strong></p>
+                    <p><strong>Complexity is Everywhere</strong></p>
                     <hr><br>
-                    <?php the_field('db_he_box--text2'); ?>
+                    <?php the_field('db_he_box--text1'); ?>
                 </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('db_he_box--header2'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader2'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <p><strong><?php the_field('db_he_box--text3'); ?></strong></p>
-                    <?php the_field('db_he_box--text4'); ?>
-                    <?php the_field('db_he_box--text5'); ?>
-                    <?php the_field('db_he_box--text6'); ?>
-                    <?php the_field('db_he_box--text7'); ?>
+                    <p><strong>As an additional example we work on the data flow for a personalized cancer vaccine.</strong></p>
+                    <?php the_field('db_he_box--text2'); ?>
                     <div class="inner-gradient--green">
-                        <p><?php the_field('db_he_box--list1'); ?></p>
+                        <p><?php the_field('db_he_box--inset'); ?></p>
                     </div>
-                        <p><?php the_field('db_he_box--text8'); ?></p>
+                    <?php the_field('db_he_box--subheader2'); ?>
                     </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('db_he_box--header3'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader3'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <?php the_field('db_he_box--text9'); ?>
+                    <?php the_field('db_he_box--text3'); ?>
                 </div>
                 </div>
 

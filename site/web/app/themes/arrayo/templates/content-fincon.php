@@ -14,7 +14,6 @@
                     <h5 class="for"><?php the_field('con_fin_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <p class="for"><?php the_field('con_fin--text1'); ?></p>
-                    <p class="for"><?php the_field('con_fin--text2'); ?></p>
                     <p class="for"><strong><?php the_field('con_fin_box--bold1'); ?></strong></p>
                     <p class="list list--fintech wow slideInLeft"><?php the_field('con_fin_box--list1'); ?><hr></p>
                     <p class="list list--fintech wow slideInLeft"><?php the_field('con_fin_box--list2'); ?><hr></p>

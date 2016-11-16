@@ -13,11 +13,11 @@
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('db_fin_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
-                    <p class="for"><?php the_field('db_fin_box--text1'); ?></p>
+                    <?php the_field('db_fin_box--text1'); ?>
                     <img class="quote-img wow slideInLeft" src="http://imgh.us/quote--fintech.png">
                     <h4 class="quote quote--fintech wow slideInLeft"><?php the_field('db_fin--quote'); ?></h4>
                     <div class="inner-gradient--purple">
-                        <p><?php the_field('db_fin_box--gradient-text'); ?></p>
+                        <?php the_field('db_fin_box--gradient-text'); ?>
                     </div>
                     <p class="for"><?php the_field('db_fin_box--text2'); ?></p>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">

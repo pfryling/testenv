@@ -26,8 +26,7 @@
                         <div class="list list--white wow slideInLeft"><?php the_field('ad_fin_box--list-white-3'); ?></div>
                         <div class="list list--white wow slideInLeft"><?php the_field('ad_fin_box--list-white-4'); ?></div>
                     </div>
-                    <?php the_field('ad_fin_text--1'); ?>
-                    <?php the_field('ad_fin_text--2'); ?>
+                    <?php the_field('ad_fin_text'); ?>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('ad_fin_subheader--bottom'); ?></h4>
                 </div>

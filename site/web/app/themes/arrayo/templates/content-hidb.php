@@ -13,7 +13,7 @@
                     <h5 class="for"><?php the_field('db_hi_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <br>&nbsp;
-                    <p class="for"><?php the_field('db_hi_box--text1'); ?></p>
+                    <?php the_field('db_hi_box--text'); ?>
                 </div>
 
                <div class="label-wrapper wow fadeInUp">
@@ -22,7 +22,7 @@
                             <i class="fa fa-arrow-circle-o-right"></i>
                         <a href="/r-tech/hightechwrapper">
                          <span class="label-swap">
-                              R-Tech for HighTech
+                              RTech for HighTech
                             </span>
                             <span>
                              <?php the_field('hi_rt--text'); ?>

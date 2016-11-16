@@ -14,11 +14,10 @@
                     <h5 class="for"><?php the_field('rt_hi_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <?php the_field('rt_hi_box--text1'); ?>
-                    <?php the_field('rt_hi_box--text2'); ?>
                     <img src="http://imgh.us/quote-hightech.png" class="quote-img wow slideInLeft">
                     <h4 class="quote quote--hightech wow slideInLeft"><?php the_field('rt_hi_quote'); ?></h4>
-                    <p class="for"><?php the_field('rt_hi_box--text3'); ?></p>
-                    <p class="for"><strong><?php the_field('rt_hi_box--text4'); ?></strong></p>
+                    <p class="for"><?php the_field('rt_hi_box--text2'); ?></p>
+                    <p class="for"><strong><?php the_field('rt_hi_box--text3'); ?></strong></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list1'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list2'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list3'); ?><hr></p>
@@ -28,10 +27,9 @@
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list7'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list8'); ?><hr></p>
                     <div class="inner-gradient--blue">
-                        <?php the_field('rt_hi_box--text5'); ?>
-                        <?php the_field('rt_hi_box--text6'); ?>
+                        <?php the_field('rt_hi_box--inset'); ?>
                     </div>
-                    <p class="for"><?php the_field('rt_hi_box--text7'); ?></p>
+                    <p class="for"><?php the_field('rt_hi_box--text4'); ?></p>
                     <h4 class="light"><?php the_field('rt_hi_subheader--bottom'); ?></h4>
                 </div>
 

@@ -13,8 +13,7 @@
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('con_he_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <p class="for"><?php the_field('con_he_box--text1'); ?></p>
-                    <p class="for"><?php the_field('con_he_box--text2'); ?> </p>
+                    <?php the_field('con_he_box--text1'); ?>
                     <div class="inner-gradient--green">
                         <p class="for"><?php the_field('con_he--gradient-text'); ?></p>
                     </div>
