@@ -6,7 +6,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('ad_fin--header'); ?></h1>
-                <?php the_field('ad_fin--subheader'); ?>
+                <p><?php the_field('ad_fin--subheader'); ?></p>
             </section>
 
             <section class="location-info">
@@ -26,7 +26,7 @@
                         <div class="list list--white wow slideInLeft"><?php the_field('ad_fin_box--list-white-3'); ?></div>
                         <div class="list list--white wow slideInLeft"><?php the_field('ad_fin_box--list-white-4'); ?></div>
                     </div>
-                    <?php the_field('ad_fin_text'); ?>
+                    <p><?php the_field('ad_fin_text'); ?></p>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('ad_fin_subheader--bottom'); ?></h4>
                 </div>

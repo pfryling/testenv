@@ -5,7 +5,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('ad_hi--header'); ?></h1>
-                <?php the_field('ad_hi--subheader'); ?>
+                <p><?php the_field('ad_hi--subheader'); ?></p>
             </section>
 
             <section class="location-info">
@@ -15,9 +15,9 @@
                     <p class="for"><?php the_field('ad_hi--text1'); ?></p>
                     <img src="http://imgh.us/quote-hightech.png" class="quote-img">
                     <h4 class="quote quote--hightech"><?php the_field('ad_hi--quote'); ?></h4>
-                    <?php the_field('ad_hi--text2'); ?>
+                    <p class="for"><?php the_field('ad_hi--text2'); ?></p>
                     <div class="inner-gradient--blue">
-                        <?php the_field('ad_hi_box--gradient-text1'); ?>
+                        <p><?php the_field('ad_hi_box--gradient-text1'); ?></p>
                     </div>
                     <p class="for"><?php the_field('ad_hi--text3'); ?></p>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">

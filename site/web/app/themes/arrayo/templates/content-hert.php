@@ -6,7 +6,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('rt_he--header'); ?></h1>
-                <?php the_field('rt_he--subheader'); ?>
+                <p><?php the_field('rt_he--subheader'); ?></p>
             </section>
 
             <section class="location-info">

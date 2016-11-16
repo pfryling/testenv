@@ -6,7 +6,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('con_fin--header'); ?></h1>
-                <?php the_field('con_fin--subheader'); ?>
+                <p><?php the_field('con_fin--subheader'); ?></p>
             </section>
 
             <section class="location-info">

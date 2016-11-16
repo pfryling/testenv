@@ -6,7 +6,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('db_he--header'); ?></h1>
-                <?php the_field('db_he--subheader'); ?>
+                <p><?php the_field('db_he--subheader'); ?></p>
             </section>
 
             <section class="location-info">
@@ -17,24 +17,24 @@
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <p><strong>Complexity is Everywhere</strong></p>
                     <hr><br>
-                    <?php the_field('db_he_box--text1'); ?>
+                    <p><?php the_field('db_he_box--text1'); ?></p>
                 </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('db_he_box--header2'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader2'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <p><strong>As an additional example we work on the data flow for a personalized cancer vaccine.</strong></p>
-                    <?php the_field('db_he_box--text2'); ?>
+                    <p><?php the_field('db_he_box--text2'); ?></p>
                     <div class="inner-gradient--green">
                         <p><?php the_field('db_he_box--inset'); ?></p>
                     </div>
-                    <?php the_field('db_he_box--subheader2'); ?>
+                    <p><?php the_field('db_he_box--subheader2'); ?></p>
                     </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('db_he_box--header3'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader3'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
-                    <?php the_field('db_he_box--text3'); ?>
+                    <p><?php the_field('db_he_box--text3'); ?></p>
                 </div>
                 </div>
 

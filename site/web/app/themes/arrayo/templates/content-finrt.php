@@ -6,21 +6,21 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('rt_fin--header'); ?></h1>
-                <?php the_field('rt_fin--subheader'); ?>
+                <p><?php the_field('rt_fin--subheader'); ?></p>
             </section>
 
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('rt_fin_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
-                    <?php the_field('rt_fin_box--text1'); ?>
+                    <p><?php the_field('rt_fin_box--text1'); ?></p>
                     <img class="quote-img wow slideInLeft" src="http://imgh.us/quote--fintech.png">
                     <h4 class="quote quote--fintech wow slideInLeft"><?php the_field('rt_fin--quote'); ?></h4>
-                    <?php the_field('rt_fin--text2'); ?>
+                    <p><?php the_field('rt_fin--text2'); ?></p>
                     <div class="inner-gradient--purple">
-                        <?php the_field('rt_fin_box--gradient-text'); ?>
+                        <p><?php the_field('rt_fin_box--gradient-text'); ?></p>
                     </div>
-                    <?php the_field('rt_fin_box--text3'); ?>
+                    <p><?php the_field('rt_fin_box--text3'); ?></p>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('rt_fin_subheader--bottom'); ?></h4>
                 </div>

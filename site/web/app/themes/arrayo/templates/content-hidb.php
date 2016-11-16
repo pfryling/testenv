@@ -5,7 +5,7 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('db_hi--header'); ?></h1>
-                <?php the_field('db_hi--subheader'); ?>
+                <p><?php the_field('db_hi--subheader'); ?></p>
             </section>
 
             <section class="location-info">

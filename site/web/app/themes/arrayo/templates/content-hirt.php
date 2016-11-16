@@ -6,14 +6,14 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('rt_hi--header'); ?></h1>
-                <?php the_field('rt_hi--subheader'); ?>
+                <p><?php the_field('rt_hi--subheader'); ?></p>
             </section>
 
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('rt_hi_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
-                    <?php the_field('rt_hi_box--text1'); ?>
+                    <p><?php the_field('rt_hi_box--text1'); ?></p>
                     <img src="http://imgh.us/quote-hightech.png" class="quote-img wow slideInLeft">
                     <h4 class="quote quote--hightech wow slideInLeft"><?php the_field('rt_hi_quote'); ?></h4>
                     <p class="for"><?php the_field('rt_hi_box--text2'); ?></p>
@@ -27,7 +27,7 @@
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list7'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('rt_hi_box--list8'); ?><hr></p>
                     <div class="inner-gradient--blue">
-                        <?php the_field('rt_hi_box--inset'); ?>
+                        <p><?php the_field('rt_hi_box--inset'); ?></p>
                     </div>
                     <p class="for"><?php the_field('rt_hi_box--text4'); ?></p>
                     <h4 class="light"><?php the_field('rt_hi_subheader--bottom'); ?></h4>

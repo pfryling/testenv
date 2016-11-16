@@ -6,14 +6,14 @@
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('con_hi--header'); ?></h1>
-                <?php the_field('con_hi--subheader'); ?>
+                <p><?php the_field('con_hi--subheader'); ?></p>
             </section>
 
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('con_hi_box--header'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
-                    <?php the_field('con_hi_box--text1'); ?>
+                    <p><?php the_field('con_hi_box--text1'); ?></p>
                     <p class="for"><strong><?php the_field('con_hi--intro'); ?></strong></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('con_hi--list1'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('con_hi--list2'); ?><hr></p>
@@ -21,7 +21,7 @@
                     <p class="list list--hightech wow slideInLeft"><?php the_field('con_hi--list4'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('con_hi--list5'); ?><hr></p>
                     <p class="list list--hightech wow slideInLeft"><?php the_field('con_hi--list6'); ?><hr></p>
-                    <?php the_field('con_hi_box--text2'); ?>
+                    <p><?php the_field('con_hi_box--text2'); ?></p>
                     <h4 class="light"><?php the_field('con_hi_subheader--bottom'); ?></h4>
                 </div>
 
