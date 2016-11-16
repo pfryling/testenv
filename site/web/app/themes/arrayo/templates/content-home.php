@@ -11,18 +11,18 @@
             <hr>
         </section>
         <section class="services-grid--half">
-            <h4><strong><?php the_field('services_grid--main-header'); ?></strong></h4>
+            <h4><?php the_field('services_grid--main-header'); ?></h4>
             <div class="fade-wrapper">
                 <h6><?php the_field('services_grid--small-header-top'); ?></h6>
                 <div class="flex-wrapper grid-box">
                     <div class="box two wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-rtech'); ?></h5>
-                        <?php the_field('services_box--text-rtech'); ?>
+                        <p><?php the_field('services_box--text-rtech'); ?></p>
                         <a class="service-btn" href="/rtech">RTech</a>
                     </div>
                     <div class="box four wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-agiledata'); ?></h5>
-                        <?php the_field('services_box--text-agiledata'); ?>
+                        <p><?php the_field('services_box--text-agiledata'); ?></p>
                         <a class="service-btn" href="/agiledata">AgileData</a>
                     </div>
                 </div>
@@ -30,12 +30,12 @@
                 <div class="flex-wrapper grid-box">
                     <div class="box three wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-databridge'); ?></h5>
-                        <?php the_field('services_box--text-databridge'); ?>
+                        <p><?php the_field('services_box--text-databridge'); ?></p>
                         <a class="service-btn" href="/connect">Connect</a>
                     </div>
                     <div class="box one wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-connect'); ?></h5>
-                        <?php the_field('services_box--text-connect'); ?>
+                        <p><?php the_field('services_box--text-connect'); ?></p>
                         <a class="service-btn" href="/DataBridge">DataBridge</a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <span class="text--fade">Governance Consultants</span>
                     <span class="text--fade">Data Analysts</span>
                     <span class="text--fade">Cybersecurity Experts</span>
-                    <?php the_field('overlay_text'); ?>
+                    <p><?php the_field('overlay_text'); ?></p>
                     <div class="flex-wrapper">
                         <div class="inner-box">
                             <a href="/fintech">
@@ -96,7 +96,7 @@
                                     </g>
                                 </svg>
                                 <h6>FinTech</h6>
-                                <?php the_field('overlay_text--fintech'); ?>
+                                <p><?php the_field('overlay_text--fintech'); ?></p>
                             </a>
                         </div>
                         <div class="inner-box">
@@ -121,7 +121,7 @@
                                     </g>
                                 </svg>
                                 <h6>HealthTech</h6>
-                                <?php the_field('overlay_text--healthtech'); ?>
+                                <p><?php the_field('overlay_text--healthtech'); ?></p>
                             </a>
                         </div>
                         <div class="inner-box">
@@ -149,7 +149,7 @@
                                     </g>
                                 </svg>
                                 <h6>HighTech</h6>
-                                <?php the_field('overlay_text--hightech'); ?>
+                                <p><?php the_field('overlay_text--hightech'); ?></p>
                             </a>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
             <section class="centered-cta centered-cta--home wow fadeInUp">
                 <h2><?php the_field('centered_cta--header'); ?></h2>
                 <h5><?php the_field('centered_cta--subheader'); ?></h5>
-                <?php the_field('centered_cta--text'); ?>
+                <p><?php the_field('centered_cta--text'); ?></p>
                 <button class="expert"><a href="/services">our expertise</a></button>
             </section>
         </div>
@@ -166,7 +166,7 @@
             <div class="tabs--list">
                 <div class="wrapper">
                     <h5><?php the_field('tab_list--header'); ?></h5>
-                    <?php the_field('tab_list--subheader'); ?>
+                    <p><?php the_field('tab_list--subheader'); ?></p>
                     <ul>
                         <li class="active">
                             <a href="/">
@@ -189,12 +189,12 @@
                     <article>
                         <h1><?php the_field('tab_content--header-1'); ?></h1>
                         <h3><?php the_field('tab_content--subheader-1'); ?></h3>
-                        <?php the_field('tab_content--text-1'); ?>
+                        <p><?php the_field('tab_content--text-1'); ?></p>
                     </article>
                     <article>
                         <h1><?php the_field('tab_content--header-2'); ?></h1>
                         <h3><?php the_field('tab_content--subheader-2'); ?></h3>
-                        <?php the_field('tab_content--text-2'); ?>
+                        <p><?php the_field('tab_content--text-2'); ?></p>
                     </article>
                 </div>
             </div>
@@ -254,7 +254,7 @@
                 <div class="content">
                     <h2><?php the_field('bottom_cta--header'); ?></h2>
                     <h5><?php the_field('bottom_cta--subheader'); ?></h5>
-                    <?php the_field('bottom_cta--text'); ?>
+                    <p><?php the_field('bottom_cta--text'); ?></p>
                 </div>
             </section>
         </div>
@@ -262,7 +262,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2>Ask Team Arrayo</h2>
-                    <?php the_field('ask_footer--text'); ?>
+                    <p><?php the_field('ask_footer--text'); ?></p>
                     <h5>Let's Talk!</h5>
                 </div>
                 <div class="form">
