@@ -13,28 +13,28 @@
     <div class="services-cta services-cta--connect wow fadeInUp">
         <h2><?php the_field('con_box--header'); ?></h2>
         <h5><?php the_field('con_box--subheader'); ?></h5>
-        <?php the_field('con_box--text'); ?>
+        <p><?php the_field('con_box--text'); ?></p>
     </div>
     <div class="wrapper">
         <br><p><strong>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</strong></p><br>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                 <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
-                    <?php the_field('industry_box--text-fintech'); ?>
+                    <?php the_field('industry_box--text-fintech'); ?></li>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
-                    <?php the_field('industry_box--text-healthtech'); ?>
+                    <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
-                    <?php the_field('industry_box--text-hightech'); ?>
+                    <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                     </div>
@@ -48,14 +48,14 @@
                     <h4><?php the_field('con_half1--header'); ?></h4>
                     <p class="light"><?php the_field('con_half1--subheader') ?></p>
                     <hr>
-                    <?php the_field('con_half1--paragraph1') ?>
+                    <p><?php the_field('con_half1--paragraph1') ?></p>
                 </div>
                 <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.2s">
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-2.png?raw=true">
                     <h4><?php the_field('con_half2--header'); ?></h4>
                     <p class="light2"><?php the_field('con_half2--subheader') ?></p>
                     <hr>
-                    <?php the_field('con_half2--paragraph1') ?>
+                    <p><?php the_field('con_half2--paragraph1') ?></p>
                 </div>
         </section>
         <div class="wrapper">
@@ -76,7 +76,7 @@
         <section class="plain-white-box wow fadeInUp">
                 <h2><?php the_field('con_benefit--header'); ?></h2>
                 <h5><?php the_field('con_benefit--subheader'); ?></h5>
-                <?php the_field('con_benefit--text'); ?>
+                <p><?php the_field('con_benefit--text'); ?></p>
         </section>
     </div>
         <div class="wrapper">
@@ -84,7 +84,7 @@
             <section class="icon-grid  wow fadeInUp">
         <div class="wrapper">
             <div class="ico-wrap">
-                <h2><?php the_field('con_icon--header'); ?>/h2>
+                <h2><?php the_field('con_icon--header'); ?></h2>
                 <h5><?php the_field('con_icon--subheader'); ?></h5><br>
                 <div class="icons  wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
@@ -148,7 +148,7 @@
                 <section class="centered-cta centered-cta--connect wow fadeInUp">
                         <h2><?php the_field('con_center--header'); ?></h2>
                     <h5><?php the_field('con_center--subheader'); ?></h5>
-                    <?php the_field('con_center--text'); ?>
+                    <p><?php the_field('con_center--text'); ?></p>
                 </section>
         </div>
         <div class="anim-static--con">&nbsp;</div>
@@ -197,7 +197,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2><?php the_field('con_footer--header'); ?></h2>
-                    <?php the_field('con_footer--text'); ?>
+                    <p><?php the_field('con_footer--text'); ?></p>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

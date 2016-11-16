@@ -13,28 +13,28 @@
     <div class="services-cta services-cta--agiledata wow fadeInUp">
         <h2><?php the_field('ad_box--header'); ?></h2>
         <h5><?php the_field('ad_box--subheader'); ?></h5>
-        <?php the_field('ad_box--text'); ?>
+        <p><?php the_field('ad_box--text'); ?></p>
     </div>
     <div class="wrapper">
         <br><p><strong>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</strong></p><br>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                 <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
-                    <?php the_field('industry_box--text-fintech'); ?>
+                    <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
-                    <?php the_field('industry_box--text-healthtech'); ?>
+                    <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
-                    <?php the_field('industry_box--text-hightech'); ?>
+                    <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                     </div>
@@ -61,7 +61,7 @@
             <section class="centered-cta centered-cta--agiledata wow fadeInUp">
                 <h2><?php the_field('ad_animation--header'); ?></h2>
                 <h5><?php the_field('ad_animation--subheader'); ?></h5>
-                <?php the_field('ad_animation--text'); ?>
+                <p><?php the_field('ad_animation--text'); ?></p>
             </section>
         </div>
         <div class="anim-static--ad">&nbsp;</div>
@@ -89,7 +89,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2><?php the_field('footer_cta--header'); ?></h2>
-                    <?php the_field('footer_cta--subheader'); ?>
+                    <p><?php the_field('footer_cta--subheader'); ?></p>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

@@ -13,7 +13,7 @@
     <div class="services-cta services-cta--fintech wow fadeInUp">
         <h2><?php the_field('fintech_main--header'); ?></h2>
         <h5><?php the_field('fintech_main--subheader'); ?></h5>
-        <?php the_field('fintech_main--text'); ?>
+        <p><?php the_field('fintech_main--text'); ?></p>
     </div>
     <div class="fin-center-bg">
         <div class="wrapper">
@@ -21,10 +21,10 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.1s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-rtech-icon.png"><br>
-                        <?php the_field('fintech_box--header-rtech'); ?>
+                        <p><?php the_field('fintech_box--header-rtech'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-rtech'); ?></p>
-                    <?php the_field('fintech_box--text-rtech'); ?>
+                    <p><?php the_field('fintech_box--text-rtech'); ?></p>
                     <div class="link">
                         <a href="/rtech/fintech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -32,7 +32,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.2s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-agile-icon.png"><br>
-                        <?php the_field('fintech_box--header-agiledata'); ?>
+                        <p><?php the_field('fintech_box--header-agiledata'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-agiledata'); ?></p>
                     <?php the_field('fintech_box--text-agiledata'); ?>
@@ -43,7 +43,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.3s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-con-icon.png"><br>
-                        <?php the_field('fintech_box--header-connect'); ?>
+                        <p><?php the_field('fintech_box--header-connect'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-connect'); ?></p>
                     <?php the_field('fintech_box--text-connect'); ?>
@@ -54,7 +54,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.4s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-data-icon.png"><br>
-                        <?php the_field('fintech_box--header-databridge'); ?>
+                        <p><?php the_field('fintech_box--header-databridge'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-databridge'); ?></p>
                     <?php the_field('fintech_box--text-databridge'); ?>
@@ -69,7 +69,7 @@
         <div class="centered-cta-bg centered-cta-bg--fintech wow fadeInUp">
             <h2><?php the_field('fintech_slider--header'); ?></h2>
             <h5><?php the_field('fintech_slider--subheader'); ?></h5>
-            <?php the_field('fintech_slider--text'); ?>
+            <p><?php the_field('fintech_slider--text'); ?></p>
             <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/fin-tilde.png">
             <p><strong><?php the_field('fintech_slider--intro'); ?></strong></p>
             <div class="ind-carousel owl-carousel owl-theme">
@@ -95,7 +95,7 @@
         <div class="bg-purple-wavy wow fadeInUp">
             <h2><?php the_field('fintech_gradient_slider--header'); ?></h2>
             <h4><?php the_field('fintech_gradient_slider--subheader'); ?></h4>
-            <?php the_field('fintech_gradient_slider--text'); ?>
+            <p><?php the_field('fintech_gradient_slider--text'); ?></p>
             <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-tilde.png">
             <p><strong><?php the_field('fintech_gradient_slider--intro'); ?></strong></p>
             <div class="ind-carousel owl-carousel owl-theme">
@@ -120,7 +120,7 @@
         <div class="wrapper">
             <div class="text">
                 <h2>Ask FinTech<br>Team at Arrayo</h2>
-                <?php the_field('fintech_footer--text'); ?>
+                <p><?php the_field('fintech_footer--text'); ?></p>
                 <h5>Let's talk!</h5>
             </div>
 <div class="form">

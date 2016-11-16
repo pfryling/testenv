@@ -13,7 +13,7 @@
     <div class="services-cta services-cta--databridge wow fadeInUp">
         <h2><?php the_field('db_box--header'); ?></h2>
         <h5><?php the_field('db_box--subheader'); ?></h5>
-        <?php the_field('db_box--text'); ?>
+        <p><?php the_field('db_box--text'); ?></p>
     </div>
     <div class="wrapper">
         <br><p><strong>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</strong></p><br>
@@ -47,7 +47,7 @@
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-1.png?raw=true">
                     <h4><?php the_field('db_full--header'); ?></h4>
                     <p class="light"><?php the_field('db_full--subheader') ?></p>
-                    <?php the_field('db_full--text') ?>
+                    <p><?php the_field('db_full--text') ?></p>
                 </div>
         </section>
         <div class="wrapper">
@@ -66,7 +66,7 @@
             <section class="centered-cta centered-cta--databridge wow fadeInUp">
                 <h2><?php the_field('db_animation--header'); ?></h2>
                 <h5><?php the_field('db_animation--subheader'); ?></h5>
-                <?php the_field('db_animation--text'); ?>
+                <p><?php the_field('db_animation--text'); ?></p>
             </section>
         </div>
         <div class="anim-static--db">&nbsp;</div>
@@ -108,7 +108,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2>Ask DataBridge<br>at Arrayo</h2>
-                    <?php the_field('db_footer--text'); ?>
+                    <p><?php the_field('db_footer--text'); ?></p>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

@@ -13,7 +13,7 @@
     <div class="services-cta services-cta--healthtech wow fadeInUp">
         <h2><?php the_field('healthtech_main--header'); ?></h2>
         <h5><?php the_field('healthtech_main--subheader'); ?></h5>
-        <?php the_field('healthtech_main--text'); ?>
+        <p><?php the_field('healthtech_main--text'); ?></p>
     </div>
     <div class="fin-center-bg">
         <div class="wrapper">
@@ -24,7 +24,7 @@
                         <?php the_field('healthtech_box--header-rtech'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-rtech'); ?></p>
-                    <?php the_field('healthtech_box--text-rtech'); ?>
+                    <p><?php the_field('healthtech_box--text-rtech'); ?></p>
                     <div class="link">
                         <a href="/rtech/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -35,7 +35,7 @@
                         <?php the_field('healthtech_box--header-agiledata'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-agiledata'); ?></p>
-                    <?php the_field('healthtech_box--text-agiledata'); ?>
+                    <p><?php the_field('healthtech_box--text-agiledata'); ?></p>
                     <div class="link">
                         <a href="/agiledata/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -46,7 +46,7 @@
                         <?php the_field('healthtech_box--header-connect'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-connect'); ?></p>
-                    <?php the_field('healthtech_box--text-connect'); ?>
+                    <p><?php the_field('healthtech_box--text-connect'); ?></p>
                     <div class="link">
                         <a href="/connect/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -57,7 +57,7 @@
                         <?php the_field('healthtech_box--header-databridge'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-databridge'); ?></p>
-                    <?php the_field('healthtech_box--text-databridge'); ?>
+                    <p><?php the_field('healthtech_box--text-databridge'); ?></p>
                     <div class="link">
                         <a href="/databridge/healthtech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
