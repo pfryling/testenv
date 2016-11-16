@@ -146,7 +146,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "artifacts/acf.zip"
+          "url": "http://connect.advancedcustomfields.com/index.php?t=5.1.3&p=pro&a=download&k=b3JkZXJfaWQ9OTAwMDV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE2LTA5LTE5IDIyOjQ2OjM5"
         },
         "require": {
           "composer/installers": "^1.0"
