@@ -254,7 +254,7 @@
                 <div class="content">
                     <h2><?php the_field('bottom_cta--header'); ?></h2>
                     <h5><?php the_field('bottom_cta--subheader'); ?></h5>
-                    <p><?php the_field('bottom_cta--text'); ?></p>
+                    <?php the_field('bottom_cta--text'); ?>
                 </div>
             </section>
         </div>

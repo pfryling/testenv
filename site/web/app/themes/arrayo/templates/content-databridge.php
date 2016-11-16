@@ -20,21 +20,21 @@
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                 <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
-                    <?php the_field('industry_box--text-fintech'); ?>
+                    <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
-                    <?php the_field('industry_box--text-healthtech'); ?>
+                    <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
-                    <?php the_field('industry_box--text-hightech'); ?>
+                    <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="#">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                     </div>
@@ -46,10 +46,8 @@
                 <div class="connect-full-box wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-1.png?raw=true">
                     <h4><?php the_field('db_full--header'); ?></h4>
-                    <hr>
-                    <?php the_field('db_full--paragraph1') ?>
-                    <?php the_field('db_full--paragraph2') ?>
-                    <?php the_field('db_full--paragraph3') ?>
+                    <p class="light"><?php the_field('db_full--subheader') ?></p>
+                    <?php the_field('db_full--text') ?>
                 </div>
         </section>
         <div class="wrapper">
@@ -61,9 +59,7 @@
                 </div>
                 <div class="text">
                     <ul>
-                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('db_gradient--paragraph-1'); ?></li>
-                        <li><?php the_field('db_gradient--paragraph-2'); ?></li>
-                        <li><?php the_field('db_gradient--paragraph-3'); ?></li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('db_gradient--text'); ?></li>
                     </ul>
                 </div>
             </section>
@@ -112,7 +108,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2>Ask DataBridge<br>at Arrayo</h2>
-                    <p><?php the_field('db_footer--text'); ?></p>
+                    <?php the_field('db_footer--text'); ?>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

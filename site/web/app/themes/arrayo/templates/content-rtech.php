@@ -13,7 +13,7 @@
     <div class="services-cta services-cta--rtech wow fadeInUp">
         <h2><?php the_field('rt_box--header'); ?></h2>
         <h5><?php the_field('rt_box--subheader'); ?></h5>
-        <p><?php the_field('rt_box--text'); ?></p>
+        <?php the_field('rt_box--text'); ?>
     </div>
     <div class="wrapper">
         <br><p><strong>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</strong></p><br>
@@ -68,9 +68,7 @@
                 </div>
                 <div class="text">
                     <ul>
-                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('rt_gradient--paragraph-1'); ?></li>
-                        <li><?php the_field('rt_gradient--paragraph-2'); ?></li>
-                        <li><?php the_field('rt_gradient--paragraph-3'); ?></li>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('rt_gradient--text'); ?></li>
                     </ul>
                 </div>
             </section>
@@ -108,7 +106,7 @@
             <div class="wrapper">
                 <div class="text">
                     <h2>Ask RTech<br>at Arrayo</h2>
-                    <p><?php the_field('rt_footer--text'); ?></p>
+                    <?php the_field('rt_footer--text'); ?>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">
