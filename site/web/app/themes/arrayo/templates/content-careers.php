@@ -9,10 +9,7 @@
             <section class="location-info  wow fadeInUp">
                 <div class="text text--for">
                     <h5 class="for"><?php the_field('careers_box--header'); ?></h5>
-                    <?php the_field('careers_box--text1'); ?>
-                    <?php the_field('careers_box--text2'); ?>
-                    <?php the_field('careers_box--text3'); ?>
-                    <?php the_field('careers_box--text4'); ?>
+                    <?php the_field('careers_box--text'); ?>
                     <div class="link">
                         <a href="/company" class="link-arrow">Why Arrayo
                             <i class="fa fa-arrow-circle-o-right"></i>

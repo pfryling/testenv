@@ -88,10 +88,8 @@
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">
-                    <h2>Ask AgileData<br>at Arrayo</h2>
-                    <p>The quest for efficiency has essentially shifted from the manual delivery of services to the design of highly automated and integrated digital systems.
-                        <br>
-                        <br>What’s your digital ambition? What’s your primary digital focus? What user experience do you envision?</p>
+                    <h2><?php the_field('footer_cta--header'); ?></h2>
+                    <?php the_field('footer_cta--subheader'); ?>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

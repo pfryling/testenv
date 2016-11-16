@@ -137,6 +137,21 @@
           "composer/installers": "^1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "elliotcondon/advanced-custom-fields-pro",
+        "version": "5.4.8",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "artifacts/acf.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -152,7 +167,8 @@
     "wp-ninjas/ninja-forms": "3.0.15",
     "duracelltomi/google-tag-manager": "1.4",
     "joostdevalk/yoast-seo": "3.8",
-    "elegantthemes/monarch": "1.3.2"
+    "elegantthemes/monarch": "1.3.2",
+    "elliotcondon/advanced-custom-fields-pro": "^5.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

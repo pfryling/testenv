@@ -84,63 +84,63 @@
             <section class="icon-grid  wow fadeInUp">
         <div class="wrapper">
             <div class="ico-wrap">
-                <h2>Our core network and connectivity skills</h2>
-                <h5>We provide expertise and flexibility to extend in-house capabiltiies. Our portfolio of services includes:</h5><br>
+                <h2><?php the_field('con_icon--header'); ?>/h2>
+                <h5><?php the_field('con_icon--subheader'); ?></h5><br>
                 <div class="icons  wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Reengineering of systems</p>
+                        <p><?php the_field('con_icon--1'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.2s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Network architecture and deployment</p>
+                        <p><?php the_field('con_icon--2'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.3s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Connectivity architecture</p>
+                        <p><?php the_field('con_icon--3'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.4s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>SOA, ESB, and Middleware</p>
+                        <p><?php the_field('con_icon--4'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.5s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Web, Cloud Application Design &amp; Test</p>
+                        <p><?php the_field('con_icon--5'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.6s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Mobile App &amp; Controls Design &amp; Test</p>
+                        <p><?php the_field('con_icon--6'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.7s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Enterprise software Integration &amp; Customization</p>
+                        <p><?php the_field('con_icon--7'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.8s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Software &amp; System Verification</p>
+                        <p><?php the_field('con_icon--8'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.9s"">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
-                        <p>Validation and Review</p>
+                        <p><?php the_field('con_icon--9'); ?></p>
                     </div>
                 </div>
-            <p class="small wow fadeInUp">Our experienced team of technologists work hard hand in hand with your team to achieve unparalleled short and long term success.</p>
+            <p class="small wow fadeInUp"><?php the_field('con_icon--bottom'); ?></p>
         </div>
     </div>
     </section>
@@ -196,10 +196,8 @@
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">
-                    <h2>Ask Connect<br>at Arrayo</h2>
-                    <p>The quest for efficiency has essentially shifted from the manual delivery of services to the design of highly automated and integrated digital systems.
-                        <br>
-                        <br>What’s your digital ambition? What’s your primary digital focus? What user experience do you envision?</p>
+                    <h2><?php the_field('con_footer--header'); ?></h2>
+                    <?php the_field('con_footer--text'); ?>
                     <h5>Let's talk!</h5>
                 </div>
 <div class="form">

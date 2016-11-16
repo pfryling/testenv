@@ -10,7 +10,7 @@
                 <div class="text">
                     <h4><?php the_field('company_box--header'); ?></h4>
                     <h5><?php the_field('company_box--subheader'); ?></h5>
-                    <p><?php the_field('company_box--text'); ?></p>
+                    <?php the_field('company_box--text'); ?>
                 </div>
                 <div class="card-wrapper">
                     <h6>our locations</h6>
@@ -189,8 +189,7 @@
         <div class="wrapper">
             <div class="connect-full-box">
                 <h4><?php the_field('company_cta_bg--header'); ?></h4>
-                <?php the_field('company_cta_bg--text1'); ?>
-               <?php the_field('company_cta_bg--text2'); ?>
+                <?php the_field('company_cta_bg--text'); ?>
             </div>
         </div>
     </section>
@@ -267,3 +266,16 @@
             </div>
         </div>
     </section>
+    <section class="contact-footer wow fadeInUp" id="contact">
+    <div class="wrapper">
+            <div class="text">
+                <h2><?php the_field('company_footer--header'); ?></h2>
+                <?php the_field('company_footer--text'); ?>
+                <h5>Let's talk!</h5>
+            </div>
+            <div class="form">
+                    <?php echo do_shortcode("[ninja_form id=1]"); ?>
+                </div>
+        </div>
+    </section>
+    </div>
