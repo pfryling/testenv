@@ -35,7 +35,7 @@
                         <p><?php the_field('fintech_box--header-agiledata'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-agiledata'); ?></p>
-                    <?php the_field('fintech_box--text-agiledata'); ?>
+                    <p><?php the_field('fintech_box--text-agiledata'); ?></p>
                     <div class="link">
                         <a href="/agiledata/fintech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -46,7 +46,7 @@
                         <p><?php the_field('fintech_box--header-connect'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-connect'); ?></p>
-                    <?php the_field('fintech_box--text-connect'); ?>
+                    <p><?php the_field('fintech_box--text-connect'); ?></p>
                     <div class="link">
                         <a href="/connect/fintech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -57,7 +57,7 @@
                         <p><?php the_field('fintech_box--header-databridge'); ?></p>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-databridge'); ?></p>
-                    <?php the_field('fintech_box--text-databridge'); ?>
+                    <p><?php the_field('fintech_box--text-databridge'); ?></p>
                     <div class="link">
                         <a href="/databridge/fintech" class="link-arrow">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
