@@ -5,271 +5,335 @@
   +media($mobile)
     display: block
 
-#container
+.mnav-container
+  height: 100%
+
+[class*="ion-"]::before
+  margin: 0 0.6em 0 0
+
+.scroller
+  overflow-y: scroll
+  position: relative
+
+.scroller-inner
+  position: relative
+
+.mnav-container
+  position: relative
+  overflow: hidden
+
+.menu-trigger
+  position: relative
+  padding-left: 60px
+  font-size: 0.9em
+  &:before
+    position: absolute
+    top: 2px
+    left: 0
+    width: 40px
+    height: 6px
+    background: black
+    box-shadow: 0 6px rgba(0, 0, 0, 0), 0 12px black, 0 18px rgba(0, 0, 0, 0), 0 24px black
+    content: ''
+
+.mp-pusher
   position: relative
   left: 0
-  -webkit-transition: left 300ms ease
-  transition: left 300ms ease
-  display: inline-block
-  background-color: white
-  width: 100%
-  box-shadow: $white-box-shadow
-
-#main-nav
-  width: 100%
-  background-color: white
-  position: fixed
-  z-index: 100
-  display: inline-block
-  .logo
-    padding: 20px 50px
-    margin: 0
-    color: $text
-    cursor: pointer
-    opacity: 1
-    -webkit-transition: opacity 200ms ease
-    transition: opacity 200ms ease
-    position: relative
-  #bun
-    position: fixed
-    cursor: pointer
-    right: 30px
-    top: 25px
-    background: $primary
-    width: 38px
-    height: 38px
-    overflow: hidden
-    .mmm-burger
-      position: relative
-      width: 25px
-      margin: 18px 7px 0
-      height: 3px
-      background: white
-      &:before
-        content: ''
-        position: absolute
-        width: 100%
-        height: 3px
-        background: white
-        right: 0
-        top: -8px
-      &:after
-        content: ''
-        position: absolute
-        width: 100%
-        height: 3px
-        background: white
-        right: 0
-        top: 8px
-    &:before
-      content: ''
-      top: -10px
-      left: -45px
-      width: 30px
-      height: 75px
-      position: absolute
-      opacity: 0
-      background: $text
-      -webkit-transform: rotate(25deg)
-      transform: rotate(25deg)
-      -webkit-transition: left 300ms linear 50ms, opacity 20ms linear
-      transition: left 300ms linear 50ms, opacity 20ms linear
-    &:hover:before
-      opacity: 1
-      left: 100px
-
-#sidebar
-  position: fixed
-  z-index: 999
   height: 100%
-  width: 300px
-  background: white
-  overflow-x: hidden
-  overflow-y: scroll
-  margin: 0
-  left: -300px
+  perspective: 1000px
+
+.mp-menu
+  position: absolute
   top: 0
-  -webkit-transition: left 300ms ease
-  transition: left 300ms ease
-  #mobile-nav
-    .mobile-logo
-      color: white
-      font-size: 2rem
-      width: 100%
-      text-align: center
-      padding: 25px 0
-      margin: 0
-      opacity: 0
-      -webkit-transition: opacity 1500ms ease
-      transition: opacity 1500ms ease
-    ul
-      margin: 0
-      padding: 4px 0
-      .nav-item
-        position: relative
-        float: left
-        list-style: none
-        width: 100%
-        color: #fff
-        font-size: 1.25rem
-        font-weight: 300
-        background: white
-        overflow: hidden
-        cursor: pointer
-        -webkit-transform: scale(0.75, 0.75)
-        transform: scale(0.75, 0.75)
-        opacity: 0
-        -webkit-transition: left 300ms linear 2s, opacity 100ms ease-in 600ms
-        transition: left 300ms linear 2s, opacity 100ms ease-in 600ms
-        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.45, 1.8, 0.5, 0.75) 500ms
-        transition: -webkit-transform 0.3s cubic-bezier(0.45, 1.8, 0.5, 0.75) 500ms
-        transition: transform 0.3s cubic-bezier(0.45, 1.8, 0.5, 0.75) 500ms
-        transition: transform 0.3s cubic-bezier(0.45, 1.8, 0.5, 0.75) 500ms, -webkit-transform 0.3s cubic-bezier(0.45, 1.8, 0.5, 0.75) 500ms
-        -webkit-transition: border-top 40 ease 0ms, border-bottom 40 ease 0ms, box-shadow 150 ms ease-in
-        transition: border-top 40 ease 0ms, border-bottom 40 ease 0ms, box-shadow 150 ms ease-in
-        &:hover
-          box-shadow: $white-box-shadow
-          z-index: 100
-          &:after
-            color: #fff
-        h3
-          position: relative
-          font-size: 1rem
-          font-weight: 400
-          color: $primary
-          padding: 15px 25px
-          margin: 0
-        &:first-child
-          margin: 0
-          &:hover
-            box-shadow: $white-box-shadow
-        &:last-child
-          &:hover
-            box-shadow: $white-box-shadow
-      .sub-nav
-        width: 100%
-        position: relative
-        margin: 0
-        padding: 0
-        overflow: hidden
-        box-shadow: inset 0 -7px 12px rgba(0, 0, 0, 0.15) !important
-        .sub-nav-item
-          position: relative
-          float: left
-          list-style: none
-          width: 100%
-          color: $primary
-          font-size: 1.25rem
-          font-weight: 300
-          overflow: hidden
-          cursor: pointer
-          &:hover
-            background: rgba(0, 0, 0, 0.1)
-            h4
-              color: #fff
-          h4
-            position: relative
-            font-size: 1rem
-            font-weight: 300
-            color: $primary
-            padding: 11px 20px 10px 40px
-            margin: 0
-          &:first-child
-            border-top: none
-          &:last-child
-            border-bottom: none
-      .sub-sub-nav
-        width: 100%
-        position: relative
-        margin: 0
-        padding: 0
-        overflow: hidden
-        box-shadow: inset 0 -7px 12px rgba(0, 0, 0, 0.15) !important
-        .sub-sub-nav-item
-          position: relative
-          float: left
-          list-style: none
-          width: 100%
-          color: $primary
-          font-size: 1.25rem
-          font-weight: 300
-          overflow: hidden
-          cursor: pointer
-          &:hover
-            background: rgba(0, 0, 0, 0.1)
-            h4
-              color: #fff
-          h4
-            position: relative
-            font-size: 1rem
-            font-weight: 300
-            color: $primary
-            padding: 11px 20px 10px 40px
-            margin: 0
-          &:first-child
-            border-top: none
-          &:last-child
-            border-bottom: none
-
-.nav-slide
-  left: 0 !important
-  #mobile-nav .mobile-logo
-    opacity: 1 !important
-
-.body-slide
-  left: 300px !important
-  #main-nav .logo
-    opacity: 0 !important
-
-.item-slide
-  -webkit-transform: scale(1, 1) !important
-  transform: scale(1, 1) !important
-  opacity: 1 !important
-
-.scroll-jam
+  left: 0
+  z-index: 1
+  width: 300px
   height: 100%
-  overflow-y: hidden
+  -webkit-transform: translate3d(-100%, 0, 0)
+  -moz-transform: translate3d(-100%, 0, 0)
+  transform: translate3d(-100%, 0, 0)
 
-.arrowed:after
-  content: '\f107'
-  font-family: 'FontAwesome'
-  font-size: 16px
+.mp-level
   position: absolute
-  color: $primary
-  right: 25px
-  top: 18px
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: linear-gradient(to top left, #2d5ead, #5b70ff)
+  -webkit-transform: translate3d(-100%, 0, 0)
+  -moz-transform: translate3d(-100%, 0, 0)
+  transform: translate3d(-100%, 0, 0)
 
-.sub-arrowed:after
-  content: '\f107'
-  font-family: 'FontAwesome'
-  font-size: 16px
+.mp-pusher::after
   position: absolute
-  color: $primary
-  right: 25px
-  top: 15px
+  top: 0
+  right: 0
+  width: 0
+  height: 0
+  content: ''
+  opacity: 0
 
-.nselected
-  box-shadow: $white-box-shadow !important
-  background-color: $primary
-  &:after
-    content: "\f106"
-    font-family: 'FontAwesome'
-    font-size: 16px
+.mp-level
+  &::after, &::before
     position: absolute
-    color: $primary
-    right: 25px
-    top: 18px
+    top: 0
+    right: 0
+    width: 0
+    height: 0
+    content: ''
+    opacity: 0
 
-.sub-selected
-  box-shadow: $white-box-shadow !important
-  &:after
-    content: "\f106"
-    font-family: 'FontAwesome'
-    font-size: 16px
+.mp-pusher::after
+  background: rgba(0, 0, 0, 0.3)
+  -webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+  -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+  transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+
+.mp-level::after
+  background: rgba(0, 0, 0, 0.3)
+  -webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+  -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+  transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
+  z-index: -1
+
+.mp-pusher.mp-pushed::after
+  width: 100%
+  height: 100%
+  opacity: 1
+  -webkit-transition: opacity 0.3s
+  -moz-transition: opacity 0.3s
+  transition: opacity 0.3s
+
+.mp-level.mp-level-overlay
+  &::after
+    width: 100%
+    height: 100%
+    opacity: 1
+    -webkit-transition: opacity 0.3s
+    -moz-transition: opacity 0.3s
+    transition: opacity 0.3s
+  cursor: pointer
+  &.mp-level::before
+    width: 100%
+    height: 100%
+    background: transparent
+    opacity: 1
+
+.mp-pusher, .mp-level
+  -webkit-transition: all 0.5s
+  -moz-transition: all 0.5s
+  transition: all 0.5s
+
+/* overlap
+
+.mp-overlap .mp-level.mp-level-open
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2)
+  -webkit-transform: translate3d(-40px, 0, 0)
+  -moz-transform: translate3d(-40px, 0, 0)
+  transform: translate3d(-40px, 0, 0)
+
+/* First level
+
+.mp-menu
+  > .mp-level, &.mp-overlap > .mp-level
+    box-shadow: none
+    -webkit-transform: translate3d(0, 0, 0)
+    -moz-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
+    &.mp-level-open
+      box-shadow: none
+      -webkit-transform: translate3d(0, 0, 0)
+      -moz-transform: translate3d(0, 0, 0)
+      transform: translate3d(0, 0, 0)
+
+/* cover
+
+.mp-cover .mp-level.mp-level-open
+  -webkit-transform: translate3d(0, 0, 0)
+  -moz-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+  > ul > li > .mp-level:not(.mp-level-open)
+    -webkit-transform: translate3d(-100%, 0, 0)
+    -moz-transform: translate3d(-100%, 0, 0)
+    transform: translate3d(-100%, 0, 0)
+
+/* content style
+
+.mp-menu
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+  h2
+    margin: 0
+    padding: 1em
+    color: white
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1)
+    font-weight: 300
+    font-size: 2em
+  &.mp-overlap h2::before
     position: absolute
-    color: $primary
-    right: 25px
-    top: 15px
+    top: 0
+    right: 0
+    margin-right: 8px
+    font-size: 75%
+    line-height: 1.8
+    opacity: 0
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.1s 0.3s
+    -moz-transition: opacity 0.3s, -moz-transform 0.1s 0.3s
+    transition: opacity 0.3s, transform 0.1s 0.3s
+    -webkit-transform: translateX(-100%)
+    -moz-transform: translateX(-100%)
+    transform: translateX(-100%)
+  &.mp-cover h2
+    text-transform: uppercase
+    font-weight: 700
+    letter-spacing: 1px
+    font-size: 1em
+
+.mp-overlap .mp-level.mp-level-overlay > h2::before
+  opacity: 1
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s
+  transition: transform 0.3s, opacity 0.3s
+  -webkit-transform: translateX(0)
+  -moz-transform: translateX(0)
+  transform: translateX(0)
+
+.mp-menu ul li
+  > a
+    display: block
+    padding: 0.7em 1em 0.7em 1.8em
+    outline: none
+    box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2)
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.1)
+    font-size: 1.4em
+    -webkit-transition: background 0.3s, box-shadow 0.3s
+    -moz-transition: background 0.3s, box-shadow 0.3s
+    transition: background 0.3s, box-shadow 0.3s
+  &::before
+    position: absolute
+    left: 10px
+    z-index: -1
+    color: white
+    line-height: 3.5
+
+.mp-level > ul > li:first-child > a
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2), inset 0 1px rgba(0, 0, 0, 0.2)
+
+.mp-menu ul li a:hover, .mp-level > ul > li:first-child > a:hover
+  background: rgba(0, 0, 0, 0.2)
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0)
+
+.mp-menu .mp-level.mp-level-overlay > ul > li > a
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0)
+
+.mp-level
+  &.mp-level-overlay
+    > ul > li:first-child > a
+      box-shadow: inset 0 -1px rgba(0, 0, 0, 0)
+    > ul > li:first-child > a
+      box-shadow: inset 0 -1px rgba(0, 0, 0, 0), inset 0 1px rgba(0, 0, 0, 0)
+  > ul > li:first-child > a:hover
+    box-shadow: inset 0 -1px rgba(0, 0, 0, 0), inset 0 1px rgba(0, 0, 0, 0)
+
+/* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks
+
+.mp-back
+  background: rgba(0, 0, 0, 0.1)
+  outline: none
+  color: #fff
+  text-transform: uppercase
+  letter-spacing: 1px
+  font-weight: 700
+  display: block
+  font-size: 0.8em
+  padding: 1em
+  position: relative
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.1)
+  -webkit-transition: background 0.3s
+  -moz-transition: background 0.3s
+  transition: background 0.3s
+  &::after
+    font-family: 'Ionicons'
+    position: absolute
+    content: "\f10a"
+    right: 10px
+    font-size: 1.3em
+    color: rgba(0, 0, 0, 0.3)
+
+.mp-menu .mp-level.mp-level-overlay > .mp-back
+  background: transparent
+  box-shadow: none
+  color: transparent
+  &::after
+    background: transparent
+    box-shadow: none
+    color: transparent
+
+.no-csstransforms3d .mp-pusher, .no-js .mp-pusher
+  padding-left: 300px
+
+.no-csstransforms3d .mp-menu .mp-level, .no-js .mp-menu .mp-level
+  display: none
+
+.no-csstransforms3d .mp-menu > .mp-level, .no-js .mp-menu > .mp-level
+  display: block
+
+body
+  background: linear-gradient(to top left, #C771DF, #E86464)
+  color: #fff
+  font-weight: 300
+  font-family: 'Poppins', Calibri, Arial, sans-serif
+
+a
+  text-decoration: none
+  color: #f7f7f7
+  outline: none
+  &:hover, &:focus
+    color: #fff
+    outline: none
+
+.clearfix
+  &:before
+    display: table
+    content: " "
+  &:after
+    display: table
+    content: " "
+    clear: both
+
+.m-nav-bar
+  background-color: white
+  position: fixed
+  width: 100%
+  padding: 10px
+
+.block
+  float: left
+  padding: 1em 3em
+
+.block-40
+  width: 40%
+
+.block-60
+  width: 60%
+
+.block p
+  margin: 0
+  padding: 0 1em 0.6em
+  font-size: 1.8em
+  line-height: 1.5
+
+@media screen and (max-width: 69em)
+  .block
+    float: none
+    width: 100% !important
+    padding: 1em
+
+@media screen and (max-width: 25em)
+  body
+    font-size: 80%
 
 /* Desktop Nav */
 
