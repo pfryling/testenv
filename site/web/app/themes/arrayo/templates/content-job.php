@@ -18,19 +18,19 @@
                 <div class="job-text text--for wow fadeInUp">
                     <strong>Skills</strong>
                     <hr>
-                    <?php the_field('job_skills'); ?>
+                    <p><?php the_field('job_skills'); ?></p>
                     <strong>Education</strong>
                     <hr>
-                    <?php the_field('job_education'); ?>
+                    <p><?php the_field('job_education'); ?></p>
                     <strong>Experience</strong>
                     <hr>
                     <p><?php the_field('job_experience'); ?></p>
                     <strong>Description</strong>
                     <hr>
-                    <?php the_field('job_description'); ?>
+                    <p><?php the_field('job_description'); ?></p>
                     <strong>Essential Duties &amp; Responsibilities</strong>
                     <hr>
-                    <?php the_field('job_duties'); ?>
+                    <p><?php the_field('job_duties'); ?></p>
                 </div>
             </section>
         </div>
