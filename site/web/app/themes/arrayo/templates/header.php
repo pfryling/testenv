@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
     </button>
             <a href="/" class="navbar-brand">
-                <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/arrayo-small.png">
+                <img src="http://imgh.us/arrayo-logo-official.png">
             </a>
 
         </div>
