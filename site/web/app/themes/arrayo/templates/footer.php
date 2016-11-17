@@ -188,6 +188,101 @@ var waypoint = new Waypoint({
         }
     }
 });
+
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".m-dropdown-toggle").click(function () {
+        var t = e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").is(":hidden");
+        e(".m-button-dropdown .m-dropdown-menu").hide();
+        e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").toggle().parents(".m-button-dropdown").children(".m-dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+    })
+});
+
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".sub-dropdown-toggle").click(function () {
+        var t = e(this).parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-menu").is(":hidden");
+        e(".m-sub-button-sub-dropdown .m-sub-dropdown-menu").hide();
+        e(".m-sub-button-sub-dropdown .m-sub-dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-menu").toggle().parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-sub-button-sub-dropdown")) e(".m-sub-button-sub-dropdown .sub-dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-sub-button-sub-dropdown")) e(".m-sub-button-sub-dropdown .m-sub-dropdown-toggle").removeClass("active");
+    })
+});
+</script>
+<script>
+// POJO module pattern
+// Thx to GreenJello
+
+(function() {
+
+var headerMenu = {
+  bodyTag: document.getElementsByTagName('body')[0],
+  btnTop: document.getElementById('menu_button'),
+  btnHamburger: document.getElementById('hamburger'),
+  headerTop: document.getElementById('menu'),
+  toggleMenu: function() {
+      if (headerMenu.headerTop.classList.contains('show_it') == false) {
+      headerMenu.headerTop.classList.toggle('show_it');
+      headerMenu.btnHamburger.classList.toggle('open');
+      headerMenu.bodyTag.classList.toggle('noScroll');
+    } else {
+      headerMenu.headerTop.classList.remove('show_it');
+      headerMenu.btnHamburger.classList.remove('open');
+      headerMenu.bodyTag.classList.remove('noScroll');
+    }
+  },
+  btnClick: function() {
+    headerMenu.btnTop.addEventListener('click', function() {
+      headerMenu.toggleMenu('header');
+    });
+  }
+};
+
+headerMenu.btnClick();
+  
+})();
+
+var waypoint = new Waypoint({
+    element: document.getElementById('direction-waypoint'),
+    handler: function(direction) {
+        if (direction == 'down') {
+          document.getElementById('header').classList.toggle('lock_it');
+        } else {
+          document.getElementById('header').classList.remove('lock_it');
+          console.log('NO!');
+        }
+    }
+});
 </script>
 <script>
 $( document ).ready(function() {

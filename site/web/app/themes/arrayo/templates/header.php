@@ -178,6 +178,7 @@
 </header>
 
 <header id="header" class="mobile-only">
+<div id="direction-waypoint"></div>
     <div id="menu_button">
         <ul id="hamburger">
             <li></li>
@@ -189,7 +190,49 @@
 
 <div id="menu" class="mobile-only">
         <div class="wrapper">
-            <h1>Menu Window</h1>
-            <p>locks scroll of body when open</p>
+            <ul class="m-nav">
+  <li class="m-button-dropdown">
+    <a href="javascript:void(0)" class="m-dropdown-toggle">
+            Dropdown 1 <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="m-dropdown-menu">
+      <li>
+        <a href="#">
+          Drop Item 1
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Drop Item 2
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Drop Item 3
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="m-button-dropdown">
+    <a href="javascript:void(0)" class="m-dropdown-toggle">
+      Dropdown 2 <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">
+          asdf
+        </a>
+  </li>
+      <li>
+    <a href="#">
+      No dropdown
+    </a>
+  </li>
+      <li>
+    <a href="#">
+      No dropdown
+    </a>
+  </li>
+</ul>
         </div>
 </div>

@@ -1,8 +1,3 @@
-.mobile-only
-  display: none
-  +media($mobile)
-    display: block
-
 .para p
   margin: 0
   width: 100%
@@ -23,15 +18,15 @@
   z-index: 11
   &.lock_it
     position: fixed
-    background: mediumaquamarine
+    background: white
 
 #menu
   width: 100%
   height: 100%
   position: fixed
   display: none
-  color: #2d8b6b
-  background-color: aquamarine
+  color: #507bff
+  background-color: white
   text-align: center
   z-index: 9
   &.show_it
@@ -53,9 +48,9 @@
   width: 48px
   border-radius: 100%
   overflow: hidden
-  color: #FFF
-  border: 4px solid #3ab289
-  background: #57c8a1
+  color: #507bff
+  border: 0
+  background: white
   position: absolute
   right: 24px
   margin: 12px
@@ -83,9 +78,10 @@
   li
     width: 28px
     height: 2px
-    margin-bottom: 8px
+    margin-bottom: 5px
     padding: 0
-    background: #FFF
+    background: #507bff
+    border-bottom: 1px solid #507bff
     -webkit-transition: .25s ease-in-out
     transition: .25s ease-in-out
     &:nth-child(3)
@@ -95,7 +91,7 @@
     height: 100%
     position: absolute
     li
-      background: #FFF
+      background: #507bff
       margin-left: 0
       top: 0
       bottom: 0
@@ -112,6 +108,82 @@
       &:nth-child(3)
         -webkit-transform: rotate(-135deg)
         transform: rotate(-135deg)
+
+.m-nav
+  display: block
+  font: 13px Helvetica, Tahoma, serif
+  text-transform: uppercase
+  margin: 0
+  padding: 0
+  li
+    display: inline-block
+    list-style: none
+  .m-button-dropdown
+    position: relative
+  li
+    a
+      display: inline-block
+      color: #333
+      background-color: #fff
+      padding: 10px 20px
+      text-decoration: none
+      span
+        display: -webkit-inline-box
+        display: -webkit-inline-flex
+        display: -ms-inline-flexbox
+        display: inline-flex
+        margin-left: 5px
+        font-size: 10px
+        color: #999
+      &:hover, &.m-dropdown-toggle.active
+        background-color: #289dcc
+        color: #fff
+      &:hover span, &.m-dropdown-toggle.active span
+        color: #fff
+    .m-dropdown-menu
+      display: none
+      position: absolute
+      left: 0
+      padding: 0
+      margin: 0
+      margin-top: 3px
+      text-align: left
+    .m-sub-dropdown-menu
+      display: none
+      position: absolute
+      left: 0
+      padding: 0
+      margin: 0
+      margin-top: 3px
+      text-align: left
+      display: none
+      position: absolute
+      left: 0
+      padding: 0
+      margin: 0
+      margin-top: 3px
+      text-align: left
+    .m-dropdown-menu.active
+      display: block
+
+.m-dropdown-menu.active li
+  display: block
+
+.m-sub-dropdown-menu.active
+  display: inline-block
+
+.m-nav li
+  .dropdown-menu a
+    width: 150px
+    display: block
+
+.m-sub-dropdown-menu.active li
+  display: inline-block
+
+.m-nav li .m-sub-dropdown-menu a
+  width: 150px
+  display: inline-block
+
 
 /* Desktop Nav */
 
