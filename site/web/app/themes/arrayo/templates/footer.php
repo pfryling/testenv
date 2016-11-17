@@ -42,76 +42,71 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-  <button class="tbtn trigger" href="javascript:;">Apply Now</button>
-<div class="seahorse-wrapper">
-  <div class="seahorse">
-    <div class="content">
-      <div class="turtle">
+
+<button class="md-trigger" data-modal="modal-12">Show modal</button>
+
+<div class="md-modal md-effect-12">
+    <div class="md-content">
+      <button class="md-close"><i class="fa fa-times-circle"></i></button>
+       <div class="turtle">
   <div class="turtle-toggle"></div>
   <div class="turtle-panel one">
-    <a class="btn-close trigger"></a>
     <div class="turtle-header">
       <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
+      <h5>Join Arrayo</h5>
     </div>
     <div class="turtle-content">
-      <turtle>
+      <form>
         <div class="turtle-group">
-          <label for="file-upload" class="custom-file-upload">
-            <i class="fa fa-cloud-upload"></i> Upload your Resume
-          </label>
-          <input id="file-upload" type="file"/>
+          <label for="username">Upload resume</label>
+          <input type="text" id="username" name="username" required="required"/>
+        </div>
+        <p>or</p>
+        <div class="turtle-group">
+          <label for="password">LinkedIn URL</label>
+          <input type="password" id="password" name="password" required="required"/>
         </div>
         <div class="turtle-group">
-          <input type="url" name="linkedin" required="required" placeholder="&#xf0e1;&nbsp;&nbsp; Add your LinkedIn Profile" style="font-family:Poppins, FontAwesome;font-size:12px;" />
+          <button type="submit">Submit</button>
         </div>
-        <div class="turtle-group">
-          <button type="submit">Apply</button>
-        </div>
-      </turtle>
+      </form>
     </div>
   </div>
   <div class="turtle-panel two">
     <div class="turtle-header">
       <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
+      <h5>Join Arrayo, Get on Board.</h5>
     </div>
     <div class="turtle-content">
-    <?php echo do_shortcode("[ninja_form id=3]"); ?>
-      <!--<form>
+      <form>
         <div class="turtle-group">
-          <input type="text" id="name" name="name" placeholder="Your Name" required="required"/>
-          <input type="email" id="email" name="email" placeholder="Your Email" required="required"/>
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" required="required"/>
         </div>
         <div class="turtle-group">
-          <div class="select">
-            <span class="placeholder">Areas of Interest</span>
-            <ul>
-              <li data-value="fintech">Fintech</li>
-              <li data-value="healthtech">HealthTech</li>
-              <li data-value="hightech">HighTech</li>
-              <li data-value="agiledata">AgileData</li>
-              <li data-value="rtech">R-Tech</li>
-              <li data-value="connect">Connect</li>
-              <li data-value="databridge">DataBridge</li>
-            </ul>
-            <input type="hidden" name="changeme"/>
-          </div>
+          <label for="password">Email</label>
+          <input type="password" id="password" name="password" required="required"/>
+        </div>
+        <div class="turtle-group">
+          <label for="cpassword">Areas of Interest</label>
+          <input type="password" id="cpassword" name="cpassword" required="required"/>
         </div>
         <div class="turtle-group">
           <label for="email">Your Message / Cover Letter</label>
-          <textarea></textarea>
+          <input type="email" id="email" name="email" required="required"/>
         </div>
         <div class="turtle-group">
-          <button type="submit">Register</button>
+          <button type="submit">Apply Now</button>
         </div>
-      </form>-->
+      </form>
     </div>
   </div>
 </div>
+        </div>
     </div>
-  </div>
 </div>
+
+<div class="md-overlay"></div>
                 </li>
               </ul>
             </div>
@@ -285,12 +280,16 @@ var waypoint = new Waypoint({
 });
 </script>
 <script>
-$( document ).ready(function() {
-  $('.trigger').click(function() {
-     $('.seahorse-wrapper').toggleClass('open');
-    $('.blur-wrapper').toggleClass('blur');
-     return false;
+$(function () {
+
+  $('.md-trigger').on('click', function() {
+    $('.md-modal').addClass('md-show');
   });
+
+  $('.md-close').on('click', function() {
+    $('.md-modal').removeClass('md-show');
+  });
+
 });
 
 
