@@ -47,55 +47,55 @@
 
 <div class="md-modal md-effect-12">
     <div class="md-content">
-      <button class="md-close"><i class="fa fa-times-circle"></i></button>
-       <div class="turtle">
-  <div class="turtle-toggle"></div>
-  <div class="turtle-panel one">
-    <div class="turtle-header">
+      <div class="md-close"><i class="fa fa-times-circle"></i></div>
+       <div class="applymodal">
+  <div class="applymodal-toggle"></div>
+  <div class="applymodal-panel one">
+    <div class="applymodal-header">
       <h1>Apply Now-<br>for Now or Later</h1>
       <h5>Join Arrayo</h5>
     </div>
-    <div class="turtle-content">
+    <div class="applymodal-content">
       <form>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="username">Upload resume</label>
           <input type="text" id="username" name="username" required="required"/>
         </div>
         <p>or</p>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="password">LinkedIn URL</label>
           <input type="password" id="password" name="password" required="required"/>
         </div>
-        <div class="turtle-group">
-          <button type="submit">Submit</button>
+        <div class="applymodal-group">
+          <button class="applysubmit" type="submit">Submit</button>
         </div>
       </form>
     </div>
   </div>
-  <div class="turtle-panel two">
-    <div class="turtle-header">
+  <div class="applymodal-panel two">
+    <div class="applymodal-header">
       <h1>Apply Now-<br>for Now or Later</h1>
       <h5>Join Arrayo, Get on Board.</h5>
     </div>
-    <div class="turtle-content">
+    <div class="applymodal-content">
       <form>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="username">Name</label>
           <input type="text" id="username" name="username" required="required"/>
         </div>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="password">Email</label>
           <input type="password" id="password" name="password" required="required"/>
         </div>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="cpassword">Areas of Interest</label>
           <input type="password" id="cpassword" name="cpassword" required="required"/>
         </div>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <label for="email">Your Message / Cover Letter</label>
           <input type="email" id="email" name="email" required="required"/>
         </div>
-        <div class="turtle-group">
+        <div class="applymodal-group">
           <button type="submit">Apply Now</button>
         </div>
       </form>
@@ -139,6 +139,45 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
 <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
+<script>
+$(function () {
+  
+  $('.md-trigger').on('click', function() {
+    $('.md-modal').addClass('md-show');
+  });
+  
+  $('.md-close').on('click', function() {
+    $('.md-modal').removeClass('md-show');
+  });
+  
+});
+
+$(document).ready(function() {
+  var panelOne = $('.applymodal-panel.two').height(),
+    panelTwo = $('.applymodal-panel.two')[0].scrollHeight;
+
+  $('.applymodal-panel.two').not('.applymodal-panel.two.active').on('click', function(e) {
+    e.preventDefault();
+
+    $('.applymodal-toggle').addClass('visible');
+    $('.applymodal-panel.one').addClass('hidden');
+    $('.applymodal-panel.two').addClass('active');
+    $('.applymodal').animate({
+      'height': panelTwo
+    }, 200);
+  });
+
+  $('.applymodal-toggle').on('click', function(e) {
+    e.preventDefault();
+    $(this).removeClass('visible');
+    $('.applymodal-panel.one').removeClass('hidden');
+    $('.applymodal-panel.two').removeClass('active');
+    $('.applymodal').animate({
+      'height': panelOne
+    }, 200);
+  });
+});
+</script>
 <script>
 $('document').ready(function() {
   var screenHeight = $(window).height();
