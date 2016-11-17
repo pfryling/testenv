@@ -233,51 +233,6 @@ jQuery(document).ready(function (e) {
         if (!n.parents().hasClass("sub-button-sub-dropdown")) e(".sub-button-sub-dropdown .sub-dropdown-toggle").removeClass("active");
     })
 });
-
-<script>
-// POJO module pattern
-// Thx to GreenJello
-
-(function() {
-
-var headerMenu = {
-  bodyTag: document.getElementsByTagName('body')[0],
-  btnTop: document.getElementById('menu_button'),
-  btnHamburger: document.getElementById('hamburger'),
-  headerTop: document.getElementById('menu'),
-  toggleMenu: function() {
-      if (headerMenu.headerTop.classList.contains('show_it') == false) {
-      headerMenu.headerTop.classList.toggle('show_it');
-      headerMenu.btnHamburger.classList.toggle('open');
-      headerMenu.bodyTag.classList.toggle('noScroll');
-    } else {
-      headerMenu.headerTop.classList.remove('show_it');
-      headerMenu.btnHamburger.classList.remove('open');
-      headerMenu.bodyTag.classList.remove('noScroll');
-    }
-  },
-  btnClick: function() {
-    headerMenu.btnTop.addEventListener('click', function() {
-      headerMenu.toggleMenu('header');
-    });
-  }
-};
-
-headerMenu.btnClick();
-  
-})();
-
-var waypoint = new Waypoint({
-    element: document.getElementById('direction-waypoint'),
-    handler: function(direction) {
-        if (direction == 'down') {
-          document.getElementById('header').classList.toggle('lock_it');
-        } else {
-          document.getElementById('header').classList.remove('lock_it');
-          console.log('NO!');
-        }
-    }
-});
 </script>
 <script>
 $(function () {
