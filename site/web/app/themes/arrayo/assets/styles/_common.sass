@@ -120,7 +120,9 @@ header
         transform: rotate(-360deg)
 
 .header-logo-container
-    position: absolute
+    img
+        position: absolute
+        z-index: -9999
     .logo
         opacity: .1
         left: 52%
@@ -157,6 +159,8 @@ header
     display: block
     margin: 0
     overflow-x: hidden
+    position: relative
+    z-index: -1
     padding: 0
     +media($mobile)
         background-image: linear-gradient(to bottom, $primary, $tertiary)
