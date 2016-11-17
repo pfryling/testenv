@@ -121,6 +121,7 @@ header
 
 .header-logo-container
     position: absolute
+    left: 60%
     .logo
         opacity: .1
         left: 52%
@@ -458,19 +459,26 @@ header
         text-align: left
         transition: all .4s ease-in-out
         padding: $spacer-blue 0
-        .service-btn
-            background-color: $primary
-            margin: 0 $spacer-green 0 $spacer-pink
-            color: white
-            padding: 10px 20px
-            font-family: $header
-            +media($laptop)
-                margin: $spacer-yellow $spacer-green $spacer-yellow $spacer-yellow
-            +media($tablet)
-                margin: $spacer-yellow $spacer-green
-            +media($mobile)
-                margin: 30px auto 50px auto
-                font-size: 15px
+        .link
+            display: block
+            position: absolute
+            padding: $spacer-cyan 0 0 0
+            width: 100%
+            bottom: 0
+            border-top: 1px solid rgba(0,0,0,0.1)
+            .service-btn
+                background-color: $primary
+                margin: 0 $spacer-green 0 $spacer-pink
+                color: white
+                padding: 10px 40px
+                font-family: $header
+                +media($laptop)
+                    margin: $spacer-yellow $spacer-green $spacer-yellow $spacer-yellow
+                +media($tablet)
+                    margin: $spacer-yellow $spacer-green
+                +media($mobile)
+                    margin: 30px auto 50px auto
+                    font-size: 15px
         h5
             font-size: $base-med
             font-weight: 600

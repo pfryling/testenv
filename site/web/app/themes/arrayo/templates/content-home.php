@@ -18,12 +18,16 @@
                     <div class="box two wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-rtech'); ?></h5>
                         <p><?php the_field('services_box--text-rtech'); ?></p>
-                        <a class="service-btn" href="/rtech">RTech</a>
+                        <div class="link">
+                            <a class="service-btn" href="/rtech">RTech</a>
+                        </div>
                     </div>
                     <div class="box four wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-agiledata'); ?></h5>
                         <p><?php the_field('services_box--text-agiledata'); ?></p>
-                        <a class="service-btn" href="/agiledata">AgileData</a>
+                        <div class="link">
+                            <a class="service-btn" href="/agiledata">AgileData</a>
+                        </div>
                     </div>
                 </div>
                 <h6><?php the_field('services_grid--small-header-bottom'); ?></h6>
@@ -31,12 +35,16 @@
                     <div class="box three wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-databridge'); ?></h5>
                         <p><?php the_field('services_box--text-databridge'); ?></p>
-                        <a class="service-btn" href="/connect">Connect</a>
+                        <div class="link">
+                            <a class="service-btn" href="/connect">Connect</a>
+                        </div>
                     </div>
                     <div class="box one wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-connect'); ?></h5>
                         <p><?php the_field('services_box--text-connect'); ?></p>
-                        <a class="service-btn" href="/DataBridge">DataBridge</a>
+                        <div class="link">
+                            <a class="service-btn" href="/DataBridge">DataBridge</a>
+                        </div>
                     </div>
                 </div>
             </div>
