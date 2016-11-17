@@ -42,6 +42,7 @@
             </div>
         </section>
     </div>
+</div>
     <div class="bg-white">
         <div class="wrapper">
             <section class="overlay--container">
