@@ -176,3 +176,195 @@
         </div>
     </div>
 </header>
+
+<nav class="m-mobile-nav-wrap" role="navigation">
+  <ul class="m-fixed-mobile-nav mnav">
+  <li class="m-button-dropdown">
+    <a href="javascript:void(0)" class="m-dropdown-toggle">
+      Services <span><i class="fa fa-chevron-down"></i></span>
+    </a>
+    <ul class="m-dropdown-menu">
+      <li class="m-sub-button-dropdown">
+    <a href="javascript:void(0)" class="m-sub-dropdown-toggle">
+      AgileData <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="m-sub-dropdown-menu">
+      <li>
+        <a href="#">
+          Overview
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for FinTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HealthTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HighTech
+        </a>
+      </li>
+        </ul>
+      </li>
+      <li class="m-sub-button-dropdown">
+    <a href="javascript:void(0)" class="m-sub-dropdown-toggle">
+      RTech <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="m-sub-dropdown-menu">
+      <li>
+        <a href="#">
+          Overview
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for FinTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HealthTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HighTech
+        </a>
+      </li>
+        </ul>
+      </li>
+      <li class="m-sub-button-dropdown">
+    <a href="javascript:void(0)" class="m-sub-dropdown-toggle">
+      DataBridge <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="m-sub-dropdown-menu">
+      <li>
+        <a href="#">
+          Overview
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for FinTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HealthTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HighTech
+        </a>
+      </li>
+        </ul>
+      </li>
+      <li>
+        <li class="m-sub-button-dropdown">
+    <a href="javascript:void(0)" class="m-sub-dropdown-toggle">
+      Connect <span><i class="fa fa-angle-down"></i></span>
+    </a>
+    <ul class="m-sub-dropdown-menu">
+      <li>
+        <a href="#">
+          Overview
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for FinTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HealthTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          for HighTech
+        </a>
+      </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="m-button-dropdown">
+    <a href="javascript:void(0)" class="m-dropdown-toggle">
+      Industries  <span><i class="fa fa-chevron-down"></i></span>
+    </a>
+    <ul class="m-dropdown-menu">
+      <li>
+        <a href="#">
+          FinTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          HealthTech
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          HighTech
+        </a>
+      </li>
+    </ul>
+  </li>
+      <li>
+    <a href="#">
+      Company
+    </a>
+  </li>
+      <li>
+    <a href="#">
+      Careers
+    </a>
+  </li>
+      <li class="m-button-dropdown">
+    <a href="javascript:void(0)" class="m-dropdown-toggle">
+      Contact  <span><i class="fa fa-chevron-down"></i></span>
+    </a>
+    <ul class="m-dropdown-menu">
+      <li>
+        <input type="text" name="name" placeholder="Your name">
+      </li>
+      <li>
+        <a href="#">
+          <input type="email" name="email" placeholder="Your email">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <textarea placeholder="Your Message"></textarea>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <button>Submit</button>
+        </a>
+      </li>
+    </ul>
+  </li>
+  </ul>
+</nav>
+
+<div class="m-page-wrap">
+  <div class="m-header">
+
+    <a id="bun" class="m-mobile-menu-toggle js-toggle-menu m-hamburger-menu" href="#">
+      <span class="m-menu-item"></span>
+      <span class="m-menu-item"></span>
+      <span class="m-menu-item"></span>
+   </a>
+
+  </div
+  
+  <main></main>
+</div>

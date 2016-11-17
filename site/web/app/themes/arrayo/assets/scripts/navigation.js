@@ -66,3 +66,60 @@ $('.nav-sub-4').click(function(){
 $('.dropdown-toggle').click(function(){
     $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 });
+
+$('.js-toggle-menu').click(function(e){
+  e.preventDefault();
+  $(this).toggleClass('open');
+  $('.m-page-wrap').toggleClass('disabled');
+  $('body').toggleClass('disabled');
+});
+
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".m-dropdown-toggle").click(function () {
+        var t = e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").is(":hidden");
+        e(".m-button-dropdown .m-dropdown-menu").hide();
+        e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").toggle().parents(".m-button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+    })
+});
+
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".m-sub-dropdown-toggle").click(function () {
+        var t = e(this).parents(".m-sub-button-dropdown").children(".m-sub-dropdown-menu").is(":hidden");
+        e(".m-sub-button-dropdown .m-sub-dropdown-menu").hide();
+        e(".m-sub-button-dropdown .m-sub-dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".m-sub-button-dropdown").children(".m-sub-dropdown-menu").toggle().parents(".sub-button-dropdown").children(".sub-dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-sub-button-dropdown")) e(".m-sub-button-dropdown .m-sub-dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("m-sub-button-dropdown")) e(".m-sub-button-dropdown .m-sub-dropdown-toggle").removeClass("active");
+    })
+});
