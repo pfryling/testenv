@@ -19,14 +19,14 @@
                         <h5><?php the_field('services_box--header-rtech'); ?></h5>
                         <p><?php the_field('services_box--text-rtech'); ?></p>
                         <div class="link">
-                            <a class="service-btn" href="/rtech">Learn More <i class="fa fa-circle-open-right"></i></a>
+                            <a class="service-btn" href="/rtech">About RTech <i class="fa fa-circle-open-right"></i></a>
                         </div>
                     </div>
                     <div class="box four wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-agiledata'); ?></h5>
                         <p><?php the_field('services_box--text-agiledata'); ?></p>
                         <div class="link">
-                            <a class="service-btn" href="/agiledata">Learn More <i class="fa fa-circle-open-right"></i></a>
+                            <a class="service-btn" href="/agiledata">About AgileData <i class="fa fa-circle-open-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -36,21 +36,20 @@
                         <h5><?php the_field('services_box--header-databridge'); ?></h5>
                         <p><?php the_field('services_box--text-databridge'); ?></p>
                         <div class="link">
-                            <a class="service-btn" href="/connect">Learn More <i class="fa fa-circle-open-right"></i></a>
+                            <a class="service-btn" href="/connect">About DataBridge <i class="fa fa-circle-open-right"></i></a>
                         </div>
                     </div>
                     <div class="box one wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-connect'); ?></h5>
                         <p><?php the_field('services_box--text-connect'); ?></p>
                         <div class="link">
-                            <a class="service-btn" href="/DataBridge">Learn More <i class="fa fa-circle-open-right"></i></a>
+                            <a class="service-btn" href="/DataBridge">About Connect <i class="fa fa-circle-open-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-</div>
     <div class="bg-white">
         <div class="wrapper">
             <section class="overlay--container">
