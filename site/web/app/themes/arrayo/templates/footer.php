@@ -234,46 +234,7 @@ jQuery(document).ready(function (e) {
     })
 });
 </script>
-<script>
-$(function () {
 
-  $('.md-trigger').on('click', function() {
-    $('.md-modal').addClass('md-show');
-  });
-
-  $('.md-close').on('click', function() {
-    $('.md-modal').removeClass('md-show');
-  });
-
-});
-
-
-$(document).ready(function() {
-  var panelOne = $('.turtle-panel.two').height(),
-    panelTwo = $('.turtle-panel.two')[0].scrollHeight;
-
-  $('.turtle-panel.two').not('.turtle-panel.two.active').on('click', function(e) {
-    e.preventDefault();
-
-    $('.turtle-toggle').addClass('visible');
-    $('.turtle-panel.one').addClass('hidden');
-    $('.turtle-panel.two').addClass('active');
-    $('.turtle').animate({
-      'height': '550px'
-    }, 200);
-  });
-
-  $('.turtle-toggle').on('click', function(e) {
-    e.preventDefault();
-    $(this).removeClass('visible');
-    $('.turtle-panel.one').removeClass('hidden');
-    $('.turtle-panel.two').removeClass('active');
-    $('.turtle').animate({
-      'height': '450px'
-    }, 200);
-  });
-});
-</script>
 <script>
 jQuery(document).ready(function($) {
     $('.ind-carousel').owlCarousel({
