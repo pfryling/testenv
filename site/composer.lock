@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "84ffbdf106cb583d4ace5ea9781627eb",
-    "content-hash": "31d9c7f6a81a8a6f1d751e12d8ff2a9e",
+    "hash": "b276953828df2379d1d575b7409b1902",
+    "content-hash": "09143505c0277de3d1c1e61f8f7cb6c8",
     "packages": [
         {
             "name": "addthis/addthis",
@@ -268,6 +268,62 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "ninja-forms/ninja-forms-conditional-logic",
+            "version": "3.0.9",
+            "dist": {
+                "type": "zip",
+                "url": "artifacts/nf-logic.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "ninja-forms/ninja-forms-layouts",
+            "version": "3.0.11",
+            "dist": {
+                "type": "zip",
+                "url": "artifacts/nf-layouts.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "ninja-forms/ninja-forms-multi",
+            "version": "3.0.7",
+            "dist": {
+                "type": "zip",
+                "url": "artifacts/nf-multi.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "ninja-forms/ninja-forms-uploads",
+            "version": "3.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "artifacts/nf-uploads.zip",
                 "reference": null,
                 "shasum": null
             },

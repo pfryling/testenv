@@ -137,6 +137,66 @@
           "composer/installers": "^1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ninja-forms/ninja-forms-uploads",
+        "version": "3.0.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "artifacts/nf-uploads.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ninja-forms/ninja-forms-multi",
+        "version": "3.0.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "artifacts/nf-multi.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ninja-forms/ninja-forms-conditional-logic",
+        "version": "3.0.9",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "artifacts/nf-logic.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ninja-forms/ninja-forms-layouts",
+        "version": "3.0.11",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "artifacts/nf-layouts.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -152,7 +212,11 @@
     "wp-ninjas/ninja-forms": "3.0.15",
     "duracelltomi/google-tag-manager": "1.4",
     "joostdevalk/yoast-seo": "3.8",
-    "elegantthemes/monarch": "1.3.2"
+    "elegantthemes/monarch": "1.3.2",
+    "ninja-forms/ninja-forms-layouts": "^3.0",
+    "ninja-forms/ninja-forms-conditional-logic": "^3.0",
+    "ninja-forms/ninja-forms-multi": "^3.0",
+    "ninja-forms/ninja-forms-uploads": "^3.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
