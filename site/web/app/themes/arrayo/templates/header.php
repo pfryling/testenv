@@ -177,6 +177,7 @@
     </div>
 </header>
 
+<div class="m-mnav-wrapper">
 <nav class="m-mobile-nav-wrap" role="navigation">
   <ul class="m-fixed-mobile-nav mnav">
   <li class="m-button-dropdown">
@@ -364,7 +365,6 @@
       <span class="m-menu-item"></span>
    </a>
 
-  </div
-  
-  <main></main>
+  </div>
+</div>
 </div>
