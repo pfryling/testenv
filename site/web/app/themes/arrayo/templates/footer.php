@@ -128,7 +128,7 @@
                 <div class="info">
                     &copy; 2016 steepconsult
                     <br>all rights reserved
-                    <br><a href="terms-of-use">privacy policy</a> - <a href="legal-policy">terms of use</a>
+                    <br><a href="/privacy-policy">privacy policy</a> - <a href="/legal-policy">terms of use</a>
                 </div>
             </div>
         </div>
@@ -486,7 +486,7 @@ jQuery(document).ready(function($){
                 // if element entered V.port ( px>0 ) and
                 // if prop initNumAnim flag is not yet set
                 //  = Animate numbers
-                if (px > 10 && !this.initNumAnim) {
+                if (px > 0 && !this.initNumAnim) {
                     this.initNumAnim = true; // Set flag to true to prevent re-running the same animation
                     $(this).prop('Counter', 0).animate({
                         Counter: $(this).text()

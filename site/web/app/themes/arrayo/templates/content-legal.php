@@ -3,11 +3,10 @@
     <div class="wrapper">
     <div class="terms-wrapper">
         <h1><?php the_field('legal--header'); ?></h1>
-        <hr>
         <div class="terms-white-box">
-            <?php the_field('legal--text'); ?>
+            <p><?php the_field('legal--text'); ?></p>
             <h3><?php the_field('disclaimer--header'); ?></h3>
-            <?php the_field('legal--disclaimer'); ?>
+            <p><?php the_field('legal--disclaimer'); ?></p>
         </div>
     </div>
 </div>

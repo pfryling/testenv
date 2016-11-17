@@ -156,6 +156,7 @@ header
     display: block
     margin: 0
     overflow-x: hidden
+    position: relative
     padding: 0
     +media($mobile)
         background-image: linear-gradient(to bottom, $primary, $tertiary)
@@ -459,21 +460,21 @@ header
         padding: $spacer-blue 0
         .link
             display: block
-            position: absolute
+            position: relative
             padding: $spacer-cyan 0 0 0
             width: 100%
-            bottom: 0
-            border-top: 1px solid rgba(0,0,0,0.1)
             .service-btn
                 background-color: $primary
                 margin: 0 $spacer-green 0 $spacer-pink
                 color: white
+                position: absolute
+                bottom: 0
                 padding: 10px 40px
                 font-family: $header
                 +media($laptop)
-                    margin: $spacer-yellow $spacer-green $spacer-yellow $spacer-yellow
+                    margin: $spacer-yellow $spacer-green 0 $spacer-yellow
                 +media($tablet)
-                    margin: $spacer-yellow $spacer-green
+                    margin: $spacer-yellow $spacer-green 0 $spacer-green
                 +media($mobile)
                     margin: 30px auto 50px auto
                     font-size: 15px
