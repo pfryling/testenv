@@ -37,7 +37,7 @@
 
         <section class="apply-cta">
             <div class="wrapper">
-                <h3><?php the_field('job_title--apply'); ?></h3>
+                <h3><?php the_field('job_title--header'); ?></h3>
                 <p>Submit CV now.</p>
                 <div class="wrap">
   <button class="btn">Apply now</button>
