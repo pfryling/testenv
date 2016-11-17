@@ -178,7 +178,10 @@
 </header>
 <article id="container" class="mobile-only">
   <header id="main-nav">
-    <div id="bun"><div class="mmm-burger"></div></div>
+    <div id="bun-container">
+    <div id="bun"><div class="mmm-burger"></div>
+    </div>
+    </div>
   </header>
 </article>
 <aside id='sidebar'>
