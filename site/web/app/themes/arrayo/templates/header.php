@@ -225,7 +225,7 @@
             <li class="sub-nav-item"><a href="/hightech"><h4>HighTech</h4></a></li>
           </ul>
         <li class="nav-item"><a href="/company"><h3>Company</h3></a></li>
-        <li class="nav-item"><a href="/careers"><h3>Careers</h3></li>
+        <li class="nav-item"><a href="/careers"><h3>Careers</h3></a></li>
         <li class="nav-item"><h3>Contact</h3></li>
         <ul class="sub-nav">
             <li class="sub-nav-item">
