@@ -196,21 +196,21 @@ jQuery(document).ready(function (e) {
             e(this).parent().fadeOut()
         })
     }
-    e(".m-dropdown-toggle").click(function () {
-        var t = e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").is(":hidden");
-        e(".m-button-dropdown .m-dropdown-menu").hide();
-        e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
         if (t) {
-            e(this).parents(".m-button-dropdown").children(".m-dropdown-menu").toggle().parents(".m-button-dropdown").children(".m-dropdown-toggle").addClass("active")
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
         }
     });
     e(document).bind("click", function (t) {
         var n = e(t.target);
-        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-menu").hide();
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
     });
     e(document).bind("click", function (t) {
         var n = e(t.target);
-        if (!n.parents().hasClass("m-button-dropdown")) e(".m-button-dropdown .m-dropdown-toggle").removeClass("active");
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
     })
 });
 
@@ -222,23 +222,23 @@ jQuery(document).ready(function (e) {
         })
     }
     e(".sub-dropdown-toggle").click(function () {
-        var t = e(this).parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-menu").is(":hidden");
-        e(".m-sub-button-sub-dropdown .m-sub-dropdown-menu").hide();
-        e(".m-sub-button-sub-dropdown .m-sub-dropdown-toggle").removeClass("active");
+        var t = e(this).parents(".sub-button-sub-dropdown").children(".sub-dropdown-menu").is(":hidden");
+        e(".sub-button-sub-dropdown .sub-dropdown-menu").hide();
+        e(".sub-button-sub-dropdown .sub-dropdown-toggle").removeClass("active");
         if (t) {
-            e(this).parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-menu").toggle().parents(".m-sub-button-sub-dropdown").children(".m-sub-dropdown-toggle").addClass("active")
+            e(this).parents(".sub-button-sub-dropdown").children(".sub-dropdown-menu").toggle().parents(".sub-button-sub-dropdown").children(".sub-dropdown-toggle").addClass("active")
         }
     });
     e(document).bind("click", function (t) {
         var n = e(t.target);
-        if (!n.parents().hasClass("m-sub-button-sub-dropdown")) e(".m-sub-button-sub-dropdown .sub-dropdown-menu").hide();
+        if (!n.parents().hasClass("sub-button-sub-dropdown")) e(".sub-button-sub-dropdown .sub-dropdown-menu").hide();
     });
     e(document).bind("click", function (t) {
         var n = e(t.target);
-        if (!n.parents().hasClass("m-sub-button-sub-dropdown")) e(".m-sub-button-sub-dropdown .m-sub-dropdown-toggle").removeClass("active");
+        if (!n.parents().hasClass("sub-button-sub-dropdown")) e(".sub-button-sub-dropdown .sub-dropdown-toggle").removeClass("active");
     })
 });
-</script>
+
 <script>
 // POJO module pattern
 // Thx to GreenJello

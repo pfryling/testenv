@@ -109,7 +109,7 @@
         -webkit-transform: rotate(-135deg)
         transform: rotate(-135deg)
 
-.m-nav
+.nav
   display: block
   font: 13px Helvetica, Tahoma, serif
   text-transform: uppercase
@@ -118,7 +118,7 @@
   li
     display: inline-block
     list-style: none
-  .m-button-dropdown
+  .button-dropdown
     position: relative
   li
     a
@@ -135,12 +135,12 @@
         margin-left: 5px
         font-size: 10px
         color: #999
-      &:hover, &.m-dropdown-toggle.active
+      &:hover, &.dropdown-toggle.active
         background-color: #289dcc
         color: #fff
-      &:hover span, &.m-dropdown-toggle.active span
+      &:hover span, &.dropdown-toggle.active span
         color: #fff
-    .m-dropdown-menu
+    .dropdown-menu
       display: none
       position: absolute
       left: 0
@@ -148,7 +148,7 @@
       margin: 0
       margin-top: 3px
       text-align: left
-    .m-sub-dropdown-menu
+    .sub-dropdown-menu
       display: none
       position: absolute
       left: 0
@@ -163,24 +163,23 @@
       margin: 0
       margin-top: 3px
       text-align: left
-    .m-dropdown-menu.active
+    .dropdown-menu.active
       display: block
 
-.m-dropdown-menu.active li
+.dropdown-menu.active li
   display: block
 
-.m-sub-dropdown-menu.active
-  display: inline-block
-
-.m-nav li
+.nav li
   .dropdown-menu a
     width: 150px
     display: block
+  .sub-dropdown-menu.active
+    display: inline-block
 
-.m-sub-dropdown-menu.active li
+.sub-dropdown-menu.active li
   display: inline-block
 
-.m-nav li .m-sub-dropdown-menu a
+.nav li .sub-dropdown-menu a
   width: 150px
   display: inline-block
 
