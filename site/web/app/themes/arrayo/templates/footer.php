@@ -211,8 +211,8 @@ $('document').ready(function() {
     } else {};
   });
   $('.arrowed').click(function() {
-    $(this).toggleClass('selected');
-    $(this).siblings().removeClass("selected");
+    $(this).toggleClass('nselected');
+    $(this).siblings().removeClass("nselected");
     $('.sub-nav').each(function() {
       $(this).slideUp("slow");
     });
