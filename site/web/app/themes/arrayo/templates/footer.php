@@ -43,7 +43,7 @@
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
 
-<button class="md-trigger" data-modal="modal-12">Show modal</button>
+<button class="md-trigger" data-modal="modal-12">Apply</button>
 
 <div class="md-modal md-effect-12">
     <div class="md-content">
