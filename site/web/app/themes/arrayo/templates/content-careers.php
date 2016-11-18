@@ -151,18 +151,17 @@
             <div class="filter-results wow fadeInUp"" id="results-wrapper">
                 <?php
 
-                $post_object = get_field('post_object');
+                $post_object = get_field('job_post');
 
                 if( $post_object ): 
 
                     // override $post
                     $post = $post_object;
-                    setup_postdata( $post ); 
+                    setup_postdata( $post );
 
                     ?>
-                    <div class="mix <?php the_tags(); ?>">
+                    <div>
                         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <span>Post Object Custom Field: <?php the_field('field_name'); ?></span>
                     </div>
                     <?php wp_reset_postdata(); ?>
                 <?php endif; ?>
@@ -174,49 +173,20 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-<button class="tbtn trigger" href="javascript:;">Apply Now</button>
-<div class="seahorse-wrapper">
-  <div class="seahorse">
-    <div class="content">
-      <div class="turtle">
-  <div class="turtle-toggle"></div>
-  <div class="turtle-panel one">
-    <a class="btn-close trigger"></a>
-    <div class="turtle-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
+            <button class="toggle-overlay">Apply Now</button>
+
+<aside>
+  <div class="outer-close toggle-overlay">
+    <a class="close"><span></span></a>
     </div>
-    <div class="turtle-content">
-      <turtle>
-        <div class="turtle-group">
-          <label for="file-upload" class="custom-file-upload">
-            <i class="fa fa-cloud-upload"></i> Upload your Resume
-          </label>
-          <input id="file-upload" type="file"/>
-        </div>
-        <div class="turtle-group">
-          <input type="url" name="linkedin" required="required" placeholder="&#xf0e1;&nbsp;&nbsp; Add your LinkedIn Profile" style="font-family:Poppins, FontAwesome;font-size:12px;" />
-        </div>
-        <div class="turtle-group">
-          <button type="submit">Apply</button>
-        </div>
-      </turtle>
-    </div>
-  </div>
-  <div class="turtle-panel two">
-    <div class="turtle-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
-    </div>
-    <div class="turtle-content">
-    <?php echo do_shortcode("[ninja_form id=3]"); ?>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-</div>
-</div>
+      <div class="apply-form-wrap">
+      <div class="apply-form">
+        <h2>Apply Now-<br>for Now or Later</h2>
+        <h5>Join Arrayo, Get on Board</h5>
+        <div class='cb-input'>
+            <?php echo do_shortcode("[ninja_form id=4]"); ?>
+      </div>
+</aside>
 </section>
 
     <section class="eeo">
