@@ -196,6 +196,13 @@ $(document).ready(function() {
     }
   });
 
+  $(".mnav > ul > li > ul > li").hover(function(e) {
+    if ($(window).width() > 943) {
+      $(this).children("ul").stop(true, false).fadeToggle(150);
+      e.preventDefault();
+    }
+  });
+
   $(".mnav > ul > li").click(function() {
     if ($(window).width() <= 943) {
       $(this).children("ul").fadeToggle(150);
