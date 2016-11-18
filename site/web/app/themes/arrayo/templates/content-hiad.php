@@ -28,7 +28,7 @@
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
                             
-                        <a href="/r-tech/hightechwrapper">
+                        <a href="/r-tech/hightech">
                         <span class="label-swap">
                               R-Tech for HighTech
                             </span>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="label label--high-data">
                             
-                        <a href="/databridge/hightechwrapper">
+                        <a href="/databridge/hightech">
                         <span class="label-swap">
                               DataBridge for HighTech
                             </span>

@@ -24,7 +24,7 @@
                     <h6>other healthtech services</h6>
                     <div class="label label--health-con wow fadeInUp">
                             
-                        <a href="/rtech/healthtechwrapper">
+                        <a href="/rtech/healthtech">
                         <span class="label-swap">
                               RTech for HealthTech
                             </span>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="label label--health-agile wow fadeInUp">
                             
-                        <a href="/agiledata/healthtechwrapper">
+                        <a href="/agiledata/healthtech">
                         <span class="label-swap">
                               AgileData for HealthTech
                             </span>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="label label--health-data wow fadeInUp">
                             
-                        <a href="/databridge/healthtechwrapper">
+                        <a href="/databridge/healthtech">
                         <span class="label-swap">
                               DataBridge for HealthTech
                             </span>
@@ -59,7 +59,7 @@
                     <h6>r-tech industries</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
                             
-                        <a href="/connect/fintechwrapper">
+                        <a href="/connect/fintech">
                         <span class="label-swap">
                               Connect for FinTech
                             </span>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="label label--high-rtech wow fadeInUp">
                     
-                        <a href="/connect/hightechwrapper">
+                        <a href="/connect/hightech">
                         <span class="label-swap">
                               Connect for HighTech
                             </span>

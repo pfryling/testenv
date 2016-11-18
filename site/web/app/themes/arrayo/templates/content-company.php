@@ -199,55 +199,29 @@
             <div class="about-cta">
                 <h2><?php the_field('company_cta_purple--header'); ?></h2>
                 <p><?php the_field('company_cta_purple--text'); ?></p>
-                <button class="tbtn trigger" href="javascript:;">Apply Now</button>
-<div class="seahorse-wrapper">
-  <div class="seahorse">
-    <div class="content">
-      <div class="turtle">
-  <div class="turtle-toggle"></div>
-  <div class="turtle-panel one">
-    <a class="btn-close trigger"></a>
-    <div class="turtle-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
+                <button class="toggle-overlay">Toggle Me</button>
+
+<aside>
+  <div class="outer-close toggle-overlay">
+    <a class="close"><span></span></a>
     </div>
-    <div class="turtle-content">
-      <turtle>
-        <div class="turtle-group">
-          <label for="file-upload" class="custom-file-upload">
-            <i class="fa fa-cloud-upload"></i> Upload your Resume
-          </label>
-          <input id="file-upload" type="file"/>
-        </div>
-        <div class="turtle-group">
-          <input type="url" name="linkedin" required="required" placeholder="&#xf0e1;&nbsp;&nbsp; Add your LinkedIn Profile" style="font-family:Poppins, FontAwesome;font-size:12px;" />
-        </div>
-        <div class="turtle-group">
-          <button type="submit">Apply</button>
-        </div>
-      </turtle>
+      <div class="apply-form-wrap">
+      <div class="apply-form">
+        <h2>Apply Now-<br>for Now or Later</h2>
+        <h5>Join Arrayo, Get on Board</h5>
+<button class="toggle-overlay">Toggle Me</button>
+
+<aside>
+  <div class="outer-close toggle-overlay">
+    <a class="close"><span></span></a>
     </div>
-  </div>
-  <div class="turtle-panel two">
-    <div class="turtle-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board</h5>
-    </div>
-    <div class="turtle-content">
-    <?php echo do_shortcode("[ninja_form id=3]"); ?>
-            </div>
-        </div>
-    </section>
-    <section class="contact-footer wow fadeInUp" id="contact">
-    <div class="wrapper">
-            <div class="text">
-                <h2><?php the_field('company_footer--header'); ?></h2>
-                <p><?php the_field('company_footer--text'); ?></p>
-                <h5>Let's talk!</h5>
-            </div>
-            <div class="form">
-                    <?php echo do_shortcode("[ninja_form id=1]"); ?>
-                </div>
-        </div>
+      <div class="apply-form-wrap">
+      <div class="apply-form">
+        <h2>Apply Now-<br>for Now or Later</h2>
+        <h5>Join Arrayo, Get on Board</h5>
+        <div class='cb-input'>
+            <?php echo do_shortcode("[ninja_form id=4]"); ?>
+      </div>
+</aside>
     </section>
     </div>

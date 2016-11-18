@@ -29,7 +29,7 @@
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
                             
-                        <a href="/r-tech/hightechwrapper">
+                        <a href="/r-tech/hightech">
                         <span class="label-swap">
                               R-Tech for HighTech
                             </span>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="label label--high-agile">
                             
-                        <a href="/agiledata/hightechwrapper">
+                        <a href="/agiledata/hightech">
                         <span class="label-swap">
                               AgileData for HighTech
                             </span>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="label label--high-data">
                             
-                        <a href="/databrdige/hightechwrapper">
+                        <a href="/databrdige/hightech">
                         <span class="label-swap">
                               DataBridge for HighTech
                             </span>
@@ -64,7 +64,7 @@
                     <h6>connect industries</h6>
                     <div class="label label--fin-con">
                             
-                        <a href="/connect/fintechwrapper">
+                        <a href="/connect/fintech">
                         <span class="label-swap">
                               Connect for FinTech
                             </span>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="label label--health-con">
                             
-                        <a href="/connect/healthtechwrapper">
+                        <a href="/connect/healthtech">
                         <span class="label-swap">
                               Connect for HealthTech
                             </span>

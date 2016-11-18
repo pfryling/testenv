@@ -29,7 +29,7 @@
                     <h6>other fintech services</h6>
                     <div class="label label--fin-con wow fadeInUp">
                     
-                        <a href="/connect/fintechwrapper">
+                        <a href="/connect/fintech">
                         <span class="label-swap">
                               Connect for FinTech
                             </span>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="label label--fin-data wow fadeInUp">
                             
-                        <a href="/databridge/fintechwrapper">
+                        <a href="/databridge/fintech">
                         <span class="label-swap">
                               DataBridge for FinTech
                             </span>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="label label--fin-rtech wow fadeInUp">
                             
-                        <a href="/rtech/fintechwrapper">
+                        <a href="/rtech/fintech">
                         <span class="label-swap">
                               AgileData for FinTech
                             </span>
@@ -64,7 +64,7 @@
                     <h6>connect industries</h6>
                     <div class="label label--health-agile wow fadeInUp">
                             
-                        <a href="/rtech/healthtechwrapper">
+                        <a href="/rtech/healthtech">
                         <span class="label-swap">
                               RTech for HealthTech
                             </span>
@@ -76,7 +76,7 @@
                     <div class="label label--high-agile wow fadeInUp">
 
                             
-                        <a href="/rtech/hightechwrapper">
+                        <a href="/rtech/hightech">
                         <span class="label-swap">
                               RTech for HighTech
                             </span>
