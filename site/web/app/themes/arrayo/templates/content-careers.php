@@ -149,22 +149,12 @@
                     </form>
             </div>
             <div class="filter-results wow fadeInUp"" id="results-wrapper">
-                <?php
-
-                $post_object = get_field('job_post');
-
-                if( $post_object ): 
-
-                    // override $post
-                    $post = $post_object;
-                    setup_postdata( $post );
-
-                    ?>
+                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                     <div>
-                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                        <p><?php the_tags(); ?></p>
                     </div>
-                    <?php wp_reset_postdata(); ?>
-                <?php endif; ?>
+                <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
     </section>
