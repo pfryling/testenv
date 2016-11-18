@@ -21,7 +21,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.1s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-rtech-icon.png"><br>
-                        <p><?php the_field('fintech_box--header-rtech'); ?></p>
+                        <?php the_field('fintech_box--header-rtech'); ?>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-rtech'); ?></p>
                     <p><?php the_field('fintech_box--text-rtech'); ?></p>
@@ -32,7 +32,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.2s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-agile-icon.png"><br>
-                        <p><?php the_field('fintech_box--header-agiledata'); ?></p>
+                        <?php the_field('fintech_box--header-agiledata'); ?>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-agiledata'); ?></p>
                     <p><?php the_field('fintech_box--text-agiledata'); ?></p>
@@ -43,7 +43,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.3s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-con-icon.png"><br>
-                        <p><?php the_field('fintech_box--header-connect'); ?></p>
+                        <?php the_field('fintech_box--header-connect'); ?>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-connect'); ?></p>
                     <p><?php the_field('fintech_box--text-connect'); ?></p>
@@ -54,7 +54,7 @@
                 <li class="flexfade-item flexfade-item--half flexfade-item--fintech wow fadeInUp" data-wow-delay="0.4s">
                     <h4>
                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/fin-data-icon.png"><br>
-                        <p><?php the_field('fintech_box--header-databridge'); ?></p>
+                        <?php the_field('fintech_box--header-databridge'); ?>
                     </h4>
                     <p class="light"><?php the_field('fintech_box--subheader-databridge'); ?></p>
                     <p><?php the_field('fintech_box--text-databridge'); ?></p>

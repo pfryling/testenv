@@ -95,8 +95,10 @@
     background-color: $quaternary-cool
     padding: 42px 26px 10px 16px
     font-family: $header
-    font-weight: 600
+    font-weight: 600 !important
     height: 200px
+    +media($mobile)
+        height: 210px
 
 .flexfade-item--healthtech h4
     color: white
@@ -106,8 +108,10 @@
     background-color: $health-tech-green
     padding: 42px 26px 10px 16px
     font-family: $header
-    font-weight: 600
+    font-weight: 600 !important
     height: 200px
+    +media($mobile)
+        height: 210px
 
 .flexfade-item--hightech h4
     color: white
@@ -117,8 +121,10 @@
     background-color: $high-tech-blue
     padding: 42px 26px 10px 16px
     font-family: $header
-    font-weight: 600
+    font-weight: 600 !important
     height: 200px
+    +media($mobile)
+        height: 210px
 
 .flexfade-item--finserve h4
     color: white
@@ -673,7 +679,7 @@
 .owl-dot
     width: 10px
     height: 10px
-    background: $text-light
+    background: white
     margin-right: 10px
     display: inline-block
     border-radius: 1000px
@@ -867,7 +873,7 @@
                 color: $text
                 margin: $spacer-green 0
                 +media($mobile)
-                    margin: 0
+                    margin: 0 0 $spacer-green 0
             li:first-child:before
                 font-family: 'FontAwesome'
                 content: '\f18e'
@@ -970,7 +976,7 @@
             font-weight: 600
             color: $text
             margin: 0
-            padding-bottom: $spacer-cyan
+            padding-bottom: 6px
             padding-top: $spacer-green
             +media($mobile)
               font-size: 26px
@@ -985,7 +991,7 @@
         p
             font-weight: 100
             color: $text
-            padding: 12px $spacer-blue $spacer-cyan $spacer-blue
+            padding: 6px $spacer-blue $spacer-cyan $spacer-blue
             margin: 0
             +media($mobile)
               padding: 0
@@ -1183,6 +1189,9 @@
                 margin-bottom: $spacer-yellow
                 +media($tablet)
                   margin-bottom: $spacer-pink
+                +media($mobile)
+                    width: 8%
+                    margin-bottom: 48px
             .text-wrap
                 display: block
                 position: absolute

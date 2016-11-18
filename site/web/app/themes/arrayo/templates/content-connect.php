@@ -20,7 +20,7 @@
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                 <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
-                    <?php the_field('industry_box--text-fintech'); ?></li>
+                    <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="/connect/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>

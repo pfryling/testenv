@@ -4,7 +4,7 @@
             <ul class="flex-row">
                 <li class="ul-item">
                     <p class="header">Services</p>
-                    <a href="/rtech" class="list-item list-item--inline list-item--right">R-Tech</a>
+                    <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
                     <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br>
                     <a href="/databridge" class="list-item list-item--inline list-item--push">DataBridge</a>
                     <a href="/connect" class="list-item list-item--inline ">Connect</a><br>

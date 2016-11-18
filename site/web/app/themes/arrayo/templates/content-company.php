@@ -3,7 +3,7 @@
         <div class="wrapper">
             <section class="page-header">
                 <h1 class="inner"><?php the_field('company--header'); ?></h1>
-                <?php the_field('company--subheader'); ?>
+                <p><?php the_field('company--subheader'); ?></p>
             </section>
 
             <section class="location-info wow fadeInUp"">
