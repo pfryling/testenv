@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b276953828df2379d1d575b7409b1902",
-    "content-hash": "09143505c0277de3d1c1e61f8f7cb6c8",
+    "hash": "5d4fe181c8e659edd87bdae83616ae66",
+    "content-hash": "fafc0ade051ada6d746a70e6c6c93551",
     "packages": [
         {
             "name": "addthis/addthis",
@@ -134,6 +134,20 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "dejong/taxonomy",
+            "version": "2.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/beautiful-taxonomy-filters.2.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "duracelltomi/google-tag-manager",
