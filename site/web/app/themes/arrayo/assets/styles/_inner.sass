@@ -368,16 +368,19 @@
     padding-bottom: $spacer-yellow
     overflow-x: hidden
     position: relative
+    z-index: -1
 .bg-gradient--green
     background-image: linear-gradient(to right, $health-tech-green, $primary-dark)
     padding-bottom: $spacer-yellow
     overflow-x: hidden
     position: relative
+    z-index: -1
 .bg-gradient--blue
     background-image: linear-gradient(to right, $high-tech-blue, $primary-dark)
     padding-bottom: $spacer-yellow
     overflow-x: hidden
     position: relative
+    z-index: -1
 
 
 .services-cta
@@ -388,7 +391,6 @@
     max-width: 87.5%
     float: right
     background-color: white
-    position: absolute
     padding: $spacer-blue
     background-repeat: no-repeat
     background-position: right center
@@ -764,6 +766,7 @@
     padding-bottom: $spacer-yellow
     overflow-x: hidden
     position: relative
+    z-index: -1
 
 .for-ind-box
     +span-columns(4 of 12)
@@ -1823,8 +1826,6 @@
     padding: $spacer-green $spacer-cyan
     margin-bottom: $spacer-blue
     margin-top: $spacer-green
-    overflow-x: hidden
-    position: relative
     +media($mobile)
         padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
         margin-top: $spacer-blue
@@ -1838,8 +1839,6 @@
     background-image: linear-gradient(to right, $primary-dark, $health-tech-green)
     padding: $spacer-green $spacer-cyan
     margin-bottom: $spacer-blue
-    overflow-x: hidden
-    position: relative
     +media($mobile)
         padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
         margin-top: $spacer-blue
@@ -1853,8 +1852,6 @@
     background-image: linear-gradient(to right, $primary, $high-tech-blue)
     padding: $spacer-green $spacer-cyan
     margin-bottom: $spacer-blue
-    overflow-x: hidden
-    position: relative
     +media($mobile)
         padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
         margin-top: $spacer-blue
@@ -1868,6 +1865,7 @@
     background: linear-gradient(to top, rgba(255,255,255,1) 49%,$tertiary 49%,$primary 100%)
     overflow-x: hidden
     position: relative
+    z-index: -1
 
 .for-gradient--blue
     background: linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
@@ -1876,6 +1874,7 @@
     background-repeat: no-repeat, no-repeat
     overflow-x: hidden
     position: relative
+    z-index: -1
     +media($mobile)
         background: linear-gradient(to right, $high-tech-blue, $primary)
         background-size: 100% 100%
@@ -1887,6 +1886,7 @@
     background: linear-gradient(to right, $high-tech-blue, $primary)
     overflow-x: hidden
     position: relative
+    z-index: -1
 
 .for-gradient--purple
     background: linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
@@ -1895,6 +1895,7 @@
     background-repeat: no-repeat, no-repeat
     overflow-x: hidden
     position: relative
+    z-index: -1
     +media($mobile)
         background: linear-gradient(to right, $quaternary-cool, $primary)
         background-size: 100% 100%
@@ -1908,6 +1909,7 @@
     background-repeat: no-repeat, no-repeat
     overflow-x: hidden
     position: relative
+    z-index: -1
     +media($mobile)
         background: linear-gradient(to right, $health-tech-green, $primary-dark)
         background-size: 100% 100%
