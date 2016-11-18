@@ -228,8 +228,8 @@ footer
     #return-to-top
         display: none
         +media($mobile)
-            margin: 0 auto
-            background: white
+            margin: 0 auto 10px auto
+            background: $primary
             width: 50px
             height: 50px
             display: block
@@ -237,17 +237,16 @@ footer
             border-radius: 35px
             transition: all 0.3s ease
             i
-                color: $primary
+                color: white
                 margin: 0
                 position: relative
-                left: 16px
                 top: 13px
                 font-size: 19px
                 transition: all 0.3s ease
             &:hover
-                background: white
+                background: $primary
             &:hover i
-                color: $primary
+                color: white
                 top: 5px
     ul.flex-row
         +span-columns(4 of 12)
