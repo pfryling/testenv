@@ -178,7 +178,7 @@
 </header>
 <div class="mnav-container mobile-only">
   <div class="mp-pusher" id="mp-pusher">
-    <nav id="mp-menu" class="mp-menu">
+    <div id="mp-menu" class="mp-menu">
       <div class="mp-level">
         <h2 class="ion-earth"></h2>
         <ul>
@@ -278,7 +278,7 @@
                 </li>
         </ul>
       </div>
-    </nav>
+    </div>
         <div class="content clearfix m-nav-bar">
           <div class="block block-40 clearfix">
             <p><a href="#" id="trigger" class="menu-trigger"></a></p>
