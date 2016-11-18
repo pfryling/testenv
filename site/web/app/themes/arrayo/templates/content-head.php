@@ -81,7 +81,7 @@
                               AgileData for FinTech
                             </span>
                             <span>
-                             <?php the_field('fin_rt--text'); ?>
+                             <?php the_field('fin_ad--text'); ?>
                             </span>
                         </a>
                     </div>
