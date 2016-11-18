@@ -1,5 +1,6 @@
 <footer class="inner-footer">
   <div class="wrapper">
+      <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
             <ul class="flex-row">
                 <li class="ul-item">
                     <p class="header">Services</p>
@@ -140,6 +141,20 @@
 <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
 <script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {
+        $('#return-to-top').fadeIn(200);
+    } else {
+        $('#return-to-top').fadeOut(200);
+    }
+});
+$('#return-to-top').click(function() {
+    $('body,html').animate({
+        scrollTop : 0
+    }, 500);
+});
+</script>
+<script>
 $(function () {
   
   $('.md-trigger').on('click', function() {
@@ -184,8 +199,6 @@ $(document).ready(function() {
   "use strict";
 
   $('.mnav > ul > li:has( > ul)').addClass('mnav-dropdown-icon');
-
-  $('.subsub:has( > ul').addClass('mnav-dropdown-icon');
 
   $('.mnav > ul > li > ul:not(:has(ul))').addClass('normal-sub');
 
