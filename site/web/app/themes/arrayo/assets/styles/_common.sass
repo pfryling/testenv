@@ -122,8 +122,13 @@ header
 .header-logo-container
     position: absolute
     left: 60%
+    +media($laptop)
+        left: 50%
+    +media($tablet)
+        left: 0
     +media($mobile)
         left: 0
+        position: relative
     .logo
         opacity: .1
         position: absolute
@@ -1139,7 +1144,7 @@ header
             line-height: 1.4
             color: $primary
             font-weight: 700
-            padding-top: $spacer-cyan
+            margin-top: -40px
             text-align: center
             +media($laptop)
                 font-size: 89px
