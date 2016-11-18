@@ -149,24 +149,24 @@
                     </form>
             </div>
             <div class="filter-results wow fadeInUp"" id="results-wrapper">
-                <?php
+                <?php $advanced= new wp_Query(array(
+                'post_type'=>'job_post'
+                ));
+                while( $advanced->have_posts() ) : $advanced->the_post();
+                 ?>
 
-                $post_object = get_field('post_object');
-
-                if( $post_object ): 
-
-                    // override $post
-                    $post = $post_object;
-                    setup_postdata( $post ); 
-
-                    ?>
-                    <div>
-                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <span>Post Object Custom Field: <?php the_field('field_name'); ?></span>
-                    </div>
-                    <?php wp_reset_postdata(); ?>
-                <?php endif; ?>
-            </div>
+            <div class="mix <?php the_tags(); ?>">
+                    <h4>job title</h4>
+                    <ul>
+                        <li><strong>Location:</strong> <?php the_field('job_location'); ?></li>
+                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
+                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
+                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+            <?php  endwhile;  ?>
         </div>
     </section>
 
