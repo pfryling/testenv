@@ -152,9 +152,13 @@
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="jr">
-                    <h4><?php the_field('job_title'); ?></h4>
+                    <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li>
+                        <?php
+echo get_the_tag_list('<p>Tags: ',', ','</p>');
+?>
+</li>
                         <li><strong>Location:</strong> <?php the_field('job_location'); ?></li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
