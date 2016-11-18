@@ -59,6 +59,7 @@
       text-decoration: none
       padding: 1.5em 3em
       display: block
+      text-align: left
     &:focus
       background: $primary
       color: white
@@ -92,7 +93,7 @@
           padding: .2em 0
           width: 95%
           display: block
-          border-bottom: 1px solid #ccc
+          text-indent: 60px
         > ul
           display: block
           padding: 0
@@ -114,6 +115,11 @@
             font-size: .8em
             a
               border: 0
+              text-indent: 70px
+              &:before
+                content: '\f105'
+                font-family: 'FontAwesome'
+                font-size: 10px
       &.normal-sub
         width: 300px
         left: auto
@@ -135,7 +141,7 @@
       display: none
       > li
         width: 100%
-        float: none
+        float: right
         display: block
         a
           padding: 1.5em
@@ -146,7 +152,7 @@
           &.normal-sub
             width: 100%
           > li
-            float: none
+            float: right
             width: 100%
             margin-top: 20px
             &:first-child

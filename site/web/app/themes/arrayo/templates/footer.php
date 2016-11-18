@@ -187,6 +187,10 @@ $(document).ready(function() {
 
   $('.mnav > ul > li > ul:not(:has(ul))').addClass('normal-sub');
 
+  $('.mnav > ul > li > ul > li:has( > ul(').addClass('mnav-dropdown-icon');
+
+  $('.mnav > ul > li > ul:not(:hast(ul))').addClass('normal-sub');
+
   $(".mnav > ul").before("<a href=\"#\" class=\"mnav-mobile\">Navigation</a>");
 
   $(".mnav > ul > li").hover(function(e) {
@@ -197,6 +201,12 @@ $(document).ready(function() {
   });
 
   $(".mnav > ul > li").click(function() {
+    if ($(window).width() <= 943) {
+      $(this).children("ul").fadeToggle(150);
+    }
+  });
+
+  $(".mnav > ul > li > ul > li").click(function() {
     if ($(window).width() <= 943) {
       $(this).children("ul").fadeToggle(150);
     }
