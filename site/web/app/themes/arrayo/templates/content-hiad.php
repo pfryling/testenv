@@ -1,6 +1,6 @@
  <div class="for-gradient--blue">
-        <div class="subpage-header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/fin-agiledata.png" class="sub-logo rotate">
+        <div class="header-logo-container">
+            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/fin-agiledata.png" class="logo rotate">
         </div>
         <div class="wrapper">
             <section class="sub-page-header">
