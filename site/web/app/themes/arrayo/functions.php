@@ -31,6 +31,7 @@ function job_post_init() {
     $args = array(
       'label' => 'Job Posting',
         'public' => true,
+        'taxonomies' => array( 'post_tag' ),
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
