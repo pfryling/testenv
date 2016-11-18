@@ -1097,7 +1097,11 @@ header
         width: 100%
 
 .progress-bar--wrapper
-    padding: $spacer-pink 0
+    padding: $spacer-pink 0 $spacer-yellow 0
+    +media($tablet)
+        padding: $spacer-pink 0 $spacer-blue 0
+    +media($mobile)
+        padding: $spacer-pink 0 $spacer-blue 0
     .number-wrapper
         +span-columns(4)
         +omega(3n)

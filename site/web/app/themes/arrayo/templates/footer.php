@@ -185,6 +185,8 @@ $(document).ready(function() {
 
   $('.mnav > ul > li:has( > ul)').addClass('mnav-dropdown-icon');
 
+  $('.subsub:has( > ul').addClass('mnav-dropdown-icon');
+
   $('.mnav > ul > li > ul:not(:has(ul))').addClass('normal-sub');
 
   $(".mnav > ul").before("<a href=\"#\" class=\"mnav-mobile\"><img style=\"float:left;\" src=\"http://imgh.us/arrayo-logo-official.png\"></a>");
