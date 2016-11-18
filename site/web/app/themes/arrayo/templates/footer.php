@@ -44,70 +44,32 @@
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
 
-<button class="md-trigger" data-modal="modal-12">Apply</button>
+<button class="toggle-overlay">Toggle Me</button>
 
-<div class="md-modal md-effect-12">
-    <div class="md-content">
-      <div class="md-close"><i class="fa fa-times-circle"></i></div>
-       <div class="applymodal">
-  <div class="applymodal-toggle"></div>
-  <div class="applymodal-panel one">
-    <div class="applymodal-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo</h5>
+<aside>
+  <div class="outer-close toggle-overlay">
+    <a class="close"><span></span></a>
     </div>
-    <div class="applymodal-content">
-      <form>
-        <div class="applymodal-group">
-          <label for="username">Upload resume</label>
-          <input type="text" id="username" name="username" required="required"/>
-        </div>
-        <p>or</p>
-        <div class="applymodal-group">
-          <label for="password">LinkedIn URL</label>
-          <input type="password" id="password" name="password" required="required"/>
-        </div>
-        <div class="applymodal-group">
-          <button class="applysubmit" type="submit">Submit</button>
-        </div>
-      </form>
+      <div class="apply-form-wrap">
+      <div class="apply-form">
+        <h2>Apply Now-<br>for Now or Later</h2>
+        <h5>Join Arrayo, Get on Board</h5>
+        <div class='cb-input'>
+      <label>File</label>
+      <input type='text' readonly/>
+      <input id='file-input' type='file' />
+      <label for='file-input'>
+        <i class='fa fa-folder'></i>
+      </label>
     </div>
-  </div>
-  <div class="applymodal-panel two">
-    <div class="applymodal-header">
-      <h1>Apply Now-<br>for Now or Later</h1>
-      <h5>Join Arrayo, Get on Board.</h5>
-    </div>
-    <div class="applymodal-content">
-      <form>
-        <div class="applymodal-group">
-          <label for="username">Name</label>
-          <input type="text" id="username" name="username" required="required"/>
-        </div>
-        <div class="applymodal-group">
-          <label for="password">Email</label>
-          <input type="password" id="password" name="password" required="required"/>
-        </div>
-        <div class="applymodal-group">
-          <label for="cpassword">Areas of Interest</label>
-          <input type="password" id="cpassword" name="cpassword" required="required"/>
-        </div>
-        <div class="applymodal-group">
-          <label for="email">Your Message / Cover Letter</label>
-          <input type="email" id="email" name="email" required="required"/>
-        </div>
-        <div class="applymodal-group">
-          <button type="submit">Apply Now</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-        </div>
-    </div>
-</div>
-
-<div class="md-overlay"></div>
+        <input class="url" type="url" placeholder="Your LinkedIn URL">
+        <input class="name" type="name" placeholder="Your Name">
+        <input class="email" type="email" placeholder="Your Email">
+        <select></select>
+        <textarea placeholder="Your Message / Cover Letter"></textarea>
+        <button>Submit</button>
+      </div>
+</aside>
                 </li>
               </ul>
             </div>
@@ -140,6 +102,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
 <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
+<script>
+(function($) {
+  $(function() {
+    $('.toggle-overlay').click(function() {
+      $('aside').toggleClass('open');
+    });
+  });
+})(jQuery);
+</script>
 <script>
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {

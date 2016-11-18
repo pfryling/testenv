@@ -1,489 +1,209 @@
-.blur
-  -webkit-filter: blur(5px)
-  -moz-filter: blur(5px)
-  -o-filter: blur(5px)
-  -ms-filter: blur(5px)
-  filter: blur(5px)
-
-.tbtn
-  text-align: center
-  text-decoration: none
-  color: #fff
-  background: $primary
-  font-family: $header
-
-.seahorse-wrapper
-  width: 100%
-  height: 100%
+aside
   position: fixed
-  top: 0
-  left: 0
-  background: rgba(79,214,255,.75)
-  visibility: hidden
-  opacity: 0
-  transition: all 0.25s ease-in-out
-
-  &.open
-    opacity: 1
-    visibility: visible
-
-.seahorse
-  width: 600px
-  height: 800px
-  display: block
-  margin: 50% 0 0 -300px
-  position: relative
-  top: 30%
-  left: 50%
-  background: transparent
-  opacity: 0
-  transition: all 0.5s ease-in-out
-
-.seahorse-wrapper.open .seahorse
-  margin-top: -200px
-  opacity: 1
-
-.btn-close
-  display: block
-  margin-top: -50px
-  margin-left: -50px
-  cursor: pointer
-  &::before
-    content: '\f05c'
-    font-family: 'FontAwesome'
-    display: block
-    font-size: 20px
-  +media($mobile)
-    margin-top: -50px
-    margin-left: auto
-    margin-right: auto
-    text-align: center
-    color: $text-light
-
-.content
-  padding: 5%
-
-.turtle-overlay, .turtle-panel.one:before
-  position: absolute
-  top: 0
-  left: 0
-  display: none
-  background: rgba(0, 0, 0, 0.8)
   width: 100%
   height: 100%
-
-.turtle
-  z-index: 15
-  position: relative
-  background: #FFFFFF
-  width: 600px
-  box-shadow: $white-box-shadow
-  box-sizing: border-box
-  margin: 100px auto 10px
-  overflow: hidden
-
-.turtle-toggle
-  z-index: 10
-  position: absolute
-  top: 60px
-  right: 60px
-  width: 60px
-  height: 60px
-  border-radius: 100%
-  -webkit-transturtle-origin: center
-  transturtle-origin: center
-  -webkit-transturtle: translate(0, -25%) scale(0)
-  transturtle: translate(0, -25%) scale(0)
+  top: 0
+  left: 0
+  background: linear-gradient(200deg, $primary, $tertiary)
   opacity: 0
-  cursor: pointer
-  -webkit-transition: all 0.3s ease
-  transition: all 0.3s ease
-  +media($mobile)
-    width: 10px
-    height: 10px
-    top: 10px
-    right: 80%
-  &:before, &:after
-    content: '\f057'
-    font-family: 'FontAwesome'
-    font-size: 52px
-    color: white
-    display: block
-    position: absolute
-    top: 0%
-    left: 30%
-    -webkit-transturtle: translate(-50%, -50%)
-    transturtle: translate(-50%, -50%)
-    +media($mobile)
-      font-size: 22px
+  visibility: hidden
+  -webkit-transition: all .5s ease
+  transition: all .5s ease
+  z-index: 2
 
-  &:before
-    -webkit-transturtle: translate(-50%, -50%) rotate(45deg)
-    transturtle: translate(-50%, -50%) rotate(45deg)
-
-  &:after
-    -webkit-transturtle: translate(-50%, -50%) rotate(-45deg)
-    transturtle: translate(-50%, -50%) rotate(-45deg)
-
-  &.visible
-    -webkit-transturtle: translate(0, -25%) scale(1)
-    transturtle: translate(0, -25%) scale(1)
-    opacity: 1
-
-.turtle-group
+.cb-input
+  width: 400px
   display: -webkit-box
   display: -webkit-flex
   display: -ms-flexbox
   display: flex
+  position: relative
   -webkit-flex-wrap: wrap
   -ms-flex-wrap: wrap
   flex-wrap: wrap
-  -webkit-box-pack: justify
-  -webkit-justify-content: space-between
-  -ms-flex-pack: justify
-  justify-content: space-between
-  margin: 0 0 20px
-
-  &:last-child
-    margin: 0
-
+  margin: 10px 0
   label
+    -webkit-box-flex: 1
+    -webkit-flex: 1 1 100%
+    -ms-flex: 1 1 100%
+    flex: 1 1 100%
+    font-size: 12px
+    padding-left: 3px
+  input, select
+    -webkit-appearance: none
+    -moz-appearance: none
+    -ms-appearance: none
+    -webkit-box-flex: 1
+    -webkit-flex: 1
+    -ms-flex: 1
+    flex: 1
     display: block
-    margin: 0 0 10px
-    color: $text
-    font-family: $header
-    font-size: 12px
-    font-weight: 500
-
-.two .turtle-group label
-  color: #FFFFFF
-
-.turtle-group input
-  outline: none
-  display: block
-  background: rgba(0, 0, 0, 0.1)
-  width: 100%
-  border: 0
-  box-sizing: border-box
-  padding: 12px 20px
-  color: $text-light
-  font-family: inherit
-  font-size: inherit
-  font-weight: 500
-  line-height: inherit
-  -webkit-transition: 0.3s ease
-  transition: 0.3s ease
-  &:focus
-    color: $primary
-
-.two .turtle-group input
-  color: #FFFFFF
-
-  &:focus
-    color: #FFFFFF
-
-.turtle-group button
-  outline: none
-  background: $primary
-  width: 100%
-  border: 0
-  padding: 12px 20px
-  color: #FFFFFF
-  font-family: $header
-  font-size: inherit
-  font-weight: 500
-  line-height: inherit
-  text-transturtle: uppercase
-  cursor: pointer
-  +media($mobile)
-    font-size: 14px
-    margin: 0 auto
-    padding: 5px 10px
-
-.two .turtle-group button, #nf-field-13
-  background: #FFFFFF
-  color: $primary
-  width: 100%
-  outline: none
-  border: 0
-  padding: 12px 20px
-  font-family: $header
-  font-size: inherit
-  font-weight: 500
-  line-height: inherit
-  text-transturtle: uppercase
-  cursor: pointer
-
-.turtle-group
-  .turtle-remember
-    font-size: 12px
-    font-weight: 400
-    letter-spacing: 0
-    text-transturtle: none
-
-    input[type='checkbox']
-      display: inline-block
-      width: auto
-      margin: 0 10px 0 0
-
-  .turtle-recovery
-    color: $primary
-    font-size: 12px
-    text-decoration: none
-
-#nf-field-12-wrap
-  margin-top: -10px
-
-.turtle-panel
-  padding: 60px calc(5% + 60px) 60px 60px
-  box-sizing: border-box
-  +media($mobile)
-    padding: 70px 30px 0 20px
-
-  &.one
-    &:before
-      content: ''
-      display: block
-      opacity: 0
-      visibility: hidden
-      -webkit-transition: 0.3s ease
-      transition: 0.3s ease
-
-    &.hidden:before
-      display: block
-      opacity: 1
-      visibility: visible
-
-  &.two
-    z-index: 5
-    position: absolute
-    top: 0
-    left: 95%
-    background: $primary
     width: 100%
-    min-height: 100%
-    padding: 60px calc(10% + 60px) 60px 60px
-    -webkit-transition: 0.3s ease
-    transition: 0.3s ease
-    cursor: pointer
-    +media($mobile)
-      padding: 70px 30px 0 20px
-
-    &:before
-      content: ''
-      display: block
-      position: absolute
-      top: 60px
-      left: 1.5%
-      background: rgba(255, 255, 255, 0.2)
-      height: 30px
-      width: 2px
-      -webkit-transition: 0.3s ease
-      transition: 0.3s ease
-
-    &:after
-      content: ''
-      display: block
-      position: absolute
-      top: 60px
-      left: 1.5%
-      background: rgba(255, 255, 255, 0.2)
-      height: 30px
-      width: 2px
-      -webkit-transition: 0.3s ease
-      transition: 0.3s ease
-      left: 3%
-
-    &:hover
-      left: 93%
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
-
-      &:before, &:after
-        opacity: 0
-
-    &.active
-      left: 10%
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
-      cursor: default
-
-      &:before, &:after
-        opacity: 0
-
-.turtle-header
-  margin: 0 0 40px
-
-  h1
-    padding: 4px 0 0 0
-    color: $primary
-    font-size: 24px
-    font-weight: 700
-    +media($mobile)
-      font-size: 18px
-      padding: 0
-  h5
-    color: $text
-    font-size: 14px
-    font-weight: 300
-    font-family: $sans
-
-
-.two .turtle-header
-  margin-top: -20px
-  +media($mobile)
-    margin-top: -40px
-    margin-left: auto
-    margin-right: auto
-
-.two .turtle-header h1
-  position: relative
-  z-index: 40
-  color: #FFFFFF
-  +media($mobile)
-    margin-left: -20px
-
-.two .turtle-header h5
-  position: relative
-  z-index: 40
-  color: #FFFFFF
-  margin: 5px 0 0 0
-  padding: 0 0 25px 0
-  +media($mobile)
-    margin-left: -20px
-
-#nf-form-3-cont
-  margin-top: -60px
-  +media($mobile)
-    margin-left: 20px
-
-.two textarea, #nf-field-12
-  resize: none
-  width: 100%
-  border: 0
-  outline: 0
-  height: 100px
-  +media($mobile)
-    font-size: 12px
-    height: 76px
-
-.select, select #nf-field-11
-  position: relative
-  display: block
-  margin: 0 auto
-  border-radius: 0
-  width: 100%
-  color: #5b70ff
-  font-family: 'Libre Franklin'
-  font-size: 13px
-  padding: 15px
-  vertical-align: middle
-  text-align: left
-  user-select: none
-  -webkit-touch-callout: none
-  +media($mobile)
-    padding: 5px
-  .placeholder
-    position: relative
-    display: block
-    background-color: #efefef
-    z-index: 1
-    padding: 1em
-    border-radius: 2px
-    cursor: pointer
-    transition: all .3s ease
-    &:focus
-      background: #5b70ff
-      border: 1px solid white
-      color: white
-    &:after
-      position: absolute
-      right: 1em
-      top: 50%
-      transform: translateY(-50%)
-      font-family: 'FontAwesome'
-      content: '\f078'
-      z-index: 10
-  &.is-open
-    .placeholder:after
-      content: '\f077'
-    ul
-      display: block
-  ul
-    display: none
-    position: absolute
-    overflow: hidden
-    overflow-y: auto
-    width: 100%
-    background: #fff
-    border-radius: 2px
-    top: 100%
-    left: 0
-    list-style: none
-    margin: 5px 0 0 0
-    padding: 0
-    z-index: 100
-    max-height: 120px
-    li
-      display: block
-      text-align: left
-      padding: 0.8em 1em 0.8em 1em
-      color: #999
-      cursor: pointer
-      &:hover
-        background: #4ebbf0
-        color: #fff
-
-
-input[type="file"]
-  display: none
-
-.custom-file-upload
-  display: inline-block
-  padding: 10px 0 10px 10px
-  color: $primary
-  background: #efefef
-  border: 0
-  border-radius: 3px
-  outline: 0
-  width: 100%
-  margin-bottom: 20px
-
-label[for="file-upload"], .linkedin
-  font-family: $header
-  line-height: 20px
-  font-size: 12px
-  color: $text-light
-  text-align: left
-  .fa
-    font-size: 13px
-    padding-right: 7px
-    padding-left: 6px
-    padding-top: 1px
-
-#nf-field-10-wrap
-  margin-left: -10px
-  +media($mobile)
-    margin-left: 0
-
-#nf-field-9
-  +media($mobile)
-    padding: 5px
-
-#nf-field-10-container, #nf-field-9-container
-  display: inline-block
-
-#name, #email, #nf-field-9, #nf-field-10
-  display: inline-block
-  margin-right: 3px
-  font-family: $header
-  color: $text
-  background-color: white
-  border: 1px solid white
-  font-size: 12px
-  &:focus
+    max-width: 100%
+    padding: 10px 5px
+    border: 3px solid #c1e1ec
+    border-right: none
     background-color: white
-    color: $primary
-  +media($mobile)
+    border-radius: 0
+    font-size: 16px
+  input:nth-last-child(2), select:nth-last-child(2)
+    border-right: 3px solid #c1e1ec
+  input[type="file"], select[type="file"]
+    position: fixed
+    top: -1000px
+  input ~ label, select ~ label
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 44px
+    -ms-flex: 0 0 44px
+    flex: 0 0 44px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -webkit-justify-content: center
+    -ms-flex-pack: center
+    justify-content: center
+    padding: 0
+    font-size: 16px
+    border: 1px solid $primary
+    background-color: $primary
+    cursor: pointer
+    float: left
+  input ~ label:hover, select ~ label:hover
+    border: 1px solid $primary
+    background-color: $primary
+  input:focus:hover + ul, select:focus:hover + ul, input:focus ~ div.tooltip, select:focus ~ div.tooltip
     display: block
-    padding: 5px 10px
-    width: 100%
-    margin: 0 auto
+  button
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 44px
+    -ms-flex: 0 0 44px
+    flex: 0 0 44px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -webkit-justify-content: center
+    -ms-flex-pack: center
+    justify-content: center
+    padding: 5px
+    font-size: 16px
+    border: 1px solid $primary
+    background-color: $primary
+    cursor: pointer
+
+.apply-form-wrap
+    display: flex
+    margin-top: 10%
+    justify-content: center
+    align-items: center
+    .apply-form
+        flex-flow: column wrap
+        display: flex
+        text-align: center
+        h2
+            font-family: $header
+            text-align: center
+            color: white
+            margin: 0
+            padding-bottom: 20px
+        h5
+            font-family: $sans
+            color: white
+            margin: 0
+            padding-bottom: 40px
+            font-weight: 100
+        input
+            padding: 10px 20px
+            font-size: 16px
+            margin: 10px 0
+            border: 0
+            outline: 0
+            font-family: $sans
+            width: 100%
+        textarea
+            resize: none
+            display: block
+            margin: 10px auto
+            border: 0
+            font-size: 16px
+            padding: 10px 20px
+            width: 100%
+            height: 100px
+        button
+            padding: 20px 10px
+            background-color: white
+            width: 100%
+            margin: 0 auto
+            font-family: $header
+            color: white
+            text-align: center
+
+
+
+
+.open
+  opacity: 1
+  visibility: visible
+
+
+.toggle-overlay
+  padding: 15px 40px
+  background: $primary
+  border: 1px solid rgba(255, 255, 255, 0.4)
+  color: white
+  border-radius: 8px
+  -webkit-transition: all .5s ease
+  transition: all .5s ease
+  &:hover
+    border: 1px solid white
+
+.close
+  position: fixed
+  top: 20%
+  right: 60px
+  color: white
+  z-index: 3
+  cursor: pointer
+  font-family: sans-serif
+  span
+    border-radius: 4px
+    height: 5px
+    width: 35px
+    background: white
+    position: absolute
+    display: block
+    content: ''
+    &:before, &:after
+      border-radius: 4px
+      height: 5px
+      width: 35px
+      background: white
+      position: absolute
+      display: block
+      content: ''
+    background: transparent
+    &:before
+      -webkit-transform: rotate(45deg)
+      transform: rotate(45deg)
+    &:after
+      -webkit-transform: rotate(-45deg)
+      transform: rotate(-45deg)
+
+.outer-close
+  position: absolute
+  right: 0
+  top: 0
+  width: 85px
+  height: 85px
+  cursor: pointer
