@@ -176,114 +176,81 @@
         </div>
     </div>
 </header>
-<div class="mnav-container mobile-only">
-  <div class="mp-pusher" id="mp-pusher">
-    <div id="mp-menu" class="mp-menu">
-      <div class="mp-level">
-        <h2 class="ion-earth"></h2>
+<div class="menu-container mobile-only">
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="http://marioloncarek.com">About</a>
         <ul>
-          <li class="ion-chevron-left">
-            <a href="#">Services</a>
-            <div class="mp-level">
-              <h2>Services</h2>
-              <a class="mp-back" href="#">back</a>
-              <ul>
-                <li class="ion-chevron-left">
-                  <a  href="/agiledata">AgileData</a>
-                  <div class="mp-level">
-                    <h2>AgileData</h2>
-                    <a class="mp-back" href="#">back</a>
-                    <ul>
-                      <li><a href="/agiledata">Overview</a></li>
-                      <li><a href="/agiledata/fintech">for FinTech</a></li>
-                      <li><a href="/agiledata/healthtech">for HealthTech</a></li>
-                      <li><a href="/agiledata/hightech">for HighTech</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="ion-chevron-left">
-                  <a  href="#">RTech</a>
-                  <div class="mp-level">
-                    <h2>RTech</h2>
-                    <a class="mp-back" href="#">back</a>
-                    <ul>
-                      <li><a href="/rtech">Overview</a></li>
-                      <li><a href="/rtech/fintech">for FinTech</a></li>
-                      <li><a href="/rtech/healthtech">for HealthTech</a></li>
-                      <li><a href="/rtech/hightech">for HighTech</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="ion-chevron-left">
-                  <a  href="#">DataBridge</a>
-                  <div class="mp-level">
-                    <h2>DataBridge</h2>
-                    <a class="mp-back" href="#">back</a>
-                    <ul>
-                      <li><a href="/databridge">Overview</a></li>
-                      <li><a href="/databridge/fintech">for FinTech</a></li>
-                      <li><a href="/databridge/healthtech">for HealthTech</a></li>
-                      <li><a href="/databridge/hightech">for HighTech</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="ion-chevron-left">
-                  <a  href="#">Connect</a>
-                  <div class="mp-level">
-                    <h2>Connect</h2>
-                    <a class="mp-back" href="#">back</a>
-                    <ul>
-                      <li><a href="/connect">Overview</a></li>
-                      <li><a href="/connect/fintech">for FinTech</a></li>
-                      <li><a href="/connect/healthtech">for HealthTech</a></li>
-                      <li><a href="/connect/hightech">for HighTech</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <a href="/services">Browse Services</a>
-                </li>
-              </ul>
-            </div>
+          <li><a href="#">School</a>
+            <ul>
+              <li><a href="#">Lidership</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
           </li>
-          <li class="ion-chevron-left">
-            <a  href="#">Industries</a>
-            <div class="mp-level">
-              <h2>Industries</h2>
-              <a class="mp-back" href="#">back</a>
-              <ul>
-                <li><a href="/fintech">FinTech</a></li>
-                <li><a href="/healthtech">HealthTech</a></li>
-                <li><a href="/hightech">HighTech</a></li>
-              </ul>
-            </div>
+          <li><a href="#">Study</a>
+            <ul>
+              <li><a href="#">Undergraduate</a></li>
+              <li><a href="#">Masters</a></li>
+              <li><a href="#">International</a></li>
+              <li><a href="#">Online</a></li>
+            </ul>
           </li>
-          <li><a class="ion-image" href="/company">Company</a></li>
-          <li><a class="ion-card" href="/careers">Careers</a></li>
-          <li class="ion-chevron-left">
-                  <a  href="#">Contact</a>
-                  <div class="mp-level">
-                    <h2>Get in Touch!</h2>
-                    <a class="mp-back" href="#">back</a>
-                    <ul>
-                      <li>
-                        <form>
-                          <input type="text" placeholder="Your name">
-                          <input type="text" placeholder="Your Email">
-                          <textarea placeholder="Your Message"></textarea>
-                          <input type="submit"/>
-                        </form>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
+          <li><a href="#">Research</a>
+            <ul>
+              <li><a href="#">Undergraduate research</a></li>
+              <li><a href="#">Masters research</a></li>
+              <li><a href="#">Funding</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Something</a>
+            <ul>
+              <li><a href="#">Sub something</a></li>
+              <li><a href="#">Sub something</a></li>
+              <li><a href="#">Sub something</a></li>
+              <li><a href="#">Sub something</a></li>
+            </ul>
+          </li>
         </ul>
-      </div>
-    </div>
-    </div>
-    </div>
-        <div class="content clearfix m-nav-bar">
-          <div class="block block-40 clearfix">
-            <p><a href="#" id="trigger" class="menu-trigger"></a></p>
-          </div>
-        </div>
+      </li>
+      <li><a href="#">News</a>
+        <ul>
+          <li><a href="#">Today</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Sport</a></li>
+        </ul>
+      </li>
+      <li><a href="http://marioloncarek.com">Contact</a>
+        <ul>
+          <li><a href="#">School</a>
+            <ul>
+              <li><a href="#">Lidership</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Study</a>
+            <ul>
+              <li><a href="#">Undergraduate</a></li>
+              <li><a href="#">Masters</a></li>
+              <li><a href="#">International</a></li>
+              <li><a href="#">Online</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Study</a>
+            <ul>
+              <li><a href="#">Undergraduate</a></li>
+              <li><a href="#">Masters</a></li>
+              <li><a href="#">International</a></li>
+              <li><a href="#">Online</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Empty sub</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

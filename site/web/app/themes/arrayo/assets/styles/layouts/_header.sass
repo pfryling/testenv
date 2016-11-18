@@ -5,124 +5,154 @@
   +media($mobile)
     display: block
 
-.mnav-container
-  height: 100%
+.menu-container
+  width: 80%
+  margin: 0 auto
+  background: #e9e9e9
 
-[class*="ion-"]::before
-  margin: 0 0.6em 0 0
+.menu-mobile
+  display: none
+  padding: 20px
+  &:after
+    content: "\f394"
+    font-family: "Ionicons"
+    font-size: 2.5rem
+    padding: 0
+    float: right
+    position: relative
+    top: 50%
+    -webkit-transform: translateY(-25%)
+    transform: translateY(-25%)
 
-.scroller
-  overflow-y: scroll
-  position: relative
-
-.scroller-inner
-  position: relative
-
-.mnav-container
-  position: relative
-  overflow: hidden
-
-.menu-trigger
-  position: relative
-  padding-left: 60px
-  font-size: 0.9em
-  &:before
-    position: absolute
-    top: 2px
-    left: 0
-    width: 40px
-    height: 6px
-    background: black
-    box-shadow: 0 6px rgba(0, 0, 0, 0), 0 12px black, 0 18px rgba(0, 0, 0, 0), 0 24px black
-    content: ''
-
-.mp-pusher
-  position: relative
-  left: 0
-  height: 100%
-  perspective: 1000px
-
-.mp-menu
-  position: absolute
-  top: 0
-  left: 0
-  z-index: 1
-  width: 300px
-  height: 100%
-  -webkit-transform: translate3d(-100%, 0, 0)
-  -moz-transform: translate3d(-100%, 0, 0)
-  transform: translate3d(-100%, 0, 0)
-
-.mp-level
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  background: linear-gradient(to top left, #2d5ead, #5b70ff)
-  -webkit-transform: translate3d(-100%, 0, 0)
-  -moz-transform: translate3d(-100%, 0, 0)
-  transform: translate3d(-100%, 0, 0)
-
-.mp-pusher::after
-  position: absolute
-  top: 0
-  right: 0
-  width: 0
-  height: 0
-  content: ''
-  opacity: 0
-
-.mp-level
-  &::after, &::before
-    position: absolute
-    top: 0
-    right: 0
-    width: 0
-    height: 0
-    content: ''
-    opacity: 0
-
-.mp-pusher::after
-  background: rgba(0, 0, 0, 0.3)
-  -webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-  -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-  transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-
-.mp-level::after
-  background: rgba(0, 0, 0, 0.3)
-  -webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-  -moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-  transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s
-  z-index: -1
-
-.mp-pusher.mp-pushed::after
-  width: 100%
-  height: 100%
-  opacity: 1
-  -webkit-transition: opacity 0.3s
-  -moz-transition: opacity 0.3s
-  transition: opacity 0.3s
-
-.mp-level.mp-level-overlay
-  &::after
-    width: 100%
-    height: 100%
-    opacity: 1
-    -webkit-transition: opacity 0.3s
-    -moz-transition: opacity 0.3s
-    transition: opacity 0.3s
+.menu-dropdown-icon:before
+  content: "\f489"
+  font-family: "Ionicons"
+  display: none
   cursor: pointer
-  &.mp-level::before
-    width: 100%
-    height: 100%
-    background: transparent
-    opacity: 1
+  float: right
+  padding: 1.5em 2em
+  background: #fff
+  color: #333
 
-.mp-pusher, .mp-level
-  -webkit-transition: all 0.5s
-  -moz-transition: all 0.5s
-  transition: all 0.5s
+.menu > ul
+  margin: 0 auto
+  width: 100%
+  list-style: none
+  padding: 0
+  position: relative
+  box-sizing: border-box
+  &:before
+    content: ""
+    display: table
+  &:after
+    content: ""
+    display: table
+    clear: both
+  > li
+    float: left
+    background: #e9e9e9
+    padding: 0
+    margin: 0
+    a
+      text-decoration: none
+      padding: 1.5em 3em
+      display: block
+    &:hover
+      background: #f0f0f0
+    > ul
+      display: none
+      width: 100%
+      background: #f0f0f0
+      padding: 20px
+      position: absolute
+      z-index: 99
+      left: 0
+      margin: 0
+      list-style: none
+      box-sizing: border-box
+      &:before
+        content: ""
+        display: table
+      &:after
+        content: ""
+        display: table
+        clear: both
+      > li
+        margin: 0
+        padding-bottom: 0
+        list-style: none
+        width: 25%
+        background: none
+        float: left
+        a
+          color: #777
+          padding: .2em 0
+          width: 95%
+          display: block
+          border-bottom: 1px solid #ccc
+        > ul
+          display: block
+          padding: 0
+          margin: 10px 0 0
+          list-style: none
+          box-sizing: border-box
+          &:before
+            content: ""
+            display: table
+          &:after
+            content: ""
+            display: table
+            clear: both
+          > li
+            float: left
+            width: 100%
+            padding: 10px 0
+            margin: 0
+            font-size: .8em
+            a
+              border: 0
+      &.normal-sub
+        width: 300px
+        left: auto
+        padding: 10px 20px
+        > li
+          width: 100%
+          a
+            border: 0
+            padding: 1em 0
+
+@media only screen and (max-width: 959px)
+  .menu-container
+    width: 100%
+  .menu-mobile, .menu-dropdown-icon:before
+    display: block
+  .menu
+    > ul
+      display: none
+      > li
+        width: 100%
+        float: none
+        display: block
+        a
+          padding: 1.5em
+          width: 100%
+          display: block
+        > ul
+          position: relative
+          &.normal-sub
+            width: 100%
+          > li
+            float: none
+            width: 100%
+            margin-top: 20px
+            &:first-child
+              margin: 0
+            > ul
+              position: relative
+              > li
+                float: none
+    .show-on-mobile
+      display: block
 
 /* overlap
 
