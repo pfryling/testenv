@@ -187,7 +187,7 @@ $(document).ready(function() {
 
   $('.mnav > ul > li > ul:not(:has(ul))').addClass('normal-sub');
 
-  $(".mnav > ul").before("<a href=\"#\" class=\"mnav-mobile\"><img src=\"http://imgh.us/arrayo-logo-official.png\"></a>");
+  $(".mnav > ul").before("<a href=\"#\" class=\"mnav-mobile\"><img style=\"float:left;\" src=\"http://imgh.us/arrayo-logo-official.png\"></a>");
 
   $(".mnav > ul > li").hover(function(e) {
     if ($(window).width() > 943) {
