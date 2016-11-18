@@ -1,3 +1,15 @@
+#nf-form-4-cont
+  background-color: transparent
+
+#nf-field-21-wrap button
+  width: 100% !important
+
+.nf-next
+  padding: 10px 20px
+  font-family: $header
+  color: white
+  background-color: $primary
+
 aside
   position: fixed
   width: 100%
@@ -11,97 +23,6 @@ aside
   transition: all .5s ease
   z-index: 2
 
-.cb-input
-  width: 400px
-  display: -webkit-box
-  display: -webkit-flex
-  display: -ms-flexbox
-  display: flex
-  position: relative
-  -webkit-flex-wrap: wrap
-  -ms-flex-wrap: wrap
-  flex-wrap: wrap
-  margin: 10px 0
-  label
-    -webkit-box-flex: 1
-    -webkit-flex: 1 1 100%
-    -ms-flex: 1 1 100%
-    flex: 1 1 100%
-    font-size: 12px
-    padding-left: 3px
-  input, select
-    -webkit-appearance: none
-    -moz-appearance: none
-    -ms-appearance: none
-    -webkit-box-flex: 1
-    -webkit-flex: 1
-    -ms-flex: 1
-    flex: 1
-    display: block
-    width: 100%
-    max-width: 100%
-    padding: 10px 5px
-    border: 3px solid #c1e1ec
-    border-right: none
-    background-color: white
-    border-radius: 0
-    font-size: 16px
-  input:nth-last-child(2), select:nth-last-child(2)
-    border-right: 3px solid #c1e1ec
-  input[type="file"], select[type="file"]
-    position: fixed
-    top: -1000px
-  input ~ label, select ~ label
-    -webkit-box-flex: 0
-    -webkit-flex: 0 0 44px
-    -ms-flex: 0 0 44px
-    flex: 0 0 44px
-    display: -webkit-box
-    display: -webkit-flex
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-align: center
-    -webkit-align-items: center
-    -ms-flex-align: center
-    align-items: center
-    -webkit-box-pack: center
-    -webkit-justify-content: center
-    -ms-flex-pack: center
-    justify-content: center
-    padding: 0
-    font-size: 16px
-    border: 1px solid $primary
-    background-color: $primary
-    cursor: pointer
-    float: left
-  input ~ label:hover, select ~ label:hover
-    border: 1px solid $primary
-    background-color: $primary
-  input:focus:hover + ul, select:focus:hover + ul, input:focus ~ div.tooltip, select:focus ~ div.tooltip
-    display: block
-  button
-    -webkit-box-flex: 0
-    -webkit-flex: 0 0 44px
-    -ms-flex: 0 0 44px
-    flex: 0 0 44px
-    display: -webkit-box
-    display: -webkit-flex
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-align: center
-    -webkit-align-items: center
-    -ms-flex-align: center
-    align-items: center
-    -webkit-box-pack: center
-    -webkit-justify-content: center
-    -ms-flex-pack: center
-    justify-content: center
-    padding: 5px
-    font-size: 16px
-    border: 1px solid $primary
-    background-color: $primary
-    cursor: pointer
-
 .apply-form-wrap
     display: flex
     margin-top: 10%
@@ -111,45 +32,6 @@ aside
         flex-flow: column wrap
         display: flex
         text-align: center
-        h2
-            font-family: $header
-            text-align: center
-            color: white
-            margin: 0
-            padding-bottom: 20px
-        h5
-            font-family: $sans
-            color: white
-            margin: 0
-            padding-bottom: 40px
-            font-weight: 100
-        input
-            padding: 10px 20px
-            font-size: 16px
-            margin: 10px 0
-            border: 0
-            outline: 0
-            font-family: $sans
-            width: 100%
-        textarea
-            resize: none
-            display: block
-            margin: 10px auto
-            border: 0
-            font-size: 16px
-            padding: 10px 20px
-            width: 100%
-            height: 100px
-        button
-            padding: 20px 10px
-            background-color: white
-            width: 100%
-            margin: 0 auto
-            font-family: $header
-            color: white
-            text-align: center
-
-
 
 
 .open
@@ -199,11 +81,3 @@ aside
     &:after
       -webkit-transform: rotate(-45deg)
       transform: rotate(-45deg)
-
-.outer-close
-  position: absolute
-  right: 0
-  top: 0
-  width: 85px
-  height: 85px
-  cursor: pointer
