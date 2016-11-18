@@ -202,10 +202,14 @@ $(document).ready(function() {
     }
   });
 
-  $(".mnav > ul > li > ul > li").click(function() {
+  $(".subsub").click(function() {
     if ($(window).width() <= 943) {
       $(this).children("ul").fadeToggle(150);
     }
+  });
+
+  $(".subsub").click(function(event) {
+    event.stopPropagation();
   });
 
   $(".mnav-mobile").click(function(e) {

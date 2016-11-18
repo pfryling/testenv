@@ -459,10 +459,12 @@ header
         transition: all .4s ease-in-out
         padding: $spacer-blue 0
         .link
-            display: block
+            display: flex
             position: relative
             padding: $spacer-cyan 0 0 0
             width: 100%
+            +media($mobile)
+                justify-content: center
             .service-btn
                 margin: 0 $spacer-green 0 $spacer-pink
                 color: $primary
@@ -474,7 +476,8 @@ header
                 +media($tablet)
                     margin: $spacer-yellow $spacer-green 0 $spacer-green
                 +media($mobile)
-                    margin: 30px auto 50px auto
+                    align-self: center
+                    margin: 15px 0 0 0
                     font-size: 15px
                 .fa
                     color: $primary
@@ -755,6 +758,10 @@ header
                 font-size: 32px
         button
             margin-bottom: $spacer-red
+            +media($tablet)
+                margin-bottom: $spacer-yellow
+            +media($mobile)
+                margin-bottom: $spacer-blue
     h5
         color: $text-light
         line-height: 1.3
