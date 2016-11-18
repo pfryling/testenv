@@ -919,7 +919,7 @@
         margin-bottom: $spacer-blue
     .icons-wrap
         display: flex
-        flex-flow: column wrap
+        flex-flow: row wrap
         .icons
             display: flex
             flex-flow: column wrap
@@ -927,8 +927,8 @@
             +span-columns(4 of 12)
             +omega(3n)
             +media($mobile)
-                +span-columns(1.333 of 4)
-                +omega(3n)
+                +span-columns(4 of 4)
+                margin-bottom: 25px
             img
                 width: 20%
                 margin: 0 auto
@@ -1970,18 +1970,21 @@
         line-height: 26px
         font-weight: 300
         color: $text
-    .sm-icon
-        +span-columns(4 of 12)
-        +omega(3n)
-        border-bottom: 2px solid rgba(0,0,0,0.1)
-        color: $text
-        flex-flow: column wrap
-        +media($mobile)
-          +span-columns(4 of 4)
-          margin-bottom: 25px
-        img
-            padding-bottom: $spacer-cyan
-            width: 15%
+    .icons-wrap
+        display: flex
+        flex-flow: row wrap
+        .sm-icon
+            display: flex
+            flex-flow: column wrap
+            border-bottom: 3px solid rgba(79,214,255,0.3)
+            +span-columns(4 of 12)
+            +omega(3n)
+            +media($mobile)
+                +span-columns(4 of 4)
+                margin-bottom: 25px
+            img
+                padding-bottom: $spacer-cyan
+                width: 15%
     h3
         color: $text
         font-size: 42px
@@ -2038,6 +2041,8 @@
             color: $tertiary
             margin-left: -40px
             padding-right: 20px
+            +media($mobile)
+                display: none
         .fa
             color: $tertiary
             margin-left: -40px
