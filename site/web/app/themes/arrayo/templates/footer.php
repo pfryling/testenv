@@ -55,19 +55,7 @@
         <h2>Apply Now-<br>for Now or Later</h2>
         <h5>Join Arrayo, Get on Board</h5>
         <div class='cb-input'>
-      <label>File</label>
-      <input type='text' readonly/>
-      <input id='file-input' type='file' />
-      <label for='file-input'>
-        <i class='fa fa-folder'></i>
-      </label>
-    </div>
-        <input class="url" type="url" placeholder="Your LinkedIn URL">
-        <input class="name" type="name" placeholder="Your Name">
-        <input class="email" type="email" placeholder="Your Email">
-        <select></select>
-        <textarea placeholder="Your Message / Cover Letter"></textarea>
-        <button>Submit</button>
+            <?php echo do_shortcode("[ninja_form id=4]"); ?>
       </div>
 </aside>
                 </li>
