@@ -135,6 +135,7 @@
       height: 145px
     +media($mobile)
       height: 145px
+      text-align: center !important
     svg
       width: 25%
       fill: white
@@ -160,6 +161,7 @@
       height: 145px
     +media($mobile)
       height: 145px
+      text-align: center !important
     svg
       width: 25%
       fill: white
@@ -184,6 +186,7 @@
       height: 145px
     +media($mobile)
       height: 145px
+      text-align: center !important
     svg
       width: 25%
       fill: white
@@ -892,6 +895,8 @@
     background-color: white
     box-shadow: $white-box-shadow
     text-align: center
+    display: flex
+    flex-flow: row wrap
     padding: $spacer-yellow $spacer-pink
     margin: $spacer-yellow 0
     +media($mobile)
@@ -900,7 +905,6 @@
         color: $text
     h5
         color: $text-light
-        font-size: 16px
         line-height: 26px
         font-weight: 100
     p
@@ -909,16 +913,21 @@
         font-weight: 100
         margin-bottom: $spacer-blue
     .icons
+        display: flex
+        flex-flow: column wrap
+        border-bottom: 3px solid rgba(79,214,255,0.3)
         +span-columns(4 of 12)
         +omega(3n)
         +media($mobile)
             +span-columns(1.333 of 4)
             +omega(3n)
+        img
+            width: 20%
+            margin: 0 auto
         p
             font-size: 18px
             line-height: 26px
             padding-bottom: $spacer-cyan
-            border-bottom: 3px solid rgba(79,214,255,0.3)
             +media($mobile)
                 font-size: 14px
                 line-height: 18px

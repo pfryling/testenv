@@ -47,17 +47,14 @@
             <div class="icons wow bounceIn">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
                 <p><?php the_field('rt_midbox--icon1'); ?></p>
-                <hr>
             </div>
             <div class="icons wow bounceIn">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
-                <p><?php the_field('rt_midbox--icon2'); ?><br>&nbsp;</p>
-                <hr>
+                <p><?php the_field('rt_midbox--icon2'); ?></p>
             </div>
             <div class="icons wow bounceIn">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
-                <p><?php the_field('rt_midbox--icon3'); ?><br>&nbsp;</p>
-                <hr>
+                <p><?php the_field('rt_midbox--icon3'); ?></p>
             </div>
         </section>
             <section class="third-gradient wow fadeInUp">
