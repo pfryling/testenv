@@ -28,7 +28,7 @@
                <div class="label-wrapper wow fadeInUp">
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/r-tech/hightechwrapper">
                         <span class="label-swap">
                               R-Tech for HighTech
@@ -39,7 +39,7 @@
                         </a>
                     </div>
                     <div class="label label--high-agile">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/agiledata/hightechwrapper">
                         <span class="label-swap">
                               AgileData for HighTech
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="label label--high-data">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databrdige/hightechwrapper">
                         <span class="label-swap">
                               DataBridge for HighTech
@@ -63,7 +63,7 @@
                     <br>
                     <h6>connect industries</h6>
                     <div class="label label--fin-con">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/connect/fintechwrapper">
                         <span class="label-swap">
                               Connect for FinTech
@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="label label--health-con">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/connect/healthtechwrapper">
                         <span class="label-swap">
                               Connect for HealthTech

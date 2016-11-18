@@ -1442,6 +1442,8 @@
             color: white
             text-transform: uppercase
             margin: 0
+            +media($mobile)
+                text-align: left !important
 
         .label
             span
@@ -1460,12 +1462,21 @@
 
         .label-swap
             transition: 0.3s
-
+        .label:before
+            content: '\f18e'
+            font-family: 'FontAwesome'
+            position: absolute
+            right: 5%
+            color: $tertiary
+            margin-top: 1.5rem
+        .label:hover:before
+            display: none
         .label
             padding: 0 0 0 1rem
             height: 4rem
             margin-bottom: 1rem
             background-color: white
+            position: relative
             background-position: left center
             background-repeat: no-repeat
             box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)

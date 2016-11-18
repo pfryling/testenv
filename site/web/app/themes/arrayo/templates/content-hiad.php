@@ -27,7 +27,7 @@
                <div class="label-wrapper fadeInUp">
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/r-tech/hightechwrapper">
                         <span class="label-swap">
                               R-Tech for HighTech
@@ -38,7 +38,7 @@
                         </a>
                     </div>
                     <div class="label label--high-data">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databridge/hightechwrapper">
                         <span class="label-swap">
                               DataBridge for HighTech
@@ -49,7 +49,7 @@
                         </a>
                     </div>
                     <div class="label label--high-con">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/connect/hightech">
                         <span class="label-swap">
                               Connect for HighTech
@@ -62,7 +62,7 @@
                     <br>
                     <h6>agiledata industries</h6>
                     <div class="label label--fin-agile">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/agiledata/fintech">
                         <span class="label-swap">
                               AgileData for FinTech
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="label label--health-agile">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/agiledata/healthtech">
                         <span class="label-swap">
                               AgileData for HealthTech

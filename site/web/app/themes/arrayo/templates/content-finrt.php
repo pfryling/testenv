@@ -28,7 +28,7 @@
                 <div class="label-wrapper">
                     <h6>other fintech services</h6>
                     <div class="label label--fin-con wow fadeInUp">
-                    <i class="fa fa-arrow-circle-o-right"></i>
+                    
                         <a href="/connect/fintechwrapper">
                         <span class="label-swap">
                               Connect for FinTech
@@ -39,7 +39,7 @@
                         </a>
                     </div>
                     <div class="label label--fin-data wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databridge/fintechwrapper">
                         <span class="label-swap">
                               DataBridge for FinTech
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="label label--fin-rtech wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/rtech/fintechwrapper">
                         <span class="label-swap">
                               AgileData for FinTech
@@ -63,7 +63,7 @@
                     <br>
                     <h6>connect industries</h6>
                     <div class="label label--health-agile wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/rtech/healthtechwrapper">
                         <span class="label-swap">
                               RTech for HealthTech
@@ -75,7 +75,7 @@
                     </div>
                     <div class="label label--high-agile wow fadeInUp">
 
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/rtech/hightechwrapper">
                         <span class="label-swap">
                               RTech for HighTech

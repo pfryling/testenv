@@ -25,7 +25,7 @@
                     <p class="for"><strong>Operations</strong></p>
                     <hr>
                     <br>
-                    <?php the_field('ad_he_box--text3'); ?>
+                    <p><?php the_field('ad_he_box--text3'); ?></p>
                     <div class="inner-gradient--green">
                         <p class="list list--white wow slideInLeft"><strong>Analytics</strong></p>
                         <p><?php the_field('ad_he_box--text4'); ?></p>
@@ -40,7 +40,7 @@
                 <div class="label-wrapper">
                     <h6>other healthtech services</h6>
                     <div class="label label--health-con wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/connect/healthtechwrapper">
                         <span class="label-swap">
                               Connect for HealthTech
@@ -51,7 +51,7 @@
                         </a>
                     </div>
                     <div class="label label--health-agile wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/rtech/healthtechwrapper">
                         <span class="label-swap">
                               RTech for HealthTech
@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <div class="label label--health-data wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databridge/healthtechwrapper">
                         <span class="label-swap">
                               DataBridge for HealthTech
@@ -75,7 +75,7 @@
                     <br>
                     <h6>r-tech industries</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/agiledata/fintechwrapper">
                         <span class="label-swap">
                               AgileData for FinTech
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div class="label label--high-rtech wow fadeInUp">
-                    <i class="fa fa-arrow-circle-o-right"></i>
+                    
                         <a href="/agiledata/hightechwrapper">
                         <span class="label-swap">
                               AgileData for HighTech

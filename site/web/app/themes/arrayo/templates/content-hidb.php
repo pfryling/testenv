@@ -13,13 +13,13 @@
                     <h5 class="for"><?php the_field('db_hi_box--subheader'); ?></h5>
                     <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <br>&nbsp;
-                    <?php the_field('db_hi_box--text'); ?>
+                    <p><?php the_field('db_hi_box--text'); ?></p>
                 </div>
 
                <div class="label-wrapper wow fadeInUp">
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/r-tech/hightechwrapper">
                          <span class="label-swap">
                               RTech for HighTech
@@ -30,7 +30,7 @@
                         </a>
                     </div>
                     <div class="label label--high-agile">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/agiledata/hightechwrapper">
                          <span class="label-swap">
                               AgileData for HighTech
@@ -41,7 +41,7 @@
                         </a>
                     </div>
                     <div class="label label--high-con">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/connect/hightechwrapper">
                          <span class="label-swap">
                               Connect for HighTech
@@ -54,7 +54,7 @@
                     <br>
                     <h6>r-tech industries</h6>
                     <div class="label label--fin-data">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databridge/fintechwrapper">
                          <span class="label-swap">
                               DataBridge for FinTech
@@ -65,7 +65,7 @@
                         </a>
                     </div>
                     <div class="label label--health-data">
-                            <i class="fa fa-arrow-circle-o-right"></i>
+                            
                         <a href="/databridge/healthtechwrapper">
                          <span class="label-swap">
                               DataBridge for HealthTech
