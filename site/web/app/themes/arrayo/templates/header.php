@@ -211,7 +211,6 @@
                       <li><a href="/rtech/fintech">for FinTech</a></li>
                       <li><a href="/rtech/healthtech">for HealthTech</a></li>
                       <li><a href="/rtech/hightech">for HighTech</a></li>
-                      
                     </ul>
                   </div>
                 </li>
@@ -275,11 +274,16 @@
                           <input type="submit"/>
                         </form>
                       </li>
+                    </ul>
+                  </div>
                 </li>
         </ul>
       </div>
+    </div>
     </div>
         <div class="content clearfix m-nav-bar">
           <div class="block block-40 clearfix">
             <p><a href="#" id="trigger" class="menu-trigger"></a></p>
           </div>
+        </div>
+      </div>
