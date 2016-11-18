@@ -281,9 +281,9 @@
       </div>
     </div>
     </div>
+    </div>
         <div class="content clearfix m-nav-bar">
           <div class="block block-40 clearfix">
             <p><a href="#" id="trigger" class="menu-trigger"></a></p>
           </div>
         </div>
-      </div>
