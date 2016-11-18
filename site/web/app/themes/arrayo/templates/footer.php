@@ -489,24 +489,53 @@ jQuery(document).ready(function($){
         })
         </script>
         <script>
-        (function(a) {
-            a.expr[":"].onScreen = function(b) {
-                var c = a(window),
-                    d = c.scrollTop(),
-                    e = c.height(),
-                    f = d + e,
-                    g = a(b),
-                    h = g.offset().top,
-                    i = g.height(),
-                    j = h + i;
-                return h >= d && h < f || j > d && j <= f || i > e && h <= d && j >= f
-            }
-        })(jQuery);
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
 
-        setInterval(function() {
-            $('.progress-bar').removeClass('visible')
-                .filter(":onScreen").addClass('visible');
-        }, 2000)
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+
+  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+var IsViewed = false;
+var index = 0;
+
+function animateThis() {
+  var progress = $('.bar-percentage[data-percentage]:eq("' + index + '")');
+  var percentage = Math.ceil(progress.attr('data-percentage'));
+  progress.animate({
+    countNum: percentage
+  }, {
+    duration: 3500,
+    easing: 'swing',
+    step: function() {
+      // What todo on every count
+      var pct = '';
+      if (percentage == 0) {
+        pct = Math.floor(this.countNum) + '%';
+      } else {
+        pct = Math.floor(this.countNum + 1) + '%';
+      }
+      progress.text(pct) && progress.siblings().children().css('width', pct);
+    },
+    complete: function() {
+      ++index;
+      animateThis();
+    }
+  });
+}
+
+$(document).scroll(function() {
+
+  if (isScrolledIntoView('#progress-bar') && !IsViewed) {
+
+    animateThis()
+    IsViewed = true;
+  }
+});
+
         </script>
         <script>
         // inViewport jQuery plugin

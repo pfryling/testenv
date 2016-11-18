@@ -1111,28 +1111,28 @@ header
             padding: $spacer-blue 0
         .progress-bar-wrapper
             position: relative
-        .progress-bar
-            display: block
-            width: 0%
-            height: 8px
-            &.visible
-                width: 100%
-        .progress-bar--base
+        #progress-bar
+            position: relative
+            margin: 20px auto
+            height: 50px
+            font-size: .8em
+            color: $tertiary
+        .bar-percentage
+            margin: 0 auto
+            font-size: .75em
             position: absolute
-            left: 0
+            color: transparent
+            top: 4px
+            right: 0
+        .bar-container
+            height: 5px
             width: 100%
-            .progress-bar
-                background: #eee
-                transition: width 1s ease-in-out
-        .progress-bar--active
-            position: absolute
-            left: 0
-            .progress-bar
-                background-color: $tertiary
-                transition: width 1s ease-in-out
-        @for $i from 0 through 100
-            .progress-bar--active-#{$i}
-                width: $i * 1%
+            overflow: hidden
+            background: #efefef
+        .bar
+            float: left
+            background: $tertiary
+            height: 5px
         .loader
             font-family: $header
             font-size: $base-xlarge

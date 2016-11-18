@@ -211,11 +211,11 @@
                     <section class="progress-bar--wrapper wow fadeInUp">
                         <div class="number-wrapper">
                             <div class="progress-bar-wrapper">
-                                <div class="progress-bar--base">
-                                    <div class="progress-bar"></div>
-                                </div>
-                                <div class="progress-bar--active progress-bar--active-94">
-                                    <div class="progress-bar"></div>
+                                <div id="progress-bar" class="thick-bar">
+                                  <div class="bar-percentage" data-percentage="94"></div>
+                                  <div class="bar-container">
+                                    <div class="bar"></div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="loader" id="numbers">
@@ -226,12 +226,12 @@
                         </div>
                         <div class="number-wrapper">
                             <div class="progress-bar-wrapper">
-                                <div class="progress-bar--base">
-                                    <div class="progress-bar"></div>
-                                </div>
-                                <div class="progress-bar--active progress-bar--active-100">
-                                    <div class="progress-bar"></div>
-                                </div>
+                                <div id="progress-bar" class="thick-bar">
+                                      <div class="bar-percentage" data-percentage="100"></div>
+                                      <div class="bar-container">
+                                        <div class="bar"></div>
+                                      </div>
+                                    </div>
                             </div>
                             <div class="loader" id="numbers">
                                 <span class="count fig-number">170</span>%
@@ -241,11 +241,11 @@
                         </div>
                         <div class="number-wrapper">
                             <div class="progress-bar-wrapper">
-                                <div class="progress-bar--base">
-                                    <div class="progress-bar"></div>
-                                </div>
-                                <div class="progress-bar--active progress-bar--active-100">
-                                    <div class="progress-bar"></div>
+                                <div id="progress-bar" class="thick-bar">
+                                  <div class="bar-percentage" data-percentage="100"></div>
+                                  <div class="bar-container">
+                                    <div class="bar"></div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="loader" id="numbers">
