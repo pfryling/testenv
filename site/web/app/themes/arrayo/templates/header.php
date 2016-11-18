@@ -176,8 +176,8 @@
         </div>
     </div>
 </header>
-<div class="menu-container mobile-only">
-  <div class="menu">
+<div class="mnav-container mobile-only">
+  <div class="mnav">
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="http://marioloncarek.com">About</a>
