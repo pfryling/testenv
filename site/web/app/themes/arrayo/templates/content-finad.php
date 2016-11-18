@@ -46,7 +46,7 @@
                     <div class="label label--fin-data wow fadeInUp">
                         <a href="/databridge/fintechwrapper">
                         <span class="label-swap">
-                              DataBridge for FinTech <i class="fa fa-arrow-circle-right"></i>
+                              DataBridge for FinTech
                             </span>
                             <span>
                               <?php the_field('fin_db--text'); ?>
