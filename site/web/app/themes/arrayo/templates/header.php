@@ -228,7 +228,7 @@
       <li><a href="#">Contact</a>
         <ul>
           <li>
-            <!-- form -->
+            <?php echo do_shortcode("[ninja_form id=5]"); ?>
           </li>
         </ul>
       </li>

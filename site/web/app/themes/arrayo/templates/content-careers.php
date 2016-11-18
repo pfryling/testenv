@@ -120,28 +120,28 @@
                 <form class="controls wow"" id="job-filters">
                     <fieldset>
                         <p><strong>Industry</strong></p>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".fin"/>
                           <label>FinTech</label>
                         </div>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".health"/>
                           <label>HealthTech</label>
                         </div>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".high"/>
                           <label>HighTech</label>
                         </div>
                         <p><strong>Location</strong></p>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".boston"/>
                           <label>Boston</label>
                         </div>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".cambridge"/>
                           <label>Cambridge</label>
                         </div>
-                        <div class="checkbox">
+                        <div class="j-checkbox">
                           <input type="checkbox" value=".newyork"/>
                           <label>New York</label>
                         </div>

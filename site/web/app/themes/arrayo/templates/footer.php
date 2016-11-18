@@ -280,7 +280,7 @@ jQuery(document).ready(function($) {
   });
 })
 </script>
-<script>
+<!--<script>
         // To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "checkboxFilter".
 var checkboxFilter = {
   // Declare any variables we will need as properties of the object
@@ -412,7 +412,7 @@ jQuery(document).ready(function($){
     }
   });
 });
-        </script>
+        </script>-->
         <script>
         new Vivus('wiggly', {
             start: 'inViewport',
