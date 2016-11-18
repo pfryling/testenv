@@ -56,17 +56,19 @@
                 <h3><?php the_field('careers_center--header'); ?></h3>
                 <p class="light"><?php the_field('careers_center--subheader'); ?></p>
                 <p class="small"><?php the_field('careers_center--intro'); ?><br>&nbsp;</p>
-                <div class="sm-icon">
-                    <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
-                    <p class="small"><?php the_field('careers_center--icon1'); ?></p>
-                </div>
-                <div class="sm-icon">
-                    <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
-                    <p class="small"><?php the_field('careers_center--icon2'); ?></p>
-                </div>
-                <div class="sm-icon">
-                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.3s">
-                     <p class="small"><?php the_field('careers_center--icon3'); ?><br>&nbsp;</p>
+                <div class="icons-wrap">
+                    <div class="sm-icon">
+                        <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
+                        <p class="small"><?php the_field('careers_center--icon1'); ?></p>
+                    </div>
+                    <div class="sm-icon">
+                        <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
+                        <p class="small"><?php the_field('careers_center--icon2'); ?></p>
+                    </div>
+                    <div class="sm-icon">
+                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.3s">
+                         <p class="small"><?php the_field('careers_center--icon3'); ?><br>&nbsp;</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,7 +112,7 @@
         </div>
     </section>
 
-    <section class="openings">
+    <section class="openings" id="openings">
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
