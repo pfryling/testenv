@@ -36,7 +36,6 @@ function job_post_init() {
         'hierarchical' => false,
         'rewrite' => array('slug' => 'jost-post'),
         'query_var' => true,
-        'menu_icon' => 'dashicons-video-alt',
         'supports' => array(
             'title',
             'editor',
@@ -45,6 +44,8 @@ function job_post_init() {
             'custom-fields',
             'comments',
             'revisions',
+            'categories',
+            'tags',
             'thumbnail',
             'author',
             'page-attributes',)
@@ -52,3 +53,36 @@ function job_post_init() {
     register_post_type( 'job-post', $args );
 }
 add_action( 'init', 'job_post_init' );
+
+add_action( 'init', 'create_tag_taxonomies', 0 );
+
+function create_tag_taxonomies() 
+{
+  $labels = array(
+    'name' => _x( 'Tags', 'taxonomy general name' ),
+    'singular_name' => _x( 'Tag', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search Tags' ),
+    'popular_items' => __( 'Popular Tags' ),
+    'all_items' => __( 'All Tags' ),
+    'parent_item' => null,
+    'parent_item_colon' => null,
+    'edit_item' => __( 'Edit Tag' ), 
+    'update_item' => __( 'Update Tag' ),
+    'add_new_item' => __( 'Add New Tag' ),
+    'new_item_name' => __( 'New Tag Name' ),
+    'separate_items_with_commas' => __( 'Separate tags with commas' ),
+    'add_or_remove_items' => __( 'Add or remove tags' ),
+    'choose_from_most_used' => __( 'Choose from the most used tags' ),
+    'menu_name' => __( 'Tags' ),
+  ); 
+
+  register_taxonomy('tag','job-post',array(
+    'hierarchical' => false,
+    'labels' => $labels,
+    'show_ui' => true,
+    'update_count_callback' => '_update_post_term_count',
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'tag' ),
+  ));
+}
+?>
