@@ -508,7 +508,7 @@ function animateThis() {
   progress.animate({
     countNum: percentage
   }, {
-    duration: 3500,
+    duration: 500,
     easing: 'swing',
     step: function() {
       // What todo on every count
