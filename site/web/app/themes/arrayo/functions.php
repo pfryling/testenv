@@ -34,7 +34,7 @@ function job_post_init() {
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
-        'rewrite' => array('slug' => 'jost-post'),
+        'rewrite' => array('slug' => 'job-post'),
         'query_var' => true,
         'supports' => array(
             'title',
