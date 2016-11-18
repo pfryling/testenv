@@ -901,8 +901,7 @@
     background-color: white
     box-shadow: $white-box-shadow
     text-align: center
-    display: flex
-    flex-flow: row wrap
+    display: block
     padding: $spacer-yellow $spacer-pink
     margin: $spacer-yellow 0
     +media($mobile)
@@ -918,28 +917,31 @@
         line-height: 26px
         font-weight: 100
         margin-bottom: $spacer-blue
-    .icons
+    .icons-wrap
         display: flex
         flex-flow: column wrap
-        border-bottom: 3px solid rgba(79,214,255,0.3)
-        +span-columns(4 of 12)
-        +omega(3n)
-        +media($mobile)
-            +span-columns(1.333 of 4)
+        .icons
+            display: flex
+            flex-flow: column wrap
+            border-bottom: 3px solid rgba(79,214,255,0.3)
+            +span-columns(4 of 12)
             +omega(3n)
-        img
-            width: 20%
-            margin: 0 auto
-        p
-            font-size: 18px
-            line-height: 26px
-            padding-bottom: $spacer-cyan
             +media($mobile)
-                font-size: 14px
-                line-height: 18px
-        .fa
-            font-size: 30px
-            color: $tertiary
+                +span-columns(1.333 of 4)
+                +omega(3n)
+            img
+                width: 20%
+                margin: 0 auto
+            p
+                font-size: 18px
+                line-height: 26px
+                padding-bottom: $spacer-cyan
+                +media($mobile)
+                    font-size: 14px
+                    line-height: 18px
+            .fa
+                font-size: 30px
+                color: $tertiary
 
 .connect-mid-bg
     background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/connect/connect-mid-bg.png')
@@ -1954,6 +1956,8 @@
     padding: $spacer-pink $spacer-blue $spacer-yellow $spacer-blue
     text-align: center
     position: relative
+    display: block
+    flex-flow: row-wrap
     +media($mobile)
       +span-columns(4)
     p
@@ -1971,6 +1975,7 @@
         +omega(3n)
         border-bottom: 2px solid rgba(0,0,0,0.1)
         color: $text
+        flex-flow: column wrap
         +media($mobile)
           +span-columns(4 of 4)
           margin-bottom: 25px

@@ -253,7 +253,7 @@ jQuery(document).ready(function($) {
         autoplay: true,
         autoPlay: 5000,
         loop: true,
-        items: 2,
+        items: 1,
         center: true,
         loop: true,
         margin: 40
