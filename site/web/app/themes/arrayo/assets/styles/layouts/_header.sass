@@ -8,14 +8,15 @@
 .mnav-container
   width: 80%
   margin: 0 auto
-  background: #e9e9e9
+  position: fixed
+  background: white
 
 .mnav-mobile
   display: none
   padding: 20px
   &:after
-    content: "\f394"
-    font-family: "Ionicons"
+    content: "\f0c9"
+    font-family: "FontAwesome"
     font-size: 2.5rem
     padding: 0
     float: right
@@ -25,14 +26,14 @@
     transform: translateY(-25%)
 
 .mnav-dropdown-icon:before
-  content: "\f489"
-  font-family: "Ionicons"
+  content: "\f107"
+  font-family: "FontAwesome"
   display: none
   cursor: pointer
   float: right
   padding: 1.5em 2em
-  background: #fff
-  color: #333
+  background: $primary
+  color: white
 
 .mnav > ul
   margin: 0 auto
@@ -50,19 +51,21 @@
     clear: both
   > li
     float: left
-    background: #e9e9e9
+    background: white
     padding: 0
     margin: 0
+    font-family: $sans
     a
       text-decoration: none
       padding: 1.5em 3em
       display: block
-    &:hover
-      background: #f0f0f0
+    &:focus
+      background: $primary
+      color: white
     > ul
       display: none
       width: 100%
-      background: #f0f0f0
+      background: white
       padding: 20px
       position: absolute
       z-index: 99
@@ -85,7 +88,7 @@
         background: none
         float: left
         a
-          color: #777
+          color: $primary
           padding: .2em 0
           width: 95%
           display: block
@@ -124,6 +127,7 @@
 @media only screen and (max-width: 959px)
   .mnav-container
     width: 100%
+    overflow-x: hidden
   .mnav-mobile, .mnav-dropdown-icon:before
     display: block
   .mnav
