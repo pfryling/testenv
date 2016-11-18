@@ -13,6 +13,9 @@
 .mnav-mobile
   display: none
   padding: 20px
+  img
+    width: 40%
+    padding-bottom: 20px
   &:after
     content: "\f0c9"
     font-family: "FontAwesome"
@@ -21,6 +24,7 @@
     float: right
     position: relative
     top: 15px
+    color: $text
     -webkit-transform: translateY(-25%)
     transform: translateY(-25%)
 
@@ -33,6 +37,9 @@
   padding: 1.5em 2em
   background: white
   color: primary
+  &:focus
+    background: $primary
+    color: white
 
 .mnav > ul
   margin: 0 auto
