@@ -44,7 +44,7 @@
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
 
-<button class="toggle-overlay">Toggle Me</button>
+<button class="toggle-overlay">Apply Now</button>
 
 <aside>
   <div class="outer-close toggle-overlay">
@@ -229,6 +229,7 @@ jQuery(document).ready(function($) {
         autoPlay: 5000,
         loop: true,
         items: 1,
+        singleItem: true,
         center: true,
         loop: true,
         margin: 40

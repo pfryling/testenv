@@ -112,62 +112,50 @@
         </div>
     </section>
 
-    <section class="openings" id="openings">
+     <section class="openings" id="openings">
         <div class="wrapper">
             <h3>Current Openings</h3>
-            <h6>Filter | View all</h6>
+            <h6 class="filter" data-filter="all">View all</h6>
             <div class="filter-wrap wow fadeInUp"">
                 <form class="controls wow"" id="job-filters">
                     <fieldset>
-                        <p><strong>Industry</strong></p>
+                        <?php $job_types= get_terms('tags');
+                            foreach($job_types as $job) :
+                        ?>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".fin"/>
-                          <label>FinTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".health"/>
-                          <label>HealthTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".high"/>
-                          <label>HighTech</label>
-                        </div>
-                        <p><strong>Location</strong></p>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".boston"/>
-                          <label>Boston</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".cambridge"/>
-                          <label>Cambridge</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".newyork"/>
-                          <label>New York</label>
-                        </div>
+                            <button class="filter" data-filter=".<?php echo  $job->slug;  ?>"><?php echo  $job->name;  ?></button>
+                        <?php end foreach; ?>
                       </fieldset>
                     </form>
             </div>
             <div class="filter-results wow fadeInUp"" id="results-wrapper">
-                <?php
+                <?php $advanced= new wp_Query(array(
+                'post_type'=>'job-post',
+                'posts_per_page'=>-1
+                ));
+                while( $advanced->have_posts() ) : $advanced->the_post();
+                $terms_area = get_the_terms(get_the_id(),'tags');
+                $terms   = array();
+                foreach($terms_area as $term) :
+                $terms[] = $term->slug;
 
-                $post_object = get_field('post_object');
+                 ?>
+                <?php endforeach; ?>
 
-                if( $post_object ): 
-
-                    // override $post
-                    $post = $post_object;
-                    setup_postdata( $post ); 
-
-                    ?>
-                    <div>
-                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <span>Post Object Custom Field: <?php the_field('field_name'); ?></span>
-                    </div>
-                    <?php wp_reset_postdata(); ?>
-                <?php endif; ?>
-            </div>
+            <div class="mix <?php echo implode(' ',$terms); ?>">
+                    <h4>job title</h4>
+                    <ul>
+                        <li><strong>Location:</strong> <?php echo $term->location;   ?></li>
+                        <li><strong>Industry:</strong> <?php echo $term->industry;   ?></li>
+                        <li><strong>Type:</strong> <?php echo $term->type;   ?></li>
+                        <li><strong>Seniority:</strong> <?php echo $term->seniority;   ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+            <?php  endwhile;  ?>
         </div>
+    </div>
     </section>
 
     <section class="apply-cta">

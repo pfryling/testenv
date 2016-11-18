@@ -199,7 +199,7 @@
             <div class="about-cta">
                 <h2><?php the_field('company_cta_purple--header'); ?></h2>
                 <p><?php the_field('company_cta_purple--text'); ?></p>
-                <button class="toggle-overlay">Toggle Me</button>
+                <button class="toggle-overlay">Apply Now</button>
 
 <aside>
   <div class="outer-close toggle-overlay">
