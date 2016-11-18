@@ -205,7 +205,7 @@
               <li><a href="/databridge/hightech">for HighTech</a></li>
             </ul>
           </li>
-          <li><a href="#">Something</a>
+          <li><a href="#">Connect</a>
             <ul>
               <li><a href="/connect">Overview</a></li>
               <li><a href="/connect/fintech">for FinTech</a></li>
