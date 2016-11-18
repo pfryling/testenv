@@ -151,9 +151,17 @@
             <div class="filter-results wow fadeInUp"" id="results-wrapper">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                    <div>
-                        <p><?php the_tags(); ?></p>
-                    </div>
+                <div class="mix fintech">
+                    <h4><?php the_field('job_title'); ?></h4>
+                    <ul>
+                        <li><strong>Location:</strong> <?php the_field('job_location'); ?></li>
+                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
+                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
+                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
