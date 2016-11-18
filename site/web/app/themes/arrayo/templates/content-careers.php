@@ -156,10 +156,9 @@
                     <ul>
                         <li>
                         <?php
-echo get_the_tag_list('<p>Tags: ',', ','</p>');
+echo get_the_tag_list('<p> </p>');
 ?>
 </li>
-                        <li><strong>Location:</strong> <?php the_field('job_location'); ?></li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
