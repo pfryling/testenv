@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1fc8e3b396814757de48b2966d183a7a",
-    "content-hash": "08d601038cc36409456cbe2bbe2db695",
+    "hash": "bfb72de1b14dcab53d5270180d6a5c69",
+    "content-hash": "67f59fdaf0efd2489bb2932eb7288833",
     "packages": [
         {
             "name": "addthis/addthis",
@@ -13,6 +13,20 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/addthis.5.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "automattic/wp-job-manager",
+            "version": "1.25.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-job-manager.1.25.2.zip",
                 "reference": null,
                 "shasum": null
             },

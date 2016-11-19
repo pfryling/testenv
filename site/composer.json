@@ -171,6 +171,21 @@
     {
       "type": "package",
       "package": {
+        "name": "automattic/wp-job-manager",
+        "version": "1.25.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-job-manager.1.25.2.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "ninja-forms/ninja-forms-uploads",
         "version": "3.0.4",
         "type": "wordpress-plugin",
@@ -248,7 +263,8 @@
     "ninja-forms/ninja-forms-multi": "^3.0",
     "ninja-forms/ninja-forms-uploads": "^3.0",
     "dejong/taxonomy": "^2.1",
-    "mixitup/mixitup": "^1.0"
+    "mixitup/mixitup": "^1.0",
+    "automattic/wp-job-manager": "^1.25"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
