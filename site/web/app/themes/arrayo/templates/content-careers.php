@@ -183,7 +183,7 @@
                     <hr>
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
-                <?php endwhile; wp_reset_query(); ?>
+                <?php endwhile; ?>
         </div>
     </section>
 
