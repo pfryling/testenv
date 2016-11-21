@@ -160,6 +160,9 @@
                 <div class="fail-message">
                     <span>No jobs were found matching the selected filters.</span>
                 </div>
+                <div class="mix tag_fintech">
+                    <h4>test</h4>
+                </div>
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="mix
