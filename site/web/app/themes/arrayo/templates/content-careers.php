@@ -162,19 +162,15 @@
                     <ul>
                         <li>
                             <?php
-//get the current title of the page
-$postTitle = get_the_title(); 
+if($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
 
-//search for similer post in db table
-$postID = $wpdb->get_var($wpdb->prepare("SELECT ID FROM {$wpdb->posts} WHERE   post_type='slideshow' AND post_title = %s",$postTitle));
+    if( $current_post_id === $post->ID ) {
+         echo $post->ID; 
+    } else {
+        echo "not found";
+    }
 
-//print id
- echo $postID;  
-
-//or use get_post($post_id) to get whatever you want
-$getCustomPost = get_post($postID);
-echo $getCustomPost->id;
-?>
+endwhile; wp_reset_postdata(); endif;
                         </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
