@@ -121,43 +121,51 @@
                     <fieldset>
                         <p><strong>Industry</strong></p>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".fin"/>
+                          <input type="checkbox" value=".tag_fintech"/>
                           <label>FinTech</label>
                         </div>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".health"/>
+                          <input type="checkbox" value=".tag_healthtech"/>
                           <label>HealthTech</label>
                         </div>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".high"/>
+                          <input type="checkbox" value=".tag_hightech"/>
                           <label>HighTech</label>
                         </div>
-                        <p><strong>Location</strong></p>
+                        <p><strong>Service</strong></p>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".boston"/>
-                          <label>Boston</label>
+                          <input type="checkbox" value=".tag_agiledata"/>
+                          <label>AgileData</label>
                         </div>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".cambridge"/>
-                          <label>Cambridge</label>
+                          <input type="checkbox" value=".tag_rtech"/>
+                          <label>RTech</label>
                         </div>
                         <div class="j-checkbox">
-                          <input type="checkbox" value=".newyork"/>
-                          <label>New York</label>
+                          <input type="checkbox" value=".tag_databridge"/>
+                          <label>DataBridge</label>
+                        </div>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".tag_connect"/>
+                          <label>Connect</label>
                         </div>
                       </fieldset>
                     </form>
             </div>
             <div class="filter-results wow fadeInUp" id="results-wrapper">
-                <?php
-                $query = new WP_Query(
-                    array( "post_type" => "job-post",
-                           "tag" => "tag_fintech"
-                    ) );
-                while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="jr tag_fintech">
+                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <div class="jr
+                  <?php
+                    $tags = get_tags();
+                    foreach($tags as $tag) {
+                        echo "$tag->slug";
+                    }
+                ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
+                        <li>
+                        </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
@@ -165,41 +173,7 @@
                     <hr>
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
-                <?php endwhile; ?>
-                <?php
-                $query = new WP_Query(
-                    array( "post_type" => "job-post",
-                           "tag" => "tag_healthtech"
-                    ) );
-                while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="jr tag_healthtech">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                <?php endwhile; ?>
-                <?php
-                $query = new WP_Query(
-                    array( "post_type" => "job-post",
-                           "tag" => "tag_hightech"
-                    ) );
-                while ($query->have_posts()) : $query->the_post(); ?>
-                <div class="jr tag_hightech">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                <?php endwhile; ?>
+                <?php endwhile; wp_reset_query(); ?>
             </div>
         </div>
     </section>
