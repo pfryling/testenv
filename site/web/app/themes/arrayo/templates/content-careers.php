@@ -162,20 +162,56 @@
                   <button id="Reset">Clear Filters</button>
                 </form>
             </div>
-            <div class="results wow fadeInUp" id="Container">
-                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
-                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix <?php the_field('job_class'); ?>">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+            <form class="controls" id="Filters">
+              <fieldset class="filter-group checkboxes">
+                <h4>Shapes</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".square"/>
+                  <label>Square</label>
                 </div>
-                <?php endwhile; wp_reset_query(); ?>
+                <div class="checkbox">
+                  <input type="checkbox" value=".healthtech"/>
+                  <label>Circle</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".fintech"/>
+                  <label>Triangle</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="filter-group checkboxes">
+                <h4>Colours</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".white"/>
+                  <label>White</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".green"/>
+                  <label>Green</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".blue"/>
+                  <label>Blue</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="filter-group search">
+                <h4>Search</h4>
+                <input type="text" placeholder="Search ..."/>
+              </fieldset>
+
+              <button id="Reset">Clear Filters</button>
+            </form>
+
+            <div id="Container" class="container">
+              <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+
+              <div class="mix fintech"></div>
+
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
             </div>
         </div>
     </section>
