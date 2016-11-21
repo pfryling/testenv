@@ -1,3 +1,5 @@
+jQuery.noConflict();
+
 var multiFilter = {
 
   $filterGroups: null,
