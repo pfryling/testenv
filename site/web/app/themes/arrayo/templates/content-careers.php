@@ -116,7 +116,6 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-            <form class="controls" id="Filters">
             <div id="Container" class="filter-results wow fadeInUp">
                 <div class="fail-message">
                     <span>No jobs were found matching the selected filters.</span>
@@ -145,6 +144,7 @@
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
                 <?php endwhile; ?>
+        </div>
         </div>
     </section>
 
