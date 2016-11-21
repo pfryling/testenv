@@ -21,7 +21,28 @@
                         </a>
                     </div>
                 </div>
-                
+                    <?php
+        $recent_args = array(
+            "post_type" => "job-post",
+            "posts_per_page" => 1,
+            "orderby" => "date",
+            "order" => "DESC"
+        ); ?>
+        <?php $recent_posts = new WP_Query( $recent_args ); ?>
+        <?php while ( $recent_posts -> have_posts() ) :
+                $recent_posts -> the_post(); ?>
+            <div class="card card--careers">
+                 <h4 class="career"><?php the_title(); ?></h4>
+                    <p class="first">
+                            Industry: <?php the_field('job_industry'); ?><br>
+                            Service: <?php the_field('job_service'); ?><br>
+                            Type: <?php the_field('job_type'); ?><br>
+                            Seniority: <?php the_field('job_seniority'); ?>
+                        </p>
+                        <hr>
+                        <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    <?php endwhile; ?>
+            </div>
             </section>
         </div>
     </div>
@@ -77,24 +98,43 @@
         <div class="wrapper">
             <h4>Our offices</h4>
             <div id="location-slider" class="com-carousel owl-carousel owl-theme">
-                <div class="item item-pad">
-                    <h4 class="bos">Downtown<br>Boston</h4>
-                    <p>Access to all MBTA, Commuter Rail and Ferry locations. Close to sailing, golf, beach and mountain getaways.</p>
-                    <hr>
-                    <p>50 Milk St, 18th Floor<br>Boston, MA 02109</p>
+                 <div class="item">
+                       <div class="cta-card">
+                        <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
+                        <p><?php the_field('company_slider--rtech'); ?></p>
+                        <div class="link">
+                          <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="item">
+                       <div class="cta-card">
+                        <img src="http://imgh.us/agiledata-icon_1.svg" class="cta-icon">
+                        <p><?php the_field('company_slider--agiledata'); ?></p>
+                        <div class="link">
+                          <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="item">
+                       <div class="cta-card">
+                        <img src="http://imgh.us/databridge-icon-solidblue.svg" class="cta-icon">
+                        <p><?php the_field('company_slider--databridge'); ?></p>
+                        <div class="link">
+                          <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="item">
+                       <div class="cta-card">
+                        <img src="http://imgh.us/connect-icon-solidblue.svg" class="cta-icon">
+                        <p><?php the_field('company_slider--connect'); ?></p>
+                        <div class="link">
+                        <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    </div>
+                   </div>
                 </div>
-                <div class="item item-pad">
-                    <h4 class="cam">Kendall<br>Cambridge</h4>
-                    <p>Access to Red Line, Hubway Stations. Close to MIT and Genetown</p>
-                    <hr>
-                    <p>1 Broadway, 5th Floor,<br>Cambridge, MA 02142</p>
-                </div>
-                <div class="item item-pad">
-                    <h4 class="ny">Manhattan<br>New York</h4>
-                    <p>Access to all MTA, Commuter Rail and Ferry locations. Close to sailing, golf, beach and mountain getaways.</p>
-                    <hr>
-                    <p>1117 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
-                </div>
+            </div>
             </div>
         </div>
     </section>
