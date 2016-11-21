@@ -155,7 +155,7 @@
             <div class="filter-results wow fadeInUp" id="results-wrapper">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="jr
+                <div class="mix jr
                   <?php
                     $tags = get_tags();
                     foreach($tags as $tag) {
