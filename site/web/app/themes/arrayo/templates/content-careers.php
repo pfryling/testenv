@@ -161,16 +161,7 @@
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li>
-                            <?php
-if($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
-
-    if( $current_post_id === $post->ID ) {
-         echo $post->ID; 
-    } else {
-        echo "not found";
-    }
-
-endwhile; wp_reset_postdata(); endif;
+                            <?php the_ID(); ?>
                         </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
