@@ -153,7 +153,7 @@ var multiFilter = {
 };
 
 
-$(function(){
+;(function($){
 
 
   multiFilter.init();
@@ -169,4 +169,4 @@ $(function(){
       duration: 600
     }
   });
-});
+})(jQuery);

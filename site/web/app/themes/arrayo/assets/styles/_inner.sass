@@ -2158,30 +2158,35 @@
         padding-bottom: 8px
     .controls
       +span-columns(3 of 12)
-      background: white
-      padding: 2%
+      background: transparent
       &:last-child
         margin-right: 0
+      h4
+        color: white
+        font-size: 20px
+        margin: 0
+        padding: 10px 0
+        font-family: $sans
       input[type="text"]
-        font-family: 'helvetica'
+        font-family: $sans
         font-size: 14px
         border: 1px solid transparent
         padding: .5em
         border-radius: 2px
         &:focus
           outline: 0 none
-          border-color: #68b8c4
+          border-color: $tertiary
       button
         display: inline-block
         vertical-align: top
         padding: .4em .8em
         margin: 0
-        background: #68b8c4
+        background: $tertiary
         border: 0
-        color: #333
+        color: white
         font-size: 16px
         font-weight: 700
-        border-radius: 4px
+        font-family: $header
         cursor: pointer
         &:focus
           outline: 0 none
@@ -2189,9 +2194,10 @@
         display: block
         vertical-align: top
         margin: 0 1em 0 0
-        background: #666
+        background: transparent
+        border: 0
+        outline: 0
         padding: .5em
-        border-radius: 3px
 
       .checkbox
         display: block
@@ -2213,6 +2219,8 @@
           display: inline-block
           vertical-align: top
           text-align: left
+          font-family: $sans
+          color: white
           padding-left: 1.5em
           &:before, &:after
             content: ''
@@ -2261,25 +2269,17 @@
         margin: 0 5%
       .mix
         width: 100%
-        height: 100px
-        margin: 5%
+        height: auto
+        margin-bottom: 16px
         background: white
         display: none
-        &.green
-          background: #a6e6a7
-        &.blue
-          background: #6bd2e8
-        &.circle
-          border-radius: 999px
-        &.triangle
-          width: 0
-          height: 0
-          border: 50px solid transparent
-          border-top-color: #68b8c4
-          border-left-color: #68b8c4
-        &.sm
-          width: 50px
-          height: 50px
+        &.tag_fintech
+          background: 8px solid $quaternary-cool
+        &.tag_healthtech
+          border-top: 8px solid $health-tech-green
+        &.tag_hightech
+          border-top: 8px solid $high-tech-blue
+        &.tag_fintech
       .fail-message
         position: absolute
         top: 0
@@ -2301,6 +2301,8 @@
           display: inline-block
           vertical-align: middle
           font-size: 20px
+          font-family: $header
+          color: white
           font-weight: 700
       &.fail .fail-message
         opacity: 1
