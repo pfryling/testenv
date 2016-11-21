@@ -92,6 +92,13 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
 <script>
+jQuery(document).ready(function($) {
+  $("#app-toggle").click(function() {
+    $("#app-reveal").slideToggle(300);
+  });
+});
+</script>
+<script>
 (function($) {
   $(function() {
     $('.toggle-overlay').click(function() {

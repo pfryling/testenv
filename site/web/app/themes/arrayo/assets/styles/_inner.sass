@@ -2162,46 +2162,17 @@
     text-align: center
     padding: $spacer-yellow 0
     color: white
-    .btn-wrap
+    #app-toggle
+        background-color: $primary
+        color: white
+        font-family: $header
+        font-size: 16px
+        display: block
         margin: 0 auto
-        display: inline-block
-        .small
-            font-size: 13px
-        button
-            padding: 10px 20px
-            a
-                text-transform: none
-                padding: 10px 20px
-        #file-upload
-            position: absolute
-            left: -9999px
-            margin: 0
-        label[for="file-upload"]
-            padding: 10px 20px
-            height: auto
-            font-size: 13px
-            margin: 0
-            display: inline-block
-            background: $primary
-            cursor: pointer
-            &:hover
-                background: darken($primary ,17%)
-            input
-                margin: 0
-                border: 0
-        #filename
-            padding: 10px 20px
-            width: 40%
-            white-space: nowrap
-            overflow: hidden
-            margin: 0
-            background: white
-            color: $text-light
-            font-family: $sans
-            font-size: 13px
-            margin-left: -5px
-            border: 0
-
+    #app-reveal
+        width: 100%
+        display: none
+        background-color: $primary
 .eeo
     background-color: #5d6770
     color: white
