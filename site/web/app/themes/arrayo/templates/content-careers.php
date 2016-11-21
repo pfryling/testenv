@@ -173,16 +173,8 @@
             <div id="Container" class="results">
               <div class="fail-message"><span>No items were found matching the selected filters</span></div>
 
-              <div class="mix triangle white lrg"></div>
-              <div class="mix square white sm"></div>
-              <div class="mix circle green lrg"></div>
-              <div class="mix triangle blue lrg"></div>
-              <div class="mix square white lrg"></div>
-              <div class="mix circle blue sm"></div>
-              <div class="mix triangle green lrg"></div>
-              <div class="mix square blue lrg"></div>
-              <div class="mix circle white lrg"></div>
-
+              <div class="mix tag_fintech"></div>
+              <div class="mix tag_healthtech"></div>
               <div class="gap"></div>
               <div class="gap"></div>
               <div class="gap"></div>
