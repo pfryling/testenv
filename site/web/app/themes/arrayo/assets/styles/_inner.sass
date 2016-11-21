@@ -2248,41 +2248,36 @@
             opacity: 1
           &:focus ~ label:before
             background: #eee
-
-
     .results
-      +span-columns(8 of 12)
-      padding: 2%
-      min-height: 400px
-      text-align: justify
-      position: relative
-      &:last-child
-        margin-right: 0
-      .mix, .gap
-        width: 100%
+        +span-columns(8 of 12)
+        padding: 2%
+        text-align: justify
+        position: relative
+    .results .mix, .results .gap
         display: block
-        margin: 0 5%
-      .mix
+        width: 100%
+        margin: 10px 0
+    .results .mix
         width: 100%
         height: auto
         margin-bottom: 16px
-        background: white
+        background-white
         display: none
-      .mix.tag_fintech
-          border-top: 8px solid $quaternary-cool
-      .mix.tag_healthtech
+    .results .mix.tag_fintech
+        border-top: 8px solid $quaternary-cool
+    .results .mix.tag_healthtech
           border-top: 8px solid $health-tech-green
-      .mix.tag_hightech
+    .results .mix.tag_hightech
           border-top: 8px solid $high-tech-blue
-      .mix.tag_rtech
+    .results .mix.tag_rtech
           border-top: 8px solid $tertiary
-      .mix.tag_agiledata
+    .results .mix.tag_agiledata
           border-top: 8px solid $tertiary
-      .mix.tag_databridge
+    .results .mix.tag_databridge
           border-top: 8px solid $tertiary
-      .mix.tag_connect
+    .results .mix.tag_connect
           border-top: 8px solid $tertiary
-      .fail-message
+    .results .fail-message
         position: absolute
         top: 0
         left: 0
@@ -2309,7 +2304,6 @@
       &.fail .fail-message
         opacity: 1
         pointer-events: auto
-
 
 .apply-cta
     background-color: $text-light

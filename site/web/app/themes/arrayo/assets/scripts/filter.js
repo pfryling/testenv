@@ -15,7 +15,7 @@ var multiFilter = {
     self.$filterUi = $('#Filters');
     self.$filterGroups = $('.filter-group');
     self.$reset = $('#Reset');
-    self.all = '.tag_fintech, .tag_healthtech, .tag_hightech, .tag_agiledata, .tag_databridge, .tag_connect, .tag_rtech';
+    self.$all = '.tag_fintech, .tag_healthtech, .tag_hightech, .tag_agiledata, .tag_databridge, .tag_connect, .tag_rtech';
     self.$container = $('#Container');
 
     self.$filterGroups.each(function(){
