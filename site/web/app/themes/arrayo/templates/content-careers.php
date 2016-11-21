@@ -21,33 +21,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card-wrapper  wow fadeInUp">
-                    <h6 class="careers">recent jobs</h6>
-                    <?php
-                    $recent_args = array(
-                        "post_type" => "job-post",
-                        "posts_per_page" => 1,
-                        "orderby" => "date",
-                        "order" => "DESC"
-                    );
-                    $recent_posts = new WP_Query( $recent_args );
-                    if ($recent_posts -> have_posts() ) :
-                        while ( $recent_posts -> have_posts() ) :
-                            $recent_posts -> the_post(); ?>
-                                <div class="card card--careers">
-                                    <h4 class="career"><?php the_title(); ?></h4>
-                                    <p class="first">
-                                        <strong>Industry:</strong> <?php the_field('job_industry'); ?><br>
-                                        <strong>Service:</strong> <?php the_field('job_service'); ?><br>
-                                        <strong>Type:</strong> <?php the_field('job_type'); ?><br>
-                                        <strong>Seniority:</strong> <?php the_field('job_seniority'); ?>
-                                    </p>
-                                    <hr>
-                                    <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                                </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
-                </div>
+                
             </section>
         </div>
     </div>
