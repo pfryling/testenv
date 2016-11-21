@@ -119,46 +119,38 @@
             <form class="controls" id="Filters">
 
               <fieldset class="filter-group checkboxes">
-                <h4>Shapes</h4>
+                <h4>Industries</h4>
                 <div class="checkbox">
-                  <input type="checkbox" value=".square"/>
-                  <label>Square</label>
+                  <input type="checkbox" value=".tag_fintech"/>
+                  <label>FinTech</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".circle"/>
-                  <label>Circle</label>
+                  <input type="checkbox" value=".tag_healthtech"/>
+                  <label>HealthTech</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".triangle"/>
-                  <label>Triangle</label>
-                </div>
-              </fieldset>
-
-              <fieldset class="filter-group checkboxes">
-                <h4>Colours</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".white"/>
-                  <label>White</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".green"/>
-                  <label>Green</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".blue"/>
-                  <label>Blue</label>
+                  <input type="checkbox" value=".tag_hightech"/>
+                  <label>HighTech</label>
                 </div>
               </fieldset>
 
               <fieldset class="filter-group checkboxes">
-                <h4>Sizes</h4>
+                <h4>Services</h4>
                 <div class="checkbox">
-                  <input type="checkbox" value=".sm"/>
-                  <label>Small</label>
+                  <input type="checkbox" value=".tag_agiledata"/>
+                  <label>AgileData</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".lrg"/>
-                  <label>Large</label>
+                  <input type="checkbox" value=".tag_rtech"/>
+                  <label>RTech</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_databridge"/>
+                  <label>DataBridge</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_connect"/>
+                  <label>Connect</label>
                 </div>
               </fieldset>
 

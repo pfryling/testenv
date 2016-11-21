@@ -2158,12 +2158,15 @@
         padding-bottom: 8px
     .controls
       +span-columns(3 of 12)
-      background: transparent
+      background: white
+      color: $text
       &:last-child
         margin-right: 0
       h4
-        color: white
-        font-size: 20px
+        color: $text
+        font-size: 16px
+        color: $tertiary
+        font-weight: 100
         margin: 0
         padding: 10px 0
         font-family: $sans
@@ -2179,11 +2182,6 @@
       button
         display: inline-block
         vertical-align: top
-        padding: .4em .8em
-        margin: 0
-        background: $tertiary
-        border: 0
-        color: white
         font-size: 16px
         font-weight: 700
         font-family: $header
@@ -2220,7 +2218,7 @@
           vertical-align: top
           text-align: left
           font-family: $sans
-          color: white
+          color: $text
           padding-left: 1.5em
           &:before, &:after
             content: ''
@@ -2242,7 +2240,7 @@
             width: 10px
             height: 10px
             border-radius: 2px
-            background: #68b8c4
+            background: $teritary
             opacity: 0
             pointer-events: none
         input
@@ -2253,10 +2251,7 @@
 
 
     .results
-      float: left
-      display: block
-      margin-right: 2.35765%
-      width: 65.88078%
+      +span-columns(8 of 12)
       padding: 2%
       min-height: 400px
       text-align: justify
