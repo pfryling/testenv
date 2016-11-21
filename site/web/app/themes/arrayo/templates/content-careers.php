@@ -149,10 +149,14 @@
                           <input type="checkbox" value=".tag_connect"/>
                           <label>Connect</label>
                         </div>
+                        <button id="reset">Clear filters</button>
                       </fieldset>
                     </form>
             </div>
             <div class="filter-results wow fadeInUp" id="results-wrapper">
+                <div class="fail-message">
+                    <span>No jobs were found matching the selected filters.</span>
+                </div>
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="mix jr
