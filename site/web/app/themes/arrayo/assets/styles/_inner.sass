@@ -2225,6 +2225,8 @@
                 z-index: 1
             label
                 display: inline-block
+                vertical-align: top
+                text-align: left
                 padding-left: 1.5em
                 color: $text
                 font-weight: 100
@@ -2237,23 +2239,26 @@
             label:before
                 left: 0
                 top: 0
-                width: 12px
-                height: 12px
+                width: 18px
+                height: 18px
                 margin-right: 10px
-                background: transparent
-                border: 1px solid $tertiary
+                background: #ddd
+                border-radius: 3px
             label:after
                 content: ''
                 position: absolute
-                top: 0
-                left: 0
-                width: 12px
-                height: 12px
-                background-color: $tertiary
+                top: 4px
+                left: 4px
+                width: 10px
+                height: 10px
+                border-radius: 2px
+                background: #68b8c4
                 opacity: 0
                 pointer-events: none
             input:checked ~ label:after
                 opacity: 1
+            input:focus ~ label:before
+                background: #eee
     .filter-results
         +span-columns(8 of 12)
         line-height: 50px

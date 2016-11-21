@@ -238,64 +238,17 @@ jQuery(document).ready(function($) {
 </script>
 
 <script>
-jQuery(document).ready(function($) {
-
-  $("#results-container").mixItUp();
-
-  var inputText;
-  var $matching = $();
-
-  // Delay function
-  var delay = (function(){
-    var timer = 0;
-    return function(callback, ms){
-      clearTimeout (timer);
-      timer = setTimeout(callback, ms);
-    };
-  })();
-
-  $("#search").keyup(function(){
-    // Delay function invoked to make sure user stopped typing
-    delay(function(){
-      inputText = $("#search").val().toLowerCase();
-      // Check to see if input field is empty
-      if ((inputText.length) > 0) {
-        $( '.mix').each(function() {
-          $this = $("this");
-           // add item to be filtered out if input text matches items inside the title
-           if($(this).children('.title').text().toLowerCase().match(inputText)) {
-            $matching = $matching.add(this);
-          }
-          else {
-            // removes any previously matched item
-            $matching = $matching.not(this);
-          }
-        });
-        $("#results-container").mixItUp('filter', $matching);
-      }
-      else {
-        // resets the filter to show all item if input is empty
-        $("#results-container").mixItUp('filter', 'all');
-      }
-    }, 200 );
-  });
-})
-</script>
-<script>
-        // To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "checkboxFilter".
 var checkboxFilter = {
-  // Declare any variables we will need as properties of the object
   $filters: null,
   $reset: null,
   groups: [],
   outputArray: [],
   outputString: '',
-  // The "init" method will run on document ready and cache any jQuery objects we will need.
   init: function(){
-    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "checkboxFilter" object so that we can share methods and properties between all parts of the object.
-    self.$filters = $('#job-filters');
+    var self = this;
+    self.$filters = $('#Filters');
     self.$reset = $('#Reset');
-    self.$container = $('#results-container');
+    self.$container = $('#Container');
 
     self.$filters.find('fieldset').each(function(){
       self.groups.push({
@@ -304,29 +257,23 @@ var checkboxFilter = {
             tracker: false
       });
     });
-
     self.bindHandlers();
   },
-  // The "bindHandlers" method will listen for whenever a form value changes.
   bindHandlers: function(){
     var self = this;
-
     self.$filters.on('change', function(){
       self.parseFilters();
     });
-
     self.$reset.on('click', function(e){
       e.preventDefault();
       self.$filters[0].reset();
       self.parseFilters();
     });
   },
-  // The parseFilters method checks which filters are active in each group:
   parseFilters: function(){
     var self = this;
-    // loop through each filter group and add active filters to arrays
     for(var i = 0, group; group = self.groups[i]; i++){
-      group.active = []; // reset arrays
+      group.active = [];
       group.$inputs.each(function(){
         $(this).is(':checked') && group.active.push(this.value);
       });
@@ -334,18 +281,15 @@ var checkboxFilter = {
     }
     self.concatenate();
   },
-  // The "concatenate" method will crawl through each group, concatenating filters as desired:
   concatenate: function(){
     var self = this,
           cache = '',
           crawled = false,
           checkTrackers = function(){
         var done = 0;
-
         for(var i = 0, group; group = self.groups[i]; i++){
           (group.tracker === false) && done++;
         }
-
         return (done < self.groups.length);
       },
       crawl = function(){
@@ -373,39 +317,24 @@ var checkboxFilter = {
           }
         }
       };
-
-    self.outputArray = []; // reset output array
-
+    self.outputArray = []; 
       do{
           crawl();
       }
       while(!crawled && checkTrackers());
-
     self.outputString = self.outputArray.join();
-
-    // If the output string is empty, show all rather than none:
-
     !self.outputString.length && (self.outputString = 'all');
-
-    //console.log(self.outputString);
-
-    // ^ we can check the console here to take a look at the filter string that is produced
-
-    // Send the output string to MixItUp via the 'filter' method:
-
       if(self.$container.mixItUp('isLoaded')){
         self.$container.mixItUp('filter', self.outputString);
       }
   }
 };
-// On document ready, initialise our code.
-jQuery(document).ready(function($){
-  // Initialize checkboxFilter code
+
+$(function(){
   checkboxFilter.init();
-  // Instantiate MixItUp
-  $('#results-container').mixItUp({
+  $('#results-wrapper').mixItUp({
     controls: {
-      enable: false // we won't be needing these
+      enable: false
     },
     animation: {
       easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
@@ -413,7 +342,7 @@ jQuery(document).ready(function($){
     }
   });
 });
-        </script>
+</script>
         <script>
         new Vivus('wiggly', {
             start: 'inViewport',

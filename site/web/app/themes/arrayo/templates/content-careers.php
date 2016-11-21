@@ -159,13 +159,11 @@
                   <?php
                     $tags = get_tags();
                     foreach($tags as $tag) {
-                        echo "$tag->slug";
+                        echo "$tag->slug ";
                     }
                 ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
-                        <li>
-                        </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
