@@ -30,9 +30,9 @@
         "scripts/apply-modal.js"
       ]
     },
-    "text-highlighter.js": {
+    "filter.js": {
       "files": [
-        "scripts/text-highligher.js"
+        "scripts/filter.js"
       ]
     },
     "tabs.js": {

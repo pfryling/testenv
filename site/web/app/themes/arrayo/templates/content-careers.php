@@ -117,71 +117,76 @@
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
             <form class="controls" id="Filters">
-              <fieldset>
-                <h4>Industries</h4>
+
+              <fieldset class="filter-group checkboxes">
+                <h4>Shapes</h4>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_fintech"/>
-                  <label>FinTech</label>
+                  <input type="checkbox" value=".square"/>
+                  <label>Square</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_healthtech"/>
-                  <label>HealthTech</label>
+                  <input type="checkbox" value=".circle"/>
+                  <label>Circle</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_hightech"/>
-                  <label>HighTech</label>
+                  <input type="checkbox" value=".triangle"/>
+                  <label>Triangle</label>
                 </div>
               </fieldset>
 
-              <fieldset>
-                <h4>Services</h4>
-                    <div class="checkbox">
-                  <input type="checkbox" value=".tag_agiledata"/>
-                  <label>AgileData</label>
+              <fieldset class="filter-group checkboxes">
+                <h4>Colours</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".white"/>
+                  <label>White</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_rtech"/>
-                  <label>RTech</label>
+                  <input type="checkbox" value=".green"/>
+                  <label>Green</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_databridge"/>
-                  <label>DataBridge</label>
+                  <input type="checkbox" value=".blue"/>
+                  <label>Blue</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="filter-group checkboxes">
+                <h4>Sizes</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".sm"/>
+                  <label>Small</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_connect"/>
-                  <label>Connect</label>
+                  <input type="checkbox" value=".lrg"/>
+                  <label>Large</label>
                 </div>
+              </fieldset>
+
+              <fieldset class="filter-group search">
+                <h4>Search</h4>
+                <input type="text" placeholder="Search ..."/>
               </fieldset>
 
               <button id="Reset">Clear Filters</button>
             </form>
 
-            <div id="Container" class="filter-results wow fadeInUp" id="results-wrapper">
-                <div class="fail-message">
-                    <span>No jobs were found matching the selected filters.</span>
-                </div>
-                <div class="mix tag_fintech">
-                    <h4>test</h4>
-                </div>
-                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
-                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix
-                  <?php
-                    $tags = get_tags();
-                    foreach($tags as $tag) {
-                        echo "$tag->slug ";
-                    }
-                ?>">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                <?php endwhile; wp_reset_query(); ?>
+            <div id="Container" class="results">
+              <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+
+              <div class="mix triangle white lrg"></div>
+              <div class="mix square white sm"></div>
+              <div class="mix circle green lrg"></div>
+              <div class="mix triangle blue lrg"></div>
+              <div class="mix square white lrg"></div>
+              <div class="mix circle blue sm"></div>
+              <div class="mix triangle green lrg"></div>
+              <div class="mix square blue lrg"></div>
+              <div class="mix circle white lrg"></div>
+
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
             </div>
         </div>
     </section>

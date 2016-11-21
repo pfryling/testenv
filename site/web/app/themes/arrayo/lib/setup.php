@@ -104,8 +104,8 @@ function assets() {
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
   wp_enqueue_script('sage/navigation-parent_js', Assets\asset_path('scripts/navigation-parent.js'), ['sage/js'], null, true);
   wp_enqueue_script('sage/navigation_js', Assets\asset_path('scripts/navigation.js'), ['sage/navigation-parent_js'], null, true);
-  wp_enqueue_script('sage/text-highlighter_js', Assets\asset_path('scripts/text-highlighter.js'), ['sage/navigation_js'], null, true);
-  wp_enqueue_script('sage/apply-modal_js', Assets\asset_path('scripts/apply-modal.js'), ['sage/text-highlighter_js'], null, true);
+  wp_enqueue_script('sage/filter_js', Assets\asset_path('scripts/filter.js'), ['sage/navigation_js'], null, true);
+  wp_enqueue_script('sage/apply-modal_js', Assets\asset_path('scripts/apply-modal.js'), ['sage/filter_js'], null, true);
   wp_enqueue_script('sage/tabs_js', Assets\asset_path('scripts/tabs.js'), ['sage/apply-modal_js'], null, true);
   wp_enqueue_script('sage/carousel_js', Assets\asset_path('scripts/carousel.js'), ['sage/tabs_js'], null, true);
 }
