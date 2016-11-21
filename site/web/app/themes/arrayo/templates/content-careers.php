@@ -21,9 +21,7 @@
                         </a>
                     </div>
                 </div>
-            </section>
-            <section class="card-wrapper">
-                <div class="card card--careers">
+            <div class="card-wrapper">
                     <?php
                     $args = array(
                       'post_type' => 'job-post',
@@ -36,6 +34,7 @@
 
                     if ( $recent_job->have_posts() ) :
                       while ( $recent_job->have_posts() ) : $recent_job->the_post(); ?>
+                    <div class="card card--careers">
                             <h4 class="career"><?php the_title(); ?></h4>
                             <p class="first">
                                 <strong>Industry: </strong> <?php the_field('job_industry'); ?><br>
@@ -45,6 +44,7 @@
                             </p>
                             <hr>
                             <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                        </div>
                       <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
