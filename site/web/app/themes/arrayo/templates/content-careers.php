@@ -141,15 +141,15 @@
                   <label>AgileData</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_rtech"/>
+                  <input type="checkbox" value=".sm"/>
                   <label>RTech</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_databridge"/>
+                  <input type="checkbox" value=".white"/>
                   <label>DataBridge</label>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox" value=".tag_connect"/>
+                  <input type="checkbox" value=".square"/>
                   <label>Connect</label>
                 </div>
               </fieldset>
@@ -162,32 +162,25 @@
               <button id="Reset">Clear Filters</button>
             </form>
 
-            <div id="Container" class="filter-results wow fadeInUp">
-                <div class="fail-message">
-                    <span>No jobs were found matching the selected filters.</span>
-                </div>
-                <div class="mix tag_fintech">
-                    <h4>test</h4>
-                </div>
-                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
-                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix
-                  <?php
-                    $tags = get_tags();
-                    foreach($tags as $tag) {
-                        echo "$tag->slug ";
-                    }
-                ?>">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                <?php endwhile; wp_reset_query(); ?>
+            <div id="Container" class="results">
+              <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+              
+              <div class="mix triangle white lrg"></div>
+              <div class="mix square white sm"></div>
+              <div class="mix circle green lrg"></div>
+              <div class="mix triangle blue lrg"></div>
+              <div class="mix square white lrg"></div>
+              <div class="mix circle blue sm"></div>
+              <div class="mix triangle green lrg"></div>
+              <div class="mix square blue lrg"></div>
+              <div class="mix circle white lrg"></div>
+              
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+            </div>
+                
         </div>
     </section>
 

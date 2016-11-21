@@ -2248,80 +2248,61 @@
             opacity: 1
           &:focus ~ label:before
             background: #eee
-    .results
-        +span-columns(8 of 12)
-        padding: 2%
-        text-align: justify
-        position: relative
-    .results .mix, .results .gap
-        display: block
-        width: 100%
-        margin: 10px 0
-    .results .mix
-        width: 100%
-        height: auto
-        padding: 26px 16px
-        margin-bottom: 16px
-        background-color: white
-        display: none
-        h3
-            color: $text
-            font-size: 26px
-            line-height: 1.3
-            font-family: $header
-        ul
-            list-style: none
-            li
-                display: inline-block
-                margin-right: 16px
-                color: $text
-                font-family: $sans
-        a
-            font-family: $sans
-            color: $tertiary
-            font-size: 16px
-            text-decoration: none
-    .results .mix.tag_fintech
-        border-top: 8px solid $quaternary-cool
-    .results .mix.tag_healthtech
-          border-top: 8px solid $health-tech-green
-    .results .mix.tag_hightech
-          border-top: 8px solid $high-tech-blue
-    .results .mix.tag_rtech
-          border-top: 8px solid $tertiary
-    .results .mix.tag_agiledata
-          border-top: 8px solid $tertiary
-    .results .mix.tag_databridge
-          border-top: 8px solid $tertiary
-    .results .mix.tag_connect
-          border-top: 8px solid $tertiary
-    .results .fail-message
-        position: absolute
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
-        text-align: center
-        opacity: 0
-        pointer-events: none
-        -webkit-transition: 150ms
-        -moz-transition: 150ms
-        transition: 150ms
-        &:before
-          content: ''
-          display: inline-block
-          vertical-align: middle
-          height: 100%
-        span
-          display: inline-block
-          vertical-align: middle
-          font-size: 20px
-          font-family: $header
-          color: white
-          font-weight: 700
-    .results .fail .fail-message
-        opacity: 1
-        pointer-events: auto
+        .results
+          padding: 2%
+          min-height: 400px
+          text-align: justify
+          position: relative
+          .mix, .gap
+            width: 100px
+            display: inline-block
+            margin: 0 5%
+          .mix
+            width: 100%
+            height: auto
+            margin: 5%
+            background: white
+            display: none
+            &.green
+              background: #a6e6a7
+            &.blue
+              background: #6bd2e8
+            &.circle
+              border-radius: 999px
+            &.triangle
+              width: 0
+              height: 0
+              border: 50px solid transparent
+              border-top-color: #68b8c4
+              border-left-color: #68b8c4
+            &.sm
+              width: 50px
+              height: 50px
+          .fail-message
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            right: 0
+            text-align: center
+            opacity: 0
+            pointer-events: none
+            -webkit-transition: 150ms
+            -moz-transition: 150ms
+            transition: 150ms
+            &:before
+              content: ''
+              display: inline-block
+              vertical-align: middle
+              height: 100%
+            span
+              display: inline-block
+              vertical-align: middle
+              font-size: 20px
+              font-weight: 700
+          &.fail .fail-message
+            opacity: 1
+            pointer-events: auto
 
 .apply-cta
     background-color: $text-light
