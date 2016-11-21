@@ -117,41 +117,55 @@
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
             <div class="filter-wrap wow fadeInUp"">
-                <form class="controls wow"" id="job-filters">
-                    <fieldset>
-                        <p><strong>Industry</strong></p>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".fin"/>
-                          <label>FinTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".health"/>
-                          <label>HealthTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".high"/>
-                          <label>HighTech</label>
-                        </div>
-                        <p><strong>Location</strong></p>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".boston"/>
-                          <label>Boston</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".cambridge"/>
-                          <label>Cambridge</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".newyork"/>
-                          <label>New York</label>
-                        </div>
-                      </fieldset>
-                    </form>
+                <form class="controls" id="Filters">
+                  <fieldset class="filter-group checkboxes">
+                    <h4>Industries</h4>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".fintech"/>
+                      <label>FinTech</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".healthtech"/>
+                      <label>HealthTech</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".hightech"/>
+                      <label>HighTech</label>
+                    </div>
+                  </fieldset>
+
+                  <fieldset class="filter-group checkboxes">
+                    <h4>Services</h4>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".agiledata"/>
+                      <label>AgileData/label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".rtech"/>
+                      <label>RTech</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".databridge"/>
+                      <label>DataBridge</label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" value=".connect"/>
+                      <label>Connect</label>
+                    </div>
+                  </fieldset>
+
+                  <fieldset class="filter-group search">
+                    <h4>Search</h4>
+                    <input type="text" placeholder="Search ..."/>
+                  </fieldset>
+
+                  <button id="Reset">Clear Filters</button>
+                </form>
             </div>
-            <div class="filter-results wow fadeInUp" id="results-wrapper">
+            <div class="results wow fadeInUp" id="results-wrapper">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="jr <?php the_field('job_class'); ?>">
+                <div class="mix <?php the_field('job_class'); ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
