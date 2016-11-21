@@ -239,10 +239,10 @@ jQuery(document).ready(function($) {
 </script>
 
 <script>
-$(function(){
+jQuery(document).ready(function($){
   $('#Container').mixItUp({
     load: {
-      filter: '' 
+      filter: ''
     },
     controls: {
       toggleFilterButtons: true,
