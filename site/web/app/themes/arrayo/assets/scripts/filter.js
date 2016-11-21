@@ -1,3 +1,5 @@
+jQuery.noConflict();
+
 var multiFilter = {
 
   $filterGroups: null,
@@ -19,7 +21,7 @@ var multiFilter = {
       self.groups.push({
         $inputs: $(this).find('input'),
         active: [],
-        tracker: false
+            tracker: false
       });
     });
 
@@ -41,9 +43,9 @@ var multiFilter = {
 
     self.$filterGroups
       .filter('.checkboxes')
-      .on('change', function() {
+        .on('change', function() {
         self.parseFilters();
-      });
+        });
 
     self.$filterGroups
       .filter('.search')
@@ -66,7 +68,7 @@ var multiFilter = {
       group.active = []; // reset arrays
       group.$inputs.each(function(){
         var searchTerm = '',
-            $input = $(this),
+                $input = $(this),
             minimumLength = 3;
 
         if ($input.is(':checked')) {
@@ -82,7 +84,7 @@ var multiFilter = {
           group.active[0] = '[class*="' + searchTerm + '"]';
         }
       });
-      group.active.length && (group.tracker = 0);
+        group.active.length && (group.tracker = 0);
     }
 
     self.concatenate();
@@ -91,9 +93,9 @@ var multiFilter = {
 
   concatenate: function(){
     var self = this,
-      cache = '',
-      crawled = false,
-      checkTrackers = function(){
+          cache = '',
+          crawled = false,
+          checkTrackers = function(){
         var done = 0;
 
         for(var i = 0, group; group = self.groups[i]; i++){
@@ -130,10 +132,10 @@ var multiFilter = {
 
     self.outputArray = [];
 
-    do{
-      crawl();
-    }
-    while(!crawled && checkTrackers());
+      do{
+          crawl();
+      }
+      while(!crawled && checkTrackers());
 
     self.outputString = self.outputArray.join();
 
@@ -144,14 +146,14 @@ var multiFilter = {
     console.log(self.outputString);
 
 
-    if(self.$container.mixItUp('isLoaded')){
-      self.$container.mixItUp('filter', self.outputString);
-    }
+      if(self.$container.mixItUp('isLoaded')){
+        self.$container.mixItUp('filter', self.outputString);
+      }
   }
 };
 
 
-$(function(){
+;(function($){
 
 
   multiFilter.init();
@@ -167,4 +169,4 @@ $(function(){
       duration: 600
     }
   });
-});
+})(jQuery);
