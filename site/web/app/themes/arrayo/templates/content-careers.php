@@ -159,7 +159,7 @@
                 </div>
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix jr
+                <div class="mix
                   <?php
                     $tags = get_tags();
                     foreach($tags as $tag) {

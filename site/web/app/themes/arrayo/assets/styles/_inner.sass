@@ -1,37 +1,4 @@
-.jr
-    background-color: white
-    padding: $spacer-green $spacer-green $spacer-cyan $spacer-green
-    color: $text
-    position: relative
-    margin-bottom: 26px
-    hr
-        margin: 5px 0
-    h4
-        font-size: 26px
-        font-family: $header
-        margin: 0
-        padding: 10px 0
-    ul
-        list-style: none
-        li
-            font-family: $sans
-            font-size: 16px
-            margin-right: 26px
-    a
-        text-decoration: none
-        font-family: $sans
-        font-size: 16px
-        line-height: 20px
-        color: $tertiary
 
-.tag_fintech
-    border-top: 8px solid $quaternary-cool
-
-.tag_healthtech
-    border-top: 8px solid $health-tech-green
-
-.tag_hightech
-    border-top: 8px solid $high-tech-blue
 
 #nf-form-cont-1
     +media($mobile)
@@ -2262,54 +2229,65 @@
     .filter-results
         +span-columns(8 of 12)
         line-height: 50px
-        ul
-            margin: 0
-            padding: 0
-            li
-                display: inline-block
-        .job-post
-            +fill-parent()
+        positon: relative
+        .mix
             background-color: white
-            box-shadow: $white-box-shadow
+            padding: $spacer-green $spacer-green $spacer-cyan $spacer-green
+            color: $text
+            position: relative
+            margin-bottom: 26px
             display: none
-            margin-bottom: $spacer-green
+            hr
+                margin: 5px 0
             h4
-                color: $text
-                margin: 0
                 font-size: 26px
-                line-height: 33px
-                padding: $spacer-cyan $spacer-blue
+                font-family: $header
+                margin: 0
+                padding: 10px 0
             ul
-                margin: 0 0 $spacer-blue 0
-                padding: 0 $spacer-blue $spacer-blue $spacer-blue
+                list-style: none
                 li
-                    +span-columns(4 of 8)
-                    +omega(2n)
                     font-family: $sans
                     font-size: 16px
-                    color: $text
-                    margin: 0
-                    line-height: 1.8
-                    strong
-                        color: $text-light
-            hr
-                +fill-parent()
-                display: block
-                margin: 0
-                height: 1px
-                border: 0
-                padding: 0
-                border-top: 1px solid rgba(0,0,0,0.2)
+                    margin-right: 26px
             a
                 text-decoration: none
                 font-family: $sans
                 font-size: 16px
-                line-height: 26px
-                font-weight: 100
+                line-height: 20px
                 color: $tertiary
-                padding: 0 $spacer-blue
-                .fa
-                    padding-left: $spacer-blue
+        .mix.tag_fintech
+            border-top: 8px solid $quaternary-cool
+
+        .mix.tag_healthtech
+            border-top: 8px solid $health-tech-green
+
+        .mix.tag_hightech
+            border-top: 8px solid $high-tech-blue
+        .fail-message
+            position: absolute
+            top: 0
+            left: 0
+            bottom: 0
+            right: 0
+            text-align: center
+            opacity: 0
+            pointer-events: none
+            transition: 150ms
+            &:before
+                content: ''
+                display: inline-block
+                vertical-align: middle
+                height: 100%
+            span
+                display: inline-block
+                font-family: $sans
+                font-size: 16px
+                color: white
+        .fail.fail-message
+            opacity: 1
+            pointer-events: auto
+
 
 .apply-cta
     background-color: $text-light
