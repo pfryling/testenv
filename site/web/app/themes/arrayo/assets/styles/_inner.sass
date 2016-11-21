@@ -2259,8 +2259,8 @@
       &:last-child
         margin-right: 0
       .mix, .gap
-        width: 100px
-        display: inline-block
+        width: 100%
+        display: block
         margin: 0 5%
       .mix
         width: 100%
@@ -2268,13 +2268,20 @@
         margin-bottom: 16px
         background: white
         display: none
-        &.tag_fintech
-          background: 8px solid $quaternary-cool
-        &.tag_healthtech
+      .mix.tag_fintech
+          border-top: 8px solid $quaternary-cool
+      .mix.tag_healthtech
           border-top: 8px solid $health-tech-green
-        &.tag_hightech
+      .mix.tag_hightech
           border-top: 8px solid $high-tech-blue
-        &.tag_fintech
+      .mix.tag_rtech
+          border-top: 8px solid $tertiary
+      .mix.tag_agiledata
+          border-top: 8px solid $tertiary
+      .mix.tag_databridge
+          border-top: 8px solid $tertiary
+      .mix.tag_connect
+          border-top: 8px solid $tertiary
       .fail-message
         position: absolute
         top: 0
