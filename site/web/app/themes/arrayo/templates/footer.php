@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 <script>
-(function($) {
+jQuery(function($) {
   $(function() {
     $('.toggle-overlay').click(function() {
       $('aside').toggleClass('open');
@@ -108,7 +108,7 @@ jQuery(document).ready(function($) {
 })(jQuery);
 </script>
 <script>
-$(function() {
+jQuery(function($) {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
