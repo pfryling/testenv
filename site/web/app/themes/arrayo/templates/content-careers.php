@@ -21,30 +21,31 @@
                         </a>
                     </div>
                 </div>
+                <?php
+                $args = array(
+                  'post_type' => 'job-post',
+                  'post_per_page' => 1,
+                  'orderby'  => 'date',
+                  'order' => 'DESC'
+                );
 
-                <div class="card card--careers">
-    <?php
-        $recent_args = array(
-            "post_type" => "job-post",
-            "posts_per_page" => 1,
-            "orderby" => "date",
-            "order" => "DESC"
-        ); ?>
-        <?php $recent_posts = new WP_Query( $recent_args ); ?>
-        <?php if ($recent_posts -> have_posts() ) : ?>
-            <?php while ( $recent_posts -> have_posts() ) :
-                $recent_posts -> the_post(); ?>
-                 <h4 class="career"><?php the_title(); ?></h4>
-                    <p class="first">
-                            Industry: <?php the_field('job_industry'); ?><br>
-                            Service: <?php the_field('job_service'); ?><br>
-                            Type: <?php the_field('job_type'); ?><br>
-                            Seniority: <?php the_field('job_seniority'); ?>
+                $recent_job = new WP_Query( $args );
+
+                if ( $recent_job->have_posts() ) :
+                  while ( $recent_job->have_posts() ) : $recent_job->the_post(); ?>
+
+                    <div class="card card--careers">
+                        <h4 class="career"><?php the_title(); ?></h4>
+                        <p class="first">
+                            <strong>Industry: </strong> <?php the_field('job_industry'); ?><br>
+                            <strong>Service: </strong> <?php the_field('job_service'); ?><br>
+                            <strong>Type: </strong> <?php the_field('job_type'); ?><br>
+                            <strong>Seniority: </strong> <?php the_field('job_seniority'); ?>
                         </p>
                         <hr>
                         <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                    <?php endwhile; ?>
+                    </div>
+                  <?php endwhile; ?>
                 <?php endif; ?>
             </section>
         </div>
