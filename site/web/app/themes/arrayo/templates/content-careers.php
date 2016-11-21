@@ -151,18 +151,9 @@
             <div class="filter-results wow fadeInUp" id="results-wrapper">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="jr
-                  <?php
-                            $tags = get_tags();
-                            foreach($tags as $tag) {
-                                echo "$tag->slug";
-                            }
-                            ?>">
+                <div class="jr <?php the_field('job_class'); ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
-                        <li>
-                            <?php the_ID(); ?>
-                        </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
