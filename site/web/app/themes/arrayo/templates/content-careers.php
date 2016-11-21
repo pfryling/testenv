@@ -116,69 +116,19 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-            <form class="controls" id="Filters">
-              <fieldset>
-                <h4>Industries</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_fintech"/>
-                  <label>FinTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_healthtech"/>
-                  <label>HealthTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_hightech"/>
-                  <label>HighTech</label>
-                </div>
-              </fieldset>
-
-              <fieldset>
-                <h4>Services</h4>
-                    <div class="checkbox">
-                  <input type="checkbox" value=".tag_agiledata"/>
-                  <label>AgileData</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_rtech"/>
-                  <label>RTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_databridge"/>
-                  <label>DataBridge</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_connect"/>
-                  <label>Connect</label>
-                </div>
-              </fieldset>
-
-              <button id="Reset">Clear Filters</button>
-            </form>
-
-            <div id="Container" class="filter-results wow fadeInUp" id="results-wrapper">
-                <div class="fail-message">
-                    <span>No jobs were found matching the selected filters.</span>
-                </div>
-                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
-                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix
-                  <?php
-                    $tags = get_tags();
-                    foreach($tags as $tag) {
-                        echo "$tag->slug ";
-                    }
-                ?>">
-                    <h4><?php the_field('job_title--header'); ?></h4>
-                    <ul>
-                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                    </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                </div>
-                <?php endwhile; wp_reset_query(); ?>
+            <div class="controls">
+                <label>Filter:</label>
+                <button class="filter" data-filter=".tag_fintech">FinTech</button>
+                <button class="filter" data-filter=".tag_healthtech">HealthTech</button>
+                <button class="filter" data-filter=".tag_hightech">HighTech</button>
+                <button class="filter" onclick="$('#Container').mixItUp('filter','')">Reset</button>
+            </div>
+            <div id="Container" class="container">
+                <div class="fail-message"><span>No items were found matching the current filters.</span></div>
+                <div class="mix tag_fintech"></div>
+                <div class="mix tag_healthtech"></div>
+                <div class="gap"></div>
+                <div class="gap"></div>
             </div>
         </div>
     </section>
