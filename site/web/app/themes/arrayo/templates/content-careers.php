@@ -154,7 +154,7 @@
             foreach($tags as $tag) {
                 echo "$tag->name";
             }
-            ?> id="results-wrapper">
+            ?>" id="results-wrapper">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="jr">
