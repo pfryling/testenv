@@ -21,7 +21,8 @@
                         </a>
                     </div>
                 </div>
-                    <?php
+                <div class="card card--careers">
+    <?php
         $recent_args = array(
             "post_type" => "job-post",
             "posts_per_page" => 1,
@@ -29,9 +30,9 @@
             "order" => "DESC"
         ); ?>
         <?php $recent_posts = new WP_Query( $recent_args ); ?>
-        <?php while ( $recent_posts -> have_posts() ) :
+        <?php if ($recent_posts -> have_posts() ) : ?>
+            <?php while ( $recent_posts -> have_posts() ) :
                 $recent_posts -> the_post(); ?>
-            <div class="card card--careers">
                  <h4 class="career"><?php the_title(); ?></h4>
                     <p class="first">
                             Industry: <?php the_field('job_industry'); ?><br>
@@ -42,6 +43,7 @@
                         <hr>
                         <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                     <?php endwhile; ?>
+                <?php endif; ?>
             </div>
             </section>
         </div>
@@ -202,9 +204,11 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-            <div id="app-reveal">
+           <button id="app-toggle" class="app-toggle">Apply Now</button>
+                <div id="app-reveal">
                   <?php echo do_shortcode("[ninja_form id=7]"); ?>
                 </div>
+            </div>
 </section>
 
     <section class="eeo">
