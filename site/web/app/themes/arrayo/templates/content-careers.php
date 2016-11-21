@@ -155,7 +155,7 @@
                  <?php
                 $tags = get_tags();
                 foreach($tags as $tag) {
-                    echo "$tag->name";
+                    echo "$tag->slug";
                 }
                 ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
@@ -164,9 +164,8 @@
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
                     </ul>
-                    <div class="link">
-                        <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                    </div>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>

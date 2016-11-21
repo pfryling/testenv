@@ -2,6 +2,7 @@
     background-color: white
     padding: $spacer-green
     color: $text
+    position: relative
     margin-bottom: 26px
     h4
         font-size: 26px
@@ -14,20 +15,13 @@
             font-family: $sans
             font-size: 16px
             margin-right: 26px
-    .link
-        display: block
-        position: absolute
-        padding: $spacer-cyan 0 0 0
-        width: 100%
-        bottom: 0
-        border-top: 1px solid rgba(0,0,0,0.1)
-        a
-            text-decoration: none
-            font-family: $sans
-            font-size: 16px
-            line-height: 20px
-            color: $tertiary
-            padding: $spacer-green 0 $spacer-cyan $spacer-cyan
+    a
+        text-decoration: none
+        font-family: $sans
+        font-size: 16px
+        line-height: 20px
+        color: $tertiary
+        padding: $spacer-green 0 $spacer-cyan $spacer-cyan
 
 .tag_fintech
     border-top: 8px solid $quaternary-cool
@@ -38,8 +32,7 @@
 .tag_hightech
     border-top: 8px solid $high-tech-blue
 
-.tag_agiledata, .tag_databridge, .tag_connect, .tag_rtech
-    border-top: 8px solid $tertiary
+.
 
 #nf-form-cont-1
     +media($mobile)
