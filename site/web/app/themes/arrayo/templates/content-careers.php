@@ -21,6 +21,8 @@
                         </a>
                     </div>
                 </div>
+            </section>
+            <section class="card-wrapper">
                 <div class="card card--careers">
                     <?php
                     $args = array(
