@@ -116,26 +116,52 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-            <div id="Container" class="filter-results wow fadeInUp">
-                <div class="fail-message">
-                    <span>No jobs were found matching the selected filters.</span>
-                </div>
-                <div class="mix tag_fintech">
-                    <h4>test</h4>
-                </div>
-                <?php
-                $args = array( 'post_type' => 'job-post', 'posts_per_page' => 10 );
-                $loop = new WP_Query( $args );
-                while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="mix
+            <div class="filter-wrap wow fadeInUp"">
+                <form class="controls wow"" id="job-filters">
+                    <fieldset>
+                        <p><strong>Industry</strong></p>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".fin"/>
+                          <label>FinTech</label>
+                        </div>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".health"/>
+                          <label>HealthTech</label>
+                        </div>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".high"/>
+                          <label>HighTech</label>
+                        </div>
+                        <p><strong>Location</strong></p>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".boston"/>
+                          <label>Boston</label>
+                        </div>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".cambridge"/>
+                          <label>Cambridge</label>
+                        </div>
+                        <div class="j-checkbox">
+                          <input type="checkbox" value=".newyork"/>
+                          <label>New York</label>
+                        </div>
+                      </fieldset>
+                    </form>
+            </div>
+            <div class="filter-results wow fadeInUp" id="results-wrapper">
+                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <div class="jr
                   <?php
-                    $tags = get_tags();
-                    foreach($tags as $tag) {
-                        echo "$tag->slug ";
-                    }
-                ?>">
+                            $tags = get_tags();
+                            foreach($tags as $tag) {
+                                echo "$tag->slug";
+                            }
+                            ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
+                        <li>
+                        </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
@@ -143,8 +169,8 @@
                     <hr>
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
-                <?php endwhile; ?>
-        </div>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
         </div>
     </section>
 
