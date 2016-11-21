@@ -116,41 +116,36 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-            <div class="filter-wrap wow fadeInUp"">
                 <form class="controls" id="Filters">
                   <fieldset class="filter-group checkboxes">
-                    <h4>Industries</h4>
+                    <h4>Shapes</h4>
                     <div class="checkbox">
-                      <input type="checkbox" value=".fintech"/>
-                      <label>FinTech</label>
+                      <input type="checkbox" value=".square"/>
+                      <label>Square</label>
                     </div>
                     <div class="checkbox">
-                      <input type="checkbox" value=".healthtech"/>
-                      <label>HealthTech</label>
+                      <input type="checkbox" value=".circle"/>
+                      <label>Circle</label>
                     </div>
                     <div class="checkbox">
-                      <input type="checkbox" value=".hightech"/>
-                      <label>HighTech</label>
+                      <input type="checkbox" value=".tag_fintech"/>
+                      <label>Triangle</label>
                     </div>
                   </fieldset>
 
                   <fieldset class="filter-group checkboxes">
-                    <h4>Services</h4>
+                    <h4>Colours</h4>
                     <div class="checkbox">
-                      <input type="checkbox" value=".agiledata"/>
-                      <label>AgileData/label>
+                      <input type="checkbox" value=".white"/>
+                      <label>White</label>
                     </div>
                     <div class="checkbox">
-                      <input type="checkbox" value=".rtech"/>
-                      <label>RTech</label>
+                      <input type="checkbox" value=".green"/>
+                      <label>Green</label>
                     </div>
                     <div class="checkbox">
-                      <input type="checkbox" value=".databridge"/>
-                      <label>DataBridge</label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".connect"/>
-                      <label>Connect</label>
+                      <input type="checkbox" value=".fintech"/>
+                      <label>Blue</label>
                     </div>
                   </fieldset>
 
@@ -161,58 +156,18 @@
 
                   <button id="Reset">Clear Filters</button>
                 </form>
-            </div>
-            <form class="controls" id="Filters">
-              <fieldset class="filter-group checkboxes">
-                <h4>Shapes</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".square"/>
-                  <label>Square</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".healthtech"/>
-                  <label>Circle</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".fintech"/>
-                  <label>Triangle</label>
-                </div>
-              </fieldset>
 
-              <fieldset class="filter-group checkboxes">
-                <h4>Colours</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".white"/>
-                  <label>White</label>
+                <div id="Container" class="results">
+                  <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+
+                  <div class="mix fintech"></div>
+
+                  <div class="gap"></div>
+                  <div class="gap"></div>
+                  <div class="gap"></div>
+                  <div class="gap"></div>
                 </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".green"/>
-                  <label>Green</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".blue"/>
-                  <label>Blue</label>
-                </div>
-              </fieldset>
 
-              <fieldset class="filter-group search">
-                <h4>Search</h4>
-                <input type="text" placeholder="Search ..."/>
-              </fieldset>
-
-              <button id="Reset">Clear Filters</button>
-            </form>
-
-            <div id="Container" class="container">
-              <div class="fail-message"><span>No items were found matching the selected filters</span></div>
-
-              <div class="mix fintech"></div>
-
-              <div class="gap"></div>
-              <div class="gap"></div>
-              <div class="gap"></div>
-              <div class="gap"></div>
-            </div>
         </div>
     </section>
 
