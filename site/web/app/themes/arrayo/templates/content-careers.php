@@ -118,39 +118,35 @@
             <h6>Filter | View all</h6>
             <form class="controls" id="Filters">
 
-              <fieldset class="filter-group checkboxes">
-                <h4>Industries</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_fintech"/>
-                  <label>FinTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_healthtech"/>
-                  <label>HealthTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_hightech"/>
-                  <label>HighTech</label>
-                </div>
-              </fieldset>
-
-              <fieldset class="filter-group checkboxes">
-                <h4>Services</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".tag_agiledata"/>
-                  <label>AgileData</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".sm"/>
-                  <label>RTech</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".white"/>
-                  <label>DataBridge</label>
-                </div>
+            <fieldset class="filter-group checkboxes">
+                <h4>Shapes</h4>
                 <div class="checkbox">
                   <input type="checkbox" value=".square"/>
-                  <label>Connect</label>
+                  <label>Square</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".circle"/>
+                  <label>Circle</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".triangle"/>
+                  <label>Triangle</label>
+                </div>
+              </fieldset>
+              
+              <fieldset class="filter-group checkboxes">
+                <h4>Colours</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".white"/>
+                  <label>White</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".green"/>
+                  <label>Green</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".blue"/>
+                  <label>Blue</label>
                 </div>
               </fieldset>
 
