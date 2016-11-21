@@ -166,6 +166,40 @@
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
                 <?php endwhile; ?>
+                <?php
+                $query = new WP_Query(
+                    array( "post_type" => "job-post",
+                           "tag" => "tag_healthtech"
+                    ) );
+                while ($query->have_posts()) : $query->the_post(); ?>
+                <div class="jr tag_healthtech">
+                    <h4><?php the_field('job_title--header'); ?></h4>
+                    <ul>
+                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
+                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
+                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+                <?php endwhile; ?>
+                <?php
+                $query = new WP_Query(
+                    array( "post_type" => "job-post",
+                           "tag" => "tag_hightech"
+                    ) );
+                while ($query->have_posts()) : $query->the_post(); ?>
+                <div class="jr tag_hightech">
+                    <h4><?php the_field('job_title--header'); ?></h4>
+                    <ul>
+                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
+                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
+                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+                <?php endwhile; ?>
             </div>
         </div>
     </section>
