@@ -162,7 +162,7 @@
                   <button id="Reset">Clear Filters</button>
                 </form>
             </div>
-            <div class="results wow fadeInUp" id="container">
+            <div class="results wow fadeInUp" id="Container">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="mix <?php the_field('job_class'); ?>">
