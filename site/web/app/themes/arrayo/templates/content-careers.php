@@ -123,7 +123,7 @@
                 <button class="filter" data-filter=".tag_hightech">HighTech</button>
                 <button class="filter" onclick="$('#Container').mixItUp('filter','')">Reset</button>
             </div>
-            <div id="Container" class="container">
+            <div id="Container" class="filter-results">
                 <div class="fail-message"><span>No items were found matching the current filters.</span></div>
                 <div class="mix tag_fintech"></div>
                 <div class="mix tag_healthtech"></div>
