@@ -117,47 +117,6 @@
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
             <form class="controls" id="Filters">
-
-            <fieldset class="filter-group checkboxes">
-                <h4>Shapes</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".square"/>
-                  <label>Square</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".circle"/>
-                  <label>Circle</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".triangle"/>
-                  <label>Triangle</label>
-                </div>
-              </fieldset>
-              
-              <fieldset class="filter-group checkboxes">
-                <h4>Colours</h4>
-                <div class="checkbox">
-                  <input type="checkbox" value=".white"/>
-                  <label>White</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".green"/>
-                  <label>Green</label>
-                </div>
-                <div class="checkbox">
-                  <input type="checkbox" value=".blue"/>
-                  <label>Blue</label>
-                </div>
-              </fieldset>
-
-              <fieldset class="filter-group search">
-                <h4>Search</h4>
-                <input type="text" placeholder="Search ..."/>
-              </fieldset>
-
-              <button id="Reset">Clear Filters</button>
-            </form>
-
             <div id="Container" class="filter-results wow fadeInUp">
                 <div class="fail-message">
                     <span>No jobs were found matching the selected filters.</span>
