@@ -125,15 +125,15 @@ $('#return-to-top').click(function() {
 </script>
 <script>
 $(function () {
-  
+
   $('.md-trigger').on('click', function() {
     $('.md-modal').addClass('md-show');
   });
-  
+
   $('.md-close').on('click', function() {
     $('.md-modal').removeClass('md-show');
   });
-  
+
 });
 
 $(document).ready(function() {
@@ -242,24 +242,24 @@ jQuery(document).ready(function($) {
 // To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "checkboxFilter".
 
 var checkboxFilter = {
-  
+
   // Declare any variables we will need as properties of the object
-  
+
   $filters: null,
   $reset: null,
   groups: [],
   outputArray: [],
   outputString: '',
-  
+
   // The "init" method will run on document ready and cache any jQuery objects we will need.
-  
+
   init: function(){
     var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "checkboxFilter" object so that we can share methods and properties between all parts of the object.
-    
+
     self.$filters = $('#Filters');
     self.$reset = $('#Reset');
     self.$container = $('#Container');
-    
+
     self.$filters.find('fieldset').each(function(){
       self.groups.push({
         $inputs: $(this).find('input'),
@@ -267,53 +267,53 @@ var checkboxFilter = {
         tracker: false
       });
     });
-    
+
     self.bindHandlers();
   },
-  
-  // The "bindHandlers" method will listen for whenever a form value changes. 
-  
+
+  // The "bindHandlers" method will listen for whenever a form value changes.
+
   bindHandlers: function(){
     var self = this;
-    
+
     self.$filters.on('change', function(){
       self.parseFilters();
     });
-    
+
     self.$reset.on('click', function(e){
       e.preventDefault();
       self.$filters[0].reset();
       self.parseFilters();
     });
   },
-  
+
   // The parseFilters method checks which filters are active in each group:
-  
+
   parseFilters: function(){
     var self = this;
- 
+
     // loop through each filter group and add active filters to arrays
-    
+
     for(var i = 0, group; group = self.groups[i]; i++){
       group.active = []; // reset arrays
-      group.$inputs.each(function(){ 
+      group.$inputs.each(function(){
         $(this).is(':checked') && group.active.push(this.value);
       });
       group.active.length && (group.tracker = 0);
     }
-    
+
     self.concatenate();
   },
-  
+
   // The "concatenate" method will crawl through each group, concatenating filters as desired:
-  
+
   concatenate: function(){
     var self = this,
       cache = '',
       crawled = false,
       checkTrackers = function(){
         var done = 0;
-        
+
         for(var i = 0, group; group = self.groups[i]; i++){
           (group.tracker === false) && done++;
         }
@@ -336,7 +336,7 @@ var checkboxFilter = {
           var group = self.groups[i];
 
           if(group.active[group.tracker + 1]){
-            group.tracker++; 
+            group.tracker++;
             break;
           } else if(i > 0){
             group.tracker && (group.tracker = 0);
@@ -345,7 +345,7 @@ var checkboxFilter = {
           }
         }
       };
-    
+
     self.outputArray = []; // reset output array
 
     do{
@@ -354,33 +354,33 @@ var checkboxFilter = {
     while(!crawled && checkTrackers());
 
     self.outputString = self.outputArray.join();
-    
+
     // If the output string is empty, show all rather than none:
-    
-    !self.outputString.length && (self.outputString = 'all'); 
-    
-    //console.log(self.outputString); 
-    
+
+    !self.outputString.length && (self.outputString = 'all');
+
+    //console.log(self.outputString);
+
     // ^ we can check the console here to take a look at the filter string that is produced
-    
+
     // Send the output string to MixItUp via the 'filter' method:
-    
+
     if(self.$container.mixItUp('isLoaded')){
       self.$container.mixItUp('filter', self.outputString);
     }
   }
 };
-  
+
 // On document ready, initialise our code.
 
-$(function(){
-      
+jQuery(function(){
+
   // Initialize checkboxFilter code
-      
+
   checkboxFilter.init();
-      
+
   // Instantiate MixItUp
-      
+
   $('#Container').mixItUp({
     controls: {
       enable: false // we won't be needing these
@@ -389,7 +389,7 @@ $(function(){
       easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
       duration: 600
     }
-  });    
+  });
 });
 </script>
         <script>
@@ -533,7 +533,7 @@ $(document).scroll(function() {
         });
         </script>
 
-<script type='application/ld+json'> 
+<script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
   "@type": "Organization",
