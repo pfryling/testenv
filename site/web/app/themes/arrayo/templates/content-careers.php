@@ -39,7 +39,6 @@
                 </div>
             </section>
         </div>
-    </div>
     <div class="wrapper">
         <section class="centered-bg--vert  wow fadeInUp">
             <div class="text-wrap">

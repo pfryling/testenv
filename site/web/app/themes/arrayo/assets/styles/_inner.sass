@@ -1644,6 +1644,9 @@
             margin-top: 10px
             &--careers
                 margin-top: -20px
+                p
+                    color: $text
+                    font-size: 16px
             .notlink
                 text-align: left
                 padding: 0
@@ -1661,12 +1664,13 @@
                 .fa
                     padding-left: $spacer-green
             h4.career
-                background-color: $quaternary-cool
+                background-color: $primary-dark
                 font-size: $base
                 padding: $spacer-yellow $spacer-cyan $spacer-cyan $spacer-cyan
                 color: white
                 font-family: $header
                 font-weight: 600
+                font-size: 20px
             h4.bos
                 background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/boston-bg.png')
                 background-size: cover
@@ -1703,6 +1707,7 @@
             p
                 font-weight: 100
                 padding: 0 $spacer-green 0 $spacer-cyan
+                color: $text
                 +media($mobile)
                     padding: 0 $spacer-cyan
                 +media($tablet)
@@ -1718,6 +1723,82 @@
                 margin-left: $spacer-cyan
                 +media($mobile)
                     width: 90%
+.loc-carousel
+    .card
+        background-color: white
+        box-shadow: $white-box-shadow
+        margin-bottom: $spacer-cyan
+        padding-bottom: $spacer-cyan
+        margin-top: 10px
+        .notlink
+            text-align: left
+            padding: 0
+            font-family: $sans
+            font-size: 14px
+            text-decoration: none
+            color: $tertiary
+        a
+            text-align: center
+            padding: 10px 0 0 $spacer-cyan
+            font-family: $sans
+            font-size: $base
+            text-decoration: none
+            color: $tertiary
+            .fa
+                padding-left: $spacer-green
+        h4.bos
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/boston-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+            font-size: 22px
+            line-height: 28px
+            color: white
+            font-family: $header
+            font-weight: 600
+        h4.cam
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/cambridge-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+            font-size: 22px
+            line-height: 28px
+            color: white
+            font-family: $header
+            font-weight: 600
+        h4.ny
+            background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/nyc-bg.png')
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+            padding: $spacer-blue $spacer-cyan $spacer-cyan $spacer-cyan
+            font-size: 22px
+            line-height: 28px
+            color: white
+            font-family: $header
+            font-weight: 600
+        p
+            font-weight: 100
+            padding: 0 $spacer-green 0 $spacer-cyan
+            color: $text
+            +media($mobile)
+                padding: 0 $spacer-cyan
+            +media($tablet)
+                padding: 0 $spacer-cyan
+        .first
+            margin-top: -15px
+        hr
+            width: 60%
+            display: block
+            border: 0
+            border-top: 2px solid rgba(0,0,0,0.1)
+            height: 2px
+            margin-left: $spacer-cyan
+            +media($mobile)
+                width: 90%
+
 .owl-carousel .owl-item .cta-icon
     width: 50px !important
     padding-top: $spacer-blue

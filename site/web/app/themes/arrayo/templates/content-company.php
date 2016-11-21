@@ -73,7 +73,7 @@
                                       </g>
                                     </g>
                                 </svg><br>&nbsp;FinTech</h4>
-                    <?php the_field('industry_box--text-fintech'); ?>
+                    <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                       <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -100,7 +100,7 @@
                                     </g>
                                 </svg>
                     <br>&nbsp;HealthTech</h4>
-                    <?php the_field('industry_box--text-healthtech'); ?>
+                    <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                       <a href="#">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
@@ -130,7 +130,7 @@
                                     </g>
                                 </svg>
                     <br>&nbsp;HighTech</h4>
-                    <?php the_field('industry_box--text-hightech'); ?>
+                    <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                       <a href="#">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                     </div>
