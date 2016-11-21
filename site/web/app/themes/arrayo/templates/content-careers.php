@@ -21,7 +21,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="card card--careers">
     <?php
         $recent_args = array(
             "post_type" => "job-post",
@@ -33,6 +32,7 @@
         <?php if ($recent_posts -> have_posts() ) : ?>
             <?php while ( $recent_posts -> have_posts() ) :
                 $recent_posts -> the_post(); ?>
+                <div class="card card--careers">
                  <h4 class="career"><?php the_title(); ?></h4>
                     <p class="first">
                             Industry: <?php the_field('job_industry'); ?><br>
@@ -42,9 +42,9 @@
                         </p>
                         <hr>
                         <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
                     <?php endwhile; ?>
                 <?php endif; ?>
-            </div>
             </section>
         </div>
     </div>
@@ -99,7 +99,7 @@
     <section class="office-slider">
         <div class="wrapper">
             <h4>Our offices</h4>
-            <div id="location-slider" class="com-carousel owl-carousel owl-theme">
+            <div class="loc-carousel owl-carousel owl-theme">
                  <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">

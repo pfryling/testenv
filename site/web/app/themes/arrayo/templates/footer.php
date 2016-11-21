@@ -244,6 +244,17 @@ jQuery(document).ready(function($) {
     });
 });
 </script>
+<script>
+jQuery(document).ready(function($) {
+  $('.loc-slider').owlCarousel({
+    autoplay: true,
+    autoPlay: 5000,
+    loop: true,
+    items: 1,
+    center: true
+  });
+});
+</script>
 
         <script>
         new Vivus('wiggly', {
