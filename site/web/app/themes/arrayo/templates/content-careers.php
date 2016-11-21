@@ -24,16 +24,29 @@
                 <div class="card-wrapper  wow fadeInUp">
                     <h6 class="careers">recent jobs</h6>
                     <div class="card card--careers">
-                        <h4 class="career">Risk &amp; Regulatory Business Analyst / Project Manager</h4>
-                        <p class="first">
-                            Industry: FinTech<br>
-                            Service: R-Tech, DataBridge<br>
-                            Type: Full Time<br>
-                            Seniority: Mid senior level
+    <?php
+        $recent_args = array(
+            "post_type" => "job-post",
+            "posts_per_page" => 1,
+            "orderby" => "date",
+            "order" => "DESC"
+        );
+        $recent_posts = new WP_Query( $recent_args );
+        if ($recent_posts -> have_posts() ) :
+            while ( $recent_posts -> have_posts() ) :
+                $recent_posts -> the_post(); ?>
+                 <h4 class="career"><?php the_title(); ?></h4>
+                    <p class="first">
+                            Industry: <?php the_field('job_industry'); ?><br>
+                            Service: <?php the_field('job_service'); ?><br>
+                            Type: <?php the_field('job_type'); ?><br>
+                            Seniority: <?php the_field('job_seniority'); ?>
                         </p>
                         <hr>
-                        <a class="link-arrow" href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                    </div>
+                        <a class="link-arrow" href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+            </div>
                 </div>
             </section>
         </div>
@@ -175,20 +188,9 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-            <button class="toggle-overlay">Apply Now</button>
-
-<aside>
-  <div class="outer-close toggle-overlay">
-    <a class="close"><span></span></a>
-    </div>
-      <div class="apply-form-wrap">
-      <div class="apply-form">
-        <h2>Apply Now-<br>for Now or Later</h2>
-        <h5>Join Arrayo, Get on Board</h5>
-        <div class='cb-input'>
-            <?php echo do_shortcode("[ninja_form id=4]"); ?>
-      </div>
-</aside>
+            <div id="app-reveal">
+                  <?php echo do_shortcode("[ninja_form id=7]"); ?>
+                </div>
 </section>
 
     <section class="eeo">

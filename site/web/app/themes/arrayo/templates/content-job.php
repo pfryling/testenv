@@ -16,7 +16,7 @@
 
             <section class="location-info">
                 <div class="job-text text--for wow fadeInUp">
-                    <strong>Skills</strong>
+                    <strong><?php the_field('job_skills-header'); ?></strong>
                     <hr>
                     <p><?php the_field('job_skills'); ?></p>
                     <strong>Education</strong>
