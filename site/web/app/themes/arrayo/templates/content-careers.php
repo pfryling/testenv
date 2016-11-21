@@ -162,16 +162,32 @@
               <button id="Reset">Clear Filters</button>
             </form>
 
-            <div id="Container" class="results">
-              <div class="fail-message"><span>No items were found matching the selected filters</span></div>
-
-              <div class="mix tag_fintech"></div>
-              <div class="mix tag_healthtech"></div>
-              <div class="gap"></div>
-              <div class="gap"></div>
-              <div class="gap"></div>
-              <div class="gap"></div>
-            </div>
+            <div id="Container" class="filter-results wow fadeInUp">
+                <div class="fail-message">
+                    <span>No jobs were found matching the selected filters.</span>
+                </div>
+                <div class="mix tag_fintech">
+                    <h4>test</h4>
+                </div>
+                <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
+                <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <div class="mix
+                  <?php
+                    $tags = get_tags();
+                    foreach($tags as $tag) {
+                        echo "$tag->slug ";
+                    }
+                ?>">
+                    <h4><?php the_field('job_title--header'); ?></h4>
+                    <ul>
+                        <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
+                        <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
+                        <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
+                    </ul>
+                    <hr>
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+                <?php endwhile; wp_reset_query(); ?>
         </div>
     </section>
 
