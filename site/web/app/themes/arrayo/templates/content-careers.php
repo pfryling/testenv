@@ -164,8 +164,9 @@
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
                     </ul>
-                    <hr>
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    <div class="link">
+                        <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    </div>
                 </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
