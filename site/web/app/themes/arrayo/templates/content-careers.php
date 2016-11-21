@@ -161,6 +161,20 @@
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li>
+                            <?php
+//get the current title of the page
+$postTitle = get_the_title(); 
+
+//search for similer post in db table
+$postID = $wpdb->get_var($wpdb->prepare("SELECT ID FROM {$wpdb->posts} WHERE   post_type='slideshow' AND post_title = %s",$postTitle));
+
+//print id
+ echo $postID;  
+
+//or use get_post($post_id) to get whatever you want
+$getCustomPost = get_post($postID);
+echo $getCustomPost->id;
+?>
                         </li>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
