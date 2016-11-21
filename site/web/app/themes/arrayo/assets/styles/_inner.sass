@@ -2156,54 +2156,60 @@
         color: white
         margin: 0
         padding-bottom: 8px
-    .filter-wrap
+    #reset
+        display: block
+        vertical-align: top
+        padding: .4em .8em
+        margin: 0
+        background: #68b8c4
+        border: 0
+        color: #333
+        font-size: 16px
+        font-weight: 700
+        border-radius: 4px
+        cursor: pointer
+    #reset:focus
+        outline: 0 none
+    .controls
         +span-columns(3 of 12)
-        background-color: white
-        box-shadow: $white-box-shadow
-        padding: $spacer-cyan $spacer-green $spacer-blue $spacer-green
-        fieldset
-            border: 0
-            padding: 0
-            margin: 0
-            padding: 0
-            font-size: 100%
-            font: $sans
-            vertical-align: baseline
-        p
-            font-size: 14px
-            color: $text
-            font-weight: 100
-            font-family: $sans
-            strong
-                font-family: $header
-        .j-checkbox
+        background: transparent
+        padding: 2%
+        &:last-child
+            margin-right: 0
+    fieldset
+        display: block
+        vertical-align: top
+        margin: 0 1em 0 0
+        background: transparent
+        padding: .5em
+        border: none
+        outline: none
+    .checkbox
+        display: block
+        position: relative
+        cursor: pointer
+        margin-bottom: 8px
+        input[type="checkbox"]
+            position: absolute
             display: block
-            position: relative
+            top: 0
+            left: 0
+            height: 100%
+            width: 100%
             cursor: pointer
-            input[type="checkbox"]
-                position: absolute
-                display: block
-                top: 0
-                left: 0
-                height: 100%
-                cursor: pointer
-                margin: 10px 0 0 0
-                opacity: 0
-                z-index: 1
-            label
-                display: inline-block
-                vertical-align: top
-                text-align: left
-                padding-left: 1.5em
-                color: $text
-                font-weight: 100
-                font-size: 14px
-                font-family: $sans
-            label:before, label:after
+            margin: 0
+            opacity: 0
+            z-index: 1
+        label
+            display: inline-block
+            vertical-align: top
+            text-align: left
+            padding-left: 1.5em
+            &:before, &:after
                 content: ''
                 display: block
                 position: absolute
-            label:before
+            &:before
                 left: 0
                 top: 0
                 width: 18px
@@ -2211,59 +2217,46 @@
                 margin-right: 10px
                 background: #ddd
                 border-radius: 3px
-            label:after
+            &:after
                 content: ''
                 position: absolute
-                top: 4px
-                left: 4px
-                width: 10px
-                height: 10px
+                top: 0px
+                left: 0px
+                width: 18px
+                height: 18px
                 border-radius: 2px
                 background: #68b8c4
                 opacity: 0
                 pointer-events: none
-            input:checked ~ label:after
+        input
+            &:checked ~ label:after
                 opacity: 1
-            input:focus ~ label:before
+            &:focus ~ label:before
                 background: #eee
     .filter-results
         +span-columns(8 of 12)
-        line-height: 50px
-        positon: relative
+        text-align: justify
+        position: relative
+        &:last-child
+            margin-right: 0
+        .mix, .gap
+            width: 100%
+            display: block
+            margin: 0 5%
         .mix
-            background-color: white
-            padding: $spacer-green $spacer-green $spacer-cyan $spacer-green
-            color: $text
-            position: relative
-            margin-bottom: 26px
+            width: 100%
+            height: 100px
+            margin: 16px 0
+            background: white
             display: none
-            hr
-                margin: 5px 0
-            h4
-                font-size: 26px
-                font-family: $header
-                margin: 0
-                padding: 10px 0
-            ul
-                list-style: none
-                li
-                    font-family: $sans
-                    font-size: 16px
-                    margin-right: 26px
-            a
-                text-decoration: none
-                font-family: $sans
-                font-size: 16px
-                line-height: 20px
-                color: $tertiary
-        .mix.tag_fintech
-            border-top: 8px solid $quaternary-cool
-
-        .mix.tag_healthtech
-            border-top: 8px solid $health-tech-green
-
-        .mix.tag_hightech
-            border-top: 8px solid $high-tech-blue
+            &.fintech
+              border-top: 8px solid purple
+            &.healthtech
+              border-top: 8px solid limegreen
+            &.hightech
+              border-top: 8px solid aqua
+            &.agiledata .filter-results .mix.databridge .filter-results .mix-rtech .filter-results .mix-connect
+              border-top: 8px solid skyblue
         .fail-message
             position: absolute
             top: 0
@@ -2273,6 +2266,8 @@
             text-align: center
             opacity: 0
             pointer-events: none
+            -webkit-transition: 150ms
+            -moz-transition: 150ms
             transition: 150ms
             &:before
                 content: ''
@@ -2281,10 +2276,10 @@
                 height: 100%
             span
                 display: inline-block
-                font-family: $sans
-                font-size: 16px
-                color: white
-        .fail.fail-message
+                vertical-align: middle
+                font-size: 20px
+                font-weight: 700
+        &.fail .fail-message
             opacity: 1
             pointer-events: auto
 

@@ -116,44 +116,47 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-            <div class="filter-wrap wow fadeInUp"">
-                <form class="controls wow"" id="job-filters">
-                    <fieldset>
-                        <p><strong>Industry</strong></p>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_fintech"/>
-                          <label>FinTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_healthtech"/>
-                          <label>HealthTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_hightech"/>
-                          <label>HighTech</label>
-                        </div>
-                        <p><strong>Service</strong></p>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_agiledata"/>
-                          <label>AgileData</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_rtech"/>
-                          <label>RTech</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_databridge"/>
-                          <label>DataBridge</label>
-                        </div>
-                        <div class="j-checkbox">
-                          <input type="checkbox" value=".tag_connect"/>
-                          <label>Connect</label>
-                        </div>
-                        <button id="reset">Clear filters</button>
-                      </fieldset>
-                    </form>
-            </div>
-            <div class="filter-results wow fadeInUp" id="results-wrapper">
+            <form class="controls" id="Filters">
+              <fieldset>
+                <h4>Industries</h4>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_fintech"/>
+                  <label>FinTech</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_healthtech"/>
+                  <label>HealthTech</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_hightech"/>
+                  <label>HighTech</label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <h4>Services</h4>
+                    <div class="checkbox">
+                  <input type="checkbox" value=".tag_agiledata"/>
+                  <label>AgileData</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_rtech"/>
+                  <label>RTech</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_databridge"/>
+                  <label>DataBridge</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox" value=".tag_connect"/>
+                  <label>Connect</label>
+                </div>
+              </fieldset>
+
+              <button id="Reset">Clear Filters</button>
+            </form>
+
+            <div id="Container" class="filter-results wow fadeInUp" id="results-wrapper">
                 <div class="fail-message">
                     <span>No jobs were found matching the selected filters.</span>
                 </div>
