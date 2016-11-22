@@ -1,7 +1,7 @@
 .controls input[type="text"]
-  font-family: 'helvetica'
+  font-family: $sans
   font-size: 14px
-  border: 1px solid transparent
+  border: 1px solid $tertiary
   padding: .5em
   border-radius: 2px
 
@@ -12,7 +12,6 @@
 
 .controls input[type="text"]:focus
   outline: 0 none
-  border-color: $primary
   color: $text
 
 .controls button
@@ -64,12 +63,16 @@
   margin: 0
   opacity: 0
   z-index: 1
+  border: 1px solid $tertiary
 
 .filter-check  label
   display: inline-block
   vertical-align: top
   text-align: left
   padding-left: 1.5em
+  font-family: $sans
+  font-size: 14px
+  color: $text
 
 .filter-check  label:before
 .filter-check  label:after
@@ -84,17 +87,15 @@
   height: 18px
   margin-right: 10px
   background: #ddd
-  border-radius: 3px
 
 .filter-check  label:after
   content: ''
   position: absolute
-  top: 4px
-  left: 4px
-  width: 10px
-  height: 10px
-  border-radius: 2px
-  background: #68b8c4
+  top: 0
+  left: 0
+  width: 18px
+  height: 18px
+  background: $tertiary
   opacity: 0
   pointer-events: none
 
@@ -107,10 +108,10 @@
 
 .results
   +span-columns(8 of 12)
-  padding: 2%
   min-height: 400px
   text-align: justify
   position: relative
+  margin-top: -30px
 
 .results:last-child
   margin-right: 0
@@ -120,7 +121,6 @@
   width: 100px
   display: inline-block
   margin: 0 5%
-  padding: $spacer-green
 
 .results .mix
   width: 100%
@@ -129,6 +129,7 @@
   background: white
   display: none
   border-top: 8px solid limegreen
+  padding: $spacer-green
 
 
 .results .fail-message
@@ -165,7 +166,8 @@
   color: $text
   margin: 0
   padding: 10px 0
-  ul
+
+.results ul
     list-style-type: none
     li
       font-family: $sans
