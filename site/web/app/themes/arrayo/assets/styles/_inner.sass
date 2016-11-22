@@ -663,6 +663,10 @@
     height: auto
     padding: 0 $spacer-cyan
 
+.loc-carousel
+    .item
+        margin: 0 40px
+
 .com-carousel .item
     margin: 3px
 .com-carousel.item img
@@ -1913,7 +1917,7 @@
             padding: 0
 
 .bg-gradient--vert
-    background: linear-gradient(to bottom, $primary, $tertiary)
+    background: linear-gradient(to bottom, $primary 0%,$tertiary 51%,#ffffff 51%)
     overflow-x: hidden
     z-index: -1
 
@@ -2024,6 +2028,7 @@
     background-repeat: no-repeat
     padding-bottom: $spacer-yellow
     position: relative
+    background-size: cover
 
 .careers-mid-box
     +span-columns(12)
