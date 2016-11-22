@@ -5,21 +5,26 @@
   padding: .5em
   border-radius: 2px
 
+.controls h4
+  font-family: $sans
+  font-size: $base
+  color: $tertiary
+
 .controls input[type="text"]:focus
   outline: 0 none
-  border-color: #68b8c4
+  border-color: $primary
+  color: $text
 
 .controls button
   display: inline-block
   vertical-align: top
   padding: .4em .8em
   margin: 0
-  background: #68b8c4
+  background: $primary
   border: 0
-  color: #333
+  color: white
   font-size: 16px
-  font-weight: 700
-  border-radius: 4px
+  font-family: $header
   cursor: pointer
 
 .controls button:focus
@@ -27,7 +32,7 @@
 
 .controls
   +span-columns(3 of 12)
-  background: #333
+  background: white
   padding: 2%
 
 .controls:last-child
@@ -39,15 +44,16 @@
   margin: 0 1em 0 0
   background: transparent
   padding: .5em
-  border-radius: 3px
+  border: 0
+  outline: 0
 
-.checkbox
+.filter-check 
   display: block
   position: relative
   cursor: pointer
   margin-bottom: 8px
 
-.checkbox input[type="checkbox"]
+.filter-check input[type="checkbox"]
   position: absolute
   display: block
   top: 0
@@ -59,19 +65,19 @@
   opacity: 0
   z-index: 1
 
-.checkbox label
+.filter-check  label
   display: inline-block
   vertical-align: top
   text-align: left
   padding-left: 1.5em
 
-.checkbox label:before
-.checkbox label:after
+.filter-check  label:before
+.filter-check  label:after
   content: ''
   display: block
   position: absolute
 
-.checkbox label:before
+.filter-check  label:before
   left: 0
   top: 0
   width: 18px
@@ -80,7 +86,7 @@
   background: #ddd
   border-radius: 3px
 
-.checkbox label:after
+.filter-check  label:after
   content: ''
   position: absolute
   top: 4px
@@ -92,10 +98,10 @@
   opacity: 0
   pointer-events: none
 
-.checkbox input:checked ~ label:after
+.filter-check  input:checked ~ label:after
   opacity: 1
 
-.checkbox input:focus ~ label:before
+.filter-check  input:focus ~ label:before
   background: #eee
 
 
@@ -114,6 +120,7 @@
   width: 100px
   display: inline-block
   margin: 0 5%
+  padding: $spacer-green
 
 .results .mix
   width: 100%
@@ -153,3 +160,18 @@
   opacity: 1
   pointer-events: auto
 
+.results h4
+  font-size: 26px
+  color: $text
+  margin: 0
+  padding: 10px 0
+  ul
+    list-style-type: none
+    li
+      font-family: $sans
+      color: $text
+      font-size: 16px
+      a
+        color: $tertiary
+        font-family: $sans
+        font-size: 16px
