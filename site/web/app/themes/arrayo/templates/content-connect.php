@@ -156,9 +156,9 @@
                     <div class="line-items-wrapper">
                         <img src="http://imgh.us/prim-oval.png" class="wow bounceIn mid-dot first" data-wow-delay=".76s">
                         <img src="http://imgh.us/prim-oval.png" class="wow bounceIn mid-dot second" data-wow-delay="1.8s">
-                        <img src="http://imgh.us/con-pop.png" class="wow bounceIn top-dot first" data-wow-delay=".6s">
+                        <img src="http://imgh.us/con-pop_1.png" class="wow bounceIn top-dot first" data-wow-delay=".6s">
                         <img src="http://imgh.us/con-pop2.png" class="wow bounceIn top-dot second" data-wow-delay=".95s">
-                        <img src="http://imgh.us/con-pop.png" class="wow bounceIn top-dot third" data-wow-delay="2.3s">
+                        <img src="http://imgh.us/con-pop_1.png" class="wow bounceIn top-dot third" data-wow-delay="2.3s">
                     </div>
                     <div class="line-graphic-wrapper--connect">
 <svg id="zigag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3004.89 638.95">

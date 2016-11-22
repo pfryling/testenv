@@ -75,33 +75,72 @@
                         <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/wiggly/wiggly-dot.png?raw=true" class="wow bounceIn wiggly-dot" data-wow-delay="4.8s">
                     </div>
                     <div class="line-graphic-wrapper">
-<svg id="wiggly" width="1468px" height="188px" viewBox="0 0 1468 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <linearGradient x1="-11.9238587%" y1="100%" x2="202.890188%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#42FF9E" offset="0%"></stop>
-            <stop stop-color="#7FEAFF" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-2" points="1467.605 86.1311 1467.605 46.7441 763.0603 46.7441 763.0603 86.1311"></polygon>
-        <linearGradient x1="-107.622338%" y1="100%" x2="100%" y2="100%" id="linearGradient-4">
-            <stop stop-color="#42FF9E" offset="0%"></stop>
-            <stop stop-color="#7FEAFF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(0.000000, 3.000000)">
-            <path d="M16.4358,17.8148 C202.8068,-43.7122 748.2788,73.8888 748.2788,73.8888" id="Stroke-1" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-            <path d="M13.3091,125.0413 C118.4091,161.2093 488.5131,217.3503 746.7371,78.0183" id="Stroke-3" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-            <path d="M14.4312,67.8187 C14.4312,67.8187 405.0632,-83.9823 748.7992,75.9237" id="Stroke-5" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-            <path d="M0.4788,95.0765 C0.4788,95.0765 415.4918,-7.2515 748.8958,76.1855" id="Stroke-7" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-            <path d="M17.9839,182.9085 C61.4049,176.8575 521.7659,48.6745 749.9429,75.9785" id="Stroke-9" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-            <mask id="mask-3" fill="white">
-                <use xlink:href="#path-2"></use>
-            </mask>
-            <g id="Clip-12"></g>
-            <path d="M763.0603,75.2601 C848.1053,75.2601 925.6053,46.7441 1010.1053,46.7441 C1094.6053,46.7441 1192.6053,86.1311 1259.6053,86.1311 C1326.6053,86.1311 1412.6053,49.8031 1467.6053,49.8031" id="Stroke-11" stroke="url(#linearGradient-4)" stroke-width="4" mask="url(#mask-3)"></path>
-        </g>
-    </g>
+<svg id="wiggly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1468.26 193.47">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke: url(#New_Gradient_Swatch_2);
+      }
+
+      .cls-2 {
+        stroke: url(#New_Gradient_Swatch_2-2);
+      }
+
+      .cls-3 {
+        stroke: url(#New_Gradient_Swatch_2-3);
+      }
+
+      .cls-4 {
+        stroke: url(#New_Gradient_Swatch_2-4);
+      }
+
+      .cls-5 {
+        stroke: url(#New_Gradient_Swatch_2-5);
+      }
+
+      .cls-6 {
+        stroke: url(#New_Gradient_Swatch_2-6);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="1477.14" y1="93.6" x2="763.67" y2="93.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42ff9e"/>
+      <stop offset="0" stop-color="#42ff9e"/>
+      <stop offset="0.9" stop-color="#4fd6ff"/>
+      <stop offset="1" stop-color="#4fd6ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_2-2" x1="26.25" y1="154.35" x2="763.82" y2="154.35" xlink:href="#New_Gradient_Swatch_2"/>
+    <linearGradient id="New_Gradient_Swatch_2-3" x1="20.84" y1="146.37" x2="764.55" y2="146.37" xlink:href="#New_Gradient_Swatch_2"/>
+    <linearGradient id="New_Gradient_Swatch_2-4" x1="8.88" y1="94.71" x2="764.12" y2="94.71" xlink:href="#New_Gradient_Swatch_2"/>
+    <linearGradient id="New_Gradient_Swatch_2-5" x1="22.95" y1="69.25" x2="764.45" y2="69.25" xlink:href="#New_Gradient_Swatch_2"/>
+    <linearGradient id="New_Gradient_Swatch_2-6" x1="24.55" y1="60.61" x2="764.13" y2="60.61" xlink:href="#New_Gradient_Swatch_2"/>
+  </defs>
+  <title>databridge-lines</title>
+  <g id="right_1" data-name="right 1">
+    <path class="cls-1" d="M763.67,101c152,0,146.78-25.21,268.72-25.21s123.31,35.55,240,35.55c96.87,0,96.74-24.52,204.63-32.83" transform="translate(-8.88 -18.38)"/>
+  </g>
+  <g id="left_5" data-name="left 5">
+    <path class="cls-2" d="M26.77,209.93s483.93-128.69,736.9-109" transform="translate(-8.88 -18.38)"/>
+  </g>
+  <g id="left_4" data-name="left 4">
+    <path class="cls-3" d="M21.4,152s403,117.07,742.27-51.1" transform="translate(-8.88 -18.38)"/>
+  </g>
+  <g id="left_3" data-name="left 3">
+    <path class="cls-4" d="M9.41,122.06S393,14.77,763.67,100.89" transform="translate(-8.88 -18.38)"/>
+  </g>
+  <g id="left_2" data-name="left 2">
+    <path class="cls-5" d="M23.55,94.75s416.26-132.21,740.12,6.14" transform="translate(-8.88 -18.38)"/>
+  </g>
+  <g id="left_1" data-name="left 1">
+    <path class="cls-6" d="M25.48,44.77s156.85-82.55,738.18,56.12" transform="translate(-8.88 -18.38)"/>
+  </g>
 </svg>
+
                     </div>
                 </div>
         <section class="contact-footer wow fadeInUp" id="contact">
