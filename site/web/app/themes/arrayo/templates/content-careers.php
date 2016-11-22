@@ -39,6 +39,7 @@
                 </div>
             </section>
         </div>
+    </div>
     <div class="wrapper">
         <section class="centered-bg--vert  wow fadeInUp">
             <div class="text-wrap">
@@ -77,13 +78,35 @@
 
 <div class="wrapper">
     <section class="careers-testimonial wow fadeInUp">
-            <div class="ct-left">
-                <h5><?php the_field('testimonial_quote'); ?></h5>
-                <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+        <div class="com-carousel owl-carousel owl-theme">
+            <div class="item">
+                <div class="ct-left">
+                    <h5><?php the_field('testimonial_quote'); ?></h5>
+                    <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+                </div>
+                <div class="ct-right">
+                    <p><?php the_field('testimonial_right'); ?></p>
+                </div>
             </div>
-            <div class="ct-right">
-                <p><?php the_field('testimonial_right'); ?></p>
+            <div class="item">
+                <div class="ct-left">
+                    <h5><?php the_field('testimonial_quote'); ?></h5>
+                    <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+                </div>
+                <div class="ct-right">
+                    <p><?php the_field('testimonial_right'); ?></p>
+                </div>
             </div>
+            <div class="item">
+                <div class="ct-left">
+                    <h5><?php the_field('testimonial_quote'); ?></h5>
+                    <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+                </div>
+                <div class="ct-right">
+                    <p><?php the_field('testimonial_right'); ?></p>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 
