@@ -463,29 +463,22 @@ header
         text-align: left
         transition: all .4s ease-in-out
         padding: $spacer-blue 0
-        .link
-            display: flex
-            position: relative
-            padding: $spacer-cyan 0 0 0
-            width: 100%
+       .service-btn
+            margin: 0 $spacer-green 0 $spacer-pink
+            color: $primary
+            position: absolute
+            bottom: 0
+            font-family: $header
+            +media($laptop)
+                margin: $spacer-yellow $spacer-green 0 $spacer-yellow
+            +media($tablet)
+                margin: $spacer-yellow $spacer-green 0 $spacer-green
             +media($mobile)
-                justify-content: center
-            .service-btn
-                margin: 0 $spacer-green 0 $spacer-pink
+                align-self: center
+                margin: 15px 0 0 0
+                font-size: 15px
+            .fa
                 color: $primary
-                position: absolute
-                bottom: 0
-                font-family: $header
-                +media($laptop)
-                    margin: $spacer-yellow $spacer-green 0 $spacer-yellow
-                +media($tablet)
-                    margin: $spacer-yellow $spacer-green 0 $spacer-green
-                +media($mobile)
-                    align-self: center
-                    margin: 15px 0 0 0
-                    font-size: 15px
-                .fa
-                    color: $primary
         h5
             font-size: $base-med
             font-weight: 600
