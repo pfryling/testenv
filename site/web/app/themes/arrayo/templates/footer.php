@@ -90,10 +90,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
 <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+<script src="http://isotope.metafizzy.co/jquery.isotope.min.js"></script>
 
 <!-- Custom Scripts -->
-<script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/84fae5e9d159fdef7f06c47f94216b11563b1c90/filter.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/fa39ae4391d2e002e73059594f08744dd9b92e66/filter.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8/raw/d67c1db54c0ca9602929f081aefc5a7cf7b57bee/tabs.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/f6f6667f2d3c09633d525156206a03bcf1f114fc/app-slideToggle.js"></script>

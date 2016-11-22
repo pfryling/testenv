@@ -143,79 +143,40 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-                <form class="controls" id="filters">
-                  <fieldset class="filter-group filter-checkboxes">
-                    <h4>Industries</h4>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".fintech"/>
-                    <label>FinTech</label>
-                    </div>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".healthtech"/>
-               <label>HealthTech</label>
-                    </div>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".hightech"/>
-               <label>HighTech</label>
-                    </div>
-                    <h4>Services</h4>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".agiledata"/>
-                    <label>AgileData</label>
-                    </div>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".rtech"/>
-               <label>RTech</label>
-                    </div>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".databridge"/>
-               <label>DataBridge</label>
-                    </div>
-                    <div class="filter-check">
-                    <input type="checkbox" value=".connect"/>
-               <label>Connect</label>
-                    </div>
-                  </fieldset>
+                 <div id="filters" class="filters">
+    <h4>Industries</h4>
+    <div class="filter-item">
+    <input type="checkbox" name="fintech" value=".fintech" id="fintech"><label for="fintech">FinTech</label>
+    </div>
+    <div class="filter-item">
+    <input type="checkbox" name="healthtech" value=".healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
+    </div>
+    <div class="filter-item">
+    <input type="checkbox" name="hightech" value=".hightech" id="hightech"><label for="hightech">HighTech</label>
+    </div>
+    <h4>Services</h4>
+    <div class="filter-item">
+    <input type="checkbox" name="agiledata" value=".agiledata" id="agiledata"><label for="agiledata">AgileData</label>
+    </div>
+    <div class="filter-item">
+    <input type="checkbox" name="rtech" value=".rtech" id="rtech"><label for="rtech">RTech</label>
+    </div>
+    <div class="filter-item">
+    <input type="checkbox" name="databridge" value=".databridge" id="databridge"><label for="databridge">DataBridge</label>
+    </div>
+    <div class="filter-item">
+      <input type="checkbox" name="connect" value=".connect" id="connect"><label for="connect">Connect</label>
+    </div>
+  </div>
 
-                <fieldset class="filter-group search">
-                  <h4>Search</h4>
-                  <input type="text" placeholder="Search"/>
-                  </fieldset>
-                  <button id="reset">Clear Filters</button>
-                </form>
-                <div id="container" class="results">
-                  <div class="fail-message">
-                    <span>No items were found matching the selected filters.</span>
-                  </div>
-                  <div class="mix fintech">
-                    <h4>job title</h4>
-                    <ul>
-                      <li><strong>Industry:</strong> FinTech</li>
-                      <li><strong>Type:</strong> Full Time</li>
-                    </ul>
-                    <a href="#">Apply</a>
-                  </div>
-                  <div class="mix healthtech agiledata">
-                    <h4>job title</h4>
-                    <ul>
-                      <li><strong>Industry:</strong> HealthTech</li>
-                      <li><strong>Type:</strong> Full Time</li>
-                    </ul>
-                    <a href="#">Apply</a>
-                  </div>
-                  <div class="mix fintech rtech">
-                    <h4>job title</h4>
-                    <ul>
-                      <li><strong>Industry:</strong> FinTech</li>
-                      <li><strong>Type:</strong> Full Time</li>
-                    </ul>
-                    <a href="#">Apply</a>
-                  </div>
-                  <div class="gap"></div>
-                  <div class="gap"></div>
-                  <div class="gap"></div>
-                  <div class="gap"></div>
-                </div>
+<div id="results">
+    <div class="job-item fintech healthtech"></div>
+    <div class="job-item hightech"></div>
+    <div class="job-item agiledata"></div>
+    <div class="job-item rtech fintech"></div>
+    <div class="job-item connect healthtech"></div>
+    <div class="job-item databridge"></div>
+</div>
         </div>
     </section>
 

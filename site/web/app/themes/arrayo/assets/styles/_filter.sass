@@ -1,183 +1,68 @@
-.controls input[type="text"]
-  font-family: $sans
-  font-size: 14px
-  border: 1px solid $tertiary
-  padding: .5em
-  width: 96%
-
-.controls h4
-  font-family: $sans
-  font-size: $base
-  color: $tertiary
-  margin: 0
-  padding: 10px 0
-
-.controls input[type="text"]:focus
-  outline: 0 none
-  color: $text
-
-.controls button
-  display: inline-block
-  vertical-align: top
-  margin-left: 8px
-  margin-top: 18px
-  margin-bottom: 8px
-  margin-right: 0
-  background: $primary
-  border: 0
-  color: white
-  font-size: 16px
-  font-family: $header
-  cursor: pointer
-
-.controls button:focus
-  outline: 0 none
-
-.controls
+.filters
   +span-columns(3 of 12)
-  background: white
-  padding: 2%
 
-.controls:last-child
-  margin-right: 0
+.filter-item input[type="checkbox"]
+  display: inline
 
-.controls fieldset
-  display: block
-  vertical-align: top
-  margin: 0 1em 0 0
-  background: transparent
-  padding: .5em
-  border: 0
-  outline: 0
+.filter-item label
+  display: inline
 
-.filter-check 
-  display: block
-  position: relative
-  cursor: pointer
-  margin-bottom: 8px
-
-.filter-check input[type="checkbox"]
-  position: absolute
-  display: block
-  top: 0
-  left: 0
-  height: 100%
-  width: 100%
-  cursor: pointer
-  margin: 0
-  opacity: 0
-  z-index: 1
-  border: 1px solid $tertiary
-
-.filter-check  label
-  display: inline-block
-  vertical-align: top
-  text-align: left
-  padding-left: 1.5em
-  font-family: $sans
-  font-size: 14px
-  color: $text
-
-.filter-check  label:before
-.filter-check  label:after
-  content: ''
-  display: block
-  position: absolute
-
-.filter-check  label:before
-  left: 0
-  top: 0
-  width: 18px
-  height: 18px
-  margin-right: 10px
-  background: #ddd
-
-.filter-check  label:after
-  content: ''
-  position: absolute
-  top: 0
-  left: 0
-  width: 18px
-  height: 18px
-  background: $tertiary
-  opacity: 0
-  pointer-events: none
-
-.filter-check  input:checked ~ label:after
-  opacity: 1
-
-.filter-check  input:focus ~ label:before
-  background: #eee
-
-
-.results
+#results
   +span-columns(8 of 12)
-  min-height: 400px
-  text-align: justify
-  position: relative
-  margin-top: -10px
 
-.results:last-child
-  margin-right: 0
+body
+  font-family:'Helvetica Neue', Arial, sans-serif
 
-.results .mix
-.results .gap
-  width: 100px
-  display: inline-block
-  margin: 0 5%
-
-.results .mix
+.job-item
   width: 100%
-  min-height: 100px
-  margin: 2% 5%
-  background: white
-  display: none
-  border-top: 8px solid limegreen
-  padding: $spacer-green
+  background-color: white
+  min-height: 200px
+  margin: 25px 0
 
+.fintech
+    border-top: 8px solid $quaternary-cool
 
-.results .fail-message
-  position: absolute
-  top: 0
-  left: 0
-  bottom: 0
-  right: 0
-  text-align: center
-  opacity: 0
-  pointer-events: none
-  -webkit-transition: 150ms
-  -moz-transition: 150ms
-  transition: 150ms
+.hightech
+    border-top: 8px solid $health-tech-green
 
-.results .fail-message:before
-  content: ''
-  display: inline-block
-  vertical-align: middle
-  height: 100%
+.healthtech
+    border-top: 8px solid $high-tech-blue
 
-.results .fail-message span
-  display: inline-block
-  vertical-align: middle
-  font-size: 20px
-  font-weight: 700
+.databridge
+    border-top: 8px solid $tertiary
 
-.results.fail .fail-message
-  opacity: 1
-  pointer-events: auto
+.agiledata
+    border-top: 8px solid $tertiary
 
-.results h4
-  font-size: 26px
-  color: $text
-  margin: 0
-  padding: 10px 0
+.rtech
+    border-top: 8px solid $tertiary
 
-.results ul
-    list-style-type: none
-    li
-      font-family: $sans
-      color: $text
-      font-size: 16px
-      a
-        color: $tertiary
-        font-family: $sans
-        font-size: 16px
+.connect
+    border-top: 8px solid $tertiary
+
+.isotope-item
+    z-index: 2
+
+.isotope-hidden.isotope-item
+    pointer-events: none
+    z-index: 1
+
+ .isotope, .isotope .isotope-item
+    -webkit-transition-duration: 0.8s
+    -moz-transition-duration: 0.8s
+    transition-duration: 0.8s
+
+.isotope
+    -webkit-transition-property: height, width
+    -moz-transition-property: height, width
+    transition-property: height, width
+
+.isotope .isotope-item
+    -webkit-transition-property: -webkit-transform, opacity
+    -moz-transition-property: -moz-transform, opacity
+    transition-property: transform, opacity
+
+ .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition
+    -webkit-transition-duration: 0s
+    -moz-transition-duration: 0s
+    transition-duration: 0s
