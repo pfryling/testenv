@@ -73,91 +73,109 @@
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/angular-js-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/ansible-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/apache-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/apache-tomcat-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/aws-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/cognos-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/docker-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/ember-js-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/express-js-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/git-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/hadoop-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/ibm-spss-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/ibm-websphere-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/jmp-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/kubernetes-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/mean-js-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/microsoft-azure-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/microstrategy-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/mongo-db-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/mysql-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/nagios-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/node-js-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/oracle-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/oracle-weblogic-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/php-logo.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/pipeline-pilot-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/postgresql-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/python-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/r-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/react-js-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/red-hat-linus-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/sap-hana-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/sas-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/sas-visual-analytics-logo-gray.png">
             </div>
             <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/tableau-software-logo-gray.png">
             </div>
+            <div class="items">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/hightech-software/tibco-spotfire-logo-gray.png">
             </div>
             </div>

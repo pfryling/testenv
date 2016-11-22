@@ -1,6 +1,6 @@
 <footer class="inner-footer">
   <div class="wrapper">
-      <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
             <ul class="flex-row">
                 <li class="ul-item">
                     <p class="header">Services</p>

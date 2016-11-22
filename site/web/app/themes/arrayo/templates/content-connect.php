@@ -16,8 +16,8 @@
         <p><?php the_field('con_box--text'); ?></p>
     </div>
     <div class="wrapper">
-        <br><p><strong>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</strong></p><br>
         <ul class="flexfade-container flexfade-wrapper">
+        <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</h5>
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                 <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
                     <p><?php the_field('industry_box--text-fintech'); ?></p>

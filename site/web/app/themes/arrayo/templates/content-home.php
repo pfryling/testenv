@@ -260,7 +260,7 @@
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-2.png" class="ico-3 wow bounceIn" data-wow-delay="1s" class="cb-icon">
                 <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-1.png" class="ico-2 wow bounceIn" data-wow-delay=".9s" class="cb-icon">
                 <div class="content">
-                    <h2><?php the_field('bottom_cta--header'); ?></h2>
+                    <h2><?php the_field('bottom-cta--header'); ?></h2>
                     <h5><?php the_field('bottom_cta--subheader'); ?></h5>
                     <p><?php the_field('bottom_cta--text'); ?></p>
                 </div>
