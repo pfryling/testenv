@@ -130,58 +130,79 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-                <form class="controls" id="Filters">
-                  <fieldset class="filter-group checkboxes">
-                    <h4>Shapes</h4>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".square"/>
-                      <label>Square</label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".circle"/>
-                      <label>Circle</label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".tag_fintech"/>
-                      <label>Triangle</label>
-                    </div>
-                  </fieldset>
-
-                  <fieldset class="filter-group checkboxes">
-                    <h4>Colours</h4>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".white"/>
-                      <label>White</label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".green"/>
-                      <label>Green</label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" value=".fintech"/>
-                      <label>Blue</label>
-                    </div>
-                  </fieldset>
-
-                  <fieldset class="filter-group search">
-                    <h4>Search</h4>
-                    <input type="text" placeholder="Search ..."/>
-                  </fieldset>
-
-                  <button id="Reset">Clear Filters</button>
-                </form>
-
-                <div id="Container" class="results">
-                  <div class="fail-message"><span>No items were found matching the selected filters</span></div>
-
-                  <div class="mix fintech"></div>
-
-                  <div class="gap"></div>
-                  <div class="gap"></div>
-                  <div class="gap"></div>
-                  <div class="gap"></div>
+            <form class="controls" id="filters">
+              <fieldset class="filter-group filter-checkboxes">
+                <h4>Industries</h4>
+                <div class="filter-check">
+                <input type="checkbox" value=".fintech"/>
+                <label>FinTech</label>
                 </div>
+                <div class="filter-check">
+                <input type="checkbox" value=".healthtech"/>
+           <label>HealthTech</label>
+                </div>
+                <div class="filter-check">
+                <input type="checkbox" value=".hightech"/>
+           <label>HighTech</label>
+                </div>
+                <h4>Services</h4>
+                <div class="filter-check">
+                <input type="checkbox" value=".agiledata"/>
+                <label>AgileData</label>
+                </div>
+                <div class="filter-check">
+                <input type="checkbox" value=".rtech"/>
+           <label>RTech</label>
+                </div>
+                <div class="filter-check">
+                <input type="checkbox" value=".databridge"/>
+           <label>DataBridge</label>
+                </div>
+                <div class="filter-check">
+                <input type="checkbox" value=".connect"/>
+           <label>Connect</label>
+                </div>
+              </fieldset>
 
+            <fieldset class="filter-group search">
+              <h4>Search</h4>
+              <input type="text" placeholder="Search"/>
+              </fieldset>
+              <button id="reset">Clear Filters</button>
+            </form>
+            <div id="container" class="results">
+              <div class="fail-message">
+                <span>No items were found matching the selected filters.</span>
+              </div>
+              <div class="mix fintech">
+                <h4>job title</h4>
+                <ul>
+                  <li><strong>Industry:</strong> FinTech</li>
+                  <li><strong>Type:</strong> Full Time</li>
+                </ul>
+                <a href="#">Apply</a>
+              </div>
+              <div class="mix healthtech agiledata">
+                <h4>job title</h4>
+                <ul>
+                  <li><strong>Industry:</strong> HealthTech</li>
+                  <li><strong>Type:</strong> Full Time</li>
+                </ul>
+                <a href="#">Apply</a>
+              </div>
+              <div class="mix fintech rtech">
+                <h4>job title</h4>
+                <ul>
+                  <li><strong>Industry:</strong> FinTech</li>
+                  <li><strong>Type:</strong> Full Time</li>
+                </ul>
+                <a href="#">Apply</a>
+              </div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+              <div class="gap"></div>
+            </div>
         </div>
     </section>
 
