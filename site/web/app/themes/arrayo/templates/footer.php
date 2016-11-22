@@ -93,15 +93,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
 
 <!-- Custom Scripts -->
-<script src="https://gist.github.com/gretzky/84544312eb4c79fdbe85436fd998eb32.js"></script>
-<script src="https://gist.github.com/gretzky/060070eee66016f71265416d7715ea06.js"></script>
-<script src="https://gist.github.com/gretzky/6f3b52221efa60bdfd17f13a141ac45b.js"></script>
-<script src="https://gist.github.com/gretzky/af82aff28265ba25384925d5a52f22b5.js"></script>
-<script src="https://gist.github.com/gretzky/1ad6c5fb3e63a17cee8d115e37964cb5.js"></script>
-<script src="https://gist.github.com/gretzky/57adfbc02b0703b45065fd306c7e0dbb.js"></script>
-<script src="https://gist.github.com/gretzky/48ae55bd9908e566911481de75f00910.js"></script>
-<script src="https://gist.github.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232.js"></script>
-<script src="https://gist.github.com/gretzky/a785d80b70631e5ad467b9669e56855e.js"></script>
-<script src="https://gist.github.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52.js"></script>
-<script src="https://gist.github.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8.js"></script>
-<script src="https://gist.github.com/gretzky/8d2190e7a849bafe0ba3dadaa475be63.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/8d2190e7a849bafe0ba3dadaa475be63/raw/321852c8935f2fd6ae459e7628db4fbcaed003d1/filter.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8/raw/d67c1db54c0ca9602929f081aefc5a7cf7b57bee/tabs.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
+<script src="https://gist.githubusercontent.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/f6f6667f2d3c09633d525156206a03bcf1f114fc/app-slideToggle"></script>
+<script src="https://cdn.rawgit.com/gretzky/6f3b52221efa60bdfd17f13a141ac45b/raw/7d819ca104a831a8ee9b04bc823313e2e04eaca4/smoothscroll.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/060070eee66016f71265416d7715ea06/raw/ac3f023e02ca631948ce65edb73476988ffa1ae8/app-modal.js"></script>
+<script src="https://gist.github.com/gretzky/af82aff28265ba25384925d5a52f22b5"></script>
+<script src="https://cdn.rawgit.com/gretzky/1ad6c5fb3e63a17cee8d115e37964cb5/raw/4479d0b28dd0a5c8245bf2b9c38483b43810ac34/mobileNav.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/57adfbc02b0703b45065fd306c7e0dbb/raw/50ab5d807202ac308e108b697b74afa6ec9cbf96/carousels.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/48ae55bd9908e566911481de75f00910/raw/392f0e3aae1209af714013526f26ca9cdd6ed11f/animations.js"></script>
+<script src="https://gist.github.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232"></script>
+<script src="https://cdn.rawgit.com/gretzky/a785d80b70631e5ad467b9669e56855e/raw/576f41d65ec365f1ed0a1dffa120db8f2217e12e/progressBar.js">
