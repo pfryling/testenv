@@ -145,3 +145,12 @@ new Vivus('line', {
     animTimingFunction: Vivus.EASE_OUT
 });
 </script>
+
+<script>
+new Vivus('zigzag', {
+    start: 'inViewport',
+    type: 'sync',
+    duration: 500,
+    animTimingFunction: Vivus.EASE_OUT
+});
+</script>

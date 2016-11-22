@@ -163,34 +163,76 @@
                         <img src="http://imgh.us/zigzag-ico-3.png" class="wow bounceIn top-dot third" data-wow-delay="2.3s">
                     </div>
                     <div class="line-graphic-wrapper--connect">
-                        <svg id="zigzag" width="1525px" height="404px" viewBox="0 0 1525 404" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <defs>
-                                    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="182.556639%" id="radialGradient-1">
-                                        <stop stop-color="#87EDFF" offset="0%"></stop>
-                                        <stop stop-color="#5B70FF" offset="100%"></stop>
-                                    </radialGradient>
-                                    <linearGradient x1="-62.3306602%" y1="-66.785102%" x2="62.7814364%" y2="100%" id="linearGradient-2">
-                                        <stop stop-color="#87EDFF" offset="0%"></stop>
-                                        <stop stop-color="#5B70FF" offset="100%"></stop>
-                                    </linearGradient>
-                                    <linearGradient x1="187.423891%" y1="0%" x2="29.2695944%" y2="50%" id="linearGradient-3">
-                                        <stop stop-color="#87EDFF" offset="0%"></stop>
-                                        <stop stop-color="#5B70FF" offset="100%"></stop>
-                                    </linearGradient>
-                                    <linearGradient x1="-59.745242%" y1="-35.0679423%" x2="66.6679731%" y2="126.680882%" id="linearGradient-4">
-                                        <stop stop-color="#87EDFF" offset="0%"></stop>
-                                        <stop stop-color="#5B70FF" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(0.000000, 1.000000)" stroke-width="4">
-                                        <path d="M6.4338,279.8288 C10.4338,280.8288 420.4338,180.8288 420.4338,180.8288 L591.4338,287.9418 L766.4338,180.8288 L941.4338,287.9418 L1116.4338,180.8288 L1523.4338,0.8288" id="Stroke-7" stroke="url(#radialGradient-1)"></path>
-                                        <path d="M1111,184 L1508.4336,327.7975" id="Stroke-14" stroke="url(#linearGradient-2)"></path>
-                                        <path d="M0.4338,80.8288 C9.4338,78.8288 416.4338,180.8288 416.4338,180.8288 L416.4338,400.8288" id="Stroke-9" stroke="url(#linearGradient-3)"></path>
-                                        <path d="M938,286 L1119.3968,400.8286" id="Stroke-11" stroke="url(#linearGradient-4)"></path>
-                                    </g>
-                                </g>
-                            </svg>
+                        <svg id="zigzag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3004.89 638.95">
+                          <defs>
+                            <style>
+                              .con-1, .con-2, .con-3, .con-4, .con-5, .con-6, .con-7 {
+                                fill: none;
+                                stroke-miterlimit: 10;
+                                stroke-width: 4px;
+                              }
+
+                              .con-1 {
+                                stroke: url(#linear-gradient);
+                              }
+
+                              .con-2 {
+                                stroke: url(#linear-gradient-2);
+                              }
+
+                              .con-3 {
+                                stroke: url(#linear-gradient-3);
+                              }
+
+                              .con-4 {
+                                stroke: #5c70ff;
+                              }
+
+                              .con-5 {
+                                stroke: url(#linear-gradient-4);
+                              }
+
+                              .con-6 {
+                                stroke: url(#linear-gradient-5);
+                              }
+
+                              .con-7 {
+                                stroke: url(#linear-gradient-6);
+                              }
+                            </style>
+                            <linearGradient id="linear-gradient" x1="2110.71" y1="472.52" x2="1951.27" y2="564.58" gradientUnits="userSpaceOnUse">
+                              <stop offset="0" stop-color="#4fd6ff"/>
+                              <stop offset="1" stop-color="#5c70ff"/>
+                            </linearGradient>
+                            <linearGradient id="linear-gradient-2" x1="2694.87" y1="239.91" x2="2512.3" y2="457.49" xlink:href="#linear-gradient"/>
+                            <linearGradient id="linear-gradient-3" x1="2609.47" y1="0.01" x2="2609.47" y2="207.94" xlink:href="#linear-gradient"/>
+                            <linearGradient id="linear-gradient-4" x1="833.99" y1="638.95" x2="833.99" y2="203.1" xlink:href="#linear-gradient"/>
+                            <linearGradient id="linear-gradient-5" x1="0" y1="303.69" x2="834.45" y2="303.69" xlink:href="#linear-gradient"/>
+                            <linearGradient id="linear-gradient-6" x1="0.22" y1="102.52" x2="834.45" y2="102.52" xlink:href="#linear-gradient"/>
+                          </defs>
+                          <title>connect-line</title>
+                          <g id="bottom_right" data-name="bottom right">
+                            <line class="cls-1" x1="1868.44" y1="417.59" x2="2193.54" y2="619.51"/>
+                          </g>
+                          <g id="mid_right" data-name="mid right">
+                            <line class="cls-2" x1="2991.97" y1="491.67" x2="2215.2" y2="205.74"/>
+                          </g>
+                          <g id="top_right" data-name="top right">
+                            <line class="cls-3" x1="2214.54" y1="206" x2="3004.39" y2="1.94"/>
+                          </g>
+                          <g id="center">
+                            <polyline class="cls-4" points="2215.2 205.74 1868.44 417.59 1519.93 199.61 1172.98 418.95 833.4 202.84"/>
+                          </g>
+                          <g id="bottom_left" data-name="bottom left">
+                            <line class="cls-5" x1="833.99" y1="203.1" x2="833.99" y2="638.95"/>
+                          </g>
+                          <g id="mid-left">
+                            <line class="cls-6" x1="833.99" y1="203.1" x2="0.47" y2="404.29"/>
+                          </g>
+                          <g id="top_left" data-name="top left">
+                            <line class="cls-7" x1="0.68" y1="1.94" x2="833.99" y2="203.1"/>
+                          </g>
+                        </svg>
                     </div>
                 </div>
         <section class="contact-footer wow fadeInUp" id="contact">
