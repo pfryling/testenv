@@ -79,31 +79,21 @@
 <div class="wrapper">
     <section class="careers-testimonial wow fadeInUp">
         <div class="com-carousel owl-carousel owl-theme">
-            <div class="item">
                 <div class="ct-left">
-                    <h5><?php the_field('testimonial_quote'); ?></h5>
-                    <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
-                </div>
+                    <div class="item">
+                        <h5><?php the_field('testimonial_quote'); ?></h5>
+                        <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+                    </div>
+                    <div class="item">
+                        <h5><?php the_field('testimonial_quote-2'); ?></h5>
+                        <p><strong><?php the_field('testimonial_author-2'); ?></strong><br><em><?php the_field('testimonial_business-2'); ?></em></p>
+                    </div>
+                    <div class="item">
+                        <h5><?php the_field('testimonial_quote-3'); ?></h5>
+                        <p><strong><?php the_field('testimonial_author-3'); ?></strong><br><em><?php the_field('testimonial_business-3'); ?></em></p>
+                    </div>
                 <div class="ct-right">
                     <p><?php the_field('testimonial_right'); ?></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ct-left">
-                    <h5><?php the_field('testimonial_quote-2'); ?></h5>
-                    <p><strong><?php the_field('testimonial_author-2'); ?></strong><br><em><?php the_field('testimonial_business-2'); ?></em></p>
-                </div>
-                <div class="ct-right">
-                    <p><?php the_field('testimonial_right-2'); ?></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ct-left">
-                    <h5><?php the_field('testimonial_quote-3'); ?></h5>
-                    <p><strong><?php the_field('testimonial_author-3'); ?></strong><br><em><?php the_field('testimonial_business-3'); ?></em></p>
-                </div>
-                <div class="ct-right">
-                    <p><?php the_field('testimonial_right-3'); ?></p>
                 </div>
             </div>
         </div>
