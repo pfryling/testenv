@@ -51,7 +51,7 @@
                         <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
                               <div class="mj-content">
                                     <header class="mj-header">
-                                        <a href="#!" class="mj-close">X</a>
+                                        <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
                                     </header>
 
                                     <div class="mj-body">
