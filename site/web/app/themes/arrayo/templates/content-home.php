@@ -1,8 +1,8 @@
 <?php the_content(); ?>
 <div class="bg-gradient--main">
     <div class="header-logo-container">
-        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
-        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-mid-01.png?raw=true" class="logo rotate-reverse">
+        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-inner-01.png?raw=true" class="sub-logo rotate">
+        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-mid-01.png?raw=true" class="sub-logo rotate-reverse">
         <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/systems-icon-outer-01.png?raw=true" class="logo rotate">
     </div>
     <div class="wrapper">

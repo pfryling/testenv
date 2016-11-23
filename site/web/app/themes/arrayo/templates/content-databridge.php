@@ -1,7 +1,7 @@
 <?php the_content(); ?>
     <div class="bg-gradient--opp">
-        <div class="header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/databridge.png" class="logo rotate">
+        <div class="sub-sub-header-logo-container">
+            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/databridge.png" class="sub-sub-logo rotate">
         </div>
         <div class="wrapper">
             <section class="page-header">

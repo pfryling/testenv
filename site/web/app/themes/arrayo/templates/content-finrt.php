@@ -1,7 +1,7 @@
 <?php the_content(); ?>
  <div class="for-gradient--purple">
-        <div class="header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/fin-rtech.png" class="logo rotate">
+        <div class="sub-header-logo-container">
+            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/fin-rtech.png" class="sub-logo rotate">
         </div>
         <div class="wrapper">
             <section class="sub-page-header">

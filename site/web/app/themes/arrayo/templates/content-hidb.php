@@ -1,7 +1,7 @@
 <?php the_content(); ?>
  <div class="for-gradient--blue-full">
-        <div class="header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/high-databridge.png" class="logo rotate">
+        <div class="sub-header-logo-container">
+            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/high-databridge.png" class="sub-logo rotate">
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('db_hi--header'); ?></h1>
