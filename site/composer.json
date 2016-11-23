@@ -66,6 +66,21 @@
     {
       "type": "package",
       "package": {
+        "name": "wp-importer/importer",
+        "version": "0.6.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "brainstormforce/all-in-one-schemaorg-rich-snippets",
         "version": "1.4.0",
         "type": "wordpress-plugin",
@@ -248,7 +263,8 @@
     "ninja-forms/ninja-forms-multi": "^3.0",
     "ninja-forms/ninja-forms-uploads": "^3.0",
     "dejong/taxonomy": "^2.1",
-    "acf/acf-pro": "^5.4"
+    "acf/acf-pro": "^5.4",
+    "wp-importer/importer": "^0.6.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

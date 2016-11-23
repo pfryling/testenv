@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb6e43e297fca7c19e6e80e7016964f9",
-    "content-hash": "013f25d3e38fe39a9cbc4e127b1b4fbf",
+    "hash": "34e42e943f2d78e162dab662ad7763e8",
+    "content-hash": "60e02b1399027fd441692fb34f240763",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -508,6 +508,20 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wp-importer/importer",
+            "version": "0.6.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wp-ninjas/ninja-forms",
