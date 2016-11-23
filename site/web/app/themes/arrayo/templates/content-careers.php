@@ -92,6 +92,7 @@
                         <h5><?php the_field('testimonial_quote-3'); ?></h5>
                         <p><strong><?php the_field('testimonial_author-3'); ?></strong><br><em><?php the_field('testimonial_business-3'); ?></em></p>
                     </div>
+                </div>
                 <div class="ct-right">
                     <p><?php the_field('testimonial_right'); ?></p>
                 </div>
