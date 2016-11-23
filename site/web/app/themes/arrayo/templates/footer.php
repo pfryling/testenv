@@ -43,19 +43,17 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-                    <button class="toggle-overlay">Apply Now</button>
-                    <aside>
-                      <div class="outer-close toggle-overlay">
-                        <a class="close"><span></span></a>
+                    <a class="job-trigger" href="#mjob">Apply Now</a></p>
+                    <div id="mjob" class="mjoboverlay">
+                      <div class="mjob">
+                        <a href="#mjclose" class="mjclose">&times;</a>
+                        <div>
+                          <h2>Apply Now-<br>for Now or Later</h2>
+                          <h5>Join Arrayo, Get on Board</h5>
+                          <?php echo do_shortcode("[ninja_form id=4]"); ?>
                         </div>
-                          <div class="apply-form-wrap">
-                          <div class="apply-form">
-                            <h2>Apply Now-<br>for Now or Later</h2>
-                            <h5>Join Arrayo, Get on Board</h5>
-                            <!--<div class='cb-input'>
-                                <?php echo do_shortcode("[ninja_form id=4]"); ?>
-                          </div>-->
-                    </aside>
+                      </div>
+                    </div>
                 </li>
               </ul>
             </div>
