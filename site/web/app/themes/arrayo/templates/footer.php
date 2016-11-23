@@ -43,7 +43,20 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-                    <button id="app-toggle" class="app-toggle">Apply Now</button>
+                    <button class="toggle-overlay hide-on-mobile">Apply Now</button>
+                    <aside>
+                      <div class="outer-close toggle-overlay">
+                        <a class="close"><span></span></a>
+                        </div>
+                          <div class="apply-form-wrap">
+                          <div class="apply-form">
+                            <h2>Apply Now-<br>for Now or Later</h2>
+                            <h5>Join Arrayo, Get on Board</h5>
+                            div class='cb-input'>
+                                <?php echo do_shortcode("[ninja_form id=4]"); ?>
+                          </div>
+                    </aside>
+                    <button id="app-toggle" class="app-toggle mobile-only">Apply Now</button>
                 <div id="app-reveal">
                   <?php echo do_shortcode("[ninja_form id=8]"); ?>
                 </div>
