@@ -55,6 +55,34 @@ function job_post_init() {
 }
 add_action( 'init', 'job_post_init' );
 
+function blog_init() {
+    $args = array(
+      'label' => 'Blog',
+        'public' => true,
+        'taxonomies' => array( 'post_tag' ),
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'blog'),
+        'query_var' => true,
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'trackbacks',
+            'custom-fields',
+            'comments',
+            'revisions',
+            'categories',
+            'tags',
+            'thumbnail',
+            'author',
+            'page-attributes',)
+        );
+    register_post_type( 'blog', $args );
+}
+add_action( 'init', 'blog_init' );
+
 if(function_exists("register_field_group"))
 {
   register_field_group(array (
