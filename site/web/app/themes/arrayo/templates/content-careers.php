@@ -93,10 +93,10 @@
                         <p><strong><?php the_field('testimonial_author-3'); ?></strong><br><em><?php the_field('testimonial_business-3'); ?></em></p>
                     </div>
                 </div>
+            </div>
                 <div class="ct-right">
                     <p><?php the_field('testimonial_right'); ?></p>
                 </div>
-            </div>
         </div>
     </section>
 </div>
