@@ -48,7 +48,7 @@
 
         <section class="eeo">
         <div class="wrapper">
-            <p><?php the_field('eeo'); ?></p>
+            <p>Arrayo is an Equal Employment Opportunity employer and as such does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.</p>
         </div>
     </section>
 <?php endwhile; ?>

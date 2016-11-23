@@ -46,7 +46,7 @@
                     <div class="job-modal">
                       <div class="job-overlay"></div>
                       <div class="job-modal__contents job-modal--transition">
-                        <a class="job-modal__close" href="#">X</a>
+                        <a class="job-modal__close" href="#"><i class="fa fa-times-circle"></i></a>
                         <h1>Resize the window, dawg</h1>
                       </div>
                     </div>
