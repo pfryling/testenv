@@ -47,7 +47,9 @@
                       <div class="job-overlay"></div>
                       <div class="job-modal__contents job-modal--transition">
                         <a class="job-modal__close" href="#"><i class="fa fa-times-circle"></i></a>
-                        <h1>Resize the window, dawg</h1>
+                        <h2>Apply Now-<br>for Now or Later</h2>
+                        <h5>Join Arrayo, Get on Board</h5>
+                        <?php echo do_shortcode("[ninja_form id=4]"); ?>
                       </div>
                     </div>
 
