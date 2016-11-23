@@ -4,9 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d4fe181c8e659edd87bdae83616ae66",
-    "content-hash": "fafc0ade051ada6d746a70e6c6c93551",
+    "hash": "cb6e43e297fca7c19e6e80e7016964f9",
+    "content-hash": "013f25d3e38fe39a9cbc4e127b1b4fbf",
     "packages": [
+        {
+            "name": "acf/acf-pro",
+            "version": "5.4.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9OTAwMDV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE2LTA5LTE5IDIyOjQ2OjM5",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "addthis/addthis",
             "version": "5.3.4",
