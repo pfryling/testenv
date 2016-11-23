@@ -1,6 +1,6 @@
 <?php the_content(); ?>
  <div class="for-gradient--blue-full">
-        <div class="sub-header-logo-container">
+        <div class="subpage-header-logo-container">
             <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/high-databridge.png" class="sub-logo rotate">
         <div class="wrapper">
             <section class="sub-page-header">
