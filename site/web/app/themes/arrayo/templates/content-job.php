@@ -2,7 +2,17 @@
  <div class="job-gradient">
         <div class="wrapper">
             <section class="sub-page-header">
-                <h2><?php the_field('job_title--header'); ?></h2>
+            <h2>
+            <?php
+            if( have_rows('job_title_header') ):
+                while( have_rows('job_title_header') ): the_row();
+                    the_sub_field('job_title');
+                endwhile;
+            else :
+                // none found
+            endif;
+            ?>
+            </h2>
                 <div class="job-subheader">
                     <?php if( have_rows('job_info_header') ): ?>
                         <div class="sub-row">
@@ -97,7 +107,17 @@
 
         <section class="apply-cta">
             <div class="wrapper">
-                <h3><?php the_field('job_title--header'); ?></h3>
+                <h3>
+                    <?php
+                    if( have_rows('job_title_header') ):
+                        while( have_rows('job_title_header') ): the_row();
+                            the_sub_field('job_title');
+                        endwhile;
+                    else :
+                        // none found
+                    endif;
+                    ?>
+                </h3>
                 <p>Submit CV now.</p>
                 <button id="app-toggle" class="app-toggle">Apply Now</button>
                 <div id="app-reveal">
