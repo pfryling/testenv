@@ -43,16 +43,15 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-                    <a class="job-trigger" href="#mjob">Apply Now</a></p>
-                    <div id="mjob" class="mjoboverlay">
-                      <div class="mjob">
-                        <a href="#mjclose" class="mjclose">&times;</a>
-                        <div>
-                          <h2>Apply Now-<br>for Now or Later</h2>
-                          <h5>Join Arrayo, Get on Board</h5>
-                          <?php echo do_shortcode("[ninja_form id=4]"); ?>
-                        </div>
+                    <div class="job-modal">
+                      <div class="job-overlay"></div>
+                      <div class="job-modal__contents job-modal--transition">
+                        <a class="job-modal__close" href="#">X</a>
+                        <h1>Resize the window, dawg</h1>
                       </div>
+                    </div>
+
+                      <a class="job-btn" href="#">Apply Now</a>
                     </div>
                 </li>
               </ul>
@@ -94,7 +93,7 @@
 <script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/6c7c74b7d14bfc5daf6c2705e08336101d5068a9/app-slideToggle.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/6f3b52221efa60bdfd17f13a141ac45b/raw/7d819ca104a831a8ee9b04bc823313e2e04eaca4/smoothscroll.js"></script>
-<script src="https://cdn.rawgit.com/gretzky/060070eee66016f71265416d7715ea06/raw/ac3f023e02ca631948ce65edb73476988ffa1ae8/app-modal.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/d110e902406a5530a9c643d1fcd202ae/raw/3a14896a4667ce63b86ff8502f5c17447b6929a3/applyjobModal.js"></script>
 <script src="https://gist.github.com/gretzky/af82aff28265ba25384925d5a52f22b5"></script>
 <script src="https://cdn.rawgit.com/gretzky/1ad6c5fb3e63a17cee8d115e37964cb5/raw/4479d0b28dd0a5c8245bf2b9c38483b43810ac34/mobileNav.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/57adfbc02b0703b45065fd306c7e0dbb/raw/6e07a4ea080ca1c70f02dd7acc4e4d5b58d7401f/carousels.js"></script>
