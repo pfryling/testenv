@@ -151,9 +151,9 @@
                         <h2><?php the_field('con_center--header'); ?></h2>
                     <h5><?php the_field('con_center--subheader'); ?></h5>
                     <p><?php the_field('con_center--text'); ?></p>
+                            <div class="anim-static--con">&nbsp;</div>
                 </section>
         </div>
-        <div class="anim-static--con">&nbsp;</div>
 <div class="line-anim-wrapper connect hide-on-mobile">
                     <div class="line-items-wrapper">
                         <img src="http://imgh.us/prim-oval.png" class="wow bounceIn mid-dot first" data-wow-delay=".76s">

@@ -64,9 +64,9 @@
                 <h2><?php the_field('ad_animation--header'); ?></h2>
                 <h5><?php the_field('ad_animation--subheader'); ?></h5>
                 <p><?php the_field('ad_animation--text'); ?></p>
+                <div class="anim-static--ad">&nbsp;</div>
             </section>
         </div>
-        <div class="anim-static--ad">&nbsp;</div>
         <div class="line-anim-wrapper hide-on-mobile">
             <div class="line-items-wrapper">
                 <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/line/lineAnim--speech2.png?raw=true" class="dot first wow bounceIn" data-wow-duration="1s" data-wow-delay=".9s">

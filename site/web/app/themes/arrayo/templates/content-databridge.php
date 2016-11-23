@@ -69,9 +69,9 @@
                 <h2><?php the_field('db_animation--header'); ?></h2>
                 <h5><?php the_field('db_animation--subheader'); ?></h5>
                 <p><?php the_field('db_animation--text'); ?></p>
+                <div class="anim-static--db">&nbsp;</div>
             </section>
         </div>
-        <div class="anim-static--db">&nbsp;</div>
 <div class="line-anim-wrapper hide-on-mobile">
                     <div class="line-items-wrapper">
                         <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/wiggly/wiggly-dot.png?raw=true" class="wow bounceIn wiggly-dot" data-wow-delay="4.8s">

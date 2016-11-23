@@ -79,9 +79,10 @@
                 <h2><?php the_field('rt_animation--header'); ?></h2>
                 <h5><?php the_field('rt_animation--subheader'); ?></h5>
                 <p><?php the_field('rt_animation--text'); ?></p>
+                <div class="anim-static--rt">&nbsp;</div>
             </section>
         </div>
-        <div class="anim-static--rt">&nbsp;</div>
+        
         <div class="line-anim-wrapper hide-on-mobile">
             <div class="line-items-wrapper">
                         <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/wiggly/exclamation-ico.png?raw=true" class="exc wow bounceIn" data-wow-duration="1s" data-wow-delay="1.75s">
