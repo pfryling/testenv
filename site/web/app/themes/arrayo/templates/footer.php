@@ -93,7 +93,7 @@
 <script src="http://isotope.metafizzy.co/jquery.isotope.min.js"></script>
 
 <!-- Custom Scripts -->
-<script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/980b01bc8fc3a6cdf4a7b545249340c9f6072678/filter.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/c54ec0dcb907c04afe50dc1790be8330f03c1aaa/filter.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8/raw/d67c1db54c0ca9602929f081aefc5a7cf7b57bee/tabs.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/f6f6667f2d3c09633d525156206a03bcf1f114fc/app-slideToggle.js"></script>

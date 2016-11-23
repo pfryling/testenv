@@ -143,37 +143,39 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-                 <div id="filters" class="filters">
-                    <h4>Industries</h4>
-                    <div class="filter-item">
-                    <input type="checkbox" name="fintech" value=".fintech" id="fintech"><label for="fintech">FinTech</label>
+                 <div class="flowers-wrap">
+                     <div id="filters" class="filters">
+                        <h4>Industries</h4>
+                        <div class="filter-item">
+                        <input type="checkbox" name="fintech" value="fintech" id="fintech"><label for="fintech">FinTech</label>
+                        </div>
+                        <div class="filter-item">
+                        <input type="checkbox" name="healthtech" value="healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
+                        </div>
+                        <div class="filter-item">
+                        <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
+                        </div>
+                        <h4>Services</h4>
+                        <div class="filter-item">
+                        <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">AgileData</label>
+                        </div>
+                        <div class="filter-item">
+                        <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">RTech</label>
+                        </div>
+                        <div class="filter-item">
+                        <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">DataBridge</label>
+                        </div>
+                        <div class="filter-item">
+                          <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Connect</label>
+                        </div>
                     </div>
-                    <div class="filter-item">
-                    <input type="checkbox" name="healthtech" value=".healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
-                    </div>
-                    <div class="filter-item">
-                    <input type="checkbox" name="hightech" value=".hightech" id="hightech"><label for="hightech">HighTech</label>
-                    </div>
-                    <h4>Services</h4>
-                    <div class="filter-item">
-                    <input type="checkbox" name="agiledata" value=".agiledata" id="agiledata"><label for="agiledata">AgileData</label>
-                    </div>
-                    <div class="filter-item">
-                    <input type="checkbox" name="rtech" value=".rtech" id="rtech"><label for="rtech">RTech</label>
-                    </div>
-                    <div class="filter-item">
-                    <input type="checkbox" name="databridge" value=".databridge" id="databridge"><label for="databridge">DataBridge</label>
-                    </div>
-                    <div class="filter-item">
-                      <input type="checkbox" name="connect" value=".connect" id="connect"><label for="connect">Connect</label>
-                    </div>
-                  </div>
 
-                <div id="results">
+                    </div>
+
                     <div class="results wow fadeInUp" id="Container">
                         <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                        <div class="job-item <?php the_field('job_class'); ?>">
+                        <div class="job-result" data-id="fintech" data-category="<?php the_field('job_class'); ?>">
                             <h4><?php the_field('job_title--header'); ?></h4>
                             <ul>
                                 <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>

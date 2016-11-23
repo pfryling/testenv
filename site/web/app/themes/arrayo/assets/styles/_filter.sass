@@ -1,59 +1,25 @@
-.filters
-    +span-columns(3 of 12)
-
 .filter-item input[type="checkbox"]
-    display: inline
+  display: inline
 
 .filter-item label
-    display: inline
+  display: inline
 
-#results
-    +span-columns(8 of 12)
+.flowers-wrap
+  @include span-columns(3 of 12)
+  margin: 0 5% 0 0
+  padding: 0
+  display: block
 
-.job-item
-    width: 100%
-    background-color: white
-    min-height: 200px
-    margin: 25px 0
+.results
+  @include span-columns(8 of 12)
 
-.fintech
-    border-top: 8px solid $quaternary-cool
+.results div
+  float: left
+  width: 100%
+  height: 68px
+  line-height: 68px
+  padding: 0 5%
+  background: #eee
+  margin: 10px 0
+  position: relative
 
-.hightech
-    border-top: 8px solid $health-tech-green
-
-.healthtech
-    border-top: 8px solid $high-tech-blue
-
-.databridge
-    border-top: 8px solid $tertiary
-
-.agiledata
-    border-top: 8px solid $tertiary
-
-.rtech
-    border-top: 8px solid $tertiary
-
-.connect
-    border-top: 8px solid $tertiary
-
-.isotope-item
-    z-index: 2
-
-.isotope-hidden.isotope-item
-    pointer-events: none
-    z-index: 1
-
-.isotope, .isotope .isotope-item
-    transition-duration: 0.8s
-
-.isotope
-    -transition-property: height, width
-
-.isotope .isotope-item
-    -webkit-transition-property: -webkit-transform, opacity
-    -moz-transition-property: -moz-transform, opacity
-    transition-property: transform, opacity
-
-.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition
-    transition-duration: 0s
