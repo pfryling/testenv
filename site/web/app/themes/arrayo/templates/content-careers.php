@@ -143,7 +143,7 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter | View all</h6>
-                 <div class="flowers-wrap">
+                 <div class="filter-wrap">
                      <div id="filters" class="filters">
                         <h4>Industries</h4>
                         <div class="filter-item">
