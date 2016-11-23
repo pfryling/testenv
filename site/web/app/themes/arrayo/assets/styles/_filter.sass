@@ -13,10 +13,12 @@
   color: $text
 
 .filter-wrap
-  @include span-columns(3 of 12)
+  +span-columns(3 of 12)
   margin: 0 5% 0 0
   padding: 0
   display: block
+  +media($mobile)
+    display: none
 
 .filters
   background-color: white
@@ -30,7 +32,9 @@
     font-weight: 700
 
 .results
-  @include span-columns(8 of 12)
+  +span-columns(8 of 12)
+  +media($mobile)
+    +span-columns(4 of 4)
 
 .job-result
   background-color: white
