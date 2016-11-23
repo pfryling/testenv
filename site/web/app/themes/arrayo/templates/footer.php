@@ -45,7 +45,7 @@
                     <p style="16px">Join Arrayo, Get on board</p>
                     <button id="app-toggle" class="app-toggle">Apply Now</button>
                 <div id="app-reveal">
-                  <?php echo do_shortcode("[ninja_form id=7]"); ?>
+                  <?php echo do_shortcode("[ninja_form id=8]"); ?>
                 </div>
 
                 </li>
