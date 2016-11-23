@@ -78,7 +78,7 @@
 
 <div class="wrapper">
     <section class="careers-testimonial wow fadeInUp">
-        <div class="com-carousel owl-carousel owl-theme">
+        <div class="test-carousel owl-carousel owl-theme">
                 <div class="ct-left">
                     <div class="item">
                         <h5><?php the_field('testimonial_quote'); ?></h5>
