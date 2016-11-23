@@ -17,10 +17,12 @@
                                 <?php echo $industry; ?>
                             <?php endif; ?>
                             <br>
+                        <strong>Service:</strong>
                             <?php if( $service ): ?>
                                 <?php echo $service; ?>
                             <?php endif; ?>
                             <br>
+                        <strong>Type:</strong>
                             <?php if( $type ): ?>
                                 <?php echo $type; ?>
                             <?php endif; ?>
@@ -36,11 +38,12 @@
                             $seniority = get_sub_field('job_seniority');
                             $location = get_sub_field('job_location');
                         ?>
-                        <p><strong>Industry:</strong>
+                        <p><strong>Seniority:</strong>
                             <?php if( $seniority ): ?>
                                 <?php echo $seniority; ?>
                             <?php endif; ?>
                             <br>
+                            <strong>Location:</strong>
                             <?php if( $location ): ?>
                                 <?php echo $location; ?>
                             <?php endif; ?>
