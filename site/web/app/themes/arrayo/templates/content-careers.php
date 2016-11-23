@@ -92,7 +92,7 @@
     <section class="office-slider">
         <div class="wrapper">
             <h4>Our offices</h4>
-            <div class="loc-carousel owl-carousel owl-theme">
+            <div class="test-carousel owl-carousel owl-theme">
                 <div class="item">
                     <div class="card tab-first wow fadeInUp"">
                         <h4 class="bos">Downtown<br>Boston</h4>
