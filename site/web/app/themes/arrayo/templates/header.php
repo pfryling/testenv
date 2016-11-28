@@ -248,9 +248,9 @@
       </li>
       <li><a href="#">Industries</a>
         <ul>
-          <li><a href="#">FinTech</a></li>
-          <li><a href="#">HealthTech</a></li>
-          <li><a href="#">HighTech</a></li>
+          <li><a href="/fintech">FinTech</a></li>
+          <li><a href="/healthtech">HealthTech</a></li>
+          <li><a href="/hightech">HighTech</a></li>
         </ul>
       </li>
       <li><a href="/company">Company</a></li>
