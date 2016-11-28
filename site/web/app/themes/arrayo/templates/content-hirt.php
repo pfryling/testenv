@@ -69,12 +69,12 @@
                         </a>
                     </div>
                     <br>
-                    <h6>r-tech industries</h6>
+                    <h6>rtech industries</h6>
                     <div class="label label--fin-rtech">
                             
-                        <a href="/r-tech/fintech">
+                        <a href="/rtech/fintech">
                          <span class="label-swap">
-                              R-Tech for FinTech
+                              rtech for FinTech
                             </span>
                             <span>
                              <?php the_field('fin_rt--text'); ?>
@@ -83,9 +83,9 @@
                     </div>
                     <div class="label label--health-rtech">
                             
-                        <a href="/r-tech/healthtech">
+                        <a href="/rtech/healthtech">
                          <span class="label-swap">
-                              R-Tech for HealthTech
+                              rtech for HealthTech
                             </span>
                             <span>
                              <?php the_field('he_rt--text'); ?>

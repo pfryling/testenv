@@ -28,9 +28,9 @@
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
                             
-                        <a href="/r-tech/hightech">
+                        <a href="/rtech/hightech">
                         <span class="label-swap">
-                              R-Tech for HighTech
+                              rtech for HighTech
                             </span>
                             <span>
                               <?php the_field('hi_rt--text'); ?>

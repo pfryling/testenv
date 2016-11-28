@@ -20,7 +20,7 @@
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
                             
-                        <a href="/r-tech/hightech">
+                        <a href="/rtech/hightech">
                          <span class="label-swap">
                               RTech for HighTech
                             </span>
@@ -52,7 +52,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>r-tech industries</h6>
+                    <h6>rtech industries</h6>
                     <div class="label label--fin-data">
                             
                         <a href="/databridge/fintech">

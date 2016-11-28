@@ -60,7 +60,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>r-tech industries</h6>
+                    <h6>rtech industries</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
                             
                         <a href="/rtech/fintech">
