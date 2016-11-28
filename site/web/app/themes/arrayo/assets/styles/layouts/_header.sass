@@ -1,5 +1,7 @@
 .mobile-only
   display: none
+  @media only screen and (min-width: 970px) and (max-width: 995px)
+    display: block
   +media($tablet)
     display: block
   +media($mobile)
@@ -1659,9 +1661,6 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
   +media($mobile)
     display: none
   .mega-menu-content
-    +media($tablet)
-      padding-bottom: 10px !important
-      text-align: left !important
     position: relative
     padding: 20px
     .widget .thumb
