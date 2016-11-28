@@ -12,7 +12,7 @@
         <section class="services-largebox services-largebox--rtech wow fadeInUp">
             <div class="text-wrap">
                 <h4>RTech</h4>
-                <p class="light"><?php the_field('services_rtech--header'); ?></p>
+                <p class="light"><?php the_field('services_rtech--subheader'); ?></p>
                 <p><?php the_field('services_rtech--text'); ?></p>
                 <button><a href="/rtech">Explore Arrayo rtech</a></button>
             </div>
@@ -20,7 +20,7 @@
         <section class="services-largebox services-largebox--agiledata wow fadeInUp">
             <div class="text-wrap">
                 <h4>AgileData</h4>
-                <p class="light"><?php the_field('services_agiledata--header'); ?></p>
+                <p class="light"><?php the_field('services_agiledata--subheader'); ?></p>
                 <p><?php the_field('services_agiledata--text'); ?></p>
                 <button><a href="/agiledata">Explore Arrayo AgileData</a></button>
             </div>
@@ -29,7 +29,7 @@
         <section class="services-largebox services-largebox--databridge wow fadeInUp">
              <div class="text-wrap">
                 <h4>DataBridge</h4>
-                <p class="light"><?php the_field('services_databridge--header'); ?></p>
+                <p class="light"><?php the_field('services_databridge--subheader'); ?></p>
                 <p><?php the_field('services_databridge--text'); ?></p>
                 <button><a href="/databridge">Explore Arrayo DataBridge</a></button>
             </div>
@@ -37,7 +37,7 @@
         <section class="services-largebox services-largebox--connect wow fadeInUp">
             <div class="text-wrap">
                 <h4>Connect</h4>
-                <p class="light"><?php the_field('services_connect--header'); ?></p>
+                <p class="light"><?php the_field('services_connect--subheader'); ?></p>
                 <p><?php the_field('services_connect--text'); ?></p>
                 <button><a href="/connect">Explore Arrayo Connect</a></button>
             </div>
