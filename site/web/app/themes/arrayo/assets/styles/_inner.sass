@@ -498,9 +498,9 @@
         margin-top: -127px
         overflow: hidden
         +media($hd)
-            background-size: 26%
+          background-size: 26%
         @media only screen and (min-width: 1141px) and (max-width: 1230px)
-            background-size: 
+          background-size: 45%
         +media($laptop)
           background-size: 50%
         @media only screen and (min-width: 875px) and (max-width: 950px)
@@ -523,10 +523,19 @@
         background-repeat: no-repeat
         background-position: right center
         background-size: 40%
+        overflow: hidden
+        +media($hd)
+          background-size: 26%
+        @media only screen and (min-width: 1141px) and (max-width: 1230px)
+          background-size: 45%
         +media($laptop)
           background-size: 50%
-        +media($tablet)
+        @media only screen and (min-width: 875px) and (max-width: 950px)
           background-size: 50%
+        @media only screen and (min-width: 750px) and (max-width: 875px)
+          background-size: 450px
+        +media($mobile)
+            margin-top: -50px
         .text-wrap
             +span-columns(8 of 12)
             padding: $spacer-green $spacer-yellow $spacer-yellow $spacer-yellow
@@ -541,10 +550,19 @@
         background-repeat: no-repeat
         background-position: left center
         background-size: 40%
+        overflow: hidden
+        +media($hd)
+          background-size: 26%
+        @media only screen and (min-width: 1141px) and (max-width: 1230px)
+          background-size: 45%
         +media($laptop)
           background-size: 50%
-        +media($tablet)
+        @media only screen and (min-width: 875px) and (max-width: 950px)
           background-size: 50%
+        @media only screen and (min-width: 750px) and (max-width: 875px)
+          background-size: 450px
+        +media($mobile)
+            margin-top: -50px
         .text-wrap
             +span-columns(8 of 12)
             +shift(4)
@@ -559,11 +577,19 @@
         background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-bg/db-bg--alt.png')
         background-repeat: no-repeat
         background-position: left center
-        background-size: 40%
+        overflow: hidden
+        +media($hd)
+          background-size: 26%
+        @media only screen and (min-width: 1141px) and (max-width: 1230px)
+          background-size: 45%
         +media($laptop)
           background-size: 50%
-        +media($tablet)
+        @media only screen and (min-width: 875px) and (max-width: 950px)
           background-size: 50%
+        @media only screen and (min-width: 750px) and (max-width: 875px)
+          background-size: 450px
+        +media($mobile)
+            margin-top: -50px
         .text-wrap
             +span-columns(8 of 12)
             +shift(4)
