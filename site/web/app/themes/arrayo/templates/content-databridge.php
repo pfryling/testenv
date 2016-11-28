@@ -62,12 +62,12 @@
                     </ul>
                 </div>
             </section>
+        </div>
             <section class="centered-cta centered-cta--databridge wow fadeInUp">
                 <h2><?php the_field('db_animation--header'); ?></h2>
                 <h5><?php the_field('db_animation--subheader'); ?></h5>
                 <p><?php the_field('db_animation--text'); ?></p>
             </section>
-        </div>
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">

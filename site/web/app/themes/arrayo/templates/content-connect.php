@@ -143,13 +143,11 @@
         </div>
     </div>
     </section>
-            <div class="wrapper">
                 <section class="centered-cta centered-cta--connect wow fadeInUp">
                         <h2><?php the_field('con_center--header'); ?></h2>
                     <h5><?php the_field('con_center--subheader'); ?></h5>
                     <p><?php the_field('con_center--text'); ?></p>
                 </section>
-        </div>
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">

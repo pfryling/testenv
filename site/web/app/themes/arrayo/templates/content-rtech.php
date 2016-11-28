@@ -71,13 +71,11 @@
                 </div>
             </section>
         </div>
-        <div class="wrapper">
             <section class="centered-cta centered-cta--rtech wow fadeInUp">
                 <h2><?php the_field('rt_animation--header'); ?></h2>
                 <h5><?php the_field('rt_animation--subheader'); ?></h5>
                 <p><?php the_field('rt_animation--text'); ?></p>
             </section>
-        </div>
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">
