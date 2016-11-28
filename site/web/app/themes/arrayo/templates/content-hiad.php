@@ -29,7 +29,7 @@
                             
                         <a href="/rtech/hightech">
                         <span class="label-swap">
-                              rtech for HighTech
+                              RTechfor HighTech
                             </span>
                             <span>
                               <?php the_field('hi_rt--text'); ?>
