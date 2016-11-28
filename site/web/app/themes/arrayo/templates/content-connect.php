@@ -1,8 +1,5 @@
 <?php the_content(); ?>
-    <div class="bg-gradient--opp">
-    <div class="subpage-header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/connect.png" class="sub-logo rotate">
-        </div>
+    <div class="sub-bg-gradient sub-bg-gradient--con">
         <div class="wrapper">
             <section class="page-header">
                 <h1><?php the_field('con_page--header'); ?></h1>

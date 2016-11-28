@@ -11,7 +11,7 @@
     <div class="wrapper">
         <section class="services-largebox services-largebox--rtech wow fadeInUp">
             <div class="text-wrap">
-                <h4>rtech</h4>
+                <h4>RTech</h4>
                 <p class="light"><?php the_field('services_rtech--header'); ?></p>
                 <p><?php the_field('services_rtech--text'); ?></p>
                 <button><a href="/rtech">Explore Arrayo rtech</a></button>

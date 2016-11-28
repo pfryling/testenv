@@ -1,3 +1,60 @@
+.sub-bg-gradient
+    background-repeat: no-repeat
+    background-position: top right
+    +media($mobile)
+        background-position: center center
+    &--ad
+        background-image: url('http://imgh.us/hl_ad_1.png'), linear-gradient(to right, $primary, $tertiary)
+    &--con
+        background-image: url('http://imgh.us/hl_con.png'), linear-gradient(to right, $primary, $tertiary)
+    &--db
+        background-image: url('http://imgh.us/hl_db.png'), linear-gradient(to right, $primary, $tertiary)
+    &--rt
+        background-image: url('http://imgh.us/hl_rt.png'), linear-gradient(to right, $primary, $tertiary)
+    &--fin
+        background-image: url('http://imgh.us/hl_fin_1.png'), linear-gradient(to right, $quaternary-cool, $primary)
+    &--health
+        background-image: url('http://imgh.us/hl_he.png'), linear-gradient(to right, $health-tech-green, $primary-dark)
+    &--high
+        background-image: url('http://imgh.us/hl_hi.png'), linear-gradient(to right, $high-tech-blue, $primary-dark)
+
+.sub-bg-gradient-for
+    background-repeat: no-repeat
+    background-position: top right, 0 0, 30% 100%
+    background-size: 40%, 100% 50%, 100% 51%
+    +media($tablet)
+        background-size: 60%, 100% 50%, 100% 51%
+    +media($mobile)
+        background-position: center center, 0 0, 0 0
+        background-size: 100%
+    &--findb
+        url("http://imgh.us/hl_findb.png"), linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--finad
+        url("http://imgh.us/hl_finad.png"), linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--finrt
+        url("http://imgh.us/hl_finrt.png"), linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--fincon
+        url("http://imgh.us/hl_fincon.png"), linear-gradient(to right, $quaternary-cool, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--head
+        url("http://imgh.us/hl_head.png"), linear-gradient(to right, $health-tech-green, $primary-dark), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hedb
+        url("http://imgh.us/hl_hedb_1.png"), linear-gradient(to right, $health-tech-green, $primary-dark, linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hert
+        url("http://imgh.us/hl_hert.png"), linear-gradient(to right, $health-tech-green, $primary-dark), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hecon
+        url("http://imgh.us/hl_hecon.png"), linear-gradient(to right, $health-tech-green, $primary-dark), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hiad
+        url("http://imgh.us/hl_hiad.png"), linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hirt
+        url("http://imgh.us/hl_rt_1.png"), linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hicon
+        url("http://imgh.us/hl_hicon.png"), linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+    &--hidb
+        url("http://imgh.us/hl_hidb.png"), linear-gradient(to right, $high-tech-blue, $primary)
+
+#nf-field-4
+    width: 100% !important
+
 .test-carousel
     .test-card
         box-shadow: $white-box-shadow
@@ -78,13 +135,15 @@
         font-family: $sans
         font-size: $base
         font-weight: 700
+        +media($xsmall)
+            line-height: 1.5
 
 #nf-form-4-cont
     width: 400px
     +media($mobile)
-        width: 300px
+        width: 300px !important
     +media($xsmall)
-        width: 250px
+        width: 250px !important
 
 #nf-form-5-cont
     background-color: transparent
@@ -400,6 +459,8 @@
             +media($mobile)
                 font-size: 14px
                 padding: 10px
+            +media($xsmall)
+                font-size: 12px
             a
                 color: white
                 font-family: inherit
@@ -978,6 +1039,8 @@
         +media($mobile)
             +span-columns(4 of 4)
             padding: $spacer-blue
+        +media($xsmall)
+            padding: $spacer-blue $spacer-cyan
         background-image: linear-gradient(to bottom, $primary, $tertiary)
         padding: $spacer-blue $spacer-blue $spacer-red $spacer-blue
         h5
@@ -988,6 +1051,9 @@
             font-size: $base-med
             margin-bottom: 0
             margin-top: 20px
+            +media($xsmall)
+                font-size: 18px
+                line-height: 1.4
         p
             color: white
 
@@ -1016,8 +1082,10 @@
                 font-family: 'FontAwesome'
                 content: '\f18e'
                 color: $tertiary
+                margin-right: 19px
                 +media($mobile)
-                    content: ''
+                    display: none
+                    margin-right: 0
             li:first-child
                 text-indent: -2em
                 +media($mobile)

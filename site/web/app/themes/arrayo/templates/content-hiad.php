@@ -1,7 +1,5 @@
- <div class="for-gradient--blue">
-        <div class="subpage-header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/fin-agiledata.png" class="sub-logo rotate">
-        </div>
+ <div class="sub-bg-gradient-for sub-bg-gradient-for--hiad">
+
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('ad_hi--header'); ?></h1>

@@ -1,8 +1,5 @@
 <?php the_content(); ?>
-    <div class="bg-gradient--opp">
-        <div class="subpage-header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/agiledata.png" class="sub-logo rotate">
-        </div>
+    <div class="sub-bg-gradient sub-bg-gradient--ad">
         <div class="wrapper">
             <section class="page-header">
                 <h1><?php the_field('ad_page--header'); ?></h1>
@@ -52,7 +49,7 @@
                 </div>
                 <div class="text">
                     <ul>
-                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('ad_gradient--paragraph-1'); ?></li>
+                        <li><?php the_field('ad_gradient--paragraph-1'); ?></li>
                         <li><?php the_field('ad_gradient--paragraph-2'); ?></li>
                         <li><?php the_field('ad_gradient--paragraph-3'); ?></li>
                     </ul>

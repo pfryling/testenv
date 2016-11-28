@@ -1,8 +1,6 @@
  <?php the_content(); ?>
- <div class="for-gradient--green">
-    <div class="subpage-header-logo-container">
-            <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/header-logos/health-connect.png" class="sub-logo rotate">
-        </div>
+ <div class="sub-bg-gradient-for sub-bg-gradient-for--hecon">
+
         <div class="wrapper">
             <section class="sub-page-header">
                 <h1><?php the_field('con_he--header'); ?></h1>
