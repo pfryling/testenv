@@ -31,12 +31,12 @@
                     <div class="box three wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-databridge'); ?></h5>
                         <p><?php the_field('services_box--text-databridge'); ?></p>
-                        <a class="service-btn" href="/connect">About DataBridge <i class="fa fa-arrow-circle-o-right"></i></a>
+                        <a class="service-btn" href="/databridge">About DataBridge <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>
                     <div class="box one wow fadeInUp" data-wow-delay="0.1s">
                         <h5><?php the_field('services_box--header-connect'); ?></h5>
                         <p><?php the_field('services_box--text-connect'); ?></p>
-                        <a class="service-btn" href="/DataBridge">About Connect <i class="fa fa-arrow-circle-o-right"></i></a>
+                        <a class="service-btn" href="/connect">About Connect <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>
                 </div>
             </div>

@@ -553,8 +553,6 @@
         @media only screen and (min-width: 750px) and (max-width: 875px)
           background-size: 450px
           background-position: 130% 100%
-        +media($mobile)
-            margin-top: -50px
         .text-wrap
             +span-columns(8 of 12)
             padding: $spacer-green $spacer-yellow $spacer-yellow $spacer-yellow
@@ -580,9 +578,7 @@
           background-size: 50%
         @media only screen and (min-width: 750px) and (max-width: 875px)
           background-size: 450px
-          background-position: 130% 100%
-        +media($mobile)
-            margin-top: -50px
+          background-position: -130% 100%
         .text-wrap
             +span-columns(8 of 12)
             +shift(4)
@@ -608,9 +604,7 @@
           background-size: 50%
         @media only screen and (min-width: 750px) and (max-width: 875px)
           background-size: 450px
-          background-position: 130% 100%
-        +media($mobile)
-            margin-top: -50px
+          background-position: -130% 100%
         .text-wrap
             +span-columns(8 of 12)
             +shift(4)
