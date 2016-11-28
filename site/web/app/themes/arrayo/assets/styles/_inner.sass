@@ -82,14 +82,14 @@
             text-align: left
             padding: 0
             font-family: $sans
-            font-size: 14px
+            font-size: 12px
             text-decoration: none
             color: $tertiary
         a
             text-align: center
             padding: 10px 0 0 $spacer-cyan
             font-family: $sans
-            font-size: $base
+            font-size: 16px
             text-decoration: none
             color: $tertiary
             .fa
@@ -130,11 +130,13 @@
         p
             font-family: $sans
             font-weight: 100
-            font-size: 16px
+            font-size: 14px
             color: $text
             padding: 0 16px
             +media($mobile)
                 font-size: 14px
+            +media($xsmall)
+                font-size: 
         .link
             display: block
             position: absolute
@@ -1996,7 +1998,7 @@
       +media($tablet)
           padding: 0 $spacer-yellow $spacer-blue $spacer-yellow
       +media($mobile)
-          padding: 0 0 46px 0
+          padding: 0 16px 46px 16px
   hr
       width: 100%
       display: block
