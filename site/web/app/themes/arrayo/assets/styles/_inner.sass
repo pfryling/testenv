@@ -2191,6 +2191,7 @@
     margin-bottom: $spacer-blue
     +media($mobile)
       +span-columns(4)
+      background-image: none
     .text-wrap
         +span-columns(8 of 12)
         padding: $spacer-pink $spacer-green $spacer-pink $spacer-yellow
@@ -2417,6 +2418,8 @@
         color: white
         margin: 0
         padding-bottom: 8px
+        +media($mobile)
+            display: none
 
 .apply-cta
     background-color: $text-light
