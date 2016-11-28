@@ -258,7 +258,7 @@
       <li><a href="/careers">Careers</a></li>
       <li><a href="#">Contact</a>
         <ul>
-          <li>
+          <li class="m-c-form">
             <?php echo do_shortcode("[ninja_form id=5]"); ?>
           </li>
         </ul>
