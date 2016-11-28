@@ -1,3 +1,7 @@
+.ind_fix
+    +media($mobile)
+        margin-bottom: $spacer-pink
+
 #header-logo
     width: 50%
     margin-top: 12px
@@ -361,9 +365,6 @@ header
             +omega()
             +media($mobile)
                 +span-columns(4 of 4)
-        &--careers
-            +media($mobile)
-                padding-top: 42px
     p
         +span-columns(8 of 12)
         +omega()
@@ -382,11 +383,7 @@ header
             +span-columns(4 of 4)
             font-size: 18px
             line-height: 26px
-            margin-bottom: $spacer-red
             text-align: left !important
-        &--careers
-            +media($mobile)
-                margin-bottom: 68px
     hr
         +span-columns(8 of 12)
         +omega()

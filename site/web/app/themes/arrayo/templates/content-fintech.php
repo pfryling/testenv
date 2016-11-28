@@ -3,7 +3,7 @@
         <div class="wrapper">
             <section class="page-header">
                 <h1><?php the_field('fintech_page--header'); ?></h1>
-                <p><?php the_field('fintech_page--subheader'); ?></p>
+                <p class="ind_fix"><?php the_field('fintech_page--subheader'); ?></p>
             </section>
         </div>
     </div>

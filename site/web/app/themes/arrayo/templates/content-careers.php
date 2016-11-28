@@ -2,8 +2,8 @@
     <div class="bg-gradient--vert">
         <div class="wrapper">
             <section class="page-header">
-                <h1 class="careers"><?php the_field('careers--header'); ?></h1>
-                <p class="careers"><?php the_field('careers--subheader'); ?></p>
+                <h1><?php the_field('careers--header'); ?></h1>
+                <p><?php the_field('careers--subheader'); ?></p>
             </section>
 
             <section class="location-info  wow fadeInUp">
