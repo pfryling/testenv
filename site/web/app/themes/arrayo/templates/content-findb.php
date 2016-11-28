@@ -49,7 +49,7 @@
                             
                         <a href="/rtech/fintech">
                         <span class="label-swap">
-                              rtech for FinTech
+                              RTech for FinTech
                             </span>
                             <span>
                               <?php the_field('fin_rt--text'); ?>
@@ -74,7 +74,7 @@
                             
                         <a href="/databridge/hightech">
                         <span class="label-swap">
-                              DataBridgefor HighTech
+                              DataBridge for HighTech
                             </span>
                             <span>
                               <?php the_field('high_db--text'); ?>

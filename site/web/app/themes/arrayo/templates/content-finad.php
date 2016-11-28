@@ -53,7 +53,7 @@
                     <div class="label label--fin-rtech wow fadeInUp">
                         <a href="/rtech/fintech">
                         <span class="label-swap">
-                              rtech for FinTech
+                              RTech for FinTech
                             </span>
                             <span>
                               <?php the_field('fin_rt--text'); ?>

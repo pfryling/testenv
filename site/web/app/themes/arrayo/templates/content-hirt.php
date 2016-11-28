@@ -72,7 +72,7 @@
                             
                         <a href="/rtech/fintech">
                          <span class="label-swap">
-                              rtech for FinTech
+                              RTech for FinTech
                             </span>
                             <span>
                              <?php the_field('fin_rt--text'); ?>
@@ -83,7 +83,7 @@
                             
                         <a href="/rtech/healthtech">
                          <span class="label-swap">
-                              rtech for HealthTech
+                              RTech for HealthTech
                             </span>
                             <span>
                              <?php the_field('he_rt--text'); ?>

@@ -49,7 +49,7 @@
                     </div>
                     <div class="label label--fin-rtech wow fadeInUp">
                             
-                        <a href="/rtech/fintech">
+                        <a href="/agiledata/fintech">
                         <span class="label-swap">
                               AgileData for FinTech
                             </span>

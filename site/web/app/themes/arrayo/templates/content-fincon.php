@@ -54,7 +54,7 @@
                             
                         <a href="/rtech/fintech">
                         <span class="label-swap">
-                              rtech for FinTech
+                              RTech for FinTech
                             </span>
                             <span>
                               <?php the_field('fin_rt--text'); ?>
@@ -67,7 +67,7 @@
                             
                         <a href="/connect/healthtech">
                         <span class="label-swap">
-                              Connectfor HealthTech
+                              Connect for HealthTech
                             </span>
                             <span>
                               <?php the_field('he_con--text'); ?>
