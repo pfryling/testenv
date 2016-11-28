@@ -72,11 +72,10 @@
             </section>
         </div>
         <div class="wrapper">
-            <section class="centered-cta centered-cta--agiledata wow fadeInUp">
+            <section class="centered-cta centered-cta--rtech wow fadeInUp">
                 <h2><?php the_field('rt_animation--header'); ?></h2>
                 <h5><?php the_field('rt_animation--subheader'); ?></h5>
                 <p><?php the_field('rt_animation--text'); ?></p>
-                <div class="anim-static--rt">&nbsp;</div>
             </section>
         </div>
         <section class="contact-footer wow fadeInUp" id="contact">

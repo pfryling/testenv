@@ -66,7 +66,6 @@
                 <h2><?php the_field('db_animation--header'); ?></h2>
                 <h5><?php the_field('db_animation--subheader'); ?></h5>
                 <p><?php the_field('db_animation--text'); ?></p>
-                <div class="anim-static--db">&nbsp;</div>
             </section>
         </div>
         <section class="contact-footer wow fadeInUp" id="contact">

@@ -61,7 +61,6 @@
                 <h2><?php the_field('ad_animation--header'); ?></h2>
                 <h5><?php the_field('ad_animation--subheader'); ?></h5>
                 <p><?php the_field('ad_animation--text'); ?></p>
-                <div class="anim-static--ad">&nbsp;</div>
             </section>
         </div>
         <section class="contact-footer wow fadeInUp" id="contact">
