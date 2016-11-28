@@ -74,14 +74,26 @@
 
 .test-carousel
     .test-card
-        box-shadow: $white-box-shadow
-        width: 300px
-        height: auto
         background-color: white
         box-shadow: $white-box-shadow
         margin-bottom: $spacer-cyan
         padding-bottom: $spacer-cyan
-        margin-top: 10px
+        .notlink
+            text-align: left
+            padding: 0
+            font-family: $sans
+            font-size: 14px
+            text-decoration: none
+            color: $tertiary
+        a
+            text-align: center
+            padding: 10px 0 0 $spacer-cyan
+            font-family: $sans
+            font-size: $base
+            text-decoration: none
+            color: $tertiary
+            .fa
+                padding-left: $spacer-green
         h4.bos
             background-image: url('https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/bg-img/boston-bg.png')
             background-size: cover
@@ -1981,7 +1993,7 @@
       +media($tablet)
           padding: 0 $spacer-yellow $spacer-blue $spacer-yellow
       +media($mobile)
-          padding: 0 0 0 46px 0
+          padding: 0 0 46px 0
   hr
       width: 100%
       display: block

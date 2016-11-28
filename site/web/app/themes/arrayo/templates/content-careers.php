@@ -97,9 +97,10 @@
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="bos">Downtown<br>Boston</h4>
                         <p class="first"><?php the_field('company_box_boston--text'); ?></p>
-                        <div class="link">
-                            <a class="static" href="https://www.google.com/maps/place/50+Milk+St,+Boston,+MA+02109/@42.3570037,-71.0597821,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708476089075:0xbc8dd70d06accf26!8m2!3d42.3569998!4d-71.0575881">50 Milk Street, 18th Floor,<br>Boston, MA 02109</a>
-                        </div>
+                        <hr>
+                        <a class="notlink"  href="https://www.google.com/maps/place/50+Milk+St,+Boston,+MA+02109/@42.3570037,-71.0597821,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708476089075:0xbc8dd70d06accf26!8m2!3d42.3569998!4d-71.0575881">
+                          <p>50 Milk Street, 18th Floor,<br>Boston, MA 02109</p>
+                        </a>
                     </div>
                 </div>
             </div>
