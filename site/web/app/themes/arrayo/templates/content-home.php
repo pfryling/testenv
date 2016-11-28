@@ -48,25 +48,7 @@
                 <div class="overlay wow fadeInUp">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/gray-tilde.png">
                     <h2>We are<br>
-                    <span class="text--fade">Compliance Consultants</span>
-                    <span class="text--fade">Risk Consultants</span>
-                    <span class="text--fade">Fullstack Developers</span>
-                    <span class="text--fade">Informatics Experts</span>
-                    <span class="text--fade">Cloud Specialists</span>
-                    <span class="text--fade">Data Scientists</span>
-                    <span class="text--fade">Financial Technologists</span>
-                    <span class="text--fade">Web Scientists</span>
-                    <span class="text--fade">Data Readiness Experts</span>
-                    <span class="text--fade">Biostatisticians</span>
-                    <span class="text--fade">Digital Change Agents</span>
-                    <span class="text--fade">Quality Architects</span>
-                    <span class="text--fade">Connectivity Engineers</span>
-                    <span class="text--fade">Agility Masters</span>
-                    <span class="text--fade">Reporting Consultants</span>
-                    <span class="text--fade">Visualization Experts</span>
-                    <span class="text--fade">Governance Consultants</span>
-                    <span class="text--fade">Data Analysts</span>
-                    <span class="text--fade">Cybersecurity Experts</span>
+                    <span id="rotate">this</span></h2>
                     <p><?php the_field('overlay_text'); ?></p>
                     <div class="flex-wrapper">
                         <div class="inner-box">
