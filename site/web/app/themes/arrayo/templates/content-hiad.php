@@ -1,3 +1,4 @@
+ <?php the_content(); ?>
  <div class="sub-bg-gradient-for sub-bg-gradient-for--hiad">
 
         <div class="wrapper">

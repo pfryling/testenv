@@ -50,21 +50,21 @@
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
                     <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-fintech'); ?></p>
-                        <div class="link">
+                        <div class="link comlink">
                             <a href="/agiledata/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                         </div>
                 </li>
                     <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
                         <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-healthtech'); ?></p>
-                        <div class="link">
+                        <div class="link comlink">
                             <a href="/agiledata/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                         </div>
                     </li>
                     <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
                         <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-hightech'); ?></p>
-                        <div class="link">
+                        <div class="link comlink">
                             <a href="/agiledata/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                         </div>
                     </li>
