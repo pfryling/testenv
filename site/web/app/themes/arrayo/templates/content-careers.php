@@ -102,6 +102,22 @@
                           <p>50 Milk Street, 18th Floor,<br>Boston, MA 02109</p>
                         </a>
                     </div>
+                    <div class="test-card tab-first wow fadeInUp"">
+                        <h4 class="cam">Kendall<br>Cambridge</h4>
+                        <p class="first"><?php the_field('company_box_cambridge--text'); ?></p>
+                        <hr>
+                        <a  class="notlink" href="https://www.google.com/maps/place/1+Broadway,+Cambridge,+MA+02142/@42.3628338,-71.0861121,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370a5bc05760d:0xb016fe9736fea4b!8m2!3d42.3628299!4d-71.0839181">
+                          <p>1 Broadway, 5th Floor<br>Cambridge, MA 02142</p>
+                        </a>
+                    </div>
+                    <div class="test-card tab-first wow fadeInUp"">
+                        <h4 class="ny">Manhattan<br>New York</h4>
+                        <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
+                        <hr>
+                        <a  class="notlink" href="https://www.google.com/maps/place/1117+5th+Ave,+New+York,+NY+10036/@40.7554462,-73.9858722,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aab2cffbed:0x5fb365211f9be982!8m2!3d40.7554422!4d-73.9836782">
+                          <p>1117 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
+                        </a>
+                    </div>
                 </div>
             </div>
             </div>
