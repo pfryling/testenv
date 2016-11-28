@@ -48,7 +48,9 @@
                 <div class="overlay wow fadeInUp">
                     <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/gray-tilde.png">
                     <h2>We are<br>
-                    <span id="rotate">this</span></h2>
+                    <div class="textfade-wrap">
+                        <span id="rotate">&nbsp;</span>
+                    </div></h2>
                     <p><?php the_field('overlay_text'); ?></p>
                     <div class="flex-wrapper">
                         <div class="inner-box">

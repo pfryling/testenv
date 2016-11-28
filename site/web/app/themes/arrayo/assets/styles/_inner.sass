@@ -336,7 +336,7 @@
         top: -3%
         overflow: hidden !important
         +media($hd)
-            left: 1000px
+            left: 70%
         +media($laptop)
             left: 25%
         +media($tablet)
@@ -513,9 +513,11 @@
     background-position: right center
     padding: $spacer-green 300px $spacer-blue $spacer-yellow
     margin-bottom: $spacer-blue
+    +media($hd)
+        max-width: 92.5%
     +media($laptop)
-      max-width: 100%
-      padding: $spacer-green 300px $spacer-blue 108px
+        max-width: 100%
+        padding: $spacer-green 300px $spacer-blue 108px
     +media($tablet)
         +span-columns(8)
         max-width: 100%
