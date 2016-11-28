@@ -1,5 +1,12 @@
 .textfade-wrap
-    height: 200px
+    height: auto
+    +media(min-width: 320px max-width: 400px)
+        height: 35px
+        padding: 5px 10px
+    +media($xsmall)
+        height: 20px
+        padding: 5px 10px
+
 
 .push-down
     margin-right: 40px
