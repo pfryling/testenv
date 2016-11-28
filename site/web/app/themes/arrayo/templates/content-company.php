@@ -81,7 +81,7 @@
                  <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
-                        <p><?php the_field('company_slider--rtech'); ?></p>
+                        <p><?php the_field('company_slider--rt'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
