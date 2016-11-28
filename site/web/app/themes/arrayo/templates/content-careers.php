@@ -102,6 +102,8 @@
                           <p>50 Milk Street, 18th Floor,<br>Boston, MA 02109</p>
                         </a>
                     </div>
+                </div>
+                <div class="item">
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="cam">Kendall<br>Cambridge</h4>
                         <p class="first"><?php the_field('company_box_cambridge--text'); ?></p>
@@ -110,6 +112,8 @@
                           <p>1 Broadway, 5th Floor<br>Cambridge, MA 02142</p>
                         </a>
                     </div>
+                </div>
+                <div class="item">
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="ny">Manhattan<br>New York</h4>
                         <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
