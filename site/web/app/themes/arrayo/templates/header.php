@@ -42,7 +42,7 @@
             </a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="margin-left: -120px">
                                 <li class="dropdown mega-menu-full">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 
