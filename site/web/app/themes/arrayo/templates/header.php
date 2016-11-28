@@ -208,7 +208,7 @@
 </header>
 <div class="mnav-container mobile-only">
   <div class="mnav">
-      <a href="/"><img style="float:left;padding:20px;" src="http://imgh.us/arrayo-logo-official.png"></a>
+      <a href="/"><img class="mlogo" src="http://imgh.us/arrayo-logo-official.png"></a>
     <ul>
       <li><a href="#">Services</a>
         <ul>

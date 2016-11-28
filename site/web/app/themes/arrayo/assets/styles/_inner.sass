@@ -1,3 +1,11 @@
+.mlogo
+    padding: 20px
+    float: left
+    @media only screen and (min-width: 320px) and (max-width: 460px)
+        width: 50%
+    @media only screen and (min-width: 0) and (max-width: 320px)
+        width: 60%
+
 .company-left
     text-align: left !important
     +media($tablet)
@@ -491,8 +499,10 @@
         overflow: hidden
         +media($laptop)
           background-size: 50%
-        +media($tablet)
+        @media only screen and (min-width: 875px) and (max-width: 950px)
           background-size: 50%
+        @media only screen and (min-width: 750px) and (max-width: 875px)
+          background-size: 450px
         +media($mobile)
             margin-top: -50px
         .text-wrap
