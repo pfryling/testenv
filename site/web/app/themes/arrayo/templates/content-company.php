@@ -81,7 +81,7 @@
                  <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
-                        <p><?php the_field('company_slider--rt'); ?></p>
+                        <p><?php the_field('slider--rt'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/agiledata-icon_1.svg" class="cta-icon">
-                        <p><?php the_field('company_slider--agiledata'); ?></p>
+                        <p><?php the_field('slider--agiledata'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -99,7 +99,7 @@
                     <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/databridge-icon-solidblue.svg" class="cta-icon">
-                        <p><?php the_field('company_slider--databridge'); ?></p>
+                        <p><?php the_field('slider--databridge'); ?></p>
                         <div class="link">
                           <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
@@ -108,7 +108,7 @@
                    <div class="item">
                        <div class="cta-card">
                         <img src="http://imgh.us/connect-icon-solidblue.svg" class="cta-icon">
-                        <p><?php the_field('company_slider--connect'); ?></p>
+                        <p><?php the_field('slider--connect'); ?></p>
                         <div class="link">
                         <a href="#">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                     </div>
