@@ -149,7 +149,7 @@
             border: 0
             padding: 1em 0
 
-@media only screen and (max-width: 970px)
+@media only screen and (max-width: 996px)
   .mnav-container
     width: 100%
     overflow-x: hidden
@@ -365,21 +365,49 @@ h4:hover .fa-angle-down
   padding: 0 50px
   text-align: center
   margin: 0
+  +media($tablet)
+    +span-columns(8)
+  @media (max-width: 767px)
+    +span-columns(4)
+    text-align: left
+    padding: 0
 
 .nav-4
   +span-columns(4 of 12)
   padding: 0 40px
   +omega(3n)
+  +media($tablet)
+    +span-columns(8 of 8)
+  @media (max-width: 767px)
+    +span-columns(4 of 4)
+    text-align: left
+    padding: 0
+    margin: 0
 
 .nav-4-contact
   +span-columns(4 of 12)
   padding: 0
   +omega(3n)
+  +media($tablet)
+    +span-columns(8 of 8)
+  @media (max-width: 767px)
+    +span-columns(4 of 4)
+    text-align: left
+    padding: 0
+    margin: 0
 
 .nav-3
   +span-columns(3 of 12)
   padding: 0 40px
   +omega(4n)
+  +media($tablet)
+    +span-columns(8 of 8)
+    padding: 10px 0 0 0
+  @media (max-width: 767px)
+    +span-columns(4 of 4)
+    text-align: left
+    padding: 0
+    margin: 0
 
 header, nav
   display: block
@@ -619,6 +647,21 @@ tbody.collapse.in
   border: 1px solid transparent
   +media($hd)
     width: 100%
+  @media (max-width: 767px)
+    margin-top: -20px
+
+@media (min-width: 996px)
+  .navbar
+    border-radius: 4px
+
+@media (min-width: 996px)
+  .navbar-header
+    float: left
+
+@media (max-width: 767px)
+   .navbar-collapse
+      max-height: auto
+      overflow-x: auto
 
 .navbar-collapse
   overflow-x: visible
@@ -632,19 +675,48 @@ tbody.collapse.in
   &.in
     overflow-y: scroll
 
+@media (min-width: 996px)
+  .navbar-collapse
+    width: auto
+    border-top: 0
+    -webkit-box-shadow: none
+    box-shadow: none
+    height: 100vh
+    &.collapse
+      display: block !important
+      height: auto !important
+      padding-bottom: 0
+      overflow: visible !important
+    &.in
+      overflow-y: scroll
+  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    padding-left: 0
+    padding-right: 0
 
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
   max-height: 340px
 
+@media (max-device-width: 480px) and (orientation: landscape)
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    max-height: 200px
+
 .navbar-static-top
   z-index: 1000
   border-width: 0 0 1px
+
+@media (min-width: 996px)
+  .navbar-static-top
+    border-radius: 0
 
 .navbar-fixed-top, .navbar-fixed-bottom
   position: fixed
   right: 0
   left: 0
   z-index: 1030
+
+@media (min-width: 996px)
+  .navbar-fixed-top, .navbar-fixed-bottom
+    border-radius: 0
 
 .navbar-fixed-top
   top: 0
@@ -666,6 +738,15 @@ tbody.collapse.in
   > img
     display: block
     padding: 7px 0
+    +media($tablet)
+      padding: 7px 0
+    @media (max-width: 767px)
+      padding: 7px 0
+
+@media (min-width: 996px)
+  .navbar >
+    .container .navbar-brand, .container-fluid .navbar-brand
+      margin-left: -15px
 
 .navbar-toggle
   position: relative
@@ -688,8 +769,14 @@ tbody.collapse.in
     + .icon-bar
       margin-top: 4px
 
+@media (min-width: 996px)
+  .navbar-toggle
+    display: none
+
 .navbar-nav
   margin: 7.5px -15px
+  @media (max-width: 767px)
+    text-align: left !important
   > li >
     a
       padding-top: 10px
@@ -699,6 +786,60 @@ tbody.collapse.in
       margin-top: 0
       border-top-right-radius: 0
       border-top-left-radius: 0
+
+@media (max-width: 996px)
+  .navbar-nav .open .dropdown-menu
+    position: static
+    float: none
+    width: 100%
+    height: 600px
+    overflow-y: scroll
+    background-color: transparent
+    border: 0
+    -webkit-box-shadow: none
+    box-shadow: none
+    > li > a, .dropdown-header
+      padding: 5px 15px 5px 25px
+    > li > a
+      line-height: 20px
+      &:hover, &:focus
+        background-image: none
+  ::webkit-scrollbar
+    width: 0px
+  ::-webkit-scrollbar-track-piece
+    background-color: transparent
+
+@media (max-width: 767px)
+  .navbar-nav .open .dropdown-menu
+    position: static
+    float: none
+    width: 100%
+    max-height: none
+    overflow-y: scroll !important
+    background-color: transparent
+    border: 0
+    -webkit-box-shadow: none
+    box-shadow: none
+    > li > a, .dropdown-header
+      padding: 5px 15px 5px 25px
+    > li > a
+      line-height: 20px
+      &:hover, &:focus
+        background-image: none
+  ::webkit-scrollbar
+    width: 0px
+  ::-webkit-scrollbar-track-piece
+    background-color: transparent
+
+@media (min-width: 996px)
+  .navbar-nav
+    float: left
+    margin: 0
+    > li
+      float: left
+      > a
+        padding-top: 15px
+        padding-bottom: 15px
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu
   margin-bottom: 0
@@ -720,6 +861,21 @@ tbody.collapse.in
 .navbar-text
   margin-top: 15px
   margin-bottom: 15px
+
+@media (min-width: 996px)
+  .navbar-text
+    float: left
+    margin-left: 15px
+    margin-right: 15px
+
+@media (min-width: 996px)
+  .navbar-left
+    float: left !important
+  .navbar-right
+    float: right !important
+    margin-right: -15px
+    ~ .navbar-right
+      margin-right: 0
 
 .navbar-default
   background-color: #f8f8f8
@@ -774,6 +930,26 @@ tbody.collapse.in
     &[disabled]:hover
       color: #cccccc
 
+@media (max-width: 767px)
+  .navbar-default .navbar-nav .open .dropdown-menu >
+    li > a
+      color: #777777
+      &:hover, &:focus
+        color: #333333
+        background-color: transparent
+    .active > a
+      color: #555555
+      background-color: #e7e7e7
+      &:hover, &:focus
+        color: #555555
+        background-color: #e7e7e7
+    .disabled > a
+      color: #cccccc
+      background-color: transparent
+      &:hover, &:focus
+        color: #cccccc
+        background-color: transparent
+
 fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus
   color: #cccccc
 
@@ -817,6 +993,19 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
 
 .pull-right
   float: right !important
+  @media (max-width: 767px)
+    float: left !important
+
+@media (max-width: 980px)
+  .pull-right
+    float: left !important
+    margin-top: -10px !important
+
+.nav-contact
+  +media($tablet)
+    margin-left: -10px !important
+  @media (max-width: 767px)
+    margin-top: -10px !important
 
 .pull-left
   float: left !important
@@ -849,6 +1038,136 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
 
 .visible-xs, .visible-sm, .visible-md, .visible-lg, .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block, .visible-print, .visible-print-block, .visible-print-inline, .visible-print-inline-block
   display: none !important
+
+@media (max-width: 767px)
+  .visible-xs
+    display: block !important
+  table.visible-xs
+    display: table !important
+  tr.visible-xs
+    display: table-row !important
+  th.visible-xs, td.visible-xs
+    display: table-cell !important
+
+@media (max-width: 767px)
+  .visible-xs-block
+    display: block !important
+
+@media (max-width: 767px)
+  .visible-xs-inline
+    display: inline !important
+
+@media (max-width: 767px)
+  .visible-xs-inline-block
+    display: inline-block !important
+
+@media (min-width: 996px) and (max-width: 991px)
+  .visible-sm
+    display: block !important
+  table.visible-sm
+    display: table !important
+  tr.visible-sm
+    display: table-row !important
+  th.visible-sm, td.visible-sm
+    display: table-cell !important
+
+@media (min-width: 996px) and (max-width: 991px)
+  .visible-sm-block
+    display: block !important
+
+@media (min-width: 996px) and (max-width: 991px)
+  .visible-sm-inline
+    display: inline !important
+
+@media (min-width: 996px) and (max-width: 991px)
+  .visible-sm-inline-block
+    display: inline-block !important
+
+@media (min-width: 992px) and (max-width: 1199px)
+  .visible-md
+    display: block !important
+  table.visible-md
+    display: table !important
+  tr.visible-md
+    display: table-row !important
+  th.visible-md, td.visible-md
+    display: table-cell !important
+
+@media (min-width: 992px) and (max-width: 1199px)
+  .visible-md-block
+    display: block !important
+
+@media (min-width: 992px) and (max-width: 1199px)
+  .visible-md-inline
+    display: inline !important
+
+@media (min-width: 992px) and (max-width: 1199px)
+  .visible-md-inline-block
+    display: inline-block !important
+
+@media (min-width: 1200px)
+  .visible-lg
+    display: block !important
+  table.visible-lg
+    display: table !important
+  tr.visible-lg
+    display: table-row !important
+  th.visible-lg, td.visible-lg
+    display: table-cell !important
+
+@media (min-width: 1200px)
+  .visible-lg-block
+    display: block !important
+
+@media (min-width: 1200px)
+  .visible-lg-inline
+    display: inline !important
+
+@media (min-width: 1200px)
+  .visible-lg-inline-block
+    display: inline-block !important
+
+@media (max-width: 767px)
+  .hidden-xs
+    display: none !important
+
+@media (min-width: 996px) and (max-width: 991px)
+  .hidden-sm
+    display: none !important
+
+@media (min-width: 992px) and (max-width: 1199px)
+  .hidden-md
+    display: none !important
+
+@media (min-width: 1200px)
+  .hidden-lg
+    display: none !important
+
+@media print
+  .visible-print
+    display: block !important
+  table.visible-print
+    display: table !important
+  tr.visible-print
+    display: table-row !important
+  th.visible-print, td.visible-print
+    display: table-cell !important
+
+@media print
+  .visible-print-block
+    display: block !important
+
+@media print
+  .visible-print-inline
+    display: inline !important
+
+@media print
+  .visible-print-inline-block
+    display: inline-block !important
+
+@media print
+  .hidden-print
+    display: none !important
 
 .dropdown-menu >
   li > a
@@ -908,6 +1227,24 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
 
 .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom
   border-radius: 0
+
+@media (max-width: 767px)
+  .navbar .navbar-nav .open .dropdown-menu > .active > a
+    color: #fff
+    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%)
+    background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%)
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4))
+    background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%)
+    background-repeat: repeat-x
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0)
+    &:hover, &:focus
+      color: #fff
+      background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%)
+      background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%)
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4))
+      background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%)
+      background-repeat: repeat-x
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0)
 
 @-webkit-keyframes animFixedMainBack
   0%
@@ -1110,6 +1447,50 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
   .container
     position: relative
 
+@media (max-width: 980px)
+  .navbar-default .navbar-brand h2
+    font-size: 1.5em
+    top: 16px
+    span
+      display: none
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li.active > a
+    background-color: rgba(0, 0, 0, 0.05)
+    -moz-transition: all 0.4s ease 0s
+    -o-transition: all 0.4s ease 0s
+    -webkit-transition: all 0.4s ease 0s
+    transition: all 0.4s ease 0s
+    &:focus
+      background-color: rgba(0, 0, 0, 0.05)
+      -moz-transition: all 0.4s ease 0s
+      -o-transition: all 0.4s ease 0s
+      -webkit-transition: all 0.4s ease 0s
+      transition: all 0.4s ease 0s
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li.active > a:before
+    background-color: transparent
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li > a
+    margin: 0
+    padding: 1em 2em 1em 1.5em
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li > a
+    &:hover::before, &.active::before
+      background-color: transparent
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li > a
+    &:hover, &.active
+      background-color: rgba(0, 0, 0, 0.05)
+
+@media (max-width: 980px)
+  .navbar-default .navbar-nav > li > .dropdown-menu
+    margin: 0 20px
+
 .navbar-toggle
   background-color: transparent
   background-image: none
@@ -1156,6 +1537,10 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
       -webkit-transform: rotate(-45deg)
       transform: rotate(-45deg)
 
+@media (max-width: 980px)
+  .navbar-nav
+    margin: 40px 15px 10px 0
+
 .navbar-nav .open .dropdown-menu
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1)
   border-top: 1px solid rgba(0, 0, 0, 0.075)
@@ -1188,6 +1573,20 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
     transition: all 0.5s
     > a
       padding: 1em 2em 1em 1.5em
+
+@media (max-width: 980px)
+  .navbar-nav .open .dropdown-menu
+    box-shadow: none !important
+
+@media (max-width: 980px)
+  .navbar-nav .open .dropdown-menu > li.dropdown-header
+    margin-left: 15px
+    padding: 1em 2em 1em 0
+
+@media (max-width: 980px)
+  .navbar-nav .open .dropdown-menu > li > a
+    margin-left: 15px
+    padding: 1em 2em 1em 0
 
 .nav
   > li
@@ -1223,6 +1622,10 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
   margin-right: 15px
   .dropdown-menu
     right: auto
+
+@media (max-width: 786px)
+  .navbar-right
+    float: none !important
 
 .dropdown-header
   font-size: 14px
@@ -1270,6 +1673,10 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
         color: inherit
       &:last-child
         border-bottom: 0 solid #FFFFFF
+      +media($tablet)
+        padding: 10px 0 5px 0px
+      @media (max-width: 767px)
+        padding: 10px 0
       &--centered
         text-align: center !important
         margin: 0 auto !important
@@ -1283,6 +1690,11 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
         border: 0
         height: 1px
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0))
+        +media($tablet)
+          margin-bottom: 5px
+          margin-top: 0
+        @media (max-width: 767px)
+          display: none
       a
         color: inherit
         border-bottom: none
@@ -1295,6 +1707,12 @@ fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[di
           margin-left: -15px
           padding: 7px 0 0 0
           transform: perspective(1px) translateZ(0)
+          @media (max-width: 767px)
+            display: inline-block
+            padding: 0
+            margin: 0
+            top: 4px
+            left: 100px
         &:hover, &:focus
           background: none !important
           border: 0
@@ -1490,6 +1908,15 @@ h4
   color: $text
   font-weight: 500
   transition: all .3s ease-in-out
+  +media($tablet)
+    font-size: 18px
+  @media (max-width: 767px)
+    font-size: 14px
+    margin-left: 15px
+    &:before
+      font-family: 'FontAwesome'
+      content: '\f18e'
+      padding-right: 8px
   &:hover
     cursor: pointer
     color: $quaternary-cool
@@ -1500,6 +1927,15 @@ h4
   color: $text
   font-weight: 500
   transition: all .3s ease-in-out
+  +media($tablet)
+    font-size: 18px
+  @media (max-width: 767px)
+    margin-left: 15px
+    font-size: 14px
+    &:before
+      font-family: 'FontAwesome'
+      content: '\f18e'
+      padding-right: 8px
   &:hover
     cursor: pointer
     color: $health-tech-green
@@ -1510,6 +1946,15 @@ h4
   color: $text
   font-weight: 500
   transition: all .3s ease-in-out
+  +media($tablet)
+    font-size: 18px
+  @media (max-width: 767px)
+    font-size: 14px
+    margin-left: 15px
+    &:before
+      font-family: 'FontAwesome'
+      content: '\f18e'
+      padding-right: 8px
   &:hover
     cursor: pointer
     font-weight: 600
@@ -1518,6 +1963,12 @@ h4
 
 .navbar-brand img
   margin-right: 50px
+  +media($tablet)
+    margin-right: 0
+  +media($mobile)
+    margin-right: 0
+  +media($xsmall)
+    margin-right: 0
 
 .nav-sub-item
   display: none
