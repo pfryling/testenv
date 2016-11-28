@@ -49,7 +49,7 @@
                     </div>
                     <div class="label label--high-data">
                             
-                        <a href="/databrdige/hightech">
+                        <a href="/databridge/hightech">
                         <span class="label-swap">
                               DataBridge for HighTech
                             </span>
