@@ -64,26 +64,6 @@
                 <div class="anim-static--ad">&nbsp;</div>
             </section>
         </div>
-        <div class="line-anim-wrapper hide-on-mobile">
-            <div class="line-items-wrapper">
-                <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/line/lineAnim--speech2.png?raw=true" class="dot first wow bounceIn" data-wow-duration="1s" data-wow-delay=".9s">
-                <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/line/lineAnim--speech1.png?raw=true" class="dot second wow bounceIn" data-wow-duration="1s" data-wow-delay="1.2s">
-                <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/animation-graphics/line/lineAnim--speech3.png?raw=true" class="dot third wow bounceIn" data-wow-duration="1s" data-wow-delay="2.2s">
-            </div>
-            <div class="line-graphic-wrapper">
-                <svg id="line" width="1421px" height="33px" viewBox="0 0 1421 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <defs>
-                        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
-                            <stop stop-color="#5E73FF" offset="0%"></stop>
-                            <stop stop-color="#50DAFF" offset="100%"></stop>
-                        </linearGradient>
-                    </defs>
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                        <path d="M3,30.0005105 C3,30.0005105 44.6819436,29.626794 98.5,24.0005112 C170.993043,16.4218955 267.135656,3.00051045 328.5,3.00051045 C426.312477,3.00051045 556.828267,27.158579 685.5,30.0005105 C810.562505,32.762726 942.368023,3.12225401 1056.5,3.00051045 C1143.3404,2.90787857 1220.53855,15.4466917 1281.5,21.0005112 C1365.37885,28.6421934 1418,30.0005105 1418,30.0005105" id="Line" stroke="url(#linearGradient-1)" stroke-width="4"></path>
-                    </g>
-                </svg>
-            </div>
-        </div>
         <section class="contact-footer wow fadeInUp" id="contact">
             <div class="wrapper">
                 <div class="text">
