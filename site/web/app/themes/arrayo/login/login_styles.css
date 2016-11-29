@@ -1,58 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 body {
-  background: #efefef;
+  background: #fff;
   font-family: 'Libre Franklin', Helvetica, sans-serif;
 }
 
+/* Change Width and Height of Logo Image + Add Custom Image File */
 .login h1 a {
+  background-image: url(loginlogo.png);
   width: 206px;
   height: 60px;
+  background-size: 206px 60px;
 }
-
+ 
+/* Add a few changes to the color and style of form itself */
 .login label {
-  font-size: 14px;
   color: #5b70ff;
-  display:  block;
+  display: block;
   margin-bottom: 1em;
-  font-weight: 700
+  font-weight: bold;
 }
-
-.login input[type="text"]{
-  background-color: #ffffff;
-  border-color:#dddddd;
-  font-weight: 100
+ 
+.login form .input {
+  font-weight: normal;
 }
-
-.login input[type="password"]{
-  background-color: #ffffff;
-  border-color:#dddddd;
-  font-weight: 100
-}
-
-.login .wp-core-ui .button-primary {
-  width: 120px;
-  float:right;
-  background: -webkit-gradient(linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  background: -webkit-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  background: -moz-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  background: -ms-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  background: -o-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  background-image: -ms-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
-  color: #ffffff;
-  transition: background 350ms ease-in-out
-  border: none;
-  border-radius: 0px;
-}
-
-.login .button-primary:hover {
-  transition: all .3s ease-in-out;
-  background-position: bottom left;
-  color: #fff;
-  border: none;
-  border-radius: 0px;
-}
-
-#backtoblog {
+ 
+.login #backtoblog a, .login #nav a {
   display:  none;
+}
+ 
+.wp-core-ui .button-primary {
+  background: #5b70ff;
+  border-radius: 0;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  width: 120px;
 }
