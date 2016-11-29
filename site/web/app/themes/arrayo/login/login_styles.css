@@ -5,6 +5,10 @@ body {
   font-family: 'Libre Franklin', Helvetica, sans-serif;
 }
 
+#loginform {
+  display: flex;
+  flex-flow:  column wrap;
+}
 /* Change Width and Height of Logo Image + Add Custom Image File */
 .login h1 a {
   background-image: url(loginlogo.png);
@@ -28,12 +32,22 @@ body {
 .login #backtoblog a, .login #nav a {
   display:  none;
 }
+
+.forgetmenot {
+  line-height: 0;
+}
  
 .wp-core-ui .button-primary {
   background: #5b70ff;
   border-radius: 0;
   border: 0;
   outline: 0;
-  padding: 10px 20px;
   width: 120px;
+  font-family: 'Poppins', sans-serif;
+  text-transform:  uppercase;
+  box-shadow: 0;
+}
+
+.wp-core-ui .button-primary:hover {
+  background: #5b70ff;
 }

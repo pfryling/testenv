@@ -14,7 +14,7 @@
     </div>
     <div class="wrapper">
     <div class="industry-box-header">
-            <h5>We are Domain Specialists who create Solutions that help FinTech, HealthTech and HiTech Companies Harness their Data and shift towards an Agile Mindset.</h5>
+            <h5>We are Domain Specialists who create Solutions that help FinTech, HealthTech and HighTech Companies get Ahead of the Cascade of Digital Challenges they are Facing.</h5>
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
