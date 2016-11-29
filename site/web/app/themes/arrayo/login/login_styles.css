@@ -3,11 +3,14 @@
 body {
   background: #fff;
   font-family: 'Libre Franklin', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #loginform {
   display: flex;
   flex-flow:  column wrap;
+  align-items: center;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.18) !important;
 }
 /* Change Width and Height of Logo Image + Add Custom Image File */
@@ -46,9 +49,21 @@ body {
   width: 120px;
   font-family: 'Poppins', sans-serif;
   text-transform:  uppercase;
-  box-shadow: 0;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  float: none !important;
+  letter-spacing: .5px;
+
 }
 
 .wp-core-ui .button-primary:hover {
   background: #5b70ff;
+}
+
+#rememberme {
+  border:  1px solid #5b70ff !important;
+}
+
+input[type="checkbox"]:checked:before {
+  color: #5b70ff !important;
 }
