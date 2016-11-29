@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "34e42e943f2d78e162dab662ad7763e8",
-    "content-hash": "60e02b1399027fd441692fb34f240763",
+    "hash": "da1fb79b57dfd8e02972b036594d7958",
+    "content-hash": "34b64690dcb3646129b1ebdf5fe51c19",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -529,6 +529,20 @@
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/ninja-forms.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wp/wp-migrate-db",
+            "version": "0.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.zip",
                 "reference": null,
                 "shasum": null
             },
