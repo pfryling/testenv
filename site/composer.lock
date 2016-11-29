@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da1fb79b57dfd8e02972b036594d7958",
-    "content-hash": "34b64690dcb3646129b1ebdf5fe51c19",
+    "hash": "ccb582eeb267bf2941ad46a9a8fe5d45",
+    "content-hash": "593d416fd053fe58fb5749f28ddcf1ef",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -543,6 +543,20 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpserver/wps-hide-login",
+            "version": "1.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
