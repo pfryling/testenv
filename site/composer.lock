@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ccb582eeb267bf2941ad46a9a8fe5d45",
-    "content-hash": "593d416fd053fe58fb5749f28ddcf1ef",
+    "hash": "9593b614712b1a0ef555b7f838f674a2",
+    "content-hash": "8ffbf6e10d3ec358717d9c4f2b7f4034",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -41,6 +41,20 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/all-in-one-schemaorg-rich-snippets.1.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "callum/wp-mail",
+            "version": "0.9.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
