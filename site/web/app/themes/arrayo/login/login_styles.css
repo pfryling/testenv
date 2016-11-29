@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 body {
-  background: #5b70ff;
+  background: #efefef;
   font-family: 'Libre Franklin', Helvetica, sans-serif;
 }
 
 .login h1 a {
   background-image: url(loginlogo.png);
-  width: 100%;
-  height: auto;
+  width: 206px;
+  height: 60px;
 }
 
 .login label {
@@ -31,10 +31,9 @@ body {
   font-weight: 100
 }
 
-.login .button-primary {
+.login .wp-core-ui .button-primary {
   width: 120px;
   float:right;
-  background-color:#5b70ff !important;
   background: -webkit-gradient(linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
   background: -webkit-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
   background: -moz-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
@@ -48,7 +47,6 @@ body {
 }
 
 .login .button-primary:hover {
-  background-color:#5b70ff !important;
   transition: all .3s ease-in-out;
   background-position: bottom left;
   color: #fff;
@@ -56,6 +54,6 @@ body {
   border-radius: 0px;
 }
 
-p#backtoblog {
+#backtoblog {
   display:  none;
 }
