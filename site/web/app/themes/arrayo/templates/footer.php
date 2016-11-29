@@ -109,6 +109,7 @@
 <!--<script src="https://cdn.rawgit.com/gretzky/a785d80b70631e5ad467b9669e56855e/raw/576f41d65ec365f1ed0a1dffa120db8f2217e12e/progressBar.js"></script>-->
 <script src="https://cdn.rawgit.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232/raw/8b783b49a1c980b12928320e34c5d74eaa469792/textHighlight.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/98b9a998a0c59209208e90faa4f1f047e9c18427/returnTop.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/a899baf451bcdd7daf833f0f139db51b65d37862/blogFilter.js"></script>
 
 <script>
     new WOW().init();
