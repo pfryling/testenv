@@ -14,25 +14,25 @@
     </div>
     <div class="wrapper">
     <div class="industry-box-header">
-            <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</h5>
+            <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HighTech companies control their risks and make regulation work for them.</h5>
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
-                <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
+                <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
                     <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="/databridge/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                    <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
+                    <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
                     <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="/databridge/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                    <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
+                    <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
                     <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="/databridge/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
@@ -58,7 +58,7 @@
                 </div>
                 <div class="text">
                     <ul>
-                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('db_gradient--text'); ?></li>
+                        <li><?php the_field('db_gradient--text'); ?></li>
                     </ul>
                 </div>
             </section>

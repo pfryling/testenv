@@ -14,7 +14,7 @@
     </div>
     <div class="wrapper">
         <div class="industry-box-header">
-            <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HiTech companies control their risks and make regulation work for them.</h5>
+            <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HighTech companies control their risks and make regulation work for them.</h5>
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">

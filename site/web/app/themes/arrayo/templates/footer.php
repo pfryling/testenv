@@ -23,7 +23,7 @@
                 <li class="ul-item">
                     <p class="header">headquarters</p>
                     <p class="list-item">
-                        <strong>Downtown Boston Office</strong><br>
+                        <strong>Downtown Boston</strong><br>
                         50 Milk Street, 18th Floor,<br>
                         Boston, MA 02109
                     </p>
@@ -33,8 +33,8 @@
                         Cambridge, MA 02142
                     </p>
                     <p class="list-item">
-                        <strong>Manhattan Mid-town</strong><br>
-                        1117 Avenue of the Americas, 7th Floor<br>
+                        <strong>New York Office</strong><br>
+                        1177 Avenue of the Americas, 7th Floor<br>
                         Mid-town, New York, NY 10036
                     </p><br>
                 </li>

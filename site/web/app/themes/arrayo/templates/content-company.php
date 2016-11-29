@@ -31,11 +31,11 @@
                         </a>
                     </div>
                     <div class="card wow fadeInUp"">
-                        <h4 class="ny">Manhattan<br>New York</h4>
+                        <h4 class="ny">New York<br>Office</h4>
                         <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
                         <hr>
                         <a  class="notlink" href="https://www.google.com/maps/place/1117+5th+Ave,+New+York,+NY+10036/@40.7554462,-73.9858722,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aab2cffbed:0x5fb365211f9be982!8m2!3d40.7554422!4d-73.9836782">
-                          <p>1117 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
+                          <p>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
                         </a>
                     </div>
                 </div>

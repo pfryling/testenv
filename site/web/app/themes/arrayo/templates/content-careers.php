@@ -22,6 +22,7 @@
                     </div>
                 </div>
             <div class="card-wrapper">
+            <h6>featured job post</h6>
                     <?php $recent = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => 1, 'orderby' => 'date', 'order' => 'DESC') ); ?>
                     <?php while ( $recent->have_posts() ) : $recent->the_post(); ?>
                         <div class="card card--careers">
@@ -115,11 +116,11 @@
                 </div>
                 <div class="item">
                     <div class="test-card tab-first wow fadeInUp"">
-                        <h4 class="ny">Manhattan<br>New York</h4>
+                        <h4 class="ny">New York<br>Office</h4>
                         <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
                         <hr>
                         <a  class="notlink" href="https://www.google.com/maps/place/1117+5th+Ave,+New+York,+NY+10036/@40.7554462,-73.9858722,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aab2cffbed:0x5fb365211f9be982!8m2!3d40.7554422!4d-73.9836782">
-                          <p>1117 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
+                          <p>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
                         </a>
                     </div>
                 </div>
@@ -146,16 +147,16 @@
                         </div>
                         <h4>Services</h4>
                         <div class="filter-item">
-                        <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">AgileData</label>
+                        <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
                         </div>
                         <div class="filter-item">
-                        <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">RTech</label>
+                        <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">Regulatory &amp; Risk</label>
                         </div>
                         <div class="filter-item">
-                        <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">DataBridge</label>
+                        <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">Data Gov. &amp; Visual</label>
                         </div>
                         <div class="filter-item">
-                          <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Connect</label>
+                          <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Internet of Things</label>
                         </div>
                     </div>
 
