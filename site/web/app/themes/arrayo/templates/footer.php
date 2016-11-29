@@ -35,7 +35,7 @@
                     <p class="list-item">
                         <strong>New York Office</strong><br>
                         1177 Avenue of the Americas, 7th Floor<br>
-                        Mid-town, New York, NY 10036
+                        New York, NY 10036
                     </p><br>
                 </li>
             </ul>
