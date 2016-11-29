@@ -83,6 +83,46 @@ function blog_init() {
 }
 add_action( 'init', 'blog_init' );
 
+
+function my_loginlogo() {
+  echo '<style type="text/css">
+    h1 a {
+      background-image: url(' . get_template_directory_uri() . '/login/loginlogo.png) !important;
+    }
+  </style>';
+}
+add_action('login_head', 'my_loginlogo');
+
+function my_loginURL() {
+    return 'https://www.teamarrayo.com';
+}
+add_filter('login_headerurl', 'my_loginURL');
+
+function my_loginURLtext() {
+    return 'Team Arrayo';
+}
+add_filter('login_headertitle', 'my_loginURLtext');
+
+function my_logincustomCSSfile() {
+    wp_enqueue_style('login-styles', get_template_directory_uri() . '/login/login_styles.css');
+}
+add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
+
+function my_loginredrect( $redirect_to, $request, $user ) {
+  if ( isset( $user->roles ) && is_array( $user->roles ) ) {
+    if( in_array('administrator', $user->roles)) {
+      return admin_url();
+    } else {
+      return site_url();
+    }
+  } else {
+      return site_url();
+  }
+}
+ 
+add_filter('login_redirect', 'my_loginredrect', 10, 3);
+
+
 if(function_exists("register_field_group"))
 {
   register_field_group(array (

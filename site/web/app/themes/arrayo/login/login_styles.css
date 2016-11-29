@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+body {
+  background: #5b70ff;
+  font-family: 'Libre Franklin', Helvetica, sans-serif;
+}
+
+.login h1 a {
+  background-image: url(loginlogo.png);
+  width: 100%;
+  height: auto;
+}
+
+.login label {
+  font-size: 14px;
+  color: #5b70ff;
+  display:  block;
+  margin-bottom: 1em;
+  font-weight: 700
+}
+
+.login input[type="text"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  font-weight: 100
+}
+
+.login input[type="password"]{
+  background-color: #ffffff;
+  border-color:#dddddd;
+  font-weight: 100
+}
+
+.login .button-primary {
+  width: 120px;
+  float:right;
+  background-color:#5b70ff !important;
+  background: -webkit-gradient(linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  background: -ms-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  background-image: -ms-linear-gradient(to right, $primary-dark 50%, $primary 50%) repeat scroll right bottom / 200% 100% rgba(0, 0, 0, 0);
+  color: #ffffff;
+  transition: background 350ms ease-in-out
+  border: none;
+  border-radius: 0px;
+}
+
+.login .button-primary:hover {
+  background-color:#5b70ff !important;
+  transition: all .3s ease-in-out;
+  background-position: bottom left;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+
+p#backtoblog {
+  display:  none;
+}
