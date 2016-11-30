@@ -98,10 +98,13 @@ var cssTasks = function(filename) {
     })
     .pipe(concat, filename)
     .pipe(autoprefixer, {
+      add: true,
       browsers: [
         'last 2 versions',
+        'safari 8',
         'android 4',
-        'opera 12'
+        'opera 12',
+        'ie 9'
       ]
     })
     .pipe(cssNano, {
