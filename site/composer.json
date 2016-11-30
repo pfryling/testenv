@@ -312,7 +312,8 @@
     "wp-importer/importer": "^0.6.3",
     "wp/wp-migrate-db": "^0.9.0",
     "wpserver/wps-hide-login": "^1.4",
-    "callum/wp-mail": "^0.9.5"
+    "callum/wp-mail": "^0.9.5",
+    "roots/wp-h5bp-htaccess": "2.0.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

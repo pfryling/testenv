@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9593b614712b1a0ef555b7f838f674a2",
-    "content-hash": "8ffbf6e10d3ec358717d9c4f2b7f4034",
+    "hash": "7415971a818ad156997a06c8b55eb7c0",
+    "content-hash": "4ae66b12b39f087893ae40993d68535a",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -415,6 +415,48 @@
                 "env"
             ],
             "time": "2016-05-08 17:14:32"
+        },
+        {
+            "name": "roots/wp-h5bp-htaccess",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/wp-h5bp-htaccess.git",
+                "reference": "0df13d083b2d579f13f9aa3d639ed59c746d6a91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/wp-h5bp-htaccess/zipball/0df13d083b2d579f13f9aa3d639ed59c746d6a91",
+                "reference": "0df13d083b2d579f13f9aa3d639ed59c746d6a91",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.12",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "Ben Word",
+                    "email": "ben@benword.com",
+                    "homepage": "https://github.com/retlehs"
+                }
+            ],
+            "description": "HTML5 Boilerplate's .htaccess for WordPress",
+            "homepage": "http://roots.io/plugins/html5-boilerplate-htaccess/",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-04-28 16:34:17"
         },
         {
             "name": "roots/wp-password-bcrypt",
