@@ -22,7 +22,7 @@
                     </div>
                 </div>
             <div class="card-wrapper">
-            <h6>featured job post</h6>
+            <h6 class="careers">featured job post</h6>
                     <?php $recent = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => 1, 'orderby' => 'date', 'order' => 'DESC') ); ?>
                     <?php while ( $recent->have_posts() ) : $recent->the_post(); ?>
                         <div class="card card--careers">

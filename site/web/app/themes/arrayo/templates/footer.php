@@ -1,7 +1,25 @@
 <footer class="inner-footer">
   <div class="wrapper">
       <a href="javascript:" class="scrollup"><i class="fa fa-chevron-up"></i></a>
-            <ul class="flex-row">
+            <ul class="flex-row hide-mobile">
+                <li class="ul-item">
+                    <p class="header">Services</p>
+                    <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
+                    <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br>
+                    <a href="/databridge" class="list-item list-item--inline list-item--push">DataBridge</a>
+                    <a href="/connect" class="list-item list-item--inline ">Connect</a><br>
+
+                    <p class="header">Industries</p>
+                    <a href="/fintech" class="list-item list-item--inline list-item--right">FinTech</a>
+                    <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br>
+                    <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
+
+                    <a href="/company" class="header"><br>company<br></a><br>
+
+                    <a href="/careers" class="header">careers</a>
+                </li>
+            </ul>
+            <ul class="m-flex-row">
                 <li class="ul-item">
                     <p class="header">Services</p>
                     <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
