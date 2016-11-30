@@ -66,3 +66,7 @@ $('.nav-sub-4').click(function(){
 $('.dropdown-toggle').click(function(){
     $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 });
+
+$('#nf-field-8').click(function(event) {
+  event.stopPropagation();
+});
