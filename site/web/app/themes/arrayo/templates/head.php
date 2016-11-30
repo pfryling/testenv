@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arrayo - BioTech, Startup Tech, and Fin Tech Consulting Firm - Operational Excellence (Management Dashboard, CyberSecurity, Data Readiness, Systems Integration), Sales Enablement (Sales Analytics, User Experience Design, Enterprise QA Services, Predictive Sales and Marketing Dashboard), and GCR Consultants</title>
+    <title></title>
     <meta name="keywords" content="">
     <meta name="twitter:card" content="" />
     <meta name="twitter:site" content="" />
