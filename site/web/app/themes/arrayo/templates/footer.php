@@ -130,6 +130,12 @@
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/a899baf451bcdd7daf833f0f139db51b65d37862/blogFilter.js"></script>
 
 <script>
+$('#nf-field-8').click(function(event) {
+  event.stopPropagation();
+});
+</script>
+
+<script>
     new WOW().init();
 </script>
 
