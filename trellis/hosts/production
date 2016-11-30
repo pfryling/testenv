@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-teamarrayo.com
+138.197.10.62
 
 [web]
-teamarrayo.com
+138.197.10.62
