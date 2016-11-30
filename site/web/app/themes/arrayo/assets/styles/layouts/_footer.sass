@@ -219,48 +219,48 @@ footer
 
 ul.m-flex-row
     display: none
-        +media($mobile)
-            +span-columns(4 of 4)
+    +media($mobile)
+        +span-columns(4 of 4)
+        margin: 0
+        padding: 0
+        list-style: none
+        display: block
+        .ul-item
             margin: 0
             padding: 0
-            list-style: none
-            display: block
-            .ul-item
+            h3
                 margin: 0
-                padding: 0
-                h3
-                    margin: 0
-                    padding-top: $spacer-cyan
-                    color: $text
-                    line-height: 20px
-                p
-                    font-size: $small
-                    color: $text
-                    padding-bottom: 10px
-                button
-                    width: 70%
-                    padding: 10px 0
-                    a
-                        font-size: $base
-                        text-transform: none
-                .header
-                    font-size: $small
-                    font-family: $header
-                    font-weight: 600
-                    color: $primary
-                    text-transform: uppercase
-                    line-height: 1
-                    padding-bottom: 5px
-                    margin: 0
-                    padding-top: $spacer-cyan
-                .list-item
-                    font-size: $small
-                    font-family: $sans
-                    font-weight: 300
-                    margin: 0
-                    display: block
-                    color: $text
-                    transition: all .3s ease-in-out
+                padding-top: $spacer-cyan
+                color: $text
+                line-height: 20px
+            p
+                font-size: $small
+                color: $text
+                padding-bottom: 10px
+            button
+                width: 70%
+                padding: 10px 0
+                a
+                    font-size: $base
+                    text-transform: none
+            .header
+                font-size: $small
+                font-family: $header
+                font-weight: 600
+                color: $primary
+                text-transform: uppercase
+                line-height: 1
+                padding-bottom: 5px
+                margin: 0
+                padding-top: $spacer-cyan
+            .list-item
+                font-size: $small
+                font-family: $sans
+                font-weight: 300
+                margin: 0
+                display: block
+                color: $text
+                transition: all .3s ease-in-out
 
 .inner-footer
     +span-columns(12)
