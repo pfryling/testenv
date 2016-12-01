@@ -6,7 +6,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-            <a href="teamarrayo.com" class="navbar-brand">
+            <a href="http://teamarrayo.com" class="navbar-brand">
                 <svg id="header-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.28 82.99">
                   <defs>
                     <style>
