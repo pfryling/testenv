@@ -78,13 +78,13 @@
                                                 <li class="subtoggle">
                                                     <h4 class="sv"><a class="nav-sub-2" href="javascript:void(0);">RTech <i class="fa fa-angle-down"></i></a></h4>
                                                 </li>
-                                                <li class="nav-sub-item-2"><a class="sub-o-push" href="/agiledata">Overview</a>
+                                                <li class="nav-sub-item-2"><a class="sub-o-push" href="/rtech">Overview</a>
                                                 </li>
-                                                <li class="nav-sub-item-2"><a class="sub-fin-push" href="/agiledata/fintech">for FinTech  </a>
+                                                <li class="nav-sub-item-2"><a class="sub-fin-push" href="/rtech/fintech">for FinTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-2"><a class="sub-health-push" href="/agiledata/healthtech">for HealthTech  </a>
+                                                <li class="nav-sub-item-2"><a class="sub-health-push" href="/rtech/healthtech">for HealthTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-2"><a class="sub-high-push" href="/agiledata/hightech">for HighTech  </a>
+                                                <li class="nav-sub-item-2"><a class="sub-high-push" href="/rtech/hightech">for HighTech  </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -95,13 +95,13 @@
                                                 <li class="subtoggle">
                                                     <h4 class="sv"><a class="nav-sub-3" href="javascript:void(0);">DataBridge <i class="fa fa-angle-down"></i></a></h4>
                                                 </li>
-                                                <li class="nav-sub-item-3"><a class="sub-o-push" href="/agiledata">Overview</a>
+                                                <li class="nav-sub-item-3"><a class="sub-o-push" href="/databridge">Overview</a>
                                                 </li>
-                                                <li class="nav-sub-item-3"><a class="sub-fin-push" href="/agiledata/fintech">for FinTech  </a>
+                                                <li class="nav-sub-item-3"><a class="sub-fin-push" href="/databridge/fintech">for FinTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-3"><a class="sub-health-push" href="/agiledata/healthtech">for HealthTech  </a>
+                                                <li class="nav-sub-item-3"><a class="sub-health-push" href="/databridge/healthtech">for HealthTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-3"><a class="sub-high-push" href="/agiledata/hightech">for HighTech  </a>
+                                                <li class="nav-sub-item-3"><a class="sub-high-push" href="/databridge/hightech">for HighTech  </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -112,13 +112,13 @@
                                                 <li class="subtoggle">
                                                     <h4 class="sv"><a class="nav-sub-4" href="javascript:void(0);">Connect <i class="fa fa-angle-down"></i></a></h4>
                                                 </li>
-                                                <li class="nav-sub-item-4"><a class="sub-o-push" href="/agiledata">Overview</a>
+                                                <li class="nav-sub-item-4"><a class="sub-o-push" href="/connect">Overview</a>
                                                 </li>
-                                                <li class="nav-sub-item-4"><a class="sub-fin-push" href="/agiledata/fintech">for FinTech  </a>
+                                                <li class="nav-sub-item-4"><a class="sub-fin-push" href="/connect/fintech">for FinTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-4"><a class="sub-health-push" href="/agiledata/healthtech">for HealthTech  </a>
+                                                <li class="nav-sub-item-4"><a class="sub-health-push" href="/connect/healthtech">for HealthTech  </a>
                                                 </li>
-                                                <li class="nav-sub-item-4"><a class="sub-high-push" href="/agiledata/hightech">for HighTech  </a>
+                                                <li class="nav-sub-item-4"><a class="sub-high-push" href="/connect/hightech">for HighTech  </a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -127,7 +127,7 @@
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12 col-xs-12">
                                         <div class="browse">
-                                            <h3>Browse Services</h3>
+                                            <h3><a href="/services">Browse Services</a></h3>
                                         </div>
                                     </div>
                                 </div>
