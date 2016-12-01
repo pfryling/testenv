@@ -5,7 +5,6 @@
     <title><?php wp_title(''); ?></title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <!-- Vendor Stylesheets -->
-    <link rel="stylesheet" href="https://gist.githubusercontent.com/gretzky/ec4a04d0637f77d87fa133e886032ae2/raw/29e52ddd42fb859992a71221a6928cc36b5e9ab6/navstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
