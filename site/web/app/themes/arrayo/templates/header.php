@@ -217,15 +217,8 @@
                                      <div class="col-md-3 col-sm-3 hidden-xs">
                                         <div class="box">
                                             <ul>
-                                                <li><a href="#">support@yoursite.com <span class="fa fa-envelope-o"></span></a>
-                                                </li>
-                                                <li><a href="#">www.yoursite.com <span class="fa fa-link"></span></a>
-                                                </li>
-                                                <li><a href="#">234 333 44 80  <span class="fa fa-phone"></span></a>
-                                                </li>
-                                                <li><a href="#">234 333 44 80  <span class="fa fa-fax"></span></a>
-                                                </li>
-                                                <li><a href="#">Test Street,<br> City, Land</a>
+                                                <li>
+                                                    <?php echo do_shortcode("[ninja_form id=2]"); ?>
                                                 </li>
                                             </ul>
                                         </div>
