@@ -29,6 +29,21 @@ $(function(){
 
 });
 
+(function ($) {
+    "use strict";
+     var header = $("#header");
+    $(window).scroll(function () {
+
+    if ($(this).scrollTop() > 50) {
+        header.addClass("sticky");
+            $(".navbar").addClass("fixed");
+    }
+            else {
+                 header.removeClass("sticky");
+            $(".navbar").removeClass("fixed");
+            }
+    });
+
 
 $(function(){
   $(".nav-sub").click(function(){
