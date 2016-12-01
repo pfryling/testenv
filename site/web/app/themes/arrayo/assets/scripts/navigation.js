@@ -16,17 +16,48 @@ function megaMenu(){
     });
 }
 
-var $megaMenu = $('.megamenu .dropdown');
-  $megaMenu.on('show', '.collapse', function() {
-    $megaMenu.find('.collapse.in').collapse('hide');
-  });
+$(function(){
+    "use strict";
 
+    // Navigation
+    megaMenu();
+
+    $(".navbar-toggle").on("click", function () {
+        $(this).toggleClass("active");
+    });
+
+
+});
+
+(function ($) {
+    "use strict";
+     var header = $("#header");
+    $(window).scroll(function () {
+
+    if ($(this).scrollTop() > 50) {
+        header.addClass("sticky");
+            $(".navbar").addClass("fixed");
+    }
+            else {
+                 header.removeClass("sticky");
+            $(".navbar").removeClass("fixed");
+            }
+    });
+
+
+})(jQuery);
 
 
 $(function(){
   $(".nav-sub").click(function(){
     $(".nav-sub-item").slideToggle(300);
   });
+});
+
+$(function() {
+    $(".subtoggle").click(function(e) {
+        e.stopPropagation();
+    });
 });
 
 $(function(){
