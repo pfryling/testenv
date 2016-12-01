@@ -29,6 +29,7 @@ $(function(){
 
 });
 
+
 (function ($) {
     "use strict";
      var header = $("#header");
@@ -43,6 +44,9 @@ $(function(){
             $(".navbar").removeClass("fixed");
             }
     });
+
+
+})(jQuery);
 
 
 $(function(){
