@@ -14,6 +14,9 @@
             font-size: 48px !important
             margin: 0 0 $spacer-yellow 0
     .blog-content
+        +media($mobile)
+            padding: $spacer-green
+            text-align: center !important
         +span-columns(12)
         background-color: white
         box-shadow: $white-box-shadow
