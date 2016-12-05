@@ -56,7 +56,7 @@ function job_post_init() {
 add_action( 'init', 'job_post_init' );
 
 function blog_init() {
-    $args = array(
+    $arg = array(
       'label' => 'Blog',
         'public' => true,
         'taxonomies' => array( 'post_tag' ),
@@ -79,7 +79,7 @@ function blog_init() {
             'author',
             'page-attributes',)
         );
-    register_post_type( 'blog', $args );
+    register_post_type( 'blog', $arg );
 }
 add_action( 'init', 'blog_init' );
 
