@@ -5,7 +5,7 @@
                 <h1><?php the_field('post_title'); ?></h1>
             </section>
             <section class="blog-content">
-              <?php the_field('content'); ?>
+              <?php the_field('blog-content'); ?>
             </section>
         </div>
     </div>
