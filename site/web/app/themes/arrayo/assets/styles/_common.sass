@@ -1,3 +1,79 @@
+.blog
+    background-image: linear-gradient(to right, $primary, $tertiary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
+
+#blogfilters
+    +span-columns(12)
+    padding-bottom: 40px
+    +media($mobile)
+        padding-bottom: 20px
+
+#blogcontainer
+    +span-columns(12)
+
+.blogitem
+    +span-columns(8 of 12)
+    +omega(1n)
+    width: 100%
+    height: auto
+    display: block
+    margin: 10px 0
+    background: white
+    box-shadow: $white-box-shadow
+    color: $text
+    &.fin
+        border-top: 8px solid $quaternary-cool
+    &.health
+        border-top: 8px solid $health-tech-green
+    &.high
+        border-top: 8px solid $high-tech-blue
+    &.press
+        border-top: 8px solid $primary-dark
+    h3
+        padding: 0 26px 16px 26px
+        margin: 0
+    .blog-drpdwn
+        padding: 16px 26px 0 26px
+        margin: 0
+    .link
+      display: block
+      position: absolute
+      padding: $spacer-cyan 0 0 0
+      width: 100%
+      bottom: 0
+      border-top: 1px solid rgba(0,0,0,0.1)
+      a
+          text-decoration: none
+          font-family: $sans
+          font-size: 16px
+          line-height: 20px
+          color: $tertiary
+          padding: 16px 16px 16px 26px
+    .fa
+        color: $tertiary !important
+    .blogdesc
+        padding: 0 26px 16px 26px
+        font-family: $sans
+        margin: 0 0 68px 0
+        font-weight: 100
+
+#blogfilters button
+    border: 0
+    outline: 0
+    background: white
+    color: $primary
+    padding: 10px 20px
+    font-family: $sans
+    font-size: 16px
+    margin-right: 6px
+    margin-bottom: 16px
+    width: 160px
+    &:focus
+        background-color: $primary-dark
+        color: white
+    &:hover
+        background-color: $primary-dark
+        color: white
+
 .blog-bg
     +span-columns(12)
     .blog-header

@@ -184,6 +184,9 @@
                 <li>
                     <a href="/careers">Careers</a>
                 </li>
+                <li>
+                    <a href="/resources">Resources</a>
+                </li>
             </ul>
             <ul class="nav navbar-nav pull-right">
                 <li class="dropdown mega-menu-full">
