@@ -8,6 +8,11 @@
             font-family: $sans
             font-size: $base
             color: white
+            margin: 0
+        h1
+            font-family: $sans !important
+            font-size: 48px !important
+            margin: 0 0 $spacer-yellow 0
     .blog-content
         +span-columns(12)
         background-color: white
@@ -15,6 +20,7 @@
         color: $text
         padding: $spacer-blue $spacer-green
         margin-bottom: $spacer-pink
+        +clearfix
 .blog-bg.fintech
     background-image: linear-gradient(to bottom, rgba(175,142,255,1) 0%, rgba(176,142,255,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
 .blog-bg.healthtech
