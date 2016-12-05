@@ -112,6 +112,7 @@
 <script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/noframework.waypoints.min.js"></script>
 <script src="http://isotope.metafizzy.co/jquery.isotope.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 
 <!-- Custom Scripts -->
 <script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/c54ec0dcb907c04afe50dc1790be8330f03c1aaa/filter.js"></script>
@@ -128,6 +129,13 @@
 <script src="https://cdn.rawgit.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232/raw/8b783b49a1c980b12928320e34c5d74eaa469792/textHighlight.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/98b9a998a0c59209208e90faa4f1f047e9c18427/returnTop.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/056a45480655663057e90ea13da1a05d8b3db46f/blogFilter.js"></script>
+
+
+<script>
+jQuery(document).ready(function() {
+    $('#blogcontainer').mixItUp();
+});
+</script>
 
 <script>
 $('#nf-form-2-cont').click(function(e) {

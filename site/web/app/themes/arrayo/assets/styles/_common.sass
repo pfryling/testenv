@@ -9,25 +9,34 @@
 
 #blogcontainer
     +span-columns(12)
+    backface-visibility: hidden
+    &:after
+        content: ''
+        display: inline-block
+    .mix
+        display: inline-block
+        &:after
+            content: attr(data-myorder)
+            +span-columns(8 of 12)
+            +omega(1n)
+            width: 100%
+            height: auto
+            display: none
+            margin: 10px 0
+            background: white
+            box-shadow: $white-box-shadow
+            color: $text
 
 .blogitem
     +span-columns(8 of 12)
     +omega(1n)
     width: 100%
     height: auto
-    display: block
+    display: none
     margin: 10px 0
     background: white
     box-shadow: $white-box-shadow
     color: $text
-    &.c_fintech
-        border-top: 8px solid $quaternary-cool
-    &.c_healthtech
-        border-top: 8px solid $health-tech-green
-    &.c_hightech
-        border-top: 8px solid $high-tech-blue
-    &.c_press
-        border-top: 8px solid $primary-dark
     h3
         padding: 0 26px 16px 26px
         margin: 0
@@ -63,6 +72,15 @@
         margin: 0 0 68px 0
         font-weight: 100
 
+.blogitem .mix.c_fintech
+        border-top: 8px solid $quaternary-cool
+.blogitem .mix.c_healthtech
+        border-top: 8px solid $health-tech-green
+.blogitem .mix.c_hightech
+        border-top: 8px solid $high-tech-blue
+.blogitem .mix.c_press
+        border-top: 8px solid $primary-dark
+
 #blogfilters button
     border: 0
     outline: 0
@@ -74,6 +92,8 @@
     margin-right: 6px
     margin-bottom: 16px
     width: 160px
+    &.active
+        background: $primary-dark
     &:focus
         background-color: $primary-dark
         color: white
