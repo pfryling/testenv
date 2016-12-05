@@ -7,9 +7,9 @@
             </section>
             <div id="blogfilters">
               <button data-filter="*">All</button>
-              <button data-filter=".fin">FinTech</button>
-              <button data-filter=".health">HealthTech</button>
-              <button data-filter=".high">HighTech</button>
+              <button data-filter=".fintech">FinTech</button>
+              <button data-filter=".healthtech">HealthTech</button>
+              <button data-filter=".hightech">HighTech</button>
               <button data-filter=".press">Press Releases</button>
             </div>
 
@@ -28,6 +28,8 @@
             </div>
             <?php endwhile; wp_reset_query(); ?>
         </div>
+    </div>
+</div>
         <section class="contact-footer wow fadeInUp" id="contact">
         <div class="wrapper">
             <div class="text">
@@ -39,4 +41,4 @@
                 <?php echo do_shortcode("[ninja_form id=1]"); ?>
             </div>
         </div>
-    </section>
+        </section>
