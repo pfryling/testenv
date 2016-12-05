@@ -1,13 +1,9 @@
 <?php while(have_posts()) : the_post(); ?>
-<div class="blog-post">
-    <div class="blog_<?php the_field('industry'); ?>">
+     <div class="sub-bg-gradient-for sub-bg-gradient-for--hiad">
         <div class="wrapper">
-            <section class="page-header">
-                <p class="drpdwn">
-                  <?php the_field('pr_cs'); ?> |
-                  <?php the_field('date'); ?>
-                </p>
-                <h1><?php the_field('post_title'); ?></h1>
+            <section class="sub-page-header">
+                <h1><?php the_field('ad_hi--header'); ?></h1>
+                <p><?php the_field('ad_hi--subheader'); ?></p>
             </section>
             <section class="blog_section">
               <?php the_field('content'); ?>
