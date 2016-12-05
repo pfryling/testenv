@@ -21,16 +21,17 @@
                     <?php the_field('pr_cs'); ?>
                 </div>
                 <h3 class="blogtitle"><?php the_field('post_title'); ?></h3>
-                <p class="blogdesc"><?php the_field('post_desc'); ?></p>
+                <?php the_field('post_desc'); ?>
                 <div class="link">
                     <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
             </div>
             <?php endwhile; wp_reset_query(); ?>
         </div>
+        <div style="margin-bottom:68px">&nbsp;</div>
     </div>
 </div>
-        <section class="contact-footer wow fadeInUp" id="contact">
+        <section class="contact-footer" id="contact">
         <div class="wrapper">
             <div class="text">
                 <h2>Ask Team Arrayo</h2>
