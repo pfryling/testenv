@@ -2,10 +2,9 @@
      <div class="sub-bg-gradient-for sub-bg-gradient-for--hiad">
         <div class="wrapper">
             <section class="sub-page-header">
-                <h1><?php the_field('ad_hi--header'); ?></h1>
-                <p><?php the_field('ad_hi--subheader'); ?></p>
+                <h1><?php the_field('post_title'); ?></h1>
             </section>
-            <section class="blog_section">
+            <section class="blog-content">
               <?php the_field('content'); ?>
             </section>
         </div>
