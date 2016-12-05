@@ -55,9 +55,9 @@ function job_post_init() {
 }
 add_action( 'init', 'job_post_init' );
 
-function blog_init() {
+function resource_init() {
     $arg = array(
-      'label' => 'Blog',
+      'label' => 'Resources',
         'public' => true,
         'taxonomies' => array( 'post_tag' ),
         'show_ui' => true,
@@ -79,9 +79,9 @@ function blog_init() {
             'author',
             'page-attributes',)
         );
-    register_post_type( 'blog', $arg );
+    register_post_type( 'resource', $arg );
 }
-add_action( 'init', 'blog_init' );
+add_action( 'init', 'resource_init' );
 
 
 function my_loginlogo() {
