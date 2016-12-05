@@ -1,11 +1,5 @@
 .blog-bg
     +span-columns(12)
-    &--fintech
-        background-image: linear-gradient(to bottom, rgba(175,142,255,1) 0%, rgba(176,142,255,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
-    &--healthtech
-        background-image: linear-gradient(to bottom, rgba(61,214,130,1) 0%, rgba(61,214,130,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
-    &--hightech
-        background-image: linear-gradient(to bottom, rgba(61,232,209,1) 0%, rgba(61,232,209,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
     .blog-header
         +span-columns(8 of 12)
         margin-top: $spacer-red
@@ -21,6 +15,12 @@
         color: $text
         padding: $spacer-blue $spacer-green
         margin-bottom: $spacer-pink
+.blog-bg.fintech
+    background-image: linear-gradient(to bottom, rgba(175,142,255,1) 0%, rgba(176,142,255,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
+.blog-bg.healthtech
+    background-image: linear-gradient(to bottom, rgba(61,214,130,1) 0%, rgba(61,214,130,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
+.blog-bg.hightech
+    background-image: linear-gradient(to bottom, rgba(61,232,209,1) 0%, rgba(61,232,209,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%)
 
 .career_fix
     +media($mobile)
