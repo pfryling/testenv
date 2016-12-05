@@ -135,8 +135,16 @@ var jQuery311 = $.noConflict(true);
 
 
 <script>
-jQuery(document).ready(function() {
-    $('#blogcontainer').mixItUp();
+var $container = jQuery('#blogcontainer');
+
+$container.isotope({
+  // options
+  itemSelector: '.blogitem'
+});
+
+jQuery('#blogfilters').on( 'click', 'button', function() {
+  var filterValue = jQuery(this).attr('data-filter');
+  $container.isotope({ filter: filterValue });
 });
 </script>
 
