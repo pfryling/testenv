@@ -1,5 +1,5 @@
 <?php while(have_posts()) : the_post(); ?>
-<div class="<?php the_field('industry'); ?>">
+<div class="blog_<?php the_field('industry'); ?>">
     <div class="wrapper">
         <section class="page-header">
             <p class="drpdwn">

@@ -1,0 +1,38 @@
+.blog_fintech
+    background-color: rgba(175,142,255,1)
+    background: +include filter-gradient(#af8eff, #ffffff, vertical)
+    background: +background-image(linear-gradient(top, rgba(175,142,255,1) 0%, rgba(176,142,255,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%))
+
+.blog_healthtech
+    background-color: rgba(61,214,130,1)
+    background: +filter-gradient(#3dd682, #ffffff, vertical)
+    background: +background-image(linear-gradient(top, rgba(61,214,130,1) 0%, rgba(61,214,130,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%))
+
+.blog_hightech
+    background-color: rgba(61,232,209,1)
+    background: +filter-gradient(#3de8d1, #ffffff, vertical)
+    background: +background-image(linear-gradient(top, rgba(61,232,209,1) 0%, rgba(61,232,209,1) 51%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 100%))
+
+.page-header .drpdown
+    font-family: $sans
+    color: white
+    font-size: 16px
+
+.blog_section
+    +span-columns(8 of 12)
+    +media($tablet)
+        +span-columns(8 of 8)
+    +media($mobile)
+        +span-columns(4 of 4)
+    background-color: white
+    box-shadow: $white-box-shadow
+
+.blog_fintech .blog_section h1, h2, h3
+    color: $quaternary-cool
+
+.blog_healthtech .blog_section h1, h2, h3
+    color: $health-tech-green
+
+.blog_hightech .blog_section h1, h2, h3
+    color: $high-tech-blue
+
