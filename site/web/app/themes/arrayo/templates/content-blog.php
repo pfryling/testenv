@@ -1,7 +1,7 @@
 <?php while(have_posts()) : the_post(); ?>
-<div class="<?php the_field('industry'); ?>">
+<div class="blog-bg">
     <div class="wrapper">
-        <section class="page-header">
+        <section class="blog-header">
             <p class="drpdwn">
                 <?php the_field('pr_cs'); ?> |
                 <?php the_field('date'); ?>
