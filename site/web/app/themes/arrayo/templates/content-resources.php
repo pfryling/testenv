@@ -6,17 +6,17 @@
                 <p style="margin-bottom:68px"><?php the_field('page_subheader'); ?></p>
             </section>
             <div id="blogfilters">
-              <button data-filter="*">All</button>
-              <button data-filter=".c_fintech">FinTech</button>
-              <button data-filter=".c_healthtech">HealthTech</button>
-              <button data-filter=".c_hightech">HighTech</button>
-              <button data-filter=".c_press">Press Releases</button>
+              <button value="*">All</button>
+              <button value=".c_fintech">FinTech</button>
+              <button value=".c_healthtech">HealthTech</button>
+              <button value=".c_hightech">HighTech</button>
+              <button value=".c_press">Press Releases</button>
             </div>
 
         <div id="blogcontainer">
             <?php $loop = new WP_Query( array( 'post_type' => 'resource', 'posts_per_page' => -1 ) ); ?>
             <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="blogitem <?php the_field('blog_class'); ?>">
+            <div class="blogitem <?php the_field('blog_class'); ?>" data-category="<?php the_field('blog_class'); ?>">
                 <div class="blog-drpdwn">
                     <?php the_field('pr_cs'); ?>
                 </div>
