@@ -1,18 +1,16 @@
 <?php while(have_posts()) : the_post(); ?>
-<div class="blog-post">
-    <div class="blog_<?php the_field('industry'); ?>">
-        <div class="wrapper">
-            <section class="page-header">
-                <p class="drpdwn">
-                  <?php the_field('pr_cs'); ?> |
-                  <?php the_field('date'); ?>
-                </p>
-                <h1><?php the_field('post_title'); ?></h1>
-            </section>
-            <section class="blog_section">
-              <?php the_field('content'); ?>
-            </section>
-        </div>
+<div class="blog-<?php the_field('industry'); ?>">
+    <div class="wrapper">
+        <section class="page-header">
+            <p class="drpdwn">
+                <?php the_field('pr_cs'); ?> |
+                <?php the_field('date'); ?>
+            </p>
+            <h1><?php the_field('post_title'); ?></h1>
+        </section>
+        <section class="blog-content">
+            <?php the_field('content'); ?>
+        </section>
     </div>
 </div>
 <section class="contact-footer wow fadeInUp" id="contact">
