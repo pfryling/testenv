@@ -1,5 +1,5 @@
 <?php while(have_posts()) : the_post(); ?>
-<div class="blog-<?php the_field('industry'); ?>">
+<div class="<?php the_field('industry'); ?>">
     <div class="wrapper">
         <section class="page-header">
             <p class="drpdwn">
@@ -9,7 +9,7 @@
             <h1><?php the_field('post_title'); ?></h1>
         </section>
         <section class="blog-content">
-            <?php the_field('content'); ?>
+            <p><?php the_field('content'); ?></p>
         </section>
     </div>
 </div>
