@@ -1,4 +1,4 @@
-<?php while(have_posts()) : the_post(); ?>
+<?php while (have_posts()) : the_post(); ?>
 <div class="blog-bg">
     <div class="wrapper">
         <section class="blog-header">
