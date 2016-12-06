@@ -11,13 +11,13 @@
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('ad_he_box--header1'); ?></h2>
                     <h5 class="for"><?php the_field('ad_he_box--subheader1'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <p><?php the_field('ad_he_box--text'); ?></p>
                 </div>
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('ad_he_box--header2'); ?></h2>
                     <h5 class="for"><?php the_field('ad_he_box--subheader2'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <p><?php the_field('ad_he_box--text2'); ?></p>
                     <p class="for"><strong>Operations</strong></p>
                     <hr>

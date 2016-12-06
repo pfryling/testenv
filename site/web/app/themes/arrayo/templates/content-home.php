@@ -1,9 +1,9 @@
 <?php the_content(); ?>
 <div class="bg-gradient--main">
     <div class="header-logo-container">
-        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
-        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-mid-01.png?raw=true" class="logo rotate-reverse">
-        <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/systems-icon-outer-01.png?raw=true" class="logo rotate">
+        <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
+        <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-mid-01.png?raw=true" class="logo rotate-reverse">
+        <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/systems-icon-outer-01.png?raw=true" class="logo rotate">
     </div>
     <div class="wrapper">
         <section class="page-header">
@@ -46,7 +46,7 @@
         <div class="wrapper">
             <section class="overlay--container">
                 <div class="overlay wow fadeInUp">
-                    <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/gray-tilde.png">
+                    <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/gray-tilde.png">
                     <h2>We are<br>
                     <div class="textfade-wrap">
                         <span id="rotate">&nbsp;</span>
@@ -232,9 +232,9 @@
                         </div>
                     </section>
             <section class="centered--bg wow fadeInUp">
-                <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-3.png" class="ico-1 wow bounceIn" data-wow-delay=".8s" class="cb-icon">
-                <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-2.png" class="ico-3 wow bounceIn" data-wow-delay="1s" class="cb-icon">
-                <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-1.png" class="ico-2 wow bounceIn" data-wow-delay=".9s" class="cb-icon">
+                <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-3.png" class="ico-1 wow bounceIn" data-wow-delay=".8s" class="cb-icon">
+                <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-2.png" class="ico-3 wow bounceIn" data-wow-delay="1s" class="cb-icon">
+                <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/plus-icon-1.png" class="ico-2 wow bounceIn" data-wow-delay=".9s" class="cb-icon">
                 <div class="content">
                     <h2><?php the_field('bottom-cta--header'); ?></h2>
                     <h5><?php the_field('bottom_cta--subheader'); ?></h5>

@@ -9,13 +9,13 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('rt_he_box--subheader'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <p><?php the_field('rt_he_box--text'); ?></p>
                     <div class="inner-gradient--green">
                         <p class="for"><?php the_field('rt_he_box--gradient-text'); ?></p>
                     </div>
                     <p class="for"><?php the_field('rt_he_box--text2'); ?> </p>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/health-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom1'); ?></h4>
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom2'); ?></h4>
                 </div>

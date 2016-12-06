@@ -10,16 +10,16 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('ad_hi_box--subheader'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <p class="for"><?php the_field('ad_hi--text1'); ?></p>
-                    <img src="http://imgh.us/quote-hightech.png" class="quote-img">
+                    <img alt="" src="http://imgh.us/quote-hightech.png" class="quote-img">
                     <h4 class="quote quote--hightech"><?php the_field('ad_hi--quote'); ?></h4>
                     <p class="for"><?php the_field('ad_hi--text2'); ?></p>
                     <div class="inner-gradient--blue">
                         <p><?php the_field('ad_hi_box--gradient-text1'); ?></p>
                     </div>
                     <p class="for"><?php the_field('ad_hi--text3'); ?></p>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
+                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('ad_hi_subheader--bottom'); ?></h4>
                 </div>
 

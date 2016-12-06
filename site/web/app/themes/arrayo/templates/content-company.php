@@ -48,21 +48,21 @@
             <p><?php the_field('company_center_cta--text'); ?></p>
             <ul class="flexfade-container flexfade-wrapper">
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
-                    <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
+                    <h4><img alt="FinTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-fintech'); ?></p>
                         <div class="link comlink">
                             <a href="/agiledata/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                         </div>
                 </li>
                     <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                        <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
+                        <h4><img alt="HealthTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-healthtech'); ?></p>
                         <div class="link comlink">
                             <a href="/agiledata/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                         </div>
                     </li>
                     <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                        <h4><img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
+                        <h4><img alt="HighTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
                         <p class="company-left"><?php the_field('industry_box--text-hightech'); ?></p>
                         <div class="link comlink">
                             <a href="/agiledata/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
@@ -76,11 +76,11 @@
         <section class="inner-blue-gradient wow fadeInUp"">
                 <h2><?php the_field('company_gradient--header'); ?></h2>
                 <p><?php the_field('company_gradient--text'); ?></p>
-                <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-tilde.png?raw=true">
+                <img alt="White Tilde" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-tilde.png?raw=true">
                  <div class="com-carousel owl-carousel owl-theme cta-carousel">
                  <div class="item">
                        <div class="cta-card">
-                        <img src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
+                        <img alt="RTech Icon" src="http://imgh.us/r-tech-icon_1.svg" class="cta-icon">
                         <p><?php the_field('slider--rt'); ?></p>
                         <div class="link">
                           <a href="/rtech">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
@@ -89,7 +89,7 @@
                    </div>
                     <div class="item">
                        <div class="cta-card">
-                        <img src="http://imgh.us/agiledata-icon_1.svg" class="cta-icon">
+                        <img alt="AgileData Icon" src="http://imgh.us/agiledata-icon_1.svg" class="cta-icon">
                         <p><?php the_field('slider--agiledata'); ?></p>
                         <div class="link">
                           <a href="/agiledata">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
@@ -98,7 +98,7 @@
                    </div>
                     <div class="item">
                        <div class="cta-card">
-                        <img src="http://imgh.us/databridge-icon-solidblue.svg" class="cta-icon">
+                        <img alt="DataBridge Icon" src="http://imgh.us/databridge-icon-solidblue.svg" class="cta-icon">
                         <p><?php the_field('slider--databridge'); ?></p>
                         <div class="link">
                           <a href="/databridge">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
@@ -107,7 +107,7 @@
                    </div>
                    <div class="item">
                        <div class="cta-card">
-                        <img src="http://imgh.us/connect-icon-solidblue.svg" class="cta-icon">
+                        <img alt="Connect Icon" src="http://imgh.us/connect-icon-solidblue.svg" class="cta-icon">
                         <p><?php the_field('slider--connect'); ?></p>
                         <div class="link">
                         <a href="/connect">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>

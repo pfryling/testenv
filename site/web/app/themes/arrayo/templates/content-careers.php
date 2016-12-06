@@ -61,15 +61,15 @@
                 <p class="small"><?php the_field('careers_center--intro'); ?><br>&nbsp;</p>
                 <div class="icons-wrap">
                     <div class="sm-icon">
-                        <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
+                        <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
                         <p class="small"><?php the_field('careers_center--icon1'); ?></p>
                     </div>
                     <div class="sm-icon">
-                        <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
+                        <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
                         <p class="small"><?php the_field('careers_center--icon2'); ?></p>
                     </div>
                     <div class="sm-icon">
-                         <img src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.3s">
+                         <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.3s">
                          <p class="small"><?php the_field('careers_center--icon3'); ?><br>&nbsp;</p>
                     </div>
                 </div>

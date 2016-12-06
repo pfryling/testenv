@@ -10,7 +10,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('con_fin_box--subheader'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
+                    <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <p class="for"><?php the_field('con_fin--text1'); ?></p>
                     <p class="for"><strong><?php the_field('con_fin_box--bold1'); ?></strong></p>
                     <p class="list list--fintech wow slideInLeft"><?php the_field('con_fin_box--list1'); ?><hr></p>

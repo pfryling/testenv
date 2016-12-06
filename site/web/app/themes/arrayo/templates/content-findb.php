@@ -9,7 +9,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('db_fin_box--subheader'); ?></h5>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
+                    <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <p><?php the_field('db_fin_box--text1'); ?></p>
                     <img class="quote-img wow slideInLeft" src="http://imgh.us/quote--fintech.png">
                     <h4 class="quote quote--fintech wow slideInLeft"><?php the_field('db_fin--quote'); ?></h4>
@@ -17,7 +17,7 @@
                         <p><?php the_field('db_fin_box--gradient-text'); ?></p>
                     </div>
                     <p class="for"><?php the_field('db_fin_box--text2'); ?></p>
-                    <img src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
+                    <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('db_fin_subheader--bottom'); ?></h4>
                 </div>
 
