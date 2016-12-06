@@ -90,6 +90,7 @@
                             </span>
                         </a>
                     </div>
+                    <br>
                     <div class="label label--resources-high wow fadeInUp">
                         <a href="/resources">
                         <p>

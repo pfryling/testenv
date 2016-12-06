@@ -77,6 +77,7 @@
                             </span>
                         </a>
                     </div>
+                    <br>
                     <div class="label label--resources-health wow fadeInUp">
                         <a href="/resources">
                         <p>
