@@ -47,7 +47,7 @@
                     </p>
                     <p class="list-item">
                         <strong>Kendall Cambridge</strong><br>
-                        1 Boradway, 5th Floor,<br>
+                        1 Broadway, 5th Floor,<br>
                         Cambridge, MA 02142
                     </p>
                     <p class="list-item">
@@ -63,22 +63,22 @@
                     <p style="16px">Join Arrayo, Get on board</p>
                     <div class="job-modal">
                      <div class="job-overlay"></div>
- -                      <a href="#mj-1" class="mj-btn">Apply Now</a></p>
+                      <a href="#mj-1" class="mj-btn">Apply Now</a></p>
                       </div>
- -
- -                        <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
- -                              <div class="mj-content">
- -                                    <header class="mj-header">
- -                                        <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
- -                                    </header>
- -
- -                                    <div class="mj-body">
- -                                    <h2>Apply Now-<br>for Now or Later</h2>
- -                                    <h5>Join Arrayo, Get on Board</h5>
- -                                    <?php echo do_shortcode("[ninja_form id=4]"); ?>
- -                                    </div>
- -                            </div>
- -                        </div>
+
+                     <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
+                              <div class="mj-content">
+                                    <header class="mj-header">
+                                        <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
+                                   </header>
+
+                                   <div class="mj-body">
+                                   <h2>Apply Now-<br>for Now or Later</h2>
+                                   <h5>Join Arrayo, Get on Board</h5>
+                                    <?php echo do_shortcode("[ninja_form id=4]"); ?>
+                                    </div>
+                            </div>
+                        </div>
                 </li>
               </ul>
             </div>
