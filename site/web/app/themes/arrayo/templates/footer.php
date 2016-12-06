@@ -10,7 +10,7 @@
                     <a href="/connect" class="list-item list-item--inline ">Connect</a><br>
 
                     <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline" style="padding-right:40px">FinTech</a>
+                    <a href="/fintech" class="list-item list-item--inline" style="padding-right:39.5px">FinTech</a>
                     <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br>
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
 
@@ -65,6 +65,41 @@
               </ul>
             </div>
     </footer>
+    <div class="mobile-footer">
+        <h6>Services</h6>
+        <ul>
+            <li><a href="/rtech">RTech</a></li>
+            <li><a href="/agiledata">AgileData</a></li>
+            <li><a href="/databridge">DataBridge</a></li>
+            <li><a href="/connect">Connect</a></li>
+        </ul>
+        <h6>Industries</h6>
+        <ul>
+            <li><a href="/fintech">FinTech</a></li>
+            <li><a href="/healthtech">HealthTech</a></li>
+            <li><a href="/hightech">HighTech</a></li>
+        </ul>
+        <h3>Apply now-<br>for Now or Later</h3>
+        <p>Join Arrayo, Get on board</p>
+        <div class="job-modal">
+            <div class="job-overlay"></div>
+            <a href="#mj-1" class="mj-btn">Apply Now</a>
+        </div>
+        <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mjLabel" role="dialog">
+            <div class="mj-content">
+                <header class="mj-header">
+                    <a href="#!" class="mj-close">
+                        <i class="fa fa-times-circle"></i>
+                    </a>
+                </header>
+                <div class="mj-body">
+                    <h2>Apply Now-<br>for Now or Later</h2>
+                    <h5>Join Arrayo, Get on Board</h5>
+                    <?php echo do_shortcode("[ninja_form id=4]"); ?>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="social">
         <div class="wrapper">
             <div class="social-container">
