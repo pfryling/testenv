@@ -81,8 +81,8 @@
         </ul>
         <h6>Locations</h6>
         <ul>
-            <li> <strong>Downtown Boston</strong><br>50 Milk Street, 18th Floor,<br>Boston, MA 02109</li>
-            <li> <strong>Kendall Cambridge</strong><br>1 Broadway, 5th Floor,<br>Cambridge, MA 02142</li>
+            <li> <strong>Downtown Boston</strong><br>50 Milk Street, 18th Floor,<br>Boston, MA 02109</li><br>
+            <li> <strong>Kendall Cambridge</strong><br>1 Broadway, 5th Floor,<br>Cambridge, MA 02142</li><br>
             <li><strong>New York Office</strong><br>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</li>
         </ul>
         <h6><a href="/company">Company</a></h6>
