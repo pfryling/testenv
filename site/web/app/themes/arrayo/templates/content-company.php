@@ -219,11 +219,12 @@
     <section class="about-full-bg wow fadeInUp"">
         <div class="wrapper">
             <div class="about-cta">
-                <h2><?php the_field('company_cta_purple--header'); ?></h2>
+                <h2 class="header2"><?php the_field('company_cta_purple--header'); ?></h2>
                 <p><?php the_field('company_cta_purple--text'); ?></p>
         <div class="job-modal">
             <div class="job-overlay"></div>
-                <a href="#mj-1" class="mj-btn">Apply Now</a></p>
+                <a href="#mj-1" class="mj-btn">Apply Now</a>
+                <div style="margin-bottom: 356px;">&nbsp;</div>
             </div>
             <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
                 <div class="mj-content">
