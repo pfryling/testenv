@@ -98,7 +98,7 @@
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="bos">Downtown<br>Boston</h4>
                         <p class="first"><?php the_field('company_box_boston--text'); ?></p>
-                        <hr>
+                        <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
                         <a class="notlink"  href="https://www.google.com/maps/place/50+Milk+St,+Boston,+MA+02109/@42.3570037,-71.0597821,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708476089075:0xbc8dd70d06accf26!8m2!3d42.3569998!4d-71.0575881">
                           <p>50 Milk Street, 18th Floor,<br>Boston, MA 02109</p>
                         </a>
@@ -108,7 +108,7 @@
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="cam">Kendall<br>Cambridge</h4>
                         <p class="first"><?php the_field('company_box_cambridge--text'); ?></p>
-                        <hr>
+                        <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
                         <a  class="notlink" href="https://www.google.com/maps/place/1+Broadway,+Cambridge,+MA+02142/@42.3628338,-71.0861121,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370a5bc05760d:0xb016fe9736fea4b!8m2!3d42.3628299!4d-71.0839181">
                           <p>1 Broadway, 5th Floor<br>Cambridge, MA 02142</p>
                         </a>
@@ -118,7 +118,7 @@
                     <div class="test-card tab-first wow fadeInUp"">
                         <h4 class="ny">New York<br>Office</h4>
                         <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
-                        <hr>
+                        <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
                         <a  class="notlink" href="https://www.google.com/maps/place/1117+5th+Ave,+New+York,+NY+10036/@40.7554462,-73.9858722,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aab2cffbed:0x5fb365211f9be982!8m2!3d40.7554422!4d-73.9836782">
                           <p>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
                         </a>
@@ -172,7 +172,7 @@
                                 <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                                 <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
                             </ul>
-                            <hr>
+                            <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
                             <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                         </div>
                         <?php endwhile; wp_reset_query(); ?>
