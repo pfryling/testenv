@@ -83,11 +83,11 @@
                         </a>
                     </div>
                     <br>
-                    <div class="label wow fadeInUp">
+                    <div class="label label--resources-fin wow fadeInUp">
                         <a href="/resources">
-                        <span class="label-swap">
+                        <p>
                               Resources
-                            </span>
+                            </p>
                         </a>
                     </div>
                 </div>
