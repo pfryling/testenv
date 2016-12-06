@@ -1,64 +1,47 @@
-<footer class="inner-footer">
+<footer>
   <div class="wrapper">
-      <a href="javascript:" class="scrollup"><i class="fa fa-chevron-up"></i></a>
-            <ul class="flex-row hide-mobile">
-                <li class="ul-item">
-                    <p class="header">Services</p>
-                    <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
-                    <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br>
-                    <a href="/databridge" class="list-item list-item--inline list-item--push">DataBridge</a>
-                    <a href="/connect" class="list-item list-item--inline ">Connect</a><br>
-
-                    <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline list-item--right">FinTech</a>
-                    <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br>
-                    <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
-
-                    <a href="/company" class="header"><br>company<br></a><br>
-
-                    <a href="/careers" class="header">careers</a>
-                </li>
+     <a href="javascript:" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+    <h6>Services</h6>
+    <div class="footer-row">
+  <ul>
+    <li style="margin-right:35px;"><a href="/agiledata">AgileData</a></li>
+    <li><a href="/rtech">RTech</a></li><br>
+    <li style="margin-right:29px;"><a href="/databridge">DataBridge</a></li>
+    <li><a href="/connect">Connect</a></li>
+  </ul>
+    <h6>Industries</h6>
+    <ul>
+      <li style="margin-right:46px;"><a href="/fintech">FinTech</a></li>
+    <li><a href="/healthtech">HealthTech</li><br>
+      <li style="margin-right:30px;"><a href="/hightech">HighTech</a></li>
+    </ul>
+    <h6 class="link"><a href="/company">Company</h6>
+      <h6 class="link"><a href="/careers">Careers</h6>
+        <h6 class="link"><a href="/resources">Resources</h6>
+          </div>
+        <div class="footer-row">
+          <h6 class="hq">Headquarters</h6><br>
+          <ul>
+            <li class="li-locations">
+              <strong>Downtown Boston</strong><br>
+                50 Milk Street, 18th Floor,<br>
+                Boston, MA 02109
+            </li>
+            <li class="li-locations">
+                <strong>Kendall Cambridge</strong><br>
+                1 Broadway, 5th Floor,<br>
+                Cambridge, MA 02142
+            </li>
+            <li class="li-locations">
+                <strong>New York Office</strong><br>
+                1177 Avenue of the Americas, 7th Floor,<br>
+                New York, NY 10036
+             </li>
             </ul>
-            <ul class="m-flex-row">
-                <li class="ul-item">
-                    <p class="header">Services</p>
-                    <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
-                    <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a>
-                    <a href="/databridge" class="list-item list-item--inline list-item--push">DataBridge</a>
-                    <a href="/connect" class="list-item list-item--inline ">Connect</a>
-
-                    <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline list-item--right">FinTech</a>
-                    <a href="/healthtech" class="list-item list-item--inline">HealthTech</a>
-                    <a href="/hightech" class="list-item list-item--inline">HighTech</a>
-
-                    <a href="/company" class="header"><br>company<br></a><br>
-
-                    <a href="/careers" class="header">careers</a>
-                </li>
-            </ul>
-            <ul class="flex-row">
-                <li class="ul-item">
-                    <p class="header">headquarters</p>
-                    <p class="list-item">
-                        <strong>Downtown Boston</strong><br>
-                        50 Milk Street, 18th Floor,<br>
-                        Boston, MA 02109
-                    </p>
-                    <p class="list-item">
-                        <strong>Kendall Cambridge</strong><br>
-                        1 Broadway, 5th Floor,<br>
-                        Cambridge, MA 02142
-                    </p>
-                    <p class="list-item">
-                        <strong>New York Office</strong><br>
-                        1177 Avenue of the Americas, 7th Floor<br>
-                        New York, NY 10036
-                    </p><br>
-                </li>
-            </ul>
-            <ul class="flex-row">
-                <li class="ul-item">
+        </div>
+        <div class="footer-row">
+            <ul>
+                <li class="li-locations">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
                     <div class="job-modal">
@@ -83,6 +66,53 @@
               </ul>
             </div>
     </footer>
+    <div class="mobile-footer">
+        <div class="wrapper">
+            <a href="javascript:" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/agiledata">AgileData</a></li>
+                <li><a href="/rtech">RTech</a></li>
+                <li><a href="/databridge">DataBridge</a></li>
+                <li><a href="/connect">Connect</a></li>
+            </ul>
+            <h6>Locations</h6>
+            <ul>
+                <li><strong>Downtown Boston</strong><br>
+                    50 Milk Street, 18th Floor,<br>
+                    Boston, MA 02109
+                </li>
+                <li>
+                    <strong>Kendall Cambridge</strong><br>
+                    1 Broadway, 5th Floor,<br>
+                    Cambridge, MA 02142
+                </li>
+                <li>
+                    <strong>New York Office</strong><br>
+                    1177 Avenue of the Americas, 7th Floor,<br>
+                    New York, NY 10036
+                 </li>
+            </ul>
+            <h3>Apply now-<br>for Now or Later</h3>
+            <p style="16px">Join Arrayo, Get on board</p>
+            <div class="job-modal">
+               <div class="job-overlay"></div>
+                <a href="#mj-1" class="mj-btn">Apply Now</a>
+            </div>
+            <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
+                <div class="mj-content">
+                    <header class="mj-header">
+                        <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
+                    </header>
+                    <div class="mj-body">
+                        <h2>Apply Now-<br>for Now or Later</h2>
+                        <h5>Join Arrayo, Get on Board</h5>
+                        <?php echo do_shortcode("[ninja_form id=4]"); ?>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
     <section class="social">
         <div class="wrapper">
             <div class="social-container">
