@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>rtech industries</h6>
+                    <h6>rtech for other industries</h6>
                     <div class="label label--fin-rtech">
                             
                         <a href="/rtech/fintech">

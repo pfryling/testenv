@@ -59,7 +59,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>agiledata industries</h6>
+                    <h6>agiledata for other industries</h6>
                     <div class="label label--fin-agile">
                             
                         <a href="/agiledata/fintech">

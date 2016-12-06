@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>connect industries</h6>
+                    <h6>connect for other industries</h6>
                     <div class="label label--health-agile wow fadeInUp">
                             
                         <a href="/connect/healthtech">

@@ -57,7 +57,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>connect industries</h6>
+                    <h6>databridge for other industries</h6>
                     <div class="label label--health-agile wow fadeInUp">
                             
                         <a href="/databridge/healthtech">
