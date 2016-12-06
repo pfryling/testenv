@@ -28,7 +28,7 @@
             </div>
             <?php endwhile; wp_reset_query(); ?>
         </div>
-        <div style="margin-bottom:68px">&nbsp;</div>
+        <div style="padding-bottom:68px">&nbsp;</div>
     </div>
 </div>
         <section class="contact-footer" id="contact">
