@@ -93,7 +93,7 @@
                             </span>
                         </a>
                     </div>
-                    <br>
+                    <hr style="outline:0;border:2px solid white;height:2px;display:block;margin:2em 0;">
                     <div class="label label--resources-health wow fadeInUp">
                         <a href="/resources">
                         <p>
