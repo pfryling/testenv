@@ -89,7 +89,7 @@
         <h6><a href="/careers">Careers</a></h6>
         <h6><a href="/resources">Resources</a></h6>
         <h3 class="mf-apply-header">Apply now-<br>for Now or Later</h3>
-        <p class="mf-apply-subheader">Join Arrayo, Get on board</p>
+        <h5>Join Arrayo, Get on board</h5>
         <div class="job-modal">
             <div class="job-overlay"></div>
             <a href="#mj-1" class="mj-btn">Apply Now</a>
