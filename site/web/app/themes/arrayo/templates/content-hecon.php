@@ -54,7 +54,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>connect for other industries</h6>
+                    <h6 style="color: #3dd682;">connect for other industries</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
                             
                         <a href="/connect/fintech">
