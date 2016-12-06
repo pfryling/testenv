@@ -76,6 +76,12 @@
                 <li><a href="/databridge">DataBridge</a></li>
                 <li><a href="/connect">Connect</a></li>
             </ul>
+            <h6>Industries</h6>
+            <ul>
+                <li><a href="/fintech">FinTech</a></li>
+                <li><a href="/healthtech">HealthTech</a></li>
+                <li><a href="/hightech">HighTech</a></li>
+            </ul>
             <h6>Locations</h6>
             <ul>
                 <li><strong>Downtown Boston</strong><br>
