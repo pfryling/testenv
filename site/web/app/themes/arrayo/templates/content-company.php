@@ -143,7 +143,7 @@
                    </div>
                     <div class="item">
                        <div class="cta-card">
-                        <svg style="width:50px;height:auto;fill:#4fd6ff;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.49">
+                        <svg style="width:50px;height:auto;fill:#4fd6ff !important;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.49">
                           <g id="corner_slash" class="pullRight" data-name="corner slash">
                             <path  d="M61.19,23.8a9.21,9.21,0,0,1-.59-1.66l-21.28,13L17.1,21.83A8.86,8.86,0,0,1,14,27L33.56,38.72l5.8,3.48,5.77-3.53,18.77-11.5A9.06,9.06,0,0,1,61.19,23.8Z" transform="translate(0 0)"/>
                           </g>
