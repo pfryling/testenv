@@ -19,24 +19,6 @@
                     <a href="/careers" class="header">careers</a>
                 </li>
             </ul>
-            <ul class="m-flex-row">
-                <li class="ul-item">
-                    <p class="header">Services</p>
-                    <a href="/rtech" class="list-item list-item--inline list-item--right">RTech</a>
-                    <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a>
-                    <a href="/databridge" class="list-item list-item--inline list-item--push">DataBridge</a>
-                    <a href="/connect" class="list-item list-item--inline ">Connect</a>
-
-                    <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline list-item--over">FinTech</a>
-                    <a href="/healthtech" class="list-item list-item--inline">HealthTech</a>
-                    <a href="/hightech" class="list-item list-item--inline">HighTech</a>
-
-                    <a href="/company" class="header"><br>company<br></a><br>
-
-                    <a href="/careers" class="header">careers</a>
-                </li>
-            </ul>
             <ul class="flex-row">
                 <li class="ul-item">
                     <p class="header">headquarters</p>
