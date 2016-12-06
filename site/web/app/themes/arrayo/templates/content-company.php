@@ -80,9 +80,9 @@
                  <div class="com-carousel owl-carousel owl-theme cta-carousel">
                  <div class="item">
                        <div class="cta-card">
-                        <svg style="width:50px;height:auto;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.69 77.37">
+                        <svg style="width:50px;height:auto;fill:#4fd6ff;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80.69 77.37">
                           <g id="dots" class="grow">
-                            <circle class="cls-1" cx="67.75" cy="15.65" r="3"/>
+                            <circle cx="67.75" cy="15.65" r="3"/>
                             <circle class="cls-2" cx="14.33" cy="63.07" r="3"/>
                           </g>
                           <g id="lines" class="pullUp">
@@ -110,17 +110,10 @@
                    </div>
                     <div class="item">
                        <div class="cta-card">
-                        <svg style="width:50px;height:auto;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.41 82.88">
-                          <defs>
-                            <style>
-                              .cls-1 {
-                                fill: #4fd6ff;
-                              }
-                            </style>
-                          </defs>
+                        <svg style="width:50px;height:auto;fill:#4fd6ff;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.41 82.88">
                           <title>agiledata-icon</title>
                           <g id="graph-shape" class="pullRight">
-                            <path class="cls-1" d="M62.35,38.44H41.71V17.79H38.63a23.27,23.27,0,0,0-9.61,2,23.74,23.74,0,0,0-13.8,18.62H4v6H21v-3A18,18,0,0,1,31.48,25.28,17,17,0,0,1,35.71,24V44.44H56.12a17.19,17.19,0,0,1-1.89,5.5l5.26,2.89a23.54,23.54,0,0,0,2.87-11.4Z"/>
+                            <path  d="M62.35,38.44H41.71V17.79H38.63a23.27,23.27,0,0,0-9.61,2,23.74,23.74,0,0,0-13.8,18.62H4v6H21v-3A18,18,0,0,1,31.48,25.28,17,17,0,0,1,35.71,24V44.44H56.12a17.19,17.19,0,0,1-1.89,5.5l5.26,2.89a23.54,23.54,0,0,0,2.87-11.4Z"/>
                           </g>
                           <g id="wedge" class="pullUp">
                             <path class="cls-2" d="M62.65,34.39H45.75V17.49h2.51A14.32,14.32,0,0,1,62.65,31.89Zm-11.9-5h6.55a9.18,9.18,0,0,0-6.55-6.55Z"/>
@@ -150,9 +143,9 @@
                    </div>
                     <div class="item">
                        <div class="cta-card">
-                        <svg style="width:50px;height:auto;class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.49">
+                        <svg style="width:50px;height:auto;fill:#4fd6ff;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.49">
                           <g id="corner_slash" class="pullRight" data-name="corner slash">
-                            <path class="cls-1" d="M61.19,23.8a9.21,9.21,0,0,1-.59-1.66l-21.28,13L17.1,21.83A8.86,8.86,0,0,1,14,27L33.56,38.72l5.8,3.48,5.77-3.53,18.77-11.5A9.06,9.06,0,0,1,61.19,23.8Z" transform="translate(0 0)"/>
+                            <path  d="M61.19,23.8a9.21,9.21,0,0,1-.59-1.66l-21.28,13L17.1,21.83A8.86,8.86,0,0,1,14,27L33.56,38.72l5.8,3.48,5.77-3.53,18.77-11.5A9.06,9.06,0,0,1,61.19,23.8Z" transform="translate(0 0)"/>
                           </g>
                           <g id="cube" class="rotate">
                             <path class="cls-2" d="M38.82,59.64l-17.39-10V29.52l17.39-10,17.39,10V49.6ZM27.43,46.14l11.39,6.58,11.39-6.58V33L38.82,26.41,27.43,33Z" transform="translate(0 0)"/>
@@ -175,9 +168,9 @@
                    </div>
                    <div class="item">
                        <div class="cta-card">
-                        <svg style="width:50px;height:auto;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.37">
+                        <svg style="width:50px;height:auto;fill:#4fd6ff;padding-top:40px;" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 77.39 77.37">
                           <g id="plus-hor-line" class="pullRight">
-                            <path class="cls-1" d="M63.94,19.17A5.74,5.74,0,1,1,68,17.49,5.7,5.7,0,0,1,63.94,19.17Zm0-7.47a1.73,1.73,0,0,0-1.23,3,1.78,1.78,0,0,0,2.45,0h0a1.73,1.73,0,0,0-1.23-3Z"/>
+                            <path  d="M63.94,19.17A5.74,5.74,0,1,1,68,17.49,5.7,5.7,0,0,1,63.94,19.17Zm0-7.47a1.73,1.73,0,0,0-1.23,3,1.78,1.78,0,0,0,2.45,0h0a1.73,1.73,0,0,0-1.23-3Z"/>
                             <path class="cls-2" d="M13.47,69.64A5.73,5.73,0,1,1,17.52,68h0A5.72,5.72,0,0,1,13.47,69.64Zm0-7.47a1.73,1.73,0,1,0,1.23.51A1.73,1.73,0,0,0,13.47,62.18Z"/>
                             <path class="cls-3" d="M24.53,54.37"/>
                             <rect class="cls-4" x="14.19" y="52.56" width="15.26" height="6" transform="translate(-32.9 31.71) rotate(-45.01)"/>
