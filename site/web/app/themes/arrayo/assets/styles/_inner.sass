@@ -135,7 +135,7 @@
     &--hicon
         background-image: url("http://imgh.us/hl_hicon.png"), linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
     &--hidb
-        background-image: url("http://imgh.us/hl_hidb.png"), linear-gradient(to bottom, $high-tech-blue, $primary)
+        background-image: url("http://imgh.us/hl_hicon.png"), linear-gradient(to right, $high-tech-blue, $primary), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
     &--hedb
         background-image: url("http://imgh.us/hl_hedb.png"), linear-gradient(to right, $health-tech-green, $primary-dark), linear-gradient(to bottom, rgba(242,247,249,1), rgba(242,247,249,1))
 
@@ -1861,6 +1861,10 @@
                 font-family: $sans
                 color: $tertiary
                 font-size: 1em
+                &:hover
+                    color: white
+                    .fa
+                        color: white
             .label-swap
                 line-height: 2rem
             &--fin-con
