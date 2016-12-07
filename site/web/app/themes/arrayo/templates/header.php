@@ -292,6 +292,7 @@
       </li>
       <li><a href="/company">Company</a></li>
       <li><a href="/careers">Careers</a></li>
+      <li><a href="/resources">Resources</a>
       <li><a href="#">Contact</a>
         <ul>
           <li class="m-c-form">
