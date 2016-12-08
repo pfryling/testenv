@@ -10,7 +10,7 @@
                     <a href="/connect" class="hide-breaks list-item list-item--inline ">Connect</a><br>
 
                     <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline fin-push">FinTech</a>
+                    <a href="/fintech" class="list-item list-item--inline">FinTech</a>
                     <a href="/healthtech" class="hide-breaks list-item list-item--inline">HealthTech</a><br>
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
 
