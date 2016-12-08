@@ -11,7 +11,7 @@
                     <h5 class="for"><?php the_field('db_fin_box--subheader'); ?></h5>
                     <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
                     <p><?php the_field('db_fin_box--text1'); ?></p>
-                    <img class="quote-img wow slideInLeft" src="http://imgh.us/quote--fintech.png">
+                    <img class="quote-img wow slideInLeft" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote--fintech.png">
                     <h4 class="quote quote--fintech wow slideInLeft"><?php the_field('db_fin--quote'); ?></h4>
                     <div class="inner-gradient--purple">
                         <p><?php the_field('db_fin_box--gradient-text'); ?></p>

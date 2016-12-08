@@ -12,7 +12,7 @@
                     <h5 class="for"><?php the_field('ad_hi_box--subheader'); ?></h5>
                     <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
                     <p class="for"><?php the_field('ad_hi--text1'); ?></p>
-                    <img alt="" src="http://imgh.us/quote-hightech.png" class="quote-img">
+                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote-hightech.png" class="quote-img">
                     <h4 class="quote quote--hightech"><?php the_field('ad_hi--quote'); ?></h4>
                     <p class="for"><?php the_field('ad_hi--text2'); ?></p>
                     <div class="inner-gradient--blue">
