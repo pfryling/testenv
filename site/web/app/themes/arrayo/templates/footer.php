@@ -4,13 +4,13 @@
             <ul class="flex-row hide-mobile">
                 <li class="ul-item">
                     <p class="header">Services</p>
-                    <a href="/rtech" class="list-item list-item--inline" style="padding-right:45px">RTech</a>
+                    <a href="/rtech" class="list-item list-item--inline rt-push">RTech</a>
                     <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br>
-                    <a href="/databridge" class="list-item list-item--inline" style="padding-right:22px">DataBridge</a>
+                    <a href="/databridge" class="list-item list-item--inline db-push">DataBridge</a>
                     <a href="/connect" class="list-item list-item--inline ">Connect</a><br>
 
                     <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline" style="padding-right:39.5px">FinTech</a>
+                    <a href="/fintech" class="list-item list-item--inline fin-push">FinTech</a>
                     <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br>
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
 
@@ -65,50 +65,6 @@
               </ul>
             </div>
     </footer>
-    <!--<div class="mobile-footer">
-        <h6>Services</h6>
-        <ul>
-            <li><a href="/rtech">RTech</a></li>
-            <li><a href="/agiledata">AgileData</a></li>
-            <li><a href="/databridge">DataBridge</a></li>
-            <li><a href="/connect">Connect</a></li>
-        </ul>
-        <h6>Industries</h6>
-        <ul>
-            <li><a href="/fintech">FinTech</a></li>
-            <li><a href="/healthtech">HealthTech</a></li>
-            <li><a href="/hightech">HighTech</a></li>
-        </ul>
-        <h6>Locations</h6>
-        <ul>
-            <li> <strong>Downtown Boston</strong><br>50 Milk Street, 18th Floor,<br>Boston, MA 02109</li><br>
-            <li> <strong>Kendall Cambridge</strong><br>1 Broadway, 5th Floor,<br>Cambridge, MA 02142</li><br>
-            <li><strong>New York Office</strong><br>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</li>
-        </ul>
-        <h6><a href="/company">Company</a></h6>
-        <h6><a href="/careers">Careers</a></h6>
-        <h6><a href="/resources">Resources</a></h6>
-        <h3 class="mf-apply-header">Apply now-<br>for Now or Later</h3>
-        <h5>Join Arrayo, Get on board</h5>
-        <div class="job-modal">
-            <div class="job-overlay"></div>
-                 <a href="#mj-1" class="mj-btn">Apply Now</a>
-        </div>
-
-        <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
-            <div class="mj-content">
-               <header class="mj-header">
-                    <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
-                </header>
-
-                <div class="mj-body">
-                    <h2>Apply Now-<br>for Now or Later</h2>
-                    <h5>Join Arrayo, Get on Board</h5>
-                    <?php echo do_shortcode("[ninja_form id=4]"); ?>
-                </div>
-            </div>
-        </div>
-    </div>-->
     <section class="social">
         <div class="wrapper">
             <div class="social-container">
