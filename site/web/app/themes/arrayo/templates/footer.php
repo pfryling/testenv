@@ -12,7 +12,7 @@
                     <p class="header">Industries</p>
                     <a href="/fintech" class="list-item list-item--inline">FinTech</a>
                     <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br class="br-hide">
-                    <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
+                    <a href="/hightech" class="list-item list-item--inline">HighTech</a><br class="br-hide">
 
                     <a href="/company" class="header"><br>company<br></a><br>
 
