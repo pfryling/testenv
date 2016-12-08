@@ -2,7 +2,7 @@
   <div class="wrapper">
       <a href="javascript:" class="scrollup"><i class="fa fa-chevron-up"></i></a>
             <ul class="flex-row hide-mobile">
-                <li class="ul-item">
+                <li class="ul-item hide-breaks">
                     <p class="header">Services</p>
                     <a href="/rtech" class="list-item list-item--inline rt-push">RTech</a>
                     <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br>

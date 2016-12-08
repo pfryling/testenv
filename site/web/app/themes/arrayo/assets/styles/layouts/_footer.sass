@@ -13,7 +13,7 @@
     +media($mobile)
         padding-right: 0
 
-.inner-footer br
+.hide-breaks br
     display: block
     +media($mobile)
         display: none
@@ -368,6 +368,8 @@ footer
                     padding-right: 42px
                 &--right
                     padding-right: 45px
+                    +media($mobile)
+                        padding-right: 0
                 &--push
                     padding-right: 22px
             a.list-item:hover
