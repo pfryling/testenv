@@ -5,13 +5,13 @@
                 <li class="ul-item">
                     <p class="header">Services</p>
                     <a href="/rtech" class="list-item list-item--inline rt-push">RTech</a>
-                    <a href="/agiledata" class="hide-breaks list-item list-item--inline list-item--right">AgileData</a><br>
+                    <a href="/agiledata" class="list-item list-item--inline list-item--right">AgileData</a><br class="br-hide">
                     <a href="/databridge" class="list-item list-item--inline db-push">DataBridge</a>
-                    <a href="/connect" class="hide-breaks list-item list-item--inline ">Connect</a><br>
+                    <a href="/connect" class="list-item list-item--inline ">Connect</a><br class="br-hide">
 
                     <p class="header">Industries</p>
                     <a href="/fintech" class="list-item list-item--inline">FinTech</a>
-                    <a href="/healthtech" class="hide-breaks list-item list-item--inline">HealthTech</a><br>
+                    <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br class="br-hide">
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br>
 
                     <a href="/company" class="header"><br>company<br></a><br>
