@@ -65,7 +65,7 @@
               </ul>
             </div>
     </footer>
-    <div class="mobile-footer">
+    <!--<div class="mobile-footer">
         <h6>Services</h6>
         <ul>
             <li><a href="/rtech">RTech</a></li>
@@ -92,15 +92,15 @@
         <h5>Join Arrayo, Get on board</h5>
         <div class="job-modal">
             <div class="job-overlay"></div>
-            <a href="#mj-1" class="mj-btn">Apply Now</a>
+                 <a href="#mj-1" class="mj-btn">Apply Now</a>
         </div>
-        <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mjLabel" role="dialog">
+
+        <div id="mj-1" class="mj" tabindex="-1" aria-labelledby="mj1Label" role="dialog">
             <div class="mj-content">
-                <header class="mj-header">
-                    <a href="#!" class="mj-close">
-                        <i class="fa fa-times-circle"></i>
-                    </a>
+               <header class="mj-header">
+                    <a href="#!" class="mj-close"><i class="fa fa-times-circle"></i></a>
                 </header>
+
                 <div class="mj-body">
                     <h2>Apply Now-<br>for Now or Later</h2>
                     <h5>Join Arrayo, Get on Board</h5>
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <section class="social">
         <div class="wrapper">
             <div class="social-container">
