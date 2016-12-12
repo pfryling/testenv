@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
 <div class="bg-gradient--main">
     <div class="header-logo-container">
         <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
@@ -254,3 +255,4 @@
                 </div>
             </div>
         </section>
+        </div>
