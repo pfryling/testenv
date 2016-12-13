@@ -1,143 +1,65 @@
-.job-button
-  display: block
-  padding: 0.5em 1.0em
-  background: #EEE
-  width: 100px
-  border: none
-  border-radius: 7px
-  margin-bottom: 10px
-  color: #222
-  font-family: sans-serif
-  font-size: 16px
-  text-shadow: 0 1px white
-  cursor: pointer
-  &:hover
-    background-color: #8CF
-    text-shadow: 0 1px rgba(255, 255, 255, 0.5)
-    color: #222
-  &:active
-    background-color: navy
-  &.is-checked
-    background-color: navy
-    color: white
-  &:active
-    background: navy
+.filter-item input[type="checkbox"]
+  display: inline
+  margin: 5px 5px 5px 0
+  background-color: #ddd
+  &:focus
+    background-color: $tertiary
 
-/* ---- button-group ----
+.filter-item label
+  display: inline
+  font-family: $sans
+  font-size: 14px
+  margin: 10px 0
+  color: $text
 
-.job-button-group
-  &:after
-    content: ''
-    display: block
-    clear: both
-    outline: none
-  .job-button
-    border-radius: 0
-    margin-left: 0
-    margin-right: 1px
-
-/* ---- isotope ----
-
-.job-grid
-  background: #EEE
-  max-width: 1200px
-  &:after
-    content: ''
-    display: block
-    clear: both
-
-/* clear fix
-
-/* ui group
-
-.job-ui-group
-  display: block
-  h3
-    display: block
-    vertical-align: top
-    line-height: 32px
-    margin-right: 0.2em
-    font-size: 16px
-  .job-button-group
-    display: block
-    margin-right: 20px
-
-.job-box
-  width: 600px
-  height: 70px
-  margin: 5px
-  display: block
-  border-top: 8px solid $tertiary
-
-.job-filters
+.filter-wrap
   +span-columns(3 of 12)
+  margin: 0 5% 0 0
+  padding: 0
+  display: block
+  +media($mobile)
+    display: none
 
-.job-grid
+.filters
+  background-color: white
+  padding: $spacer-cyan $spacer-green
+  h4
+    font-size: 13px
+    color: $tertiary
+    margin: 0
+    padding: 5px 0
+    font-family: $sans
+    font-weight: 700
+
+.results
   +span-columns(8 of 12)
+  +media($mobile)
+    +span-columns(4 of 4)
 
-
-//.filter-item input[type="checkbox"]
-//  display: inline
-//  margin: 5px 5px 5px 0
-//  background-color: #ddd
-//  &:focus
-//    background-color: $tertiary
-
-//.filter-item label
-//  display: inline
-//  font-family: $sans
-//  font-size: 14px
-//  margin: 10px 0
-//  color: $text
-
-//.filter-wrap
-//  +span-columns(3 of 12)
-//  margin: 0 5% 0 0
-//  padding: 0
-//  display: block
-//  +media($mobile)
-//    display: none
-
-//.filters
-//  background-color: white
-//  padding: $spacer-cyan $spacer-green
-//  h4
-//    font-size: 13px
-//    color: $tertiary
-//    margin: 0
-//    padding: 5px 0
-//    font-family: $sans
-//    font-weight: 700
-
-//.results
-//  +span-columns(8 of 12)
-//  +media($mobile)
-//    +span-columns(4 of 4)
-
-//.job-result
-//  background-color: white
-//  width: 100%
-//  margin: 0 0 25px 0
-//  padding: $spacer-green $spacer-cyan
-//  color: $primary
-//  border-top: 6px solid $tertiary
-//  h4
-//    margin: 0
-//    padding: 7px 0
-//    font-size: 26px
-//    font-family: $header
-//    line-height: 1.4
-//    +media($xsmall)
-//      margin-bottom: 16px
-//  ul
-//    list-style-type: none
-//    margin: 0
-//    padding: 0
-//    li
-//      font-family: $sans
-//      color: $text-light
-//      font-size: 16px
-//  a
-//    font-family: $sans
-//    font-size: 16px
-//    color: $tertiary
+.job-result
+  background-color: white
+  width: 100%
+  margin: 0 0 25px 0
+  padding: $spacer-green $spacer-cyan
+  color: $primary
+  border-top: 6px solid $tertiary
+  h4
+    margin: 0
+    padding: 7px 0
+    font-size: 26px
+    font-family: $header
+    line-height: 1.4
+    +media($xsmall)
+      margin-bottom: 16px
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    li
+      font-family: $sans
+      color: $text-light
+      font-size: 16px
+  a
+    font-family: $sans
+    font-size: 16px
+    color: $tertiary

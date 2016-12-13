@@ -100,7 +100,7 @@ var jQuery311 = $.noConflict(true);
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 
 <!-- Custom Scripts -->
-<script src="https://cdn.rawgit.com/gretzky/090b146d2b01a1f1dd48c041775c7d5b/raw/3416c5ec27a7131b14e6a016f0d4ecaa60dd79f1/careersFilter.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/d239a28bcc894d33abe81eab50a304b1/raw/c54ec0dcb907c04afe50dc1790be8330f03c1aaa/filter.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8/raw/d67c1db54c0ca9602929f081aefc5a7cf7b57bee/tabs.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/6c7c74b7d14bfc5daf6c2705e08336101d5068a9/app-slideToggle.js"></script>
