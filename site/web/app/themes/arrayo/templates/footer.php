@@ -10,7 +10,7 @@
                     <a href="/connect" class="list-item list-item--inline ">Connect</a><br class="br-hide">
 
                     <p class="header">Industries</p>
-                    <a href="/fintech" class="list-item list-item--inline">FinTech</a>
+                    <a href="/fintech" class="list-item list-item--inline fin-push">FinTech</a>
                     <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br class="br-hide">
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br class="br-hide">
 
@@ -115,7 +115,7 @@ var jQuery311 = $.noConflict(true);
 <script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/98b9a998a0c59209208e90faa4f1f047e9c18427/returnTop.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/056a45480655663057e90ea13da1a05d8b3db46f/blogFilter.js"></script>
 
-
+// blog filter
 <script>
 var $container = jQuery('#blogcontainer');
 
@@ -128,6 +128,40 @@ jQuery('#blogfilters').on( 'click', 'button', function() {
   var filterValue = jQuery(this).attr('data-filter');
   $container.isotope({ filter: filterValue });
 });
+</script>
+
+// careers filter
+<script>
+var $grid = $('.job-results').isotope({
+  itemSelector: '.job-box'
+});
+
+var filters = {};
+
+$('.job-filters').on( 'click', '.job-button', function() {
+  var $this = $(this);
+  var $buttonGroup = $this.parents('.job-button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  filters[ filterGroup ] = $this.attr('data-filter');
+  var filterValue = concatValues( filters );
+  $grid.isotope({ filter: filterValue });
+});
+
+$('.job-button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
 </script>
 
 <script>
