@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7415971a818ad156997a06c8b55eb7c0",
-    "content-hash": "4ae66b12b39f087893ae40993d68535a",
+    "hash": "66edffce5c0ff10adf139d464b4ae626",
+    "content-hash": "19902bd6effcb52d7e8bbc5f9786beb5",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -211,6 +211,20 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "google/xml-sitemaps",
+            "version": "4.0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
