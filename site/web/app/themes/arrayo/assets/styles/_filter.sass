@@ -1,4 +1,18 @@
-.job-filter-wrap
+.filter-item input[type="checkbox"]
+  display: inline
+  margin: 5px 5px 5px 0
+  background-color: #ddd
+  &:focus
+    background-color: $tertiary
+
+.filter-item label
+  display: inline
+  font-family: $sans
+  font-size: 14px
+  margin: 10px 0
+  color: $text
+
+.filter-wrap
   +span-columns(3 of 12)
   margin: 0 5% 0 0
   padding: 0
@@ -6,10 +20,10 @@
   +media($mobile)
     display: none
 
-.job-filters
+.filters
   background-color: white
   padding: $spacer-cyan $spacer-green
-  h6
+  h4
     font-size: 13px
     color: $tertiary
     margin: 0
@@ -17,12 +31,12 @@
     font-family: $sans
     font-weight: 700
 
-.job-results
+.results
   +span-columns(8 of 12)
   +media($mobile)
     +span-columns(4 of 4)
 
-.job-box
+.job-result
   background-color: white
   width: 100%
   margin: 0 0 25px 0
@@ -49,4 +63,4 @@
     font-family: $sans
     font-size: 16px
     color: $tertiary
-
+0
