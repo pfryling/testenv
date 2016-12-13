@@ -170,31 +170,31 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter</h6>
-            <div class="filters">
-              <div class="ui-group">
+            <div class="job-filters">
+              <div class="job-ui-group">
                 <h3>Industry</h3>
-                <div class="job-toggle-group js-radio-job-toggle-group" data-filter-group="color">
-                  <button class="button is-checked" data-filter="">any</button>
-                  <button class="job-toggle" data-filter=".fintech">fintech</button>
-                  <button class="job-toggle" data-filter=".healthtech">healthtech</button>
-                  <button class="job-toggle" data-filter=".hightech">hightech</button>
+                <div class="job-button-group js-radio-button-group" data-filter-group="color">
+                  <button class="job-button is-checked" data-filter="">any</button>
+                  <button class="job-button" data-filter=".fintech">fintech</button>
+                  <button class="job-button" data-filter=".healthtech">healthtech</button>
+                  <button class="job-button" data-filter=".hightech">hightech</button>
                 </div>
               </div>
 
-              <div class="ui-group">
+              <div class="job-ui-group">
                 <h3>Service</h3>
-                <div class="job-toggle-group js-radio-job-toggle-group" data-filter-group="size">
+                <div class="job-button-group js-radio-job-toggle-group" data-filter-group="size">
                   <button class="button is-checked" data-filter="">any</button>
-                  <button class="job-toggle" data-filter=".agiledata">agiledata</button>
-                  <button class="job-toggle" data-filter=".rtech">rtech</button>
-                  <button class="job-toggle" data-filter=".databridge">databridge</button>
-                  <button class="job-toggle" data-filter=".connect">connect</button>
+                  <button class="job-button" data-filter=".agiledata">agiledata</button>
+                  <button class="job-button" data-filter=".rtech">rtech</button>
+                  <button class="job-button" data-filter=".databridge">databridge</button>
+                  <button class="job-button" data-filter=".connect">connect</button>
                 </div>
               </div>
 
             </div>
 
-            <div class="results-container wow fadeInUp">
+            <div class="job-grid wow fadeInUp">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                 <div class="job-box <?php the_field('job_class'); ?>">

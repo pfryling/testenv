@@ -1,66 +1,79 @@
-.job-toggle
+.job-button
   display: block
-  padding: 10px 20px
-  background: white
+  padding: 0.5em 1.0em
+  background: #EEE
   width: 100px
-  border: 0
+  border: none
+  border-radius: 7px
   margin-bottom: 10px
-  color: $primary
-  font-family: $sans
-  font-size: 14px
+  color: #222
+  font-family: sans-serif
+  font-size: 16px
+  text-shadow: 0 1px white
   cursor: pointer
-  transition: all 0.3s ease-in-out
   &:hover
-    background-color: $primary
+    background-color: #8CF
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5)
+    color: #222
+  &:active
+    background-color: navy
+  &.is-checked
+    background-color: navy
     color: white
   &:active
-    background-color: $primary
-  .is-checked
-    background-color: $primary
-    color: white
+    background: navy
 
-.job-toggle-group:after
-  content: ''
-  display: block
-  clear: both
-  outline: none
+/* ---- button-group ----
 
-.job-toggle-group .job-toggle
-  border-radius: 0
-  margin-left: 0
-  margin-right: 1px
+.job-button-group
+  &:after
+    content: ''
+    display: block
+    clear: both
+    outline: none
+  .job-button
+    border-radius: 0
+    margin-left: 0
+    margin-right: 1px
 
-.results-container
-  background: transparent
-  +span-columns(8 of 12)
+/* ---- isotope ----
+
+.job-grid
+  background: #EEE
+  max-width: 1200px
   &:after
     content: ''
     display: block
     clear: both
 
-.ui-group
-  display: block
+/* clear fix
 
-.ui-group h6
-  font-size: 14px
-  color: $primary
-  font-family: $header
-  display: block
+/* ui group
 
-.ui-group .job-toggle-group
+.job-ui-group
   display: block
-  margin-right: 20px
+  h3
+    display: block
+    vertical-align: top
+    line-height: 32px
+    margin-right: 0.2em
+    font-size: 16px
+  .job-button-group
+    display: block
+    margin-right: 20px
 
 .job-box
   width: 600px
-  height: 100px
+  height: 70px
   margin: 5px
   display: block
   border-top: 8px solid $tertiary
 
-.filters
+.job-filters
   +span-columns(3 of 12)
 
+.job-grid
+  +span-columns(8 of 12)
 
 
 //.filter-item input[type="checkbox"]
