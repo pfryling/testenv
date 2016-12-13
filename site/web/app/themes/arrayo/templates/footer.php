@@ -132,14 +132,14 @@ jQuery('#blogfilters').on( 'click', 'button', function() {
 
 // careers filter
 <script>
-var $grid = $('.job-results').isotope({
+var $grid = jQuery('.job-results').isotope({
   itemSelector: '.job-box'
 });
 
 var filters = {};
 
-$('.job-filters').on( 'click', '.job-button', function() {
-  var $this = $(this);
+jQuery('.job-filters').on( 'click', '.job-button', function() {
+  var $this = jQuery(this);
   var $buttonGroup = $this.parents('.job-button-group');
   var filterGroup = $buttonGroup.attr('data-filter-group');
   filters[ filterGroup ] = $this.attr('data-filter');
@@ -147,7 +147,7 @@ $('.job-filters').on( 'click', '.job-button', function() {
   $grid.isotope({ filter: filterValue });
 });
 
-$('.job-button-group').each( function( i, buttonGroup ) {
+jQuery('.job-button-group').each( function( i, buttonGroup ) {
   var $buttonGroup = $( buttonGroup );
   $buttonGroup.on( 'click', 'button', function() {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
