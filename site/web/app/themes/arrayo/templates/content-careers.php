@@ -182,7 +182,7 @@
                    <div class="filter-item">
                    <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
                    </div>
-                   <h4>Services</h4>
+                   <h4>Domain</h4>
                    <div class="filter-item">
                    <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
                    </div>
