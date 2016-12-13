@@ -1,5 +1,4 @@
 <?php the_content(); ?>
-<div id="databridge" class="main">
     <div class="sub-bg-gradient sub-bg-gradient--db">
         <div class="wrapper">
             <section class="page-header">

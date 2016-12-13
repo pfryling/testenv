@@ -6,7 +6,7 @@
                 <div class="job-subheader">
                     <div class="sub-row">
                         <p><strong>Industry</strong> <?php the_field('job_industry'); ?><br>
-                        <strong>Service:</strong> <?php the_field('job_service'); ?><br>
+                        <strong>Domain:</strong> <?php the_field('job_service'); ?><br>
                         <strong>Type:</strong> <?php the_field('job_type'); ?></p>
                     </div>
                     <div class="sub-row">

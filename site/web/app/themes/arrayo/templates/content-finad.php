@@ -1,5 +1,4 @@
 <?php the_content(); ?>
-<div id="finad" class="main">
  <div class="sub-bg-gradient-for sub-bg-gradient-for--finad">
         <div class="wrapper">
             <section class="sub-page-header">
@@ -110,4 +109,3 @@
         </div>
     </section>
     </div>
-</div>
