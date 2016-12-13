@@ -170,37 +170,34 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter</h6>
-            <div class="filter-wrap">
-                <div id="filters" class="filters">
-                   <h4>Industries</h4>
-                   <div class="filter-item">
-                   <input type="checkbox" name="fintech" value="fintech" id="fintech"><label for="fintech">FinTech</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="healthtech" value="healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
-                   </div>
-                   <h4>Services</h4>
-                   <div class="filter-item">
-                   <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">Regulatory &amp; Risk</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">Data Gov. &amp; Visual</label>
-                   </div>
-                   <div class="filter-item">
-                     <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Internet of Things</label>
-                   </div>
-               </div>
+            <div class="filters">
+              <div class="ui-group">
+                <h3>Industry</h3>
+                <div class="job-toggle-group js-radio-job-toggle-group" data-filter-group="color">
+                  <button class="button is-checked" data-filter="">any</button>
+                  <button class="job-toggle" data-filter=".fintech">fintech</button>
+                  <button class="job-toggle" data-filter=".healthtech">healthtech</button>
+                  <button class="job-toggle" data-filter=".hightech">hightech</button>
+                </div>
+              </div>
+
+              <div class="ui-group">
+                <h3>Service</h3>
+                <div class="job-toggle-group js-radio-job-toggle-group" data-filter-group="size">
+                  <button class="button is-checked" data-filter="">any</button>
+                  <button class="job-toggle" data-filter=".agiledata">agiledata</button>
+                  <button class="job-toggle" data-filter=".rtech">rtech</button>
+                  <button class="job-toggle" data-filter=".databridge">databridge</button>
+                  <button class="job-toggle" data-filter=".connect">connect</button>
+                </div>
+              </div>
+
             </div>
-            <div class="results wow fadeInUp" id="Container">
+
+            <div class="results-container wow fadeInUp">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="job-result" data-id="fintech" data-category="<?php the_field('job_class'); ?>">
+                <div class="job-box <?php the_field('job_class'); ?>">
                     <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>

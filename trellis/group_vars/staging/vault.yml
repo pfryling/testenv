@@ -14,11 +14,11 @@ vault_wordpress_sites:
     env:
       db_password: admin
       # Generate your keys here: https://roots.io/salts.html
-      auth_key: "LU??C[H7B-VV0Nq+l0?Sd6qO9O_f;<4su6d]D9lIYENTGhTN}90n9n|Yv7e(}!$<"
-      secure_auth_key: "zE3bX(lpM6[3qa,D!zyc>9#$aNyqvi]G,:tl>eBNyEd7P2jsfSt%=.bTwSk=m:KG"
-      logged_in_key: "H$6sD/dLRCESG10!cY(x,Q<=woYKtOewhg*M^_q^>Fr7c4)k8Mq%,3l?V+`%VxE%"
-      nonce_key: "3dMR^,fjYR<CM0:NDs>2f74fFNf,I&*&UImyeShc(iLN6XUMKRTU|d:;8w7:G5^9"
-      auth_salt: "*1!B:Xt-V,@Kk?%|xNZyC!*8m!=K67..r+X6nvP=+0#LggW7LF-bFPfuHZrsZI7d"
-      secure_auth_salt: "1,sHkWW;c)wZn;K5O?6jraX*3Q-Esjh{{kV<1{^n?XVjadP,pkM07;r1$$5<63fK"
-      logged_in_salt: "09#i:0*ccmx+9`D_FRYXjmlKXG)y*kZYW-?@:(V]1(wv$W@Vd{<o`}$|OeuYN$cU"
-      nonce_salt: "4O!U&J!EU0ci+t/XOsb8hB.1#boE$6_/UwSDW=cxJgfIu@u+$T1:CEKvf:6R9mlP"
+      auth_key: "M9@xH/.&p<Eb;}ov9:iLL5YkbW5fCLxo&0zu6$kYn9dv;i8M2[5pPwnB:5=yTqa2"
+      secure_auth_key: "-.k9DGJ0OfM[^wD,!@rhGoWfz=*p`g2Jl!w*ak7|K(bgg`xZD^MmiR[kDC6wMSZ!"
+      logged_in_key: "j{_]4!+EV`!&}5fvs`u._c?n!`]Zb]5<Hq/slgnhrN)h!%@bJmJsV@F/t13)TOlA"
+      nonce_key: "!NwY?^%FRNocoF?3Q(,h&*,S5/Ne#H-QBPvcA%.I6.h(m)D})#[MaE+y{&GPxf.h"
+      auth_salt: "`;xPzOyIdhNr7FStS5Y{UsZG-,LrwB/7dFm%RRRL}CsI%x[uK.cs+viK;av,Ht5j"
+      secure_auth_salt: "UeH$nD:i{Z9mh?/j)H(<R?@}sX^S+>(n*plKaAA4;s,BTK}e=p]c]*@B3f{@JG;X"
+      logged_in_salt: "hi$KS`tYR(81XHko$3.]Z!jX1n+`hjq*9}v578?Vh:+VDefm)m!Ss7*zZKgVG[9v"
+      nonce_salt: "fFcQX4V(V-|^*BhFfYNrS;#2@u1yPbpWY|q*T<3Vq$(@U[reYbBY>KTojN]Oc^J-"
