@@ -1,12 +1,18 @@
 <?php the_content(); ?>
+
+<div id="careers" class="main">
+
     <div class="bg-gradient--vert">
+
         <div class="wrapper">
+
             <section class="page-header">
                 <h1 class="career_fix2"><?php the_field('careers--header'); ?></h1>
                 <p class="career_fix"><?php the_field('careers--subheader'); ?></p>
             </section>
 
             <section class="location-info  wow fadeInUp">
+
                 <div class="text text--for">
                     <h5 class="for"><?php the_field('careers_box--header'); ?></h5>
                     <?php the_field('careers_box--text'); ?>
@@ -21,8 +27,9 @@
                         </a>
                     </div>
                 </div>
-            <div class="card-wrapper">
-            <h6 class="careers">featured job post</h6>
+
+                <div class="card-wrapper">
+                    <h6 class="careers">featured job post</h6>
                     <?php $recent = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => 1, 'orderby' => 'date', 'order' => 'DESC') ); ?>
                     <?php while ( $recent->have_posts() ) : $recent->the_post(); ?>
                         <div class="card card--careers">
@@ -38,10 +45,15 @@
                         </div>
                     <?php endwhile; wp_reset_query(); ?>
                 </div>
+
             </section>
+
         </div>
+
     </div>
+
     <div class="wrapper">
+
         <section class="centered-bg--vert  wow fadeInUp">
             <div class="text-wrap">
                 <h3><?php the_field('careers_bg--header'); ?></h3>
@@ -52,50 +64,69 @@
                 <button><a href="/hightech">HighTech</a></button>
             </div>
         </section>
+
     </div>
+
     <section class="careers-center-bg  wow fadeInUp">
+
         <div class="wrapper">
             <div class="careers-mid-box">
                 <h3><?php the_field('careers_center--header'); ?></h3>
                 <p class="light"><?php the_field('careers_center--subheader'); ?></p>
                 <p class="small"><?php the_field('careers_center--intro'); ?><br>&nbsp;</p>
+
                 <div class="icons-wrap">
+
                     <div class="sm-icon">
                         <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class=" wow bounceIn" data-wow-delay="0.1s">
                         <p class="small"><?php the_field('careers_center--icon1'); ?></p>
                     </div>
+
                     <div class="sm-icon">
                         <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.2s">
                         <p class="small"><?php the_field('careers_center--icon2'); ?></p>
                     </div>
+
                     <div class="sm-icon">
                          <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png" class="wow bounceIn" data-wow-delay="0.3s">
                          <p class="small"><?php the_field('careers_center--icon3'); ?><br>&nbsp;</p>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
-<div class="wrapper">
-    <section class="careers-testimonial wow fadeInUp">
-                <div class="ct-left">
-                        <h5><?php the_field('testimonial_quote'); ?></h5>
-                        <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
-                    </div>
-                <div class="ct-right">
-                    <p><?php the_field('testimonial_right'); ?></p>
-                </div>
-        </div>
-    </section>
-</div>
+    <div class="wrapper">
+
+        <section class="careers-testimonial wow fadeInUp">
+
+            <div class="ct-left">
+                <h5><?php the_field('testimonial_quote'); ?></h5>
+                <p><strong><?php the_field('testimonial_author'); ?></strong><br><em><?php the_field('testimonial_business'); ?></em></p>
+            </div>
+
+            <div class="ct-right">
+                <p><?php the_field('testimonial_right'); ?></p>
+            </div>
+
+        </section>
+
+    </div>
 
     <section class="office-slider">
+
         <div class="wrapper">
+
             <h4>Our Offices</h4>
             <div class="test-carousel owl-carousel owl-theme">
+
                 <div class="item">
-                    <div class="test-card tab-first wow fadeInUp"">
+
+                    <div class="test-card tab-first wow fadeInUp">
                         <h4 class="bos">Downtown<br>Boston</h4>
                         <p class="first"><?php the_field('company_box_boston--text'); ?></p>
                         <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
@@ -103,9 +134,12 @@
                           <p>50 Milk Street, 18th Floor,<br>Boston, MA 02109</p>
                         </a>
                     </div>
+
                 </div>
+
                 <div class="item">
-                    <div class="test-card tab-first wow fadeInUp"">
+
+                    <div class="test-card tab-first wow fadeInUp">
                         <h4 class="cam">Kendall<br>Cambridge</h4>
                         <p class="first"><?php the_field('company_box_cambridge--text'); ?></p>
                         <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
@@ -113,9 +147,12 @@
                           <p>1 Broadway, 5th Floor<br>Cambridge, MA 02142</p>
                         </a>
                     </div>
+
                 </div>
+
                 <div class="item">
-                    <div class="test-card tab-first wow fadeInUp"">
+
+                    <div class="test-card tab-first wow fadeInUp">
                         <h4 class="ny">New York<br>Office</h4>
                         <p class="first"><?php the_field('company_box_newyork--text'); ?></p>
                         <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
@@ -123,8 +160,8 @@
                           <p>1177 Avenue of the Americas, 7th Floor<br>New York, NY 10036</p>
                         </a>
                     </div>
+
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -133,82 +170,48 @@
         <div class="wrapper">
             <h3>Current Openings</h3>
             <h6>Filter</h6>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <div id="blogfilters">
-              <button data-filter="*">All</button>
-              <button data-filter=".fintech">FinTech</button>
-              <button data-filter=".healthtech">HealthTech</button>
-              <button data-filter=".hightech">HighTech</button>
+            <div class="filter-wrap">
+                <div id="filters" class="filters">
+                   <h4>Industries</h4>
+                   <div class="filter-item">
+                   <input type="checkbox" name="fintech" value="fintech" id="fintech"><label for="fintech">FinTech</label>
+                   </div>
+                   <div class="filter-item">
+                   <input type="checkbox" name="healthtech" value="healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
+                   </div>
+                   <div class="filter-item">
+                   <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
+                   </div>
+                   <h4>Services</h4>
+                   <div class="filter-item">
+                   <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
+                   </div>
+                   <div class="filter-item">
+                   <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">Regulatory &amp; Risk</label>
+                   </div>
+                   <div class="filter-item">
+                   <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">Data Gov. &amp; Visual</label>
+                   </div>
+                   <div class="filter-item">
+                     <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Internet of Things</label>
+                   </div>
+               </div>
             </div>
-            <div id="blogfilters">
-              <button data-filter="*">All</button>
-              <button data-filter=".agiledata">AgileData</button>
-              <button data-filter=".rtech">RTech</button>
-              <button data-filter=".databridge">DataBridge</button>
-              <button data-filter=".connect">Connect</button>
-            </div>
-            <div id="blogcontainer">
+            <div class="results wow fadeInUp" id="Container">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="blogitem <?php the_field('job_class'); ?>" data-category="<?php the_field('jobclass'); ?>">
+                <div class="job-result" data-id="fintech" data-category="<?php the_field('job_class'); ?>">
+                    <h4><?php the_field('job_title--header'); ?></h4>
                     <ul>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
                     </ul>
-=======
-=======
->>>>>>> parent of 9bc50ad... upload
-                 <div class="filter-wrap">
-                     <div id="filters" class="filters">
-                        <h4>Industries</h4>
-                        <div class="filter-item">
-                        <input type="checkbox" name="fintech" value="fintech" id="fintech"><label for="fintech">FinTech</label>
-                        </div>
-                        <div class="filter-item">
-                        <input type="checkbox" name="healthtech" value="healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
-                        </div>
-                        <div class="filter-item">
-                        <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
-                        </div>
-                        <h4>Services</h4>
-                        <div class="filter-item">
-                        <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
-                        </div>
-                        <div class="filter-item">
-                        <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">Regulatory &amp; Risk</label>
-                        </div>
-                        <div class="filter-item">
-                        <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">Data Gov. &amp; Visual</label>
-                        </div>
-                        <div class="filter-item">
-                          <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Internet of Things</label>
-                        </div>
-                    </div>
-
-                    </div>
-
-                    <div class="results wow fadeInUp" id="Container">
-                        <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
-                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                        <div class="job-result" data-id="fintech" data-category="<?php the_field('job_class'); ?>">
-                            <h4><?php the_field('job_title--header'); ?></h4>
-                            <ul>
-                                <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
-                                <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
-                                <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
-                            </ul>
-                            <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
-                            <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
-                        </div>
-                        <?php endwhile; wp_reset_query(); ?>
-                    </div>
-<<<<<<< HEAD
->>>>>>> parent of 9bc50ad... upload
-=======
->>>>>>> parent of 9bc50ad... upload
+                    <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
+                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
                 </div>
+                <?php endwhile; wp_reset_query(); ?>
+            </div>
         </div>
     </section>
 
@@ -216,15 +219,18 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-           <button id="app-toggle" class="app-toggle">Apply Now</button>
-                <div id="app-reveal">
-                  <?php echo do_shortcode("[ninja_form id=7]"); ?>
-                </div>
+            <button id="app-toggle" class="app-toggle">Apply Now</button>
+            <div id="app-reveal">
+                <?php echo do_shortcode("[ninja_form id=7]"); ?>
             </div>
-</section>
+        </div>
+    </section>
 
     <section class="eeo">
         <div class="wrapper">
             <p><?php the_field('eeo'); ?></p>
         </div>
     </section>
+
+</div>
+0
