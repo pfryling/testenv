@@ -172,10 +172,16 @@
             <h6>Filter</h6>
             <div id="blogfilters">
               <button data-filter="*">All</button>
-              <button data-filter=".c_fintech">FinTech</button>
-              <button data-filter=".c_healthtech">HealthTech</button>
-              <button data-filter=".c_hightech">HighTech</button>
-              <button data-filter=".c_press">Press Releases</button>
+              <button data-filter=".fintech">FinTech</button>
+              <button data-filter=".healthtech">HealthTech</button>
+              <button data-filter=".hightech">HighTech</button>
+            </div>
+            <div id="blogfilters">
+              <button data-filter="*">All</button>
+              <button data-filter=".agiledata">AgileData</button>
+              <button data-filter=".rtech">RTech</button>
+              <button data-filter=".databridge">DataBridge</button>
+              <button data-filter=".connect">Connect</button>
             </div>
             <div id="blogcontainer">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
