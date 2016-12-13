@@ -85,7 +85,7 @@
                     <br>HighTech</h4>
                     <p class="company-left"><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link comlink">
-                        <a href="/agiledata/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"><<br>&nbsp;
+                        <a href="/agiledata/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
                     </div>
                 </li>
             </ul>
