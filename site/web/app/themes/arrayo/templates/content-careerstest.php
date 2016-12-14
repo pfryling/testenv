@@ -11,21 +11,21 @@
               <div class="job-ui-group">
                 <h3>Industry</h3>
                 <div class="job-button-group js-radio-button-group" data-filter-group="color">
-                  <button class="job-button is-checked" data-filter="">any</button>
-                  <button class="job-button" data-filter=".fintech">fintech</button>
-                  <button class="job-button" data-filter=".healthtech">healthtech</button>
-                  <button class="job-button" data-filter=".hightech">hightech</button>
+                  <button class="job-button is-checked" data-filter="">Any</button>
+                  <button class="job-button" data-filter=".fintech">Financial Services</button>
+                  <button class="job-button" data-filter=".healthtech">Life Sc. &amp; Healthcare</button>
+                  <button class="job-button" data-filter=".hightech">Technology</button>
                 </div>
               </div>
 
               <div class="job-ui-group">
-                <h3>Service</h3>
+                <h3>Domain</h3>
                 <div class="job-button-group js-radio-button-group" data-filter-group="size">
-                  <button class="job-button is-checked" data-filter="">any</button>
-                  <button class="job-button" data-filter=".agiledata">agiledata</button>
-                  <button class="job-button" data-filter=".rtech">rtech</button>
-                  <button class="job-button" data-filter=".databridge">databridge</button>
-                  <button class="job-button" data-filter=".connect">connect</button>
+                  <button class="job-button is-checked" data-filter="">Any</button>
+                  <button class="job-button" data-filter=".agiledata">Data Science</button>
+                  <button class="job-button" data-filter=".rtech">Regulatory &amp; Risk</button>
+                  <button class="job-button" data-filter=".databridge">Data Gov. &amp; Visual.</button>
+                  <button class="job-button" data-filter=".connect">Internet of Things</button>
                 </div>
               </div>
 
