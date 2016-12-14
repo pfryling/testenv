@@ -166,49 +166,47 @@
         </div>
     </section>
 
-    <section class="openings" id="openings">
+     <section class="openings" id="openings">
         <div class="wrapper">
             <h3>Current Openings</h3>
-            <h6>Filter</h6>
-            <div class="filter-wrap">
-                <div id="filters" class="filters">
-                   <h4>Industries</h4>
-                   <div class="filter-item">
-                   <input type="checkbox" name="fintech" value="fintech" id="fintech"><label for="fintech">FinTech</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="healthtech" value="healthtech" id="healthtech"><label for="healthtech">HealthTech</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="hightech" value="hightech" id="hightech"><label for="hightech">HighTech</label>
-                   </div>
-                   <h4>Services</h4>
-                   <div class="filter-item">
-                   <input type="checkbox" name="agiledata" value="agiledata" id="agiledata"><label for="agiledata">Data Science</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="rtech" value="rtech" id="rtech"><label for="rtech">Regulatory &amp; Risk</label>
-                   </div>
-                   <div class="filter-item">
-                   <input type="checkbox" name="databridge" value="databridge" id="databridge"><label for="databridge">Data Gov. &amp; Visual</label>
-                   </div>
-                   <div class="filter-item">
-                     <input type="checkbox" name="connect" value="connect" id="connect"><label for="connect">Internet of Things</label>
-                   </div>
-               </div>
+            <h6 class="filterc">Filter</h6>
+            <div id="jobfilters">
+
+              <div class="job-ui-group">
+                <h3>Industry</h3>
+                <div class="job-button-group js-radio-button-group" data-filter-group="color">
+                  <button class="job-button is-checked" data-filter="">Any</button>
+                  <button class="job-button" data-filter=".fintech">Financial Services</button>
+                  <button class="job-button" data-filter=".healthtech">Life Sc. &amp; Healthcare</button>
+                  <button class="job-button" data-filter=".hightech">Technology</button>
+                </div>
+              </div>
+
+              <div class="job-ui-group">
+                <h3>Domain</h3>
+                <div class="job-button-group js-radio-button-group" data-filter-group="size">
+                  <button class="job-button is-checked" data-filter="">Any</button>
+                  <button class="job-button" data-filter=".agiledata">Data Science</button>
+                  <button class="job-button" data-filter=".rtech">Regulatory &amp; Risk</button>
+                  <button class="job-button" data-filter=".databridge">Data Gov. &amp; Visual.</button>
+                  <button class="job-button" data-filter=".connect">Internet of Things</button>
+                </div>
+              </div>
+
             </div>
-            <div class="results wow fadeInUp" id="Container">
+            <div id="jobresults">
                 <?php $loop = new WP_Query( array( 'post_type' => 'job-post', 'posts_per_page' => -1 ) ); ?>
                 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-                <div class="job-result" data-id="fintech" data-category="<?php the_field('job_class'); ?>">
-                    <h4><?php the_field('job_title--header'); ?></h4>
+                <div class="jobitem <?php the_field('job_class'); ?>">
+                    <h3><?php the_field('job_title--header'); ?></h3>
                     <ul>
                         <li><strong>Industry:</strong> <?php the_field('job_industry'); ?></li>
                         <li><strong>Type:</strong> <?php the_field('job_type'); ?></li>
                         <li><strong>Seniority:</strong> <?php the_field('job_seniority'); ?></li>
                     </ul>
-                    <hr style="margin: 0 auto;width:95%;display:block;outline:0;height:1px;border:0;border-top:1px solid rgba(0,0,0,0.1)">
-                    <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    <div class="link">
+                        <a href="<?php the_permalink(); ?>">Learn more <i class="fa fa-arrow-circle-o-right"></i></a>
+                    </div>
                 </div>
                 <?php endwhile; wp_reset_query(); ?>
             </div>
