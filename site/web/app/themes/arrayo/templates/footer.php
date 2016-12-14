@@ -132,26 +132,32 @@ jQuery('#blogfilters').on( 'click', 'button', function() {
 
 
 <script>
-var $grid = jQuery('.job-results').isotope({
-  itemSelector: '.job-box'
+var $results = jQuery('#jobresults');
+
+$results.isotope({
+  itemSelector: '.jobitem'
 });
 
 var filters = {};
 
-jQuery('.job-filters').on( 'click', '.job-button', function() {
+jQuery('#jobfilters').on( 'click', '.button', function() {
   var $this = jQuery(this);
-  var $buttonGroup = $this.parents('.job-button-group');
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
   var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
   filters[ filterGroup ] = $this.attr('data-filter');
+  // combine filters
   var filterValue = concatValues( filters );
+  // set filter for Isotope
   $grid.isotope({ filter: filterValue });
 });
 
-jQuery('.job-button-group').each( function( i, buttonGroup ) {
-  var $buttonGroup = $( buttonGroup );
+jQuery('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = jQuery( buttonGroup );
   $buttonGroup.on( 'click', 'button', function() {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $( this ).addClass('is-checked');
+    jQuery( this ).addClass('is-checked');
   });
 });
 
