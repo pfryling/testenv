@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
 <div class="bg-radial-gradient">
         <div class="wrapper">
             <section class="page-header">
@@ -57,3 +58,4 @@
                 </div>
         </div>
     </section>
+    </div>

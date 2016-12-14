@@ -1,4 +1,5 @@
  <?php the_content(); ?>
+ <div class="main">
  <div class="sub-bg-gradient-for sub-bg-gradient-for--hecon">
 
         <div class="wrapper">
@@ -102,4 +103,5 @@
                 </div>
         </div>
     </section>
+    </div>
     </div>

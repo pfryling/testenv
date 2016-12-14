@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
     <div class="sub-bg-gradient sub-bg-gradient--health">
 
         <div class="wrapper">
@@ -114,3 +115,4 @@
                 </div>
         </div>
     </section>
+    <div class="main">
