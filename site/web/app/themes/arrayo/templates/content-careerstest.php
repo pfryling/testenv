@@ -5,7 +5,7 @@
     <section class="openings" id="openings">
         <div class="wrapper">
             <h3>Current Openings</h3>
-            <h6>Filter</h6>
+            <h6 class="filterc">Filter</h6>
             <div id="jobfilters">
 
               <div class="job-ui-group">
