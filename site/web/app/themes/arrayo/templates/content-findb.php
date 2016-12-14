@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
  <div class="sub-bg-gradient-for sub-bg-gradient-for--findb">
         <div class="wrapper">
             <section class="sub-page-header">
@@ -107,4 +108,5 @@
                 </div>
         </div>
     </section>
+    </div>
     </div>
