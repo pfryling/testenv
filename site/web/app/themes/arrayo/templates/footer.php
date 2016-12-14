@@ -135,7 +135,8 @@ jQuery('#blogfilters').on( 'click', 'button', function() {
 var $results = jQuery('#jobresults');
 
 $results.isotope({
-  itemSelector: '.jobitem'
+  itemSelector: '.jobitem',
+  animationEngine: 'best-available'
 });
 
 var filters = {};
