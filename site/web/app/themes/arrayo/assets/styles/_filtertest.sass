@@ -37,17 +37,19 @@
       text-transform: uppercase
       font-size: 12px
       color: $primary
+      +media($tablet)
+        margin-left: -10px
+      +media($mobile)
+        margin-left: -10px
     +media($laptop)
       +span-columns(12 of 12)
       margin-bottom: 20px
     +media($tablet)
       +span-columns(8 of 8)
       margin-bottom: 20px
-      margin-left: -10px
     +media($mobile)
       +span-columns(4 of 4)
       margin-bottom: 20px
-      margin-left: -10px
 
 #jobresults
     +span-columns(8 of 12)
