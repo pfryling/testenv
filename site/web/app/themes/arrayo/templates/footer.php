@@ -140,10 +140,10 @@ $results.isotope({
 
 var filters = {};
 
-jQuery('#jobfilters').on( 'click', '.button', function() {
+jQuery('#jobfilters').on( 'click', '.job-button', function() {
   var $this = jQuery(this);
   // get group key
-  var $buttonGroup = $this.parents('.button-group');
+  var $buttonGroup = $this.parents('.job-button-group');
   var filterGroup = $buttonGroup.attr('data-filter-group');
   // set filter for group
   filters[ filterGroup ] = $this.attr('data-filter');
@@ -153,7 +153,7 @@ jQuery('#jobfilters').on( 'click', '.button', function() {
   $grid.isotope({ filter: filterValue });
 });
 
-jQuery('.button-group').each( function( i, buttonGroup ) {
+jQuery('.job-button-group').each( function( i, buttonGroup ) {
   var $buttonGroup = jQuery( buttonGroup );
   $buttonGroup.on( 'click', 'button', function() {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
