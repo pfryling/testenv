@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "66edffce5c0ff10adf139d464b4ae626",
-    "content-hash": "19902bd6effcb52d7e8bbc5f9786beb5",
+    "hash": "8d3e602231c4e1b9751f1c5a9081812d",
+    "content-hash": "61e7090de6b5512c4b5137e7f7d0cdad",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -221,10 +221,10 @@
         },
         {
             "name": "google/xml-sitemaps",
-            "version": "4.0.8",
+            "version": "2.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/xml-sitemaps.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -639,16 +639,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
                 "shasum": ""
             },
             "require": {
@@ -713,7 +713,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-09-01 23:53:02"
+            "time": "2016-11-30 04:02:31"
         }
     ],
     "aliases": [],

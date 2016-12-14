@@ -37,11 +37,11 @@
       "type": "package",
       "package": {
         "name": "google/xml-sitemaps",
-        "version": "4.0.8",
+        "version": "2.4",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip"
+          "url": "https://downloads.wordpress.org/plugin/xml-sitemaps.zip"
         },
         "require": {
           "composer/installers": "^1.0"
@@ -329,7 +329,7 @@
     "wpserver/wps-hide-login": "^1.4",
     "callum/wp-mail": "^0.9.5",
     "roots/wp-h5bp-htaccess": "2.0.1",
-    "google/xml-sitemaps": "^4.0"
+    "google/xml-sitemaps": "^2.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
