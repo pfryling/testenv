@@ -115,7 +115,7 @@ var jQuery311 = $.noConflict(true);
 <script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/98b9a998a0c59209208e90faa4f1f047e9c18427/returnTop.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/056a45480655663057e90ea13da1a05d8b3db46f/blogFilter.js"></script>
 
-// blog filter
+
 <script>
 var $container = jQuery('#blogcontainer');
 
@@ -130,7 +130,7 @@ jQuery('#blogfilters').on( 'click', 'button', function() {
 });
 </script>
 
-// careers filter
+
 <script>
 var $grid = jQuery('.job-results').isotope({
   itemSelector: '.job-box'
