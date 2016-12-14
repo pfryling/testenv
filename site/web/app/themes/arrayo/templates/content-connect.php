@@ -18,21 +18,21 @@
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
-                <h4><img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
+                <h4><img alt="FinTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
                     <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="/connect/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                    <h4><img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
+                    <h4><img alt="HealthTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
                     <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="/connect/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                    <h4><img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
+                    <h4><img alt="HighTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
                     <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="/connect/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
@@ -43,14 +43,14 @@
         <section class="connect-mid-bg">
             <div class="wrapper flex">
                 <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.1s">
-                    <img alt="Power Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-1.png?raw=true">
+                    <img alt="Power Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-1.png?raw=true">
                     <h4><?php the_field('con_half1--header'); ?></h4>
                     <p class="light"><?php the_field('con_half1--subheader') ?></p>
                     <hr>
                     <p><?php the_field('con_half1--paragraph1') ?></p>
                 </div>
                 <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.2s">
-                    <img alt="Bar Graph Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-2.png?raw=true">
+                    <img alt="Bar Graph Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-2.png?raw=true">
                     <h4><?php the_field('con_half2--header'); ?></h4>
                     <p class="light2"><?php the_field('con_half2--subheader') ?></p>
                     <hr>
@@ -60,7 +60,7 @@
         <div class="wrapper">
         <section class="third-gradient  wow fadeInUp">
             <div class="gradient">
-                <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png">
+                <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png">
                 <h5><?php the_field('con_gradient--header'); ?></h5>
                 <p><strong><?php the_field('con_gradient--subheader'); ?></strong></p>
             </div>
@@ -86,55 +86,55 @@
                 <h2><?php the_field('con_icon--header'); ?></h2>
                 <h5><?php the_field('con_icon--subheader'); ?></h5><br>
                 <div class="icons  wow fadeInUp" data-wow-delay="0.1s">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--1'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.2s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--2'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.3s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--3'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.4s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--4'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.5s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--5'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.6s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--6'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.7s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--7'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.8s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--8'); ?></p>
                     </div>
                 </div>
                 <div class="icons wow fadeInUp" data-wow-delay="0.9s"">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png" class="sm-check">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png" class="sm-check">
                     <div class="text-wrap">
                         <p><?php the_field('con_icon--9'); ?></p>
                     </div>

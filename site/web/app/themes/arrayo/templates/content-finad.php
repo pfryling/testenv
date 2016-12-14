@@ -9,7 +9,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('ad_fin_box--subheader'); ?></h5>
-                    <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
+                    <img alt="White Swish" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/fin-tilde.png?raw=true">
                     <p class="for"><strong><?php the_field('ad_fin_box--bold1'); ?></strong></p>
                     <div class="list list--fintech wow slideInLeft"><?php the_field('ad_fin_box--list1'); ?></div><hr>
                     <div class="list list--fintech wow slideInLeft"><?php the_field('ad_fin_box--list2'); ?></div><hr>
@@ -24,7 +24,7 @@
                         <div class="list list--white wow slideInLeft"><?php the_field('ad_fin_box--list-white-4'); ?></div>
                     </div>
                     <p><?php the_field('ad_fin_text'); ?></p>
-                    <img alt="White Swish" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/fin-tilde.png?raw=true">
+                    <img alt="White Swish" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/fin-tilde.png?raw=true">
                     <h4 class="light"><?php the_field('ad_fin_subheader--bottom'); ?></h4>
                 </div>
 

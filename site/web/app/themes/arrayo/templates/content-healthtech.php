@@ -18,7 +18,7 @@
              <ul class="flexfade-container flexfade-wrapper">
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.1s">
                     <h4>
-                        <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-2.png"><br>
+                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-2.png"><br>
                         <?php the_field('healthtech_box--header-rtech'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-rtech'); ?></p>
@@ -29,7 +29,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.2s">
                     <h4>
-                        <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-4.png"><br>
+                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png"><br>
                         <?php the_field('healthtech_box--header-agiledata'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-agiledata'); ?></p>
@@ -40,7 +40,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.3s">
                     <h4>
-                        <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-3.png"><br>
+                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-3.png"><br>
                         <?php the_field('healthtech_box--header-connect'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-connect'); ?></p>
@@ -51,7 +51,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.4s">
                     <h4>
-                        <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/services/services-icons/health-ico-1.png"><br>
+                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-1.png"><br>
                         <?php the_field('healthtech_box--header-databridge'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-databridge'); ?></p>
@@ -68,37 +68,37 @@
             <h2><?php the_field('healthtech_slider--header'); ?></h2>
             <h5><?php the_field('healthtech_slider--subheader'); ?></h5>
             <p><?php the_field('healthtech_slider--text'); ?></p>
-            <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/health-tilde.png">
+            <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png">
             <p><strong><?php the_field('healthtech_slider--intro'); ?></strong></p>
             <div class="ind-carousel owl-carousel owl-theme">
-                <div class="item"><img alt="Abbvie Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/abbvie-logo-gray.png"></div>
-           <div class="item"><img alt="Althea DX Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/althea-dx-logo-gray.png"></div>
-           <div class="item"><img alt="AstraZeneca Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/astrazeneca-logo-gray.png"></div>
-           <div class="item"><img alt="Boston Children's Hospital Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/boston-childrens-hospital-logo-gray.png"></div>
-           <div class="item"><img alt="eClinicalWorks Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/eclinicalworks-logo-gray.png"></div>
-           <div class="item"><img alt="Google Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/google-logo-gray.png"></div>
-           <div class="item"><img alt="Johns Hopkins University Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/johns-hopkins-university-logo-gray.png"></div>
-           <div class="item"><img alt="Lavastorm Analytics Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/lavastorm-analytics-logo-gray.png"></div>
-           <div class="item"><img alt="Memorial Sloan Kettering Cancer Center Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/memorial-sloan-kettering-cancer-center-logo-gray.png"></div>
-           <div class="item"><img alt="MERCK Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/merck-logo-gray.png"></div>
-           <div class="item"><img alt="Massachusetts General Hospital Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/mgh-logo-gray.png"></div>
-           <div class="item"><img alt="Novartis Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/novartis-logo-gray.png"></div>
-           <div class="item"><img alt="Pfizer Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/pfizer-logo-gray.png"></div>
-           <div class="item"><img alt="Sanofi Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/sanofi-logo-gray.png"></div>
-           <div class="item"><img alt="Schrödinger Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/schrodinger-logo-gray.png"></div>
-           <div class="item"><img alt="Spotify Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/spotify-logo-gray.png"></div>
-           <div class="item"><img alt="Thermo Fisher Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-companies/thermo-fisher-scientific-logo-gray.png"></div>
+                <div class="item"><img alt="Abbvie Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/abbvie-logo-gray.png"></div>
+           <div class="item"><img alt="Althea DX Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/althea-dx-logo-gray.png"></div>
+           <div class="item"><img alt="AstraZeneca Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/astrazeneca-logo-gray.png"></div>
+           <div class="item"><img alt="Boston Children's Hospital Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/boston-childrens-hospital-logo-gray.png"></div>
+           <div class="item"><img alt="eClinicalWorks Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/eclinicalworks-logo-gray.png"></div>
+           <div class="item"><img alt="Google Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/google-logo-gray.png"></div>
+           <div class="item"><img alt="Johns Hopkins University Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/johns-hopkins-university-logo-gray.png"></div>
+           <div class="item"><img alt="Lavastorm Analytics Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/lavastorm-analytics-logo-gray.png"></div>
+           <div class="item"><img alt="Memorial Sloan Kettering Cancer Center Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/memorial-sloan-kettering-cancer-center-logo-gray.png"></div>
+           <div class="item"><img alt="MERCK Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/merck-logo-gray.png"></div>
+           <div class="item"><img alt="Massachusetts General Hospital Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/mgh-logo-gray.png"></div>
+           <div class="item"><img alt="Novartis Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/novartis-logo-gray.png"></div>
+           <div class="item"><img alt="Pfizer Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/pfizer-logo-gray.png"></div>
+           <div class="item"><img alt="Sanofi Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/sanofi-logo-gray.png"></div>
+           <div class="item"><img alt="Schrödinger Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/schrodinger-logo-gray.png"></div>
+           <div class="item"><img alt="Spotify Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/spotify-logo-gray.png"></div>
+           <div class="item"><img alt="Thermo Fisher Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/thermo-fisher-scientific-logo-gray.png"></div>
             </div>
         </div>
         <div class="bg-green-wavy wow fadeInUp">
             <h2><?php the_field('healthtech_gradient_slider--header'); ?></h2>
             <h5><?php the_field('healthtech_gradient_slider--subheader'); ?></h5>
             <p><?php the_field('healthtech_gradient_slider--text'); ?></p>
-            <img alt="" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-tilde.png">
+            <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-tilde.png">
             <p><strong><?php the_field('healthtech_gradient_slider--intro'); ?></strong></p>
             <div class="item--push item--push-health">
-                <img alt="Fullstack Academy Logo" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-other/fullstack-academy-logo-white.png">
-                <img alt="General Assembly" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/industry-icons/healthtech-other/general-assembly-logo-white.png">
+                <img alt="Fullstack Academy Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-other/fullstack-academy-logo-white.png">
+                <img alt="General Assembly" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-other/general-assembly-logo-white.png">
         </div>
         </div>
     </div>

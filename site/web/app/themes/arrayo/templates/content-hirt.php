@@ -10,7 +10,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('rt_hi_box--subheader'); ?></h5>
-                    <img alt="" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/misc-icons/high-tilde.png?raw=true">
+                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/high-tilde.png?raw=true">
                     <p><?php the_field('rt_hi_box--text1'); ?></p>
                     <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote-hightech.png" class="quote-img wow slideInLeft">
                     <h4 class="quote quote--hightech wow slideInLeft"><?php the_field('rt_hi_quote'); ?></h4>

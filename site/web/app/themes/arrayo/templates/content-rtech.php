@@ -18,21 +18,21 @@
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
-                <h4><img alt="FinTech Logo" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
+                <h4><img alt="FinTech Logo" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/fin-agile-icon.png?raw=true"><br><?php the_field('industry_box--header-fintech'); ?></h4>
                     <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="/rtech/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                    <h4><img alt="HealthTech Logo" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
+                    <h4><img alt="HealthTech Logo" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png?raw=true"><br><?php the_field('industry_box--header-healthtech'); ?></h4>
                     <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="/rtech/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                    <h4><img alt="HighTech Logo" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
+                    <h4><img alt="HighTech Logo" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/high-ico-4.png?raw=true"><br><?php the_field('industry_box--header-hightech'); ?></h4>
                     <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="/rtech/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
@@ -45,22 +45,22 @@
             <p><?php the_field('rt_midbox--text'); ?></p>
             <div class="icons-wrap">
                 <div class="icons wow bounceIn">
-                    <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
+                    <img alt="Blue Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/blue-check.png">
                     <p><?php the_field('rt_midbox--icon1'); ?></p>
                 </div>
                 <div class="icons wow bounceIn">
-                    <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
+                    <img alt="Blue Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/blue-check.png">
                     <p><?php the_field('rt_midbox--icon2'); ?></p>
                 </div>
                 <div class="icons wow bounceIn">
-                    <img alt="Blue Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/blue-check.png">
+                    <img alt="Blue Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/blue-check.png">
                     <p><?php the_field('rt_midbox--icon3'); ?></p>
                 </div>
             </div>
         </section>
             <section class="third-gradient wow fadeInUp">
                 <div class="gradient">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png">
                     <h5><?php the_field('rt_gradient--header'); ?></h5>
                     <p><?php the_field('rt_gradient--subheader'); ?></p>
                 </div>

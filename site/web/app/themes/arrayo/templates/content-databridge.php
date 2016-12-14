@@ -18,21 +18,21 @@
         </div>
         <ul class="flexfade-container flexfade-wrapper">
             <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--finserve" data-wow-delay="0.1s">
-                <h4><img alt="FinTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
+                <h4><img alt="FinTech Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/fin-agile-icon.png?raw=true"><br>FinTech</h4>
                     <p><?php the_field('industry_box--text-fintech'); ?></p>
                     <div class="link">
                         <a href="/databridge/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                    <h4><img alt="HealthTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
+                    <h4><img alt="HealthTech Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
                     <p><?php the_field('industry_box--text-healthtech'); ?></p>
                     <div class="link">
                         <a href="/databridge/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
                 </li>
                 <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                    <h4><img alt="HighTech Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
+                    <h4><img alt="HighTech Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
                     <p><?php the_field('industry_box--text-hightech'); ?></p>
                     <div class="link">
                         <a href="/databridge/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
@@ -43,7 +43,7 @@
     <section class="connect-mid-bg">
             <div class="wrapper">
                 <div class="connect-full-box wow fadeInUp" data-wow-delay="0.1s">
-                    <img alt="Power Icon" src="https://github.com/gretzky/arrayo-qa/blob/master/assets/img/services/services-icons/connect-mid-ico-1.png?raw=true">
+                    <img alt="Power Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-1.png?raw=true">
                     <h4><?php the_field('db_full--header'); ?></h4>
                     <p class="light"><?php the_field('db_full--subheader') ?></p>
                     <p><?php the_field('db_full--text') ?></p>
@@ -52,7 +52,7 @@
         <div class="wrapper">
             <section class="third-gradient wow fadeInUp">
                 <div class="gradient">
-                    <img alt="White Checkmark" src="https://raw.githubusercontent.com/gretzky/arrayo-qa/master/assets/img/misc-icons/white-checkmark.png">
+                    <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png">
                     <h5><?php the_field('db_gradient--header'); ?></h5>
                     <p><?php the_field('db_gradient--subheader'); ?></p>
                 </div>
