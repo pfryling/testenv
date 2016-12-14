@@ -150,7 +150,7 @@ jQuery('#jobfilters').on( 'click', '.job-button', function() {
   // combine filters
   var filterValue = concatValues( filters );
   // set filter for Isotope
-  $grid.isotope({ filter: filterValue });
+  $results.isotope({ filter: filterValue });
 });
 
 jQuery('.job-button-group').each( function( i, buttonGroup ) {
