@@ -5,6 +5,8 @@
                 <h1>Apply Now</h1>
                 <p>for Now or Later</p>
             </section>
+            <p>Thank you for your application</p>
+            <p>Please provide additional information (optional)</p>
             <button id="show-element">Show it</button>
             <div id="to-show" class="hide-form">
                 <?php echo do_shortcode("[ninja_form id=11]"); ?>
