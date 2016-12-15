@@ -189,54 +189,8 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav pull-right">
-                <li class="dropdown mega-menu-full">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-
-                        <span>Contact</span>
-                        <i class="fa fa-caret-down"></i>
-                    </a>
-
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="mega-menu-content">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-3 hidden-xs">
-                                        <div class="box">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-3 col-sm-3 hidden-xs">
-                                        <div class="box">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                                <li>
-                                                    <h4 class="getintouch">Get in Touch!</h4>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-3 col-sm-3 hidden-xs">
-                                        <div class="box">
-                                            <ul>
-                                                <li>
-                                                    <?php echo do_shortcode("[ninja_form id=2]"); ?>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="box">
-                                            <ul>
-                                                <li>&nbsp;</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                <li>
+                    <a href="/contact">Contact/a>
                 </li>
             </ul>
         </div>

@@ -4,7 +4,7 @@
             <section class="page-header">
                 <h1>Contact Us</h1>
             </section>
-            <div style="max-width:400px">
+            <div class='contact-page-form'>
         <?php echo do_shortcode("[ninja_form id=1]"); ?>
         </div>
         </div>
