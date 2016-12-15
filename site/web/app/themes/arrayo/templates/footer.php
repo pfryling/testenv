@@ -43,9 +43,7 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-                    <div class="job-modal">
-                     <div class="job-overlay"></div>
-                      <a href="/apply" class="mj-btn">Apply Now</a></p>
+                    <a href="/apply" class="mj-btn">Apply Now</a>
                 </li>
               </ul>
             </div>

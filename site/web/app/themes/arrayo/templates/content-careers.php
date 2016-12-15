@@ -217,7 +217,7 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-            <button id="app-toggle" class="app-toggle"><a href="apply-now">Apply Now</a></button>
+            <a href="/apply" class="mj-btn">Apply Now</a>
     </section>
 
     <section class="eeo">
@@ -227,4 +227,4 @@
     </section>
 
 </div>
-0
+
