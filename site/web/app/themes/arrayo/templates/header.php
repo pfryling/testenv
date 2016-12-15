@@ -190,7 +190,7 @@
             </ul>
             <ul class="nav navbar-nav pull-right">
                 <li>
-                    <a href="/contact">Contact/a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </div>

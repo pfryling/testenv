@@ -217,11 +217,7 @@
         <div class="wrapper">
             <h3><?php the_field('careers_apply--header'); ?></h3>
             <p><?php the_field('careers_apply--text'); ?></p>
-            <button id="app-toggle" class="app-toggle">Apply Now</button>
-            <div id="app-reveal">
-                <?php echo do_shortcode("[ninja_form id=7]"); ?>
-            </div>
-        </div>
+            <button id="app-toggle" class="app-toggle"><a href="apply-now">Apply Now</a></button>
     </section>
 
     <section class="eeo">
