@@ -4,6 +4,6 @@
             <section class="page-header">
                 <h1>Contact Us</h1>
             </section>
-        </div>
         <?php echo do_shortcode("[ninja_form id=1]"); ?>
+        </div>
     </div>
