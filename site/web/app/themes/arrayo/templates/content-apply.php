@@ -5,8 +5,11 @@
                 <h1>Apply Now</h1>
                 <p>for Now or Later</p>
             </section>
+        </div>
         <?php echo do_shortcode("[ninja_form id=9]"); ?>
         <section class="eeo">
-            <p><?php the_field('eeo'); ?></p>
-    </section>
+            <div class="wrapper">
+                <p><?php the_field('eeo'); ?></p>
+            </div>
+        </section>
     </div>
