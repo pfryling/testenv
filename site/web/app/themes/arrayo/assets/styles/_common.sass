@@ -1,18 +1,20 @@
-.show-form
-    display: none
+#to-show
+    transition: all 0.5s cubic-bezier(.83,-0.43,.21,1.42)
     position: absolute
-    left: calc(50% - 10em)
-    transition: all 0.4s 0.4s cubic-bezier(.5,.2,.43,1.33)
-    width: 20em
+    left: 50%
+    top: (50% + 4em)
+    transform: translate(-50%, -50%)
 
-.close
-    color: $text
-    position: absolute
-    cursor: pointer
-    right: 0.5em
-    top: 0.5em
-    width: 1em
-    z-index: 10
+.hide-form
+    opacity: 0
+    top: calc(50% + 8em)
+
+.show-form
+    opacity: 1
+    top: calc(50% + 6em)
+
+body.on
+    background-color: $secondary
 
 .nf-form-cont
     background-color: transparent !important
