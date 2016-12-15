@@ -89,7 +89,7 @@ var jQuery311 = $.noConflict(true);
 <script src="https://cdn.rawgit.com/gretzky/01d873fbbfccf780dbd5ea85c41edfe8/raw/d67c1db54c0ca9602929f081aefc5a7cf7b57bee/tabs.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/cc47d5ae55d8ae8da0a12fec03c63e52/raw/456c9eb45c57dc9206aefada66c2d8f0c93b4d82/countUp.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/84544312eb4c79fdbe85436fd998eb32/raw/6c7c74b7d14bfc5daf6c2705e08336101d5068a9/app-slideToggle.js"></script>
-<script src="https://cdn.rawgit.com/gretzky/6f3b52221efa60bdfd17f13a141ac45b/raw/7de9bbf00e2ac8bef8a566932a121afcf59d33b3/smoothscroll.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/6f3b52221efa60bdfd17f13a141ac45b/raw/7d819ca104a831a8ee9b04bc823313e2e04eaca4/smoothscroll.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/d110e902406a5530a9c643d1fcd202ae/raw/1cbd9bb4af3db413bf53ca918a74ab363db991d7/applyjobModal.js"></script>
 <script src="https://gist.github.com/gretzky/af82aff28265ba25384925d5a52f22b5"></script>
 <script src="https://cdn.rawgit.com/gretzky/1ad6c5fb3e63a17cee8d115e37964cb5/raw/671a4d5c70dc624bf29abd07de4a6dd2c3f1d64b/mobileNav.js"></script>
@@ -97,7 +97,7 @@ var jQuery311 = $.noConflict(true);
 <script src="https://gist.github.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232"></script>
 <!--<script src="https://cdn.rawgit.com/gretzky/a785d80b70631e5ad467b9669e56855e/raw/576f41d65ec365f1ed0a1dffa120db8f2217e12e/progressBar.js"></script>-->
 <script src="https://cdn.rawgit.com/gretzky/e0779c74bfde6e63ed45d0f4c3bbf232/raw/8b783b49a1c980b12928320e34c5d74eaa469792/textHighlight.js"></script>
-<script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/98b9a998a0c59209208e90faa4f1f047e9c18427/returnTop.js"></script>
+<script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/ae71c2c7164027c519e2620f3dd23537c5f89b51/returnTop.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/056a45480655663057e90ea13da1a05d8b3db46f/blogFilter.js"></script>
 
 
