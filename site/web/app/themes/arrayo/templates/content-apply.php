@@ -5,8 +5,10 @@
                 <h1>Apply Now</h1>
                 <p style="margin-bottom:68px !important">for Now or Later</p>
             </section>
-        <?php echo do_shortcode("[ninja_form id=9]"); ?>
-        <div style="margin-bottom: 68px">&nbsp;</div>
+            <section class="apply-form-padding">
+                <?php echo do_shortcode("[ninja_form id=9]"); ?>
+            </section>
+            <div style="margin-bottom: 68px">&nbsp;</div>
         </div>
         <section class="eeo">
             <div class="wrapper">
