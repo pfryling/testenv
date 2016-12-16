@@ -8,8 +8,8 @@
             <section class="apply-form-padding">
                 <p style="color:#ffffff">Thank you for your application.<br>
                 Please provide additional information (optional).</p>
-                <button id="app-toggle" class="app-toggle">Additional Info</button>
-                <div id="app-reveal">
+                <button id="toggle" class="app-toggle">Additional Info</button>
+                <div id="reveal">
                     <?php echo do_shortcode("[ninja_form id=11]"); ?>
                 </div>
                 <div style="margin-bottom: 68px">&nbsp;</div>
