@@ -5,16 +5,17 @@
                 <h1>Apply Now</h1>
                 <p>for Now or Later</p>
             </section>
-            <p>Thank you for your application</p>
-            <p>Please provide additional information (optional)</p>
+            <p style="color:#ffffff">Thank you for your application<br>
+            Please provide additional information (optional)</p>
             <button id="app-toggle" class="app-toggle">Apply Now</button>
- -            <div id="app-reveal">
- -                <?php echo do_shortcode("[ninja_form id=11]"); ?>
- -            </div>
+             <div id="app-reveal">
+                 <?php echo do_shortcode("[ninja_form id=11]"); ?>
+             </div>
+             <div style="margin-bottom: 68px">&nbsp;</div>
         </div>
         <section class="eeo">
             <div class="wrapper">
-                <p><?php the_field('eeo'); ?></p>
+                <p>Arrayo is an Equal Employment Opportunity employer and as such does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.</p>
             </div>
         </section>
     </div>
