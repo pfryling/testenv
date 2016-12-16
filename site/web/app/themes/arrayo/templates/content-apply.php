@@ -1,5 +1,5 @@
 <?php the_content(); ?>
-    <div class="bg-gradient--vert">
+    <div class="apply-page-bg">
         <div class="wrapper">
             <section class="page-header">
                 <h1>Apply Now</h1>

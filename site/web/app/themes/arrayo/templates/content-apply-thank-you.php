@@ -1,5 +1,5 @@
 <?php the_content(); ?>
-    <div class="bg-gradient--vert">
+    <div class="apply-page-bg">
         <div class="wrapper">
             <section class="page-header">
                 <h1>Apply Now</h1>
@@ -8,8 +8,8 @@
             <section class="apply-form-padding">
                 <p style="color:#ffffff">Thank you for your application.<br>
                 Please provide additional information (optional).</p>
-                <button class="app-toggle">Additional Info</button>
-                <div class="app-reveal">
+                <button id="app-toggle" class="app-toggle">Additional Info</button>
+                <div id="app-reveal">
                     <?php echo do_shortcode("[ninja_form id=11]"); ?>
                 </div>
                 <div style="margin-bottom: 68px">&nbsp;</div>
