@@ -5,8 +5,8 @@
                 <h1>Apply Now</h1>
                 <p style="margin-bottom:68px !important">for Now or Later</p>
             </section>
-                <h3 class="apply-page-h">Thank oyu for your application.<h3>
-                <p>Please provide additional information (optional).</p><br>
+                <h3 class="apply-page-h">Thank you for your application.</h3>
+                <p>Please provide additional information (optional).</p>
             <section class="afp">
                 <?php echo do_shortcode("[ninja_form id=11]"); ?>
             </section>
