@@ -43,7 +43,7 @@
                 <li class="ul-item">
                     <h3>Apply now-<br>for Now or Later</h3>
                     <p style="16px">Join Arrayo, Get on board</p>
-                    <a href="/apply" class="mj-btn">Apply Now</a>
+                    <a href="/apply-now" class="mj-btn">Apply Now</a>
                 </li>
               </ul>
             </div>
