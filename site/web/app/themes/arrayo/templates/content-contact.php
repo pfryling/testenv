@@ -5,7 +5,7 @@
                 <h1>Get in Touch</h1>
             </section>
             <div class='contact-page-form'>
-        <?php echo do_shortcode("[ninja_form id=13]"); ?>
+        <?php echo do_shortcode("[ninja_form id=14]"); ?>
         </div>
         </div>
     </div>
