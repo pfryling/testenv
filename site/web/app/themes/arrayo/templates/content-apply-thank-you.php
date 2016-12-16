@@ -5,7 +5,7 @@
                 <h1>Apply Now</h1>
                 <p style="margin-bottom:68px !important">for Now or Later</p>
             </section>
-            <section class="apply-form-padding">
+            <section class="afp">
                 <p style="color:#ffffff">Thank you for your application.<br>
                 Please provide additional information (optional).</p>
                 <button id="toggle" class="app-toggle">Additional Info</button>
