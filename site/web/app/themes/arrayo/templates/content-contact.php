@@ -4,8 +4,8 @@
             <section class="page-header">
                 <h1>Get in Touch</h1>
             </section>
-            <div class='contact-page-form'>
-        <?php echo do_shortcode("[ninja_form id=14]"); ?>
-        </div>
+            <section class="afp">
+                <?php echo do_shortcode("[ninja_form id=14]"); ?>
+            </section>
         </div>
     </div>
