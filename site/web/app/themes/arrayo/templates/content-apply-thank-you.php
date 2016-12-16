@@ -7,7 +7,7 @@
             </section>
             <p style="color:#ffffff">Thank you for your application.<br>
             Please provide additional information (optional).</p>
-            <button id="app-toggle" class="app-toggle">Additional Info/button>
+            <button id="app-toggle" class="app-toggle">Additional Info</button>
              <div id="app-reveal">
                  <?php echo do_shortcode("[ninja_form id=11]"); ?>
              </div>
