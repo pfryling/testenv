@@ -12,8 +12,13 @@
 .nf-response-msg
     font-size: 1em
     font-family: $sans
-    color: white
-    text-align: left
+    color: white !important
+    text-align: left !important
+    +media($mobile)
+        margin-left: -22%
+        word-wrap: break-word
+        padding: 0 120px
+        text-align: center !important
 
 .apply-cta p
     color: white !important
