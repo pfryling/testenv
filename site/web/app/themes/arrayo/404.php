@@ -1,7 +1,13 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
-<div class="alert alert-warning">
-  <?php _e('Sorry, but the page you were trying to view does not exist.', 'sage'); ?>
+<div class="apply-page-bg">
+    <div class="wrapper">
+        <section class="page-header">
+            <h1>404</h1>
+        </section>
+        <section class="afp">
+            <?php _e('Sorry, but the page you were trying to view does not exist.', 'sage'); ?>
+        </section>
+        <div style="margin-bottom: 68px">&nbsp;</div>
+    </div>
 </div>
-
-<?php get_search_form(); ?>
