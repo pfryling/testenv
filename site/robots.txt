@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://www.teamararyo.com/page-sitemap.xml
+Sitemap: http://www.teamarrayo.com/job-post-sitemap.xml
+Sitemap: http://www.teamarrayo.com/resource-sitemap.xml
