@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
     <div class="blog">
         <div class="wrapper">
             <section class="page-header">
@@ -43,3 +44,4 @@
             </div>
         </div>
         </section>
+    </div>

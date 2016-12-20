@@ -1,4 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
+<div class="main">
 <div class="blog-bg <?php the_field('industry'); ?>">
     <div class="wrapper">
         <section class="blog-header">
@@ -25,4 +26,5 @@
         </div>
     </div>
 </section>
+</div>
 <?php endwhile; ?>
