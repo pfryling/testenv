@@ -100,6 +100,11 @@ var jQuery311 = $.noConflict(true);
 
 
 <script>
+$("#nf-field-106").click(function(){
+    $("#optional").hide();
+});
+</script>
+<script>
 var $container = jQuery('#blogcontainer');
 
 $container.isotope({
