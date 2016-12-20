@@ -101,7 +101,7 @@ var jQuery311 = $.noConflict(true);
 
 <script>
 jQuery("#nf-field-106").click(function(){
-    jQuery("#optional").hide();
+    jQuery(".nf-form-title").hide();
 });
 </script>
 <script>
