@@ -100,8 +100,12 @@ var jQuery311 = $.noConflict(true);
 
 
 <script>
-jQuery("#nf-field-106").click(function(){
-    jQuery(".nf-form-title").hide();
+jQuery(document).click(function(e) {
+    var target = e.target;
+
+    if (!$(target).is('#optional') && !$(target).parents().is('#optional')) {
+        $('#optional').hide();
+    }
 });
 </script>
 <script>
