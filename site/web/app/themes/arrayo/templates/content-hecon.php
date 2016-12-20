@@ -11,7 +11,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('con_he_box--subheader'); ?></h5>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
+                    <img alt="healthtech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
                     <?php the_field('con_he_box--text1'); ?>
                     <div class="inner-gradient--green">
                         <p class="for"><?php the_field('con_he--gradient-text'); ?></p>

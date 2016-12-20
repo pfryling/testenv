@@ -13,7 +13,7 @@
                     <h5 class="for"><?php the_field('rt_fin_box--subheader'); ?></h5>
                     <img alt="White Swish" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/fin-tilde.png?raw=true">
                     <p><?php the_field('rt_fin_box--text1'); ?></p>
-                    <img class="quote-img wow slideInLeft" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote--fintech.png">
+                    <img alt="left quote icon violet gradient" class="quote-img wow slideInLeft" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote--fintech.png">
                     <h4 class="quote quote--fintech wow slideInLeft"><?php the_field('rt_fin--quote'); ?></h4>
                     <p><?php the_field('rt_fin--text2'); ?></p>
                     <div class="inner-gradient--purple">

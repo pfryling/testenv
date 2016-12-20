@@ -19,7 +19,7 @@
              <ul class="flexfade-container flexfade-wrapper">
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.1s">
                     <h4>
-                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-2.png"><br>
+                        <img alt="healthech rtech icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-2.png"><br>
                         <?php the_field('healthtech_box--header-rtech'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-rtech'); ?></p>
@@ -30,7 +30,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.2s">
                     <h4>
-                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png"><br>
+                        <img alt="healthech agiledata icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png"><br>
                         <?php the_field('healthtech_box--header-agiledata'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-agiledata'); ?></p>
@@ -41,7 +41,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.3s">
                     <h4>
-                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-3.png"><br>
+                        <img alt="healthech connect icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-3.png"><br>
                         <?php the_field('healthtech_box--header-connect'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-connect'); ?></p>
@@ -52,7 +52,7 @@
                 </li>
                 <li class="flexfade-item flexfade-item--half flexfade-item--healthtech wow fadeInUp" data-wow-delay="0.4s">
                     <h4>
-                        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-1.png"><br>
+                        <img alt="healthech databridge icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-1.png"><br>
                         <?php the_field('healthtech_box--header-databridge'); ?>
                     </h4>
                     <p class="light"><?php the_field('healthtech_box--subheader-databridge'); ?></p>
@@ -69,7 +69,7 @@
             <h2><?php the_field('healthtech_slider--header'); ?></h2>
             <h5><?php the_field('healthtech_slider--subheader'); ?></h5>
             <p><?php the_field('healthtech_slider--text'); ?></p>
-            <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png">
+            <img alt="healthtech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png">
             <p><strong><?php the_field('healthtech_slider--intro'); ?></strong></p>
             <div class="ind-carousel owl-carousel owl-theme">
                 <div class="item"><img alt="Abbvie Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-companies/abbvie-logo-gray.png"></div>
@@ -95,7 +95,7 @@
             <h2><?php the_field('healthtech_gradient_slider--header'); ?></h2>
             <h5><?php the_field('healthtech_gradient_slider--subheader'); ?></h5>
             <p><?php the_field('healthtech_gradient_slider--text'); ?></p>
-            <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-tilde.png">
+            <img alt="white tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-tilde.png">
             <p><strong><?php the_field('healthtech_gradient_slider--intro'); ?></strong></p>
             <div class="item--push item--push-health">
                 <img alt="Fullstack Academy Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/healthtech-other/fullstack-academy-logo-white.png">

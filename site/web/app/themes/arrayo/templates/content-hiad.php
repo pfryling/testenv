@@ -11,9 +11,9 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('ad_hi_box--subheader'); ?></h5>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/high-tilde.png?raw=true">
+                    <img alt="hightech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/high-tilde.png?raw=true">
                     <p class="for"><?php the_field('ad_hi--text1'); ?></p>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote-hightech.png" class="quote-img">
+                    <img alt="left quote icon teal gradient" src="<?= get_template_directory_uri(); ?>/dist/images/add/quote-hightech.png" class="quote-img">
                     <h4 class="quote quote--hightech"><?php the_field('ad_hi--quote'); ?></h4>
                     <p class="for"><?php the_field('ad_hi--text2'); ?></p>
                     <div class="inner-gradient--blue">

@@ -94,7 +94,7 @@
             <h2><?php the_field('fintech_gradient_slider--header'); ?></h2>
             <h4><?php the_field('fintech_gradient_slider--subheader'); ?></h4>
             <p><?php the_field('fintech_gradient_slider--text'); ?></p>
-            <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-tilde.png">
+            <img alt="white tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-tilde.png">
             <p><strong><?php the_field('fintech_gradient_slider--intro'); ?></strong></p>
             <div class="ind-carousel owl-carousel owl-theme">
                 <div class="item"><img alt="AxiomSL Logo" src="<?= get_template_directory_uri(); ?>/dist/images/industry-icons/fintech-software/white/axiomsl-logo-white.png"></div>

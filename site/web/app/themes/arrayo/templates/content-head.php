@@ -12,7 +12,7 @@
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('ad_he_box--header1'); ?></h2>
                     <h5 class="for"><?php the_field('ad_he_box--subheader1'); ?></h5>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
+                    <img alt="healthtech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
                     <p><?php the_field('ad_he_box--text'); ?></p>
                 </div>
                 <div class="text text--for wow fadeInUp">

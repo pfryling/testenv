@@ -1,9 +1,9 @@
 <?php the_content(); ?>
 <div class="bg-gradient--main">
     <div class="header-logo-container">
-        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
-        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/circle-icon-mid-01.png?raw=true" class="logo rotate-reverse">
-        <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/systems-icon-outer-01.png?raw=true" class="logo rotate">
+        <img alt="rotating circle inner small" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/circle-icon-inner-01.png?raw=true" class="logo rotate">
+        <img alt="rotating circle inner medium" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/circle-icon-mid-01.png?raw=true" class="logo rotate-reverse">
+        <img alt="rotating circle outer large" src="<?= get_template_directory_uri(); ?>/dist/images/header-logos/systems-icon-outer-01.png?raw=true" class="logo rotate">
     </div>
     <div class="wrapper">
         <section class="page-header">
@@ -46,7 +46,7 @@
         <div class="wrapper">
             <section class="overlay--container">
                 <div class="overlay wow fadeInUp">
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/gray-tilde.png">
+                    <img alt="gray tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/gray-tilde.png">
                     <h2>We are<br>
                     <div class="textfade-wrap">
                         <span id="rotate">&nbsp;</span>
@@ -232,9 +232,9 @@
                         </div>
                     </section>
             <section class="centered--bg wow fadeInUp">
-                <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-3.png" class="ico-1 wow bounceIn" data-wow-delay=".8s" class="cb-icon">
-                <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-2.png" class="ico-3 wow bounceIn" data-wow-delay="1s" class="cb-icon">
-                <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-1.png" class="ico-2 wow bounceIn" data-wow-delay=".9s" class="cb-icon">
+                <img alt="green plus icon" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-3.png" class="ico-1 wow bounceIn" data-wow-delay=".8s" class="cb-icon">
+                <img alt="dark blue plus icon" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-2.png" class="ico-3 wow bounceIn" data-wow-delay="1s" class="cb-icon">
+                <img alt="light blue plus icon" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/plus-icon-1.png" class="ico-2 wow bounceIn" data-wow-delay=".9s" class="cb-icon">
                 <div class="content">
                     <h2><?php the_field('bottom-cta--header'); ?></h2>
                     <h5><?php the_field('bottom_cta--subheader'); ?></h5>

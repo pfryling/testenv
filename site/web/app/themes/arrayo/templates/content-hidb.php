@@ -11,7 +11,7 @@
             <section class="location-info">
                 <div class="text text--for wow fadeInUp">
                     <h5 class="for"><?php the_field('db_hi_box--subheader'); ?></h5>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/high-tilde.png?raw=true">
+                    <img alt="hightech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/high-tilde.png?raw=true">
                     <br>&nbsp;
                     <p><?php the_field('db_hi_box--text'); ?></p>
                 </div>

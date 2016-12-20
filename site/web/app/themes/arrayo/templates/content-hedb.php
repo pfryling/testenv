@@ -13,7 +13,7 @@
                 <div class="text text--for wow fadeInUp">
                     <h2 class="health for"><?php the_field('db_he_box--header1'); ?></h2>
                     <h5 class="for"><?php the_field('db_he_box--subheader1'); ?></h5>
-                    <img alt="" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
+                    <img alt="healthtech tilde separator" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/health-tilde.png?raw=true">
                     <p><strong>Complexity is Everywhere</strong></p>
                     <hr><br>
                     <p><?php the_field('db_he_box--text1'); ?></p>
