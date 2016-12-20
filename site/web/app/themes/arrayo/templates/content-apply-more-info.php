@@ -1,4 +1,5 @@
 <?php the_content(); ?>
+<div class="main">
     <div class="apply-page-bg">
         <div class="wrapper">
             <section class="page-header">
@@ -18,3 +19,4 @@
             </div>
         </section>
     </div>
+</div>

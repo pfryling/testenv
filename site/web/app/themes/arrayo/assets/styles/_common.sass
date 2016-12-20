@@ -20,6 +20,8 @@
     &:hover:before
         visibility: visible
         +transform(scaleX(1))
+        +media($mobile)
+            visibility: hidden
 
 #nf-form-11 .nf-form-title h3
     color: white !important
