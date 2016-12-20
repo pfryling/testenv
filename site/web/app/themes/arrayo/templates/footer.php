@@ -100,15 +100,6 @@ var jQuery311 = $.noConflict(true);
 
 
 <script>
-jQuery(document).click(function(e) {
-    var target = e.target;
-
-    if (!$(target).is('#optional') && !$(target).parents().is('#optional')) {
-        $('#optional').hide();
-    }
-});
-</script>
-<script>
 var $container = jQuery('#blogcontainer');
 
 $container.isotope({
