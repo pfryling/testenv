@@ -21,4 +21,4 @@ wordpress_sites:
       enabled: false
     env:
         wp_home: https://teamarrayo.com
-        wp_siteurl: https://teamarrayo.com/portal
+        wp_siteurl: https://teamarrayo.com/wp
