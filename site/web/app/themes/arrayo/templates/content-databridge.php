@@ -14,7 +14,7 @@
         <p><?php the_field('db_box--text'); ?></p>
     </div>
     <div class="wrapper">
-    <div class="industry-box-header">
+        <div class="industry-box-header">
             <h5>We are Domain Specialists who create Solutions that help FinTech, HealthTech and HighTech Companies implement the backbone to set free the full potential of Data.</h5>
         </div>
         <ul class="flexfade-container flexfade-wrapper">

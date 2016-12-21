@@ -14,7 +14,7 @@
         <p><?php the_field('con_box--text'); ?></p>
     </div>
     <div class="wrapper">
-    <div class="industry-box-header">
+        <div class="industry-box-header">
             <h5>We are domain specialists who create solutions that help FinTech, HealthTech and HighTech companies capture the value of a connected  world.</h5>
         </div>
         <ul class="flexfade-container flexfade-wrapper">
@@ -25,40 +25,41 @@
                         <a href="/connect/fintech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
                     </div>
             </li>
-                <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
-                    <h4><img alt="HealthTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
-                    <p><?php the_field('industry_box--text-healthtech'); ?></p>
-                    <div class="link">
-                        <a href="/connect/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
-                    </div>
-                </li>
-                <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
-                    <h4><img alt="HighTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
-                    <p><?php the_field('industry_box--text-hightech'); ?></p>
-                    <div class="link">
-                        <a href="/connect/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
-                    </div>
-                </li>
-            </ul>
+            <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--healthserve" data-wow-delay="0.2s">
+                <h4><img alt="HealthTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/health-ico-4.png?raw=true"><br>HealthTech</h4>
+                <p><?php the_field('industry_box--text-healthtech'); ?></p>
+                <div class="link">
+                    <a href="/connect/healthtech">Learn more</a><i class="fa fa-arrow-circle-right"></i><br>&nbsp;
+                </div>
+            </li>
+            <li class="wow fadeInUp flexfade-item flexfade-item--third flexfade-item--highserve" data-wow-delay="0.3s">
+                <h4><img alt="HighTech/Connect Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/high-ico-4.png?raw=true"><br>HighTech</h4>
+                <p><?php the_field('industry_box--text-hightech'); ?></p>
+                <div class="link">
+                    <a href="/connect/hightech">Learn more</a><i class="fa fa-arrow-circle-o-right"></i><br>&nbsp;
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section class="connect-mid-bg">
+        <div class="wrapper flex">
+            <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.1s">
+                <img alt="Power Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-1.png?raw=true">
+                <h4><?php the_field('con_half1--header'); ?></h4>
+                <p class="light"><?php the_field('con_half1--subheader') ?></p>
+                <hr>
+                <p><?php the_field('con_half1--paragraph1') ?></p>
+            </div>
+            <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.2s">
+                <img alt="Bar Graph Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-2.png?raw=true">
+                <h4><?php the_field('con_half2--header'); ?></h4>
+                <p class="light2"><?php the_field('con_half2--subheader') ?></p>
+                <hr>
+                <p><?php the_field('con_half2--paragraph1') ?></p>
+            </div>
         </div>
-        <section class="connect-mid-bg">
-            <div class="wrapper flex">
-                <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.1s">
-                    <img alt="Power Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-1.png?raw=true">
-                    <h4><?php the_field('con_half1--header'); ?></h4>
-                    <p class="light"><?php the_field('con_half1--subheader') ?></p>
-                    <hr>
-                    <p><?php the_field('con_half1--paragraph1') ?></p>
-                </div>
-                <div class="connect-mid-box wow fadeInUp" data-wow-delay="0.2s">
-                    <img alt="Bar Graph Icon" src="<?= get_template_directory_uri(); ?>/dist/images/services/services-icons/connect-mid-ico-2.png?raw=true">
-                    <h4><?php the_field('con_half2--header'); ?></h4>
-                    <p class="light2"><?php the_field('con_half2--subheader') ?></p>
-                    <hr>
-                    <p><?php the_field('con_half2--paragraph1') ?></p>
-                </div>
-        </section>
-        <div class="wrapper">
+    </section>
+    <div class="wrapper">
         <section class="third-gradient  wow fadeInUp">
             <div class="gradient">
                 <img alt="White Checkmark" src="<?= get_template_directory_uri(); ?>/dist/images/misc-icons/white-checkmark.png">
@@ -68,8 +69,8 @@
             <div class="text">
                 <ul>
                     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_field('con_gradient--paragraph-1'); ?></li>
-                        <li><?php the_field('con_gradient--paragraph-2'); ?></li>
-                        <li><?php the_field('con_gradient--paragraph-3'); ?></li>
+                    <li><?php the_field('con_gradient--paragraph-2'); ?></li>
+                    <li><?php the_field('con_gradient--paragraph-3'); ?></li>
                 </ul>
             </div>
         </section>
@@ -79,9 +80,7 @@
                 <p><?php the_field('con_benefit--text'); ?></p>
         </section>
     </div>
-        <div class="wrapper">
-        </div>
-            <section class="icon-grid  wow fadeInUp">
+    <section class="icon-grid  wow fadeInUp">
         <div class="wrapper">
             <div class="ico-wrap">
                 <h2><?php the_field('con_icon--header'); ?></h2>
@@ -141,24 +140,25 @@
                     </div>
                 </div>
             <p class="small wow fadeInUp"><?php the_field('con_icon--bottom'); ?></p>
-        </div>
-    </div>
-    </section>
-                <section class="centered-cta centered-cta--connect wow fadeInUp">
-                        <h2><?php the_field('con_center--header'); ?></h2>
-                    <h5><?php the_field('con_center--subheader'); ?></h5>
-                    <p><?php the_field('con_center--text'); ?></p>
-                </section>
-        <section class="contact-footer wow fadeInUp" id="contact">
-            <div class="wrapper">
-                <div class="text">
-                    <h2><?php the_field('con_footer--header'); ?></h2>
-                    <p><?php the_field('con_footer--text'); ?></p>
-                    <h5>Let's talk!</h5>
-                </div>
-<div class="form">
-                    <?php echo do_shortcode("[ninja_form id=1]"); ?>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="centered-cta centered-cta--connect wow fadeInUp">
+        <h2><?php the_field('con_center--header'); ?></h2>
+        <h5><?php the_field('con_center--subheader'); ?></h5>
+        <p><?php the_field('con_center--text'); ?></p>
+    </section>
+    <section class="contact-footer wow fadeInUp" id="contact">
+        <div class="wrapper">
+            <div class="text">
+                <h2><?php the_field('con_footer--header'); ?></h2>
+                <p><?php the_field('con_footer--text'); ?></p>
+                <h5>Let's talk!</h5>
+            </div>
+            <div class="form">
+                <?php echo do_shortcode("[ninja_form id=1]"); ?>
+            </div>
+        </div>
+    </section>
+
 </div>

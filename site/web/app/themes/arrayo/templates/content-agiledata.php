@@ -69,9 +69,9 @@
                     <p><?php the_field('footer_cta--subheader'); ?></p>
                     <h5>Let's talk!</h5>
                 </div>
-<div class="form">
+                <div class="form">
                     <?php echo do_shortcode("[ninja_form id=1]"); ?>
                 </div>
             </div>
         </section>
-        </div>
+</div>
