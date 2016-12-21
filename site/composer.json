@@ -51,12 +51,12 @@
     {
       "type": "package",
       "package": {
-        "name": "vlad/user-role-editor",
-        "version": "4.31",
+        "name": "justin/members",
+        "version": "1.1.12",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.zip"
+          "url": "https://downloads.wordpress.org/plugin/members.1.1.2.zip"
         },
         "require": {
           "composer/installers": "^1.0"
@@ -345,7 +345,8 @@
     "callum/wp-mail": "^0.9.5",
     "roots/wp-h5bp-htaccess": "2.0.1",
     "google/xml-sitemaps": "^2.4",
-    "vlad/user-role-editor": "^4.31"
+    "vlad/user-role-editor": "^4.31",
+    "justin/members": "^1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "402ad934de5f33b8ef1137b51c978084",
-    "content-hash": "805ae96576b28cac5639b612386d3217",
+    "hash": "0ca5c302a6e159d075eb53c8fdb827ca",
+    "content-hash": "8e30da328f9b668e0477271ec52e988a",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -324,6 +324,20 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "justin/members",
+            "version": "1.1.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/members.1.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
