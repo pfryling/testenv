@@ -51,6 +51,21 @@
     {
       "type": "package",
       "package": {
+        "name": "vlad/user-role-editor",
+        "version": "4.31",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.zip"
+        },
+        "require": {
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "elliotcondon/advanced-custom-fields",
         "version": "4.4.11",
         "type": "wordpress-plugin",
@@ -329,7 +344,8 @@
     "wpserver/wps-hide-login": "^1.4",
     "callum/wp-mail": "^0.9.5",
     "roots/wp-h5bp-htaccess": "2.0.1",
-    "google/xml-sitemaps": "^2.4"
+    "google/xml-sitemaps": "^2.4",
+    "vlad/user-role-editor": "^4.31"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

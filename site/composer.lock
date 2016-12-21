@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d3e602231c4e1b9751f1c5a9081812d",
-    "content-hash": "61e7090de6b5512c4b5137e7f7d0cdad",
+    "hash": "402ad934de5f33b8ef1137b51c978084",
+    "content-hash": "805ae96576b28cac5639b612386d3217",
     "packages": [
         {
             "name": "acf/acf-pro",
@@ -528,6 +528,20 @@
                 "wordpress wp bcrypt password"
             ],
             "time": "2016-03-01 16:27:06"
+        },
+        {
+            "name": "vlad/user-role-editor",
+            "version": "4.31",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.31.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "vlucas/phpdotenv",
