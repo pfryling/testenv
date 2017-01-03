@@ -1,4 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
+<div class="main">
  <div class="job-gradient">
         <div class="wrapper">
             <section class="sub-page-header">
@@ -47,8 +48,10 @@
         </section>
 
         <section class="eeo">
-        <div class="wrapper">
-            <p>Arrayo is an Equal Employment Opportunity employer and as such does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.</p>
-        </div>
-    </section>
+            <div class="wrapper">
+                <p>Arrayo is an Equal Employment Opportunity employer and as such does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.</p>
+            </div>
+        </section>
+    </div>
+</div>
 <?php endwhile; ?>
