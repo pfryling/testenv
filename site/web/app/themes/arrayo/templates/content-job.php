@@ -39,10 +39,7 @@
             <div class="wrapper">
                 <h3><?php the_field('job_title--header'); ?></h3>
                 <p>Submit CV now.</p>
-                <button class="app-toggle">Apply Now</button>
-                <div class="app-reveal">
-                  <?php echo do_shortcode("[ninja_form id=7]"); ?>
-                </div>
+                <a href="/apply" class="mj-btn">Apply Now</a>
             </div>
         </section>
 
