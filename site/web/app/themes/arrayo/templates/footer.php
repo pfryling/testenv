@@ -96,6 +96,13 @@ var jQuery311 = $.noConflict(true);
 <script src="https://cdn.rawgit.com/gretzky/af6b062a3db976896879dadd6072ad92/raw/ae71c2c7164027c519e2620f3dd23537c5f89b51/returnTop.js"></script>
 <script src="https://cdn.rawgit.com/gretzky/fd8a528493898490a3180ab59af0eff1/raw/056a45480655663057e90ea13da1a05d8b3db46f/blogFilter.js"></script>
 
+<script>
+jQuery(document).ready(function($) {
+  $('#appToggle').click(function() {
+    $('#appToggle').hide();
+  });
+});
+</script>
 
 <script>
 var $container = jQuery('#blogcontainer');
