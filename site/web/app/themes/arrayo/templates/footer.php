@@ -105,6 +105,14 @@ jQuery(document).ready(function($) {
 </script>
 
 <script>
+jQuery(document).ready(function($) {
+  $('#nf-field-160-0').click(function() {
+    $('#nf-field-161').hide()
+  });
+});
+</script>
+
+<script>
 var $container = jQuery('#blogcontainer');
 
 $container.isotope({
