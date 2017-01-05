@@ -106,8 +106,10 @@ jQuery(document).ready(function($) {
 
 <script>
 jQuery(document).ready(function($) {
-  $('#nf-field-160-0').click(function() {
-    $('#nf-field-161').hide()
+  $( "#nf-field-160-0" ).click(function() {
+    $( "#nf-field-161" ).hide( "slow", function() {
+      alert( "Animation complete." );
+    });
   });
 });
 </script>
