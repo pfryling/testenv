@@ -3,10 +3,8 @@
     <div class="apply-page-bg">
         <div class="wrapper">
             <section class="page-header">
-                <h1>Apply Now</h1>
-                <p style="margin-bottom:68px !important">for Now or Later</p>
+                <h1>Thank you for your application</h1>
             </section>
-                <h3 class="apply-page-h">Thank you for your application.</h3>
                 <div class="moreinfo-wrap">
                     <a class="moreinfobtn" style="color:#ffffff;" href="/apply-more-info">Please provide additional information (optional).<i style="padding-left:30px;color:#ffffff" class="fa fa-arrow-circle-right"></i></a>
                 </div>
