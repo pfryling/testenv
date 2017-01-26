@@ -9,7 +9,7 @@
                     <a href="/databridge" class="list-item list-item--inline db-push">DataBridge</a>
                     <a href="/connect" class="list-item list-item--inline ">Connect</a><br class="br-hide">
 
-                    <p class="header">Industries</p>
+                    <p class="header">Domains</p>
                     <a href="/fintech" class="list-item list-item--inline fin-push">FinTech</a>
                     <a href="/healthtech" class="list-item list-item--inline">HealthTech</a><br class="br-hide">
                     <a href="/hightech" class="list-item list-item--inline">HighTech</a><br class="br-hide">

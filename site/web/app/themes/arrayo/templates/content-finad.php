@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>AgileData for other industries</h6>
+                    <h6>AgileData for other domains</h6>
                     <div class="label label--health-agile wow fadeInUp">
                         <a href="/agiledata/healthtech">
                         <span class="label-swap">

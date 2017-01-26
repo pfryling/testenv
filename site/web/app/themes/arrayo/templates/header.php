@@ -138,7 +138,7 @@
                 <li class="dropdown mega-menu-full">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 
-                        <span>Industries</span>
+                        <span>Domains</span>
                         <i class="fa fa-caret-down"></i>
                     </a>
 

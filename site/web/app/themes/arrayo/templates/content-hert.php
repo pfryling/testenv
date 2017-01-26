@@ -20,12 +20,12 @@
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom1'); ?></h4>
                     <h4 class="light"><?php the_field('rt_he_subheader--bottom2'); ?></h4>
                 </div>
-                
+
 
                 <div class="label-wrapper">
                     <h6>other healthtech services</h6>
                     <div class="label label--health-con wow fadeInUp">
-                            
+
                         <a href="/connect/healthtech">
                         <span class="label-swap">
                               Connect for HealthTech
@@ -36,7 +36,7 @@
                         </a>
                     </div>
                     <div class="label label--health-agile wow fadeInUp">
-                            
+
                         <a href="/agiledata/healthtech">
                         <span class="label-swap">
                               AgileData for HealthTech
@@ -47,7 +47,7 @@
                         </a>
                     </div>
                     <div class="label label--health-data wow fadeInUp">
-                            
+
                         <a href="/databridge/healthtech">
                         <span class="label-swap">
                               DataBridge for HealthTech
@@ -58,9 +58,9 @@
                         </a>
                     </div>
                     <br>
-                    <h6>rtech for other industries</h6>
+                    <h6>rtech for other domains</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
-                            
+
                         <a href="/rtech/fintech">
                         <span class="label-swap">
                               RTech for FinTech
@@ -71,7 +71,7 @@
                         </a>
                     </div>
                     <div class="label label--high-rtech wow fadeInUp">
-                    
+
                         <a href="/rtech/hightech">
                         <span class="label-swap">
                               RTech for HighTech

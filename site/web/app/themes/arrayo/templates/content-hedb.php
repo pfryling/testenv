@@ -40,7 +40,7 @@
                 <div class="label-wrapper">
                     <h6>other healthtech services</h6>
                     <div class="label label--health-con wow fadeInUp">
-                            
+
                         <a href="/connect/healthtech">
                         <span class="label-swap">
                               Connect for HealthTech
@@ -51,7 +51,7 @@
                         </a>
                     </div>
                     <div class="label label--health-agile wow fadeInUp">
-                            
+
                         <a href="/agiledata/healthtech">
                         <span class="label-swap">
                               AgileData for HealthTech
@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <div class="label label--health-data wow fadeInUp">
-                            
+
                         <a href="/rtech/healthtech">
                         <span class="label-swap">
                               RTech for HealthTech
@@ -73,9 +73,9 @@
                         </a>
                     </div>
                     <br>
-                    <h6>databridge for other industries</h6>
+                    <h6>databridge for other domains</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
-                            
+
                         <a href="/databridge/fintech">
                         <span class="label-swap">
                               DataBridge for FinTech
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div class="label label--high-rtech wow fadeInUp">
-                    
+
                         <a href="/databridge/hightech">
                         <span class="label-swap">
                               DataBridge for HighTech

@@ -27,7 +27,7 @@
                <div class="label-wrapper wow fadeInUp">
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
-                            
+
                         <a href="/rtech/hightech">
                         <span class="label-swap">
                               RTech for HighTech
@@ -38,7 +38,7 @@
                         </a>
                     </div>
                     <div class="label label--high-agile">
-                            
+
                         <a href="/agiledata/hightech">
                         <span class="label-swap">
                               AgileData for HighTech
@@ -49,7 +49,7 @@
                         </a>
                     </div>
                     <div class="label label--high-data">
-                            
+
                         <a href="/databridge/hightech">
                         <span class="label-swap">
                               DataBridge for HighTech
@@ -60,9 +60,9 @@
                         </a>
                     </div>
                     <br>
-                    <h6>connect for other industries</h6>
+                    <h6>connect for other domains</h6>
                     <div class="label label--fin-con">
-                            
+
                         <a href="/connect/fintech">
                         <span class="label-swap">
                               Connect for FinTech
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="label label--health-con">
-                            
+
                         <a href="/connect/healthtech">
                         <span class="label-swap">
                               Connect for HealthTech

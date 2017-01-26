@@ -19,60 +19,60 @@
                <div class="label-wrapper wow fadeInUp">
                     <h6>other hightech services</h6>
                     <div class="label label--high-rtech">
-                            
+
                         <a href="/rtech/hightech">
                          <span class="label-swap">
                               RTech for HighTech
                             </span>
                             <span>
                              <?php the_field('hi_rt--text'); ?>
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <div class="label label--high-agile">
-                            
+
                         <a href="/agiledata/hightech">
                          <span class="label-swap">
                               AgileData for HighTech
                             </span>
                             <span>
                              <?php the_field('hi_ad--text'); ?>
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <div class="label label--high-con">
-                            
+
                         <a href="/connect/hightech">
                          <span class="label-swap">
                               Connect for HighTech
                             </span>
                             <span>
                              <?php the_field('hi_con--text'); ?>
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <br>
-                    <h6>databridge for other industries</h6>
+                    <h6>databridge for other domains</h6>
                     <div class="label label--fin-data">
-                            
+
                         <a href="/databridge/fintech">
                          <span class="label-swap">
                               DataBridge for FinTech
                             </span>
                             <span>
                              <?php the_field('fin_db--text'); ?>
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <div class="label label--health-data">
-                            
+
                         <a href="/databridge/healthtech">
                          <span class="label-swap">
                               DataBridge for HealthTech
                             </span>
                             <span>
                              <?php the_field('he_db--text'); ?>
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <hr style="outline:0;border:2px solid white;height:2px;display:block;margin:2em 0;">
