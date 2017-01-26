@@ -71,7 +71,7 @@
                         </a>
                     </div>
                     <br>
-                    <h6>rtech industries</h6>
+                    <h6>AgileData for other domains</h6>
                     <div class="label label--fin-rtech wow fadeInUp">
 
                         <a href="/agiledata/fintech">
