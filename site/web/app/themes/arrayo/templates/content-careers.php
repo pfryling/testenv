@@ -173,7 +173,7 @@
             <div id="jobfilters">
 
               <div class="job-ui-group">
-                <h3>Industry</h3>
+                <h3>Domain</h3>
                 <div class="job-button-group js-radio-button-group" data-filter-group="color">
                   <button class="job-button is-checked" data-filter="">Any</button>
                   <button class="job-button" data-filter=".fintech">Financial Services</button>
@@ -183,7 +183,7 @@
               </div>
 
               <div class="job-ui-group">
-                <h3>Domain</h3>
+                <h3>Career Path</h3>
                 <div class="job-button-group js-radio-button-group" data-filter-group="size">
                   <button class="job-button is-checked" data-filter="">Any</button>
                   <button class="job-button" data-filter=".agiledata">Data Science</button>
